@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy — Draft Match Statistics</title>
+    <meta
+      name="description"
+      content="Privacy Policy for Draft Match Statistics."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body.privacy-page {
+        background:
+          radial-gradient(
+            circle at top left,
+            rgba(110, 255, 138, 0.12),
+            transparent 28%
+          ),
+          radial-gradient(
+            circle at 85% 18%,
+            rgba(141, 255, 87, 0.14),
+            transparent 22%
+          ),
+          linear-gradient(
+            180deg,
+            #07150f 0%,
+            #08140f 25%,
+            #091912 55%,
+            #07110d 100%
+          );
+      }
+
+      .privacy-wrap {
+        padding: 40px 0 100px;
+      }
+
+      .privacy-hero {
+        padding: 56px 0 30px;
+      }
+
+      .privacy-topbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 18px;
+        margin-bottom: 30px;
+      }
+
+      .privacy-back {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 52px;
+        height: 52px;
+        padding: 0 18px;
+        border-radius: 999px;
+        border: 1px solid rgba(177, 255, 184, 0.16);
+        background: rgba(255, 255, 255, 0.05);
+        color: var(--text);
+        font-weight: 700;
+        transition:
+          transform var(--ease),
+          background var(--ease);
+      }
+
+      .privacy-back:hover {
+        transform: translateY(-2px);
+        background: rgba(255, 255, 255, 0.08);
+      }
+
+      .privacy-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        padding: 12px 18px;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.06);
+        border: 1px solid rgba(177, 255, 184, 0.16);
+        color: var(--accent-3);
+        font-size: 0.82rem;
+        font-weight: 800;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+      }
+
+      .privacy-intro {
+        max-width: 860px;
+      }
+
+      .privacy-intro h1 {
+        margin: 18px 0 18px;
+        font-size: clamp(2.7rem, 6vw, 5rem);
+        line-height: 0.95;
+        letter-spacing: -0.05em;
+      }
+
+      .privacy-intro p {
+        margin: 0;
+        font-size: 1.05rem;
+        line-height: 1.8;
+        color: var(--muted);
+      }
+
+      .privacy-card {
+        max-width: 980px;
+        margin: 34px auto 0;
+        padding: 36px;
+        border-radius: 34px;
+        border: 1px solid var(--card-border);
+        background:
+          linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0.045),
+            rgba(255, 255, 255, 0.02)
+          ),
+          rgba(8, 20, 14, 0.86);
+        box-shadow: var(--shadow);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+      }
+
+      .privacy-card h2 {
+        margin: 0 0 22px;
+        font-size: clamp(1.6rem, 4vw, 2.3rem);
+        letter-spacing: -0.04em;
+      }
+
+      .policy-content {
+        display: grid;
+        gap: 18px;
+      }
+
+      .policy-block {
+        padding: 22px 24px;
+        border-radius: 24px;
+        border: 1px solid rgba(255, 255, 255, 0.06);
+        background: rgba(255, 255, 255, 0.035);
+      }
+
+      .policy-block p {
+        margin: 0;
+        white-space: pre-wrap;
+        line-height: 1.95;
+        color: #eff9ef;
+        font-size: 1rem;
+        word-break: break-word;
+      }
+
+      .privacy-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 14px;
+        margin-top: 28px;
+      }
+
+      @media (max-width: 860px) {
+        .privacy-wrap {
+          padding: 24px 0 76px;
+        }
+
+        .privacy-card {
+          padding: 22px;
+          border-radius: 26px;
+        }
+
+        .policy-block {
+          padding: 18px;
+          border-radius: 20px;
+        }
+
+        .privacy-topbar {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+      }
+
+      @media (max-width: 560px) {
+        .policy-block p {
+          font-size: 0.97rem;
+          line-height: 1.9;
+        }
+
+        .privacy-actions {
+          flex-direction: column;
+        }
+
+        .privacy-actions .btn {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body class="privacy-page">
+    <div class="site-shell">
+      <div class="bg-orb orb-a"></div>
+      <div class="bg-orb orb-b"></div>
+      <div class="bg-grid"></div>
+
+      <header class="header scrolled">
+        <div class="container header-inner">
+          <a
+            class="brand"
+            href="index.html"
+            aria-label="Draft Match Statistics home"
+          >
+            <span class="brand-mark">
+              <span class="brand-ball"></span>
+            </span>
+            <span class="brand-text">
+              <strong>Draft Match Statistics</strong>
+              <small>Privacy Policy</small>
+            </span>
+          </a>
+
+          <nav class="nav">
+            <a href="index.html#features">Features</a>
+            <a href="index.html#screens">Screens</a>
+            <a href="index.html#faq">FAQ</a>
+            <a href="privacy.html">Privacy</a>
+          </nav>
+        </div>
+      </header>
+
+      <main class="privacy-wrap">
+        <section class="privacy-hero">
+          <div class="container">
+            <div class="privacy-topbar">
+              <a class="privacy-back" href="index.html">← Back</a>
+              <div class="privacy-badge">Official Privacy Policy</div>
+            </div>
+
+            <div class="privacy-intro">
+              <span class="section-label">Data & privacy</span>
+              <h1>Privacy Policy</h1>
+              <p>
+                Please read the information below regarding privacy while using
+                Draft Match Statistics.
+              </p>
+            </div>
+
+            <div class="privacy-card">
+              <h2>Draft Match Statistics</h2>
+
+              <div class="policy-content">
+                <div class="policy-block">
+                  <p>
+                    ACTIVE CANINE organization has developed the Draft Match
+                    Statistics app as a free service. The app does not collect,
+                    store, or share any personal user data.
+                  </p>
+                </div>
+
+                <div class="policy-block">
+                  <p>
+                    Please note that this Privacy Policy may be revised
+                    occasionally to reflect any necessary updates. When such
+                    changes are made, the Service Provider will post the updated
+                    Privacy Policy on this page. We encourage users to review
+                    this policy regularly, as continued use of the app implies
+                    acceptance of any modifications.
+                  </p>
+                </div>
+
+                <div class="policy-block">
+                  <p>
+                    If you have any concerns regarding privacy while using the
+                    application or if you need further clarification on our
+                    practices, feel free to reach out to the Service Provider at
+                    admin@activecanine.sbs.
+                  </p>
+                </div>
+
+                <div class="policy-block">
+                  <p>This Privacy Policy is effective as of April 20, 2026.</p>
+                </div>
+              </div>
+
+              <div class="privacy-actions">
+                <a
+                  class="btn btn-primary"
+                  href="https://play.google.com/store/apps/details?id=com.dmszenpath5527.mindwave7711"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Download App
+                </a>
+                <a class="btn btn-secondary" href="index.html">
+                  Back to Home
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,681 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fortuna Race Master — Racing Performance App</title>
+    <meta
+      name="description"
+      content="Fortuna Race Master is a racing performance mobile app for timing runs, tracking reaction speed, reviewing sessions and improving every lap."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Barlow+Condensed:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-noise"></div>
+    <div class="site-bg">
+      <div class="bg-blur bg-blur-1"></div>
+      <div class="bg-blur bg-blur-2"></div>
+      <div class="speed-lines speed-lines-1"></div>
+      <div class="speed-lines speed-lines-2"></div>
+      <div class="grid-fade"></div>
+    </div>
+
+    <header class="header" id="top">
+      <div class="container nav">
+        <a href="#top" class="brand">
+          <span class="brand-mark">FR</span>
+          <span class="brand-text">
+            <strong>Fortuna Race Master</strong>
+            <small>Racing Performance App</small>
+          </span>
+        </a>
+
+        <nav class="desktop-nav">
+          <a href="#features">Features</a>
+          <a href="#screens">Screens</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#download">Download</a>
+          <a href="privacy.html">Privacy</a>
+        </nav>
+
+        <div class="nav-actions">
+          <a href="#" class="btn btn-primary btn-sm">Download App</a>
+          <button class="burger" id="burger" aria-label="Open menu">
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="#features">Features</a>
+        <a href="#screens">Screens</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#download">Download</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="#" class="btn btn-primary mobile-download">Download App</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section">
+        <div class="container hero-layout">
+          <div class="hero-copy reveal">
+            <div class="eyebrow">
+              <span class="eyebrow-dot"></span>
+              Built for speed, focus and precision
+            </div>
+
+            <h1>
+              Master every run.<br />
+              Own every split.
+            </h1>
+
+            <p class="hero-text">
+              Fortuna Race Master helps drivers and riders track time, analyze
+              progress, review sessions and turn every training run into
+              measurable performance.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#" class="btn btn-primary btn-lg">Download App</a>
+              <a href="#features" class="btn btn-dark btn-lg"
+                >Explore Features</a
+              >
+            </div>
+
+            <div class="hero-tags">
+              <span>Run Tracking</span>
+              <span>Analytics</span>
+              <span>Reaction Test</span>
+              <span>Session Review</span>
+            </div>
+
+            <div class="hero-mini-stats">
+              <div class="mini-panel">
+                <span>Precision</span>
+                <strong>00:09.150</strong>
+              </div>
+              <div class="mini-panel">
+                <span>Training Mode</span>
+                <strong>Standard + Ghost</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal delay-1">
+            <div class="floating-chip chip-left">
+              <span>Reaction</span>
+              <strong>Fast Start</strong>
+            </div>
+
+            <div class="floating-chip chip-right">
+              <span>Telemetry</span>
+              <strong>Live Review</strong>
+            </div>
+
+            <div class="hero-phones">
+              <div class="hero-circle"></div>
+
+              <div class="phone-shell phone-back">
+                <div class="phone-notch"></div>
+                <img src="photo8.jpeg" alt="Fortuna Race Master home screen" />
+              </div>
+
+              <div class="phone-shell phone-front">
+                <div class="phone-notch"></div>
+                <img
+                  src="photo5.jpeg"
+                  alt="Fortuna Race Master run tracker screen"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container metrics-bar reveal delay-2">
+          <div class="metric-card">
+            <span class="metric-value" data-count="24">0</span>
+            <span class="metric-label">Tracked runs</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-value" data-count="5">0</span>
+            <span class="metric-label">Core racing views</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-value" data-count="100">0</span>
+            <span class="metric-label">Focus on timing</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-value" data-count="3">0</span>
+            <span class="metric-label">Vehicle disciplines</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-intro">
+        <div class="container">
+          <div class="split-intro reveal">
+            <div class="section-title-block">
+              <span class="section-label">Why it feels different</span>
+              <h2>A motorsport-style product presentation</h2>
+            </div>
+
+            <p>
+              This landing page uses your app screens as part of the story:
+              timing, analytics, history and run review are shown as performance
+              tools, not just random screenshots in a gallery.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section features-section" id="features">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="section-label">Features</span>
+            <h2>Everything needed for serious run tracking</h2>
+            <p>
+              Fortuna Race Master combines timing, review and structured session
+              history in one racing-focused mobile workflow.
+            </p>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card reveal">
+              <div class="feature-topline"></div>
+              <div class="feature-icon">01</div>
+              <h3>Precise run timing</h3>
+              <p>
+                Capture run time clearly and keep focus on performance with a
+                simple timing interface made for speed.
+              </p>
+            </article>
+
+            <article class="feature-card reveal delay-1">
+              <div class="feature-topline"></div>
+              <div class="feature-icon">02</div>
+              <h3>Performance analytics</h3>
+              <p>
+                Understand progress faster with visual trends, weekly reaction
+                comparisons and summary charts.
+              </p>
+            </article>
+
+            <article class="feature-card reveal delay-2">
+              <div class="feature-topline"></div>
+              <div class="feature-icon">03</div>
+              <h3>Run history archive</h3>
+              <p>
+                Store previous sessions in one place and quickly find runs by
+                date, track or discipline.
+              </p>
+            </article>
+
+            <article class="feature-card reveal">
+              <div class="feature-topline"></div>
+              <div class="feature-icon">04</div>
+              <h3>Session feedback</h3>
+              <p>
+                Review how the run felt, note track condition and keep useful
+                comments for later comparison.
+              </p>
+            </article>
+
+            <article class="feature-card reveal delay-1">
+              <div class="feature-topline"></div>
+              <div class="feature-icon">05</div>
+              <h3>Discipline support</h3>
+              <p>
+                Adapt the workflow for car, kart or moto sessions without
+                overcomplicating the experience.
+              </p>
+            </article>
+
+            <article class="feature-card reveal delay-2">
+              <div class="feature-topline"></div>
+              <div class="feature-icon">06</div>
+              <h3>Clean racer UI</h3>
+              <p>
+                Designed with dark contrast, strong yellow accents and a focused
+                motorsport interface language.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section story-section">
+        <div class="container">
+          <div class="story-block reveal">
+            <div class="story-copy">
+              <span class="section-label">Home Dashboard</span>
+              <h2>
+                Start from a screen that feels like a pit lane control panel
+              </h2>
+              <p>
+                The home view gives the app a strong identity right away. It
+                introduces the racing mood, highlights the latest run and guides
+                the user directly into a new session.
+              </p>
+
+              <ul class="story-points">
+                <li>Fast access to last result</li>
+                <li>Start-new-run action in clear focus</li>
+                <li>Supports car, kart and moto structure</li>
+              </ul>
+            </div>
+
+            <div class="story-phone-wrap">
+              <div class="story-phone-frame">
+                <div class="phone-notch"></div>
+                <img src="photo8.jpeg" alt="Fortuna Race Master home screen" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section telemetry-section">
+        <div class="container">
+          <div class="telemetry-grid">
+            <div class="telemetry-copy reveal">
+              <span class="section-label">Live Timing</span>
+              <h2>Run tracking that keeps the interface sharp and focused</h2>
+              <p>
+                The run tracker screen is one of the strongest visuals in the
+                app. Big timing numbers, a simple mode view and a strong start
+                action make the experience feel direct and competitive.
+              </p>
+
+              <div class="telemetry-panels">
+                <div class="telemetry-panel">
+                  <small>Mode</small>
+                  <strong>Standard</strong>
+                </div>
+                <div class="telemetry-panel">
+                  <small>Best time</small>
+                  <strong>00:00.000</strong>
+                </div>
+              </div>
+            </div>
+
+            <div class="telemetry-visual reveal delay-1">
+              <div class="wide-phone-frame">
+                <div class="phone-notch"></div>
+                <img
+                  src="photo5.jpeg"
+                  alt="Fortuna Race Master run tracker screen"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section analytics-section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="section-label">Analytics</span>
+            <h2>Progress becomes visible when the data is easy to read</h2>
+            <p>
+              Instead of hiding stats behind complexity, the analytics screen
+              shows improvement in a visual way that feels clear and useful.
+            </p>
+          </div>
+
+          <div class="analytics-layout">
+            <div class="analytics-card reveal">
+              <div class="analytics-card-inner">
+                <div class="analytics-head">
+                  <span>Best Time Trend</span>
+                  <strong>Weekly overview</strong>
+                </div>
+                <div class="chart chart-line">
+                  <div class="chart-grid"></div>
+                  <svg
+                    viewBox="0 0 500 220"
+                    class="chart-svg"
+                    preserveAspectRatio="none"
+                  >
+                    <defs>
+                      <linearGradient id="lineFill" x1="0" y1="0" x2="0" y2="1">
+                        <stop
+                          offset="0%"
+                          stop-color="#ffd600"
+                          stop-opacity="0.9"
+                        />
+                        <stop
+                          offset="100%"
+                          stop-color="#ffd600"
+                          stop-opacity="0.08"
+                        />
+                      </linearGradient>
+                    </defs>
+                    <path
+                      d="M20 95 C65 85, 95 70, 135 78 C180 88, 205 55, 245 62 C290 70, 310 120, 350 130 C390 140, 425 165, 480 155 L480 220 L20 220 Z"
+                      fill="url(#lineFill)"
+                    ></path>
+                    <path
+                      d="M20 95 C65 85, 95 70, 135 78 C180 88, 205 55, 245 62 C290 70, 310 120, 350 130 C390 140, 425 165, 480 155"
+                      fill="none"
+                      stroke="#ffd600"
+                      stroke-width="4"
+                      stroke-linecap="round"
+                    ></path>
+                    <circle cx="20" cy="95" r="5"></circle>
+                    <circle cx="95" cy="72" r="5"></circle>
+                    <circle cx="170" cy="74" r="5"></circle>
+                    <circle cx="245" cy="62" r="5"></circle>
+                    <circle cx="320" cy="122" r="5"></circle>
+                    <circle cx="400" cy="145" r="5"></circle>
+                    <circle cx="480" cy="155" r="5"></circle>
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            <div class="analytics-phone reveal delay-1">
+              <div class="story-phone-frame">
+                <div class="phone-notch"></div>
+                <img
+                  src="photo2.jpeg"
+                  alt="Fortuna Race Master analytics screen"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section workflow-section">
+        <div class="container">
+          <div class="workflow-grid">
+            <article class="workflow-card reveal">
+              <div class="workflow-copy">
+                <span class="section-label">Run History</span>
+                <h3>Find old sessions in seconds</h3>
+                <p>
+                  The history screen works as a practical archive. It helps the
+                  user find runs by track or date and keeps important timing
+                  data visible in one clean card.
+                </p>
+              </div>
+
+              <div class="workflow-phone">
+                <div class="small-phone-frame">
+                  <div class="phone-notch"></div>
+                  <img
+                    src="photo3.jpeg"
+                    alt="Fortuna Race Master history screen"
+                  />
+                </div>
+              </div>
+            </article>
+
+            <article class="workflow-card reveal delay-1">
+              <div class="workflow-copy">
+                <span class="section-label">Run Review</span>
+                <h3>Keep context, not just numbers</h3>
+                <p>
+                  A good run is more than a result. Track condition, focus level
+                  and personal comments make every session more useful for
+                  future analysis.
+                </p>
+              </div>
+
+              <div class="workflow-phone">
+                <div class="small-phone-frame">
+                  <div class="phone-notch"></div>
+                  <img
+                    src="photo4.jpeg"
+                    alt="Fortuna Race Master run review screen"
+                  />
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section screens-section" id="screens">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="section-label">Selected Screens</span>
+            <h2>Designed like a real racing performance product</h2>
+            <p>
+              Below is a focused screen carousel. I used only the strongest
+              views so the site feels premium and structured instead of
+              overloaded.
+            </p>
+          </div>
+
+          <div class="carousel-shell reveal">
+            <button
+              class="carousel-arrow prev"
+              id="prevBtn"
+              aria-label="Previous slide"
+            >
+              ‹
+            </button>
+
+            <div class="carousel-stage" id="carouselStage">
+              <article class="carousel-slide active">
+                <div class="carousel-card">
+                  <div class="carousel-image">
+                    <img src="photo8.jpeg" alt="Home screen" />
+                  </div>
+                  <div class="carousel-copy">
+                    <span class="slide-tag">Welcome Screen</span>
+                    <h3>A strong racing first impression</h3>
+                    <p>
+                      The home dashboard immediately communicates the product
+                      identity and gives fast access to the main user flow.
+                    </p>
+                  </div>
+                </div>
+              </article>
+
+              <article class="carousel-slide">
+                <div class="carousel-card">
+                  <div class="carousel-image">
+                    <img src="photo5.jpeg" alt="Run tracker screen" />
+                  </div>
+                  <div class="carousel-copy">
+                    <span class="slide-tag">Run Tracker</span>
+                    <h3>Built around clear timing</h3>
+                    <p>
+                      Big timer visuals and strong contrast keep the interface
+                      intense, focused and easy to use while training.
+                    </p>
+                  </div>
+                </div>
+              </article>
+
+              <article class="carousel-slide">
+                <div class="carousel-card">
+                  <div class="carousel-image">
+                    <img src="photo2.jpeg" alt="Analytics screen" />
+                  </div>
+                  <div class="carousel-copy">
+                    <span class="slide-tag">Analytics</span>
+                    <h3>See performance trends faster</h3>
+                    <p>
+                      Graphs and weekly comparisons help users understand
+                      whether they are improving over time.
+                    </p>
+                  </div>
+                </div>
+              </article>
+
+              <article class="carousel-slide">
+                <div class="carousel-card">
+                  <div class="carousel-image">
+                    <img src="photo3.jpeg" alt="History screen" />
+                  </div>
+                  <div class="carousel-copy">
+                    <span class="slide-tag">History</span>
+                    <h3>Every session stays organized</h3>
+                    <p>
+                      Keep track of results and find useful past runs without
+                      losing the context of track and discipline.
+                    </p>
+                  </div>
+                </div>
+              </article>
+
+              <article class="carousel-slide">
+                <div class="carousel-card">
+                  <div class="carousel-image">
+                    <img src="photo4.jpeg" alt="Run review screen" />
+                  </div>
+                  <div class="carousel-copy">
+                    <span class="slide-tag">Review</span>
+                    <h3>Turn raw timing into smarter reflection</h3>
+                    <p>
+                      Conditions, focus level and notes make it easier to learn
+                      from every run instead of just storing a number.
+                    </p>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <button
+              class="carousel-arrow next"
+              id="nextBtn"
+              aria-label="Next slide"
+            >
+              ›
+            </button>
+          </div>
+
+          <div class="carousel-dots" id="carouselDots"></div>
+        </div>
+      </section>
+
+      <section class="section reviews-section" id="reviews">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="section-label">Reviews</span>
+            <h2>Built for people who care about performance</h2>
+            <p>
+              Review cards are written as polished starter testimonials. Later
+              ты сможешь заменить их на реальные.
+            </p>
+          </div>
+
+          <div class="reviews-grid">
+            <article class="review-card reveal">
+              <div class="review-rating">★★★★★</div>
+              <p>
+                “The strongest part is how focused the app feels. It doesn’t
+                waste time and gives exactly what I need before and after a
+                run.”
+              </p>
+              <div class="review-author">
+                <strong>Alex M.</strong>
+                <span>Kart Training User</span>
+              </div>
+            </article>
+
+            <article class="review-card reveal delay-1">
+              <div class="review-rating">★★★★★</div>
+              <p>
+                “Analytics and run history make the sessions much more useful.
+                You can actually see progress instead of guessing.”
+              </p>
+              <div class="review-author">
+                <strong>Roman K.</strong>
+                <span>Track Day Driver</span>
+              </div>
+            </article>
+
+            <article class="review-card reveal delay-2">
+              <div class="review-rating">★★★★★</div>
+              <p>
+                “The interface looks like a real racing product. Dark, sharp,
+                energetic and easy to navigate even during training.”
+              </p>
+              <div class="review-author">
+                <strong>Dmitry V.</strong>
+                <span>Moto Performance Enthusiast</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section cta-section" id="download">
+        <div class="container">
+          <div class="cta-panel reveal">
+            <div class="cta-copy">
+              <span class="section-label">Download</span>
+              <h2>Ready for your next run?</h2>
+              <p>
+                Download Fortuna Race Master and turn timing, reaction and run
+                review into one smooth racing workflow.
+              </p>
+            </div>
+
+            <div class="cta-actions">
+              <a href="#" class="btn btn-primary btn-lg">Download App</a>
+              <a href="privacy.html" class="btn btn-dark btn-lg"
+                >Privacy Policy</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a href="#top" class="brand footer-brand-link">
+            <span class="brand-mark">FR</span>
+            <span class="brand-text">
+              <strong>Fortuna Race Master</strong>
+              <small>Racing Performance App</small>
+            </span>
+          </a>
+
+          <p>
+            A premium landing page concept for a motorsport timing and analytics
+            mobile application.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Navigation</h4>
+          <a href="#features">Features</a>
+          <a href="#screens">Screens</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#download">Download</a>
+        </div>
+
+        <div class="footer-links">
+          <h4>Legal</h4>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="#">Store Link</a>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>© 2026 Fortuna Race Master. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+      ↑
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>

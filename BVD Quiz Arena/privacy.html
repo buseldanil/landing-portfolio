@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy — BVD Quiz Arena</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        background:
+          radial-gradient(
+            circle at 15% 10%,
+            rgba(255, 255, 255, 0.12),
+            transparent 30%
+          ),
+          linear-gradient(135deg, #330000 0%, #8f0000 42%, #d40000 100%);
+      }
+
+      .privacy-page {
+        position: relative;
+        z-index: 3;
+        min-height: 100vh;
+        padding: 130px max(22px, calc((100vw - 900px) / 2)) 80px;
+      }
+
+      .privacy-back {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        min-height: 48px;
+        padding: 0 18px;
+        border-radius: 999px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(18px);
+        color: white;
+        font-weight: 900;
+        margin-bottom: 28px;
+        transition: 0.25s ease;
+      }
+
+      .privacy-back:hover {
+        background: white;
+        color: #970000;
+        transform: translateY(-3px);
+      }
+
+      .privacy-hero {
+        padding: clamp(30px, 6vw, 64px);
+        border-radius: 42px;
+        background:
+          radial-gradient(
+            circle at 78% 20%,
+            rgba(255, 255, 255, 0.2),
+            transparent 32%
+          ),
+          rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.16);
+        box-shadow: 0 34px 90px rgba(0, 0, 0, 0.34);
+        backdrop-filter: blur(20px);
+        margin-bottom: 22px;
+      }
+
+      .privacy-hero span {
+        display: inline-flex;
+        color: rgba(255, 255, 255, 0.7);
+        text-transform: uppercase;
+        letter-spacing: 0.18em;
+        font-size: 12px;
+        font-weight: 1000;
+      }
+
+      .privacy-hero h1 {
+        margin-top: 14px;
+        font-size: clamp(42px, 7vw, 78px);
+        line-height: 0.94;
+        letter-spacing: -0.06em;
+      }
+
+      .privacy-card {
+        padding: clamp(26px, 5vw, 48px);
+        border-radius: 36px;
+        background: rgba(255, 255, 255, 0.94);
+        color: #260000;
+        box-shadow: 0 30px 90px rgba(0, 0, 0, 0.28);
+      }
+
+      .policy-block {
+        padding: 22px 0;
+        border-bottom: 1px solid rgba(151, 0, 0, 0.13);
+        font-size: 18px;
+        line-height: 1.85;
+        color: rgba(38, 0, 0, 0.78);
+      }
+
+      .policy-block:first-child {
+        padding-top: 0;
+      }
+
+      .policy-block:last-child {
+        border-bottom: 0;
+        padding-bottom: 0;
+      }
+
+      .policy-block strong {
+        color: #970000;
+        font-weight: 1000;
+      }
+
+      .privacy-email {
+        display: inline-flex;
+        margin-top: 12px;
+        padding: 12px 16px;
+        border-radius: 999px;
+        background: #970000;
+        color: white;
+        font-weight: 900;
+        word-break: break-word;
+      }
+
+      @media (max-width: 640px) {
+        .privacy-page {
+          padding-top: 110px;
+        }
+
+        .policy-block {
+          font-size: 16px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page-noise"></div>
+
+    <header class="header scrolled">
+      <a href="index.html" class="brand">
+        <span class="brand-icon">B</span>
+        <span class="brand-text">
+          <strong>BVD</strong>
+          <small>Quiz Arena</small>
+        </span>
+      </a>
+
+      <nav class="nav">
+        <a href="index.html#home">Home</a>
+        <a href="index.html#arena">Arena</a>
+        <a href="index.html#screens">Screens</a>
+        <a href="index.html#download">Download</a>
+      </nav>
+    </header>
+
+    <main class="privacy-page">
+      <a href="index.html" class="privacy-back">← Back to main page</a>
+
+      <section class="privacy-hero">
+        <span>Privacy Policy</span>
+        <h1>BVD Quiz Arena</h1>
+      </section>
+
+      <section class="privacy-card">
+        <div class="policy-block">
+          <strong>BVD Quiz Arena</strong><br />
+          https://play.google.com/store/apps/details?id=com.pent3alty.afutbal3l
+        </div>
+
+        <div class="policy-block">
+          SNOWGLOW GAMES organization has developed the BVD Quiz Arena app as a
+          free service. The app does not collect, store, or share any personal
+          user data.
+        </div>
+
+        <div class="policy-block">
+          Please note that this Privacy Policy may be revised occasionally to
+          reflect any necessary updates. When such changes are made, the Service
+          Provider will post the updated Privacy Policy on this page. We
+          encourage users to review this policy regularly, as continued use of
+          the app implies acceptance of any modifications.
+        </div>
+
+        <div class="policy-block">
+          If you have any concerns regarding privacy while using the application
+          or if you need further clarification on our practices, feel free to
+          reach out to the Service Provider at
+          <br />
+          <a class="privacy-email" href="mailto:system@snowglowgames.click"
+            >system@snowglowgames.click</a
+          >
+        </div>
+
+        <div class="policy-block">
+          This Privacy Policy is effective as of May 27, 2026.
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,528 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mlb Cycling Pulse — Ride Tracker App</title>
+    <meta
+      name="description"
+      content="Mlb Cycling Pulse is a cycling tracker app for rides, challenges, history, records, weather and cycling news."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="site-noise"></div>
+    <div class="cursor-light"></div>
+
+    <header class="header" id="header">
+      <div class="container nav">
+        <a href="#home" class="logo">
+          <span class="logo-icon">🚴</span>
+          <span>Mlb Cycling Pulse</span>
+        </a>
+
+        <nav class="nav-links" id="navLinks">
+          <a href="#features">Features</a>
+          <a href="#screens">Screens</a>
+          <a href="#ride">Ride Mode</a>
+          <a href="#challenges">Challenges</a>
+          <a href="#news">News</a>
+          <a href="privacy.html">Privacy</a>
+        </nav>
+
+        <a
+          class="download-btn"
+          href="https://play.google.com/store/apps/details?id=com.nyqel7or.vemtra2ix.klo8runex"
+          target="_blank"
+        >
+          Download
+        </a>
+
+        <button class="burger" id="burger" aria-label="Menu">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-bg">
+          <div class="road-lines"></div>
+          <div class="speed-circle circle-one"></div>
+          <div class="speed-circle circle-two"></div>
+          <div class="speed-circle circle-three"></div>
+        </div>
+
+        <div class="container hero-grid">
+          <div class="hero-content reveal">
+            <div class="eyebrow">
+              <span></span>
+              Smart cycling companion
+            </div>
+
+            <h1>
+              Track every ride.
+              <strong>Feel every kilometer.</strong>
+            </h1>
+
+            <p>
+              Mlb Cycling Pulse helps cyclists start rides, follow weekly
+              progress, complete challenges, view ride history, and stay
+              connected with cycling news in one smooth mobile experience.
+            </p>
+
+            <div class="hero-actions">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.nyqel7or.vemtra2ix.klo8runex"
+                target="_blank"
+                class="btn primary"
+              >
+                Download App
+                <span>→</span>
+              </a>
+              <a href="#screens" class="btn secondary">View Screens</a>
+            </div>
+
+            <div class="hero-stats">
+              <div>
+                <b>5</b>
+                <span>main tabs</span>
+              </div>
+              <div>
+                <b>0.0</b>
+                <span>speed UI</span>
+              </div>
+              <div>
+                <b>24/7</b>
+                <span>ride ready</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-phone reveal delay">
+            <div class="phone-glow"></div>
+            <div class="phone-frame">
+              <img src="photo1.jpeg" alt="Mlb Cycling Pulse home screen" />
+            </div>
+
+            <div class="floating-card card-weather">
+              <span>☀️</span>
+              <b>15°C</b>
+              <small>Ride weather</small>
+            </div>
+
+            <div class="floating-card card-speed">
+              <span>⚡</span>
+              <b>Ready</b>
+              <small>Start ride</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="marquee">
+          <div class="marquee-track">
+            <span>Ride Tracker</span>
+            <span>Weekly Progress</span>
+            <span>Challenges</span>
+            <span>Cycling News</span>
+            <span>Speed Monitor</span>
+            <span>Ride History</span>
+            <span>Ride Tracker</span>
+            <span>Weekly Progress</span>
+            <span>Challenges</span>
+            <span>Cycling News</span>
+            <span>Speed Monitor</span>
+            <span>Ride History</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section app-preview">
+        <div class="container preview-grid">
+          <div class="preview-card reveal">
+            <div class="mini-title">Today</div>
+            <h2>Built for quick rides and clean progress.</h2>
+            <p>
+              The app gives you a simple launch point: weather, weekly activity,
+              current records, daily challenges and cycling news. Everything is
+              fast, clear and built around action.
+            </p>
+          </div>
+
+          <div class="dashboard-card reveal delay">
+            <div class="dash-top">
+              <span>Current week</span>
+              <b>5 rides</b>
+            </div>
+            <div class="bars">
+              <i style="height: 34%"></i>
+              <i style="height: 62%"></i>
+              <i style="height: 48%"></i>
+              <i style="height: 74%"></i>
+              <i style="height: 82%"></i>
+              <i style="height: 54%"></i>
+              <i style="height: 28%"></i>
+            </div>
+            <div class="dash-bottom">
+              <div>
+                <b>0.00 km</b>
+                <span>Distance</span>
+              </div>
+              <div>
+                <b>8h 30m</b>
+                <span>Time</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section features" id="features">
+        <div class="container">
+          <div class="section-head reveal">
+            <span>Premium cycling system</span>
+            <h2>Everything riders need before, during and after the ride.</h2>
+            <p>
+              A powerful landing page for a cycling app should feel fast,
+              energetic and premium — exactly like the ride experience itself.
+            </p>
+          </div>
+
+          <div class="features-grid">
+            <article class="feature-card reveal">
+              <div class="feature-icon">▶</div>
+              <h3>Start Ride</h3>
+              <p>
+                Begin tracking instantly with a clear ride button and ride-ready
+                dashboard.
+              </p>
+            </article>
+
+            <article class="feature-card reveal delay-1">
+              <div class="feature-icon">📊</div>
+              <h3>Weekly Stats</h3>
+              <p>
+                Review rides, distance and time with clean weekly visual blocks.
+              </p>
+            </article>
+
+            <article class="feature-card reveal delay-2">
+              <div class="feature-icon">🏆</div>
+              <h3>Challenges</h3>
+              <p>
+                Complete daily and weekly goals like Ride 10 km Today or Speed
+                Warrior.
+              </p>
+            </article>
+
+            <article class="feature-card reveal">
+              <div class="feature-icon">📰</div>
+              <h3>Cycling News</h3>
+              <p>
+                Follow cycling headlines directly inside the app with full
+                article previews.
+              </p>
+            </article>
+
+            <article class="feature-card reveal delay-1">
+              <div class="feature-icon">⚡</div>
+              <h3>Speed Mode</h3>
+              <p>
+                Track speed, average speed, max speed and distance in a focused
+                dark ride UI.
+              </p>
+            </article>
+
+            <article class="feature-card reveal delay-2">
+              <div class="feature-icon">🌤️</div>
+              <h3>Weather Ready</h3>
+              <p>
+                See conditions before the ride, including temperature and wind
+                information.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="screens" id="screens">
+        <div class="container">
+          <div class="section-head reveal">
+            <span>App screens</span>
+            <h2>Animated carousel with real mobile previews.</h2>
+            <p>
+              The carousel shows the app experience in a premium way instead of
+              a cheap static screenshot grid.
+            </p>
+          </div>
+
+          <div class="carousel reveal">
+            <button class="carousel-control prev" id="prevBtn">‹</button>
+
+            <div class="carousel-stage">
+              <div class="slide active">
+                <img src="photo1.jpeg" alt="Home screen" />
+                <div class="slide-info">
+                  <span>01</span>
+                  <b>Home Dashboard</b>
+                </div>
+              </div>
+
+              <div class="slide">
+                <img src="photo2.jpeg" alt="Home news section" />
+                <div class="slide-info">
+                  <span>02</span>
+                  <b>Challenges & News</b>
+                </div>
+              </div>
+
+              <div class="slide">
+                <img src="photo3.jpeg" alt="Ride screen" />
+                <div class="slide-info">
+                  <span>03</span>
+                  <b>Ride Mode</b>
+                </div>
+              </div>
+
+              <div class="slide">
+                <img src="photo5.jpeg" alt="Challenges screen" />
+                <div class="slide-info">
+                  <span>04</span>
+                  <b>Challenge Board</b>
+                </div>
+              </div>
+
+              <div class="slide">
+                <img src="photo6.jpeg" alt="Cycling news screen" />
+                <div class="slide-info">
+                  <span>05</span>
+                  <b>Cycling News</b>
+                </div>
+              </div>
+
+              <div class="slide">
+                <img src="photo7.jpeg" alt="Article screen" />
+                <div class="slide-info">
+                  <span>06</span>
+                  <b>Article View</b>
+                </div>
+              </div>
+            </div>
+
+            <button class="carousel-control next" id="nextBtn">›</button>
+
+            <div class="carousel-dots" id="dots"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section ride-mode" id="ride">
+        <div class="container ride-grid">
+          <div class="ride-visual reveal">
+            <div class="speedometer">
+              <div class="speed-arc"></div>
+              <div class="speed-value">
+                <b>0.0</b>
+                <span>km/h</span>
+              </div>
+            </div>
+
+            <div class="ride-metrics">
+              <div>
+                <b>0.00 km</b>
+                <span>Distance</span>
+              </div>
+              <div>
+                <b>0.0 km/h</b>
+                <span>Avg speed</span>
+              </div>
+              <div>
+                <b>0.0 km/h</b>
+                <span>Max speed</span>
+              </div>
+            </div>
+
+            <button class="ride-play">▶</button>
+          </div>
+
+          <div class="ride-copy reveal delay">
+            <span class="mini-title">Ride mode</span>
+            <h2>Focused tracking with a high-contrast dark interface.</h2>
+            <p>
+              When the ride starts, the app switches into a distraction-free
+              mode with speed, time, distance and a large central action button.
+            </p>
+
+            <ul class="tick-list">
+              <li>Large speed display</li>
+              <li>Distance, average and max speed</li>
+              <li>Dark screen for outdoor visibility</li>
+              <li>Simple ride start interaction</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section challenge-section" id="challenges">
+        <div class="container challenge-grid">
+          <div class="challenge-copy reveal">
+            <span class="mini-title">Motivation</span>
+            <h2>Challenges that keep riders coming back.</h2>
+            <p>
+              Daily streaks, weekly goals and reward points help users build a
+              stronger cycling habit and track progress over time.
+            </p>
+          </div>
+
+          <div class="challenge-board reveal delay">
+            <div class="level-card">
+              <div class="level-circle">1</div>
+              <div>
+                <b>Completion</b>
+                <div class="progress">
+                  <span style="width: 12%"></span>
+                </div>
+              </div>
+              <strong>0%</strong>
+            </div>
+
+            <div class="challenge-item">
+              <span>🔥</span>
+              <div>
+                <b>Daily Streak</b>
+                <p>3 days in a row</p>
+              </div>
+              <strong>+10 pts</strong>
+            </div>
+
+            <div class="challenge-item">
+              <span>🌅</span>
+              <div>
+                <b>Ride 10 km Today</b>
+                <p>Complete a 10 km ride today</p>
+              </div>
+              <strong>+100</strong>
+            </div>
+
+            <div class="challenge-item">
+              <span>⚡</span>
+              <div>
+                <b>Speed Warrior</b>
+                <p>Maintain average speed over 20 km/h</p>
+              </div>
+              <strong>+150</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section news-section" id="news">
+        <div class="container">
+          <div class="section-head reveal">
+            <span>Cycling world</span>
+            <h2>News previews that feel editorial and premium.</h2>
+            <p>
+              The site also presents the app’s cycling news feature with cards,
+              article previews and high-impact imagery.
+            </p>
+          </div>
+
+          <div class="news-grid">
+            <article class="news-card big reveal">
+              <img src="photo6.jpeg" alt="Cycling news list" />
+              <div>
+                <span>Racing</span>
+                <h3>
+                  New American Cycling Team Breaks Through with First Victory
+                </h3>
+                <p>
+                  Follow major cycling headlines and fresh updates inside the
+                  app.
+                </p>
+              </div>
+            </article>
+
+            <article class="news-card reveal delay-1">
+              <img src="photo7.jpeg" alt="Cycling article" />
+              <div>
+                <span>Article</span>
+                <h3>Full article reading experience</h3>
+                <p>
+                  Open cycling stories with large images and clean typography.
+                </p>
+              </div>
+            </article>
+
+            <article class="news-card reveal delay-2">
+              <img src="photo8.jpeg" alt="Cycling victory article" />
+              <div>
+                <span>Racing</span>
+                <h3>Stage finale and road race updates</h3>
+                <p>
+                  Stay updated with the cycling world before your next ride.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta">
+        <div class="container">
+          <div class="cta-box reveal">
+            <div class="cta-icon">🚴</div>
+            <h2>Ready to ride smarter?</h2>
+            <p>
+              Download Mlb Cycling Pulse and turn every ride into clear
+              progress, better habits and a stronger cycling routine.
+            </p>
+
+            <a
+              href="https://play.google.com/store/apps/details?id=com.nyqel7or.vemtra2ix.klo8runex"
+              target="_blank"
+              class="btn primary"
+            >
+              Download on Google Play
+              <span>→</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <a href="#home" class="logo">
+            <span class="logo-icon">🚴</span>
+            <span>Mlb Cycling Pulse</span>
+          </a>
+          <p>
+            Cycling tracker app for rides, history, challenges, weekly progress,
+            records and cycling news.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <a href="#features">Features</a>
+          <a href="#screens">Screens</a>
+          <a href="#ride">Ride Mode</a>
+          <a href="#challenges">Challenges</a>
+          <a href="privacy.html">Privacy</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

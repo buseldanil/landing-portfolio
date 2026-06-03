@@ -1,0 +1,618 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DryKaiser</title>
+    <meta
+      name="description"
+      content="DryKaiser is a tactical football management app for team setup, formations, match planning, guides, and squad organization."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="site-bg">
+      <div class="bg-orb orb-1"></div>
+      <div class="bg-orb orb-2"></div>
+      <div class="bg-grid"></div>
+      <div class="bg-noise"></div>
+    </div>
+
+    <header class="header" id="top">
+      <div class="container nav-shell">
+        <a href="#top" class="brand">
+          <span class="brand-mark">DK</span>
+          <span class="brand-copy">
+            <strong>DryKaiser</strong>
+            <small>Team control, formations, match planning</small>
+          </span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          aria-label="Open navigation"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="nav" id="siteNav">
+          <a href="#features">Features</a>
+          <a href="#showcase">Showcase</a>
+          <a href="#guides">Guides</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#download">Download</a>
+          <a href="privacy.html">Privacy</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-layout">
+          <div class="hero-copy reveal">
+            <div class="hero-tags">
+              <span class="tag tag-solid">Football manager workflow</span>
+              <span class="tag">Teams · Matches · Formations · Guides</span>
+            </div>
+
+            <h1>
+              Build your squad. Shape the system. Manage every match with
+              clarity.
+            </h1>
+
+            <p>
+              DryKaiser is built for football planning and team organization.
+              Manage active squads, edit team identity, switch formations,
+              prepare lineups, add future fixtures, and keep tactical guides
+              available inside one focused mobile interface.
+            </p>
+
+            <div class="hero-actions">
+              <a
+                class="btn btn-primary"
+                href="https://play.google.com/store/apps/details?id=com.korvexium.play.app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Download App
+              </a>
+              <a class="btn btn-secondary" href="#showcase">View Screens</a>
+            </div>
+
+            <div class="hero-stats">
+              <article class="stat-card">
+                <strong data-counter="4">0</strong>
+                <span>core modules</span>
+              </article>
+              <article class="stat-card">
+                <strong data-counter="10">0</strong>
+                <span>highlight screens</span>
+              </article>
+              <article class="stat-card">
+                <strong data-counter="1">0</strong>
+                <span>single tactical hub</span>
+              </article>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal">
+            <div class="hero-stage">
+              <div class="phone-card phone-main tilt-card">
+                <div class="phone-top"></div>
+                <img src="photo1.jpeg" alt="DryKaiser welcome screen" />
+              </div>
+
+              <div class="phone-card phone-left tilt-card">
+                <div class="phone-top"></div>
+                <img src="photo5.jpeg" alt="Formation builder screen" />
+              </div>
+
+              <div class="phone-card phone-right tilt-card">
+                <div class="phone-top"></div>
+                <img src="photo2.jpeg" alt="Active team dashboard screen" />
+              </div>
+
+              <div class="floating-note note-a">
+                <span>Formation logic</span>
+                <p>
+                  Move from squad setup into tactical structure with formation
+                  selection and swaps.
+                </p>
+              </div>
+
+              <div class="floating-note note-b">
+                <span>Club control</span>
+                <p>
+                  Teams, upcoming matches, guides, and settings stay within one
+                  consistent flow.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="statement reveal">
+            <h2>
+              DryKaiser feels like a private coach console, not a generic
+              landing page for another sports app.
+            </h2>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="features">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-label">Main features</span>
+            <h2>Everything centers around control and structure</h2>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card reveal">
+              <span class="feature-num">01</span>
+              <h3>Active team dashboard</h3>
+              <p>
+                The main screen highlights the currently selected team and
+                upcoming fixtures so users can stay oriented immediately.
+              </p>
+            </article>
+
+            <article class="feature-card reveal">
+              <span class="feature-num">02</span>
+              <h3>Multi-team management</h3>
+              <p>
+                Create and edit several teams, switch active squads, and keep
+                different club identities separated inside one app.
+              </p>
+            </article>
+
+            <article class="feature-card reveal">
+              <span class="feature-num">03</span>
+              <h3>Formation builder</h3>
+              <p>
+                Tactical layouts can be adjusted with formation presets, player
+                placement, and swap actions from one tactical view.
+              </p>
+            </article>
+
+            <article class="feature-card reveal">
+              <span class="feature-num">04</span>
+              <h3>Match creation</h3>
+              <p>
+                Add new fixtures with date, time, opponent, venue, competition,
+                and match details in a structured match form.
+              </p>
+            </article>
+
+            <article class="feature-card reveal">
+              <span class="feature-num">05</span>
+              <h3>Guide system</h3>
+              <p>
+                Practical tactical articles support development, player
+                education, and coaching knowledge directly in the same product.
+              </p>
+            </article>
+
+            <article class="feature-card reveal">
+              <span class="feature-num">06</span>
+              <h3>Simple operational settings</h3>
+              <p>
+                Share, rate, and clear data from a clean settings screen that
+                stays aligned with the rest of the app structure.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section showcase-section" id="showcase">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-label">Showcase</span>
+            <h2>How the app is structured on screen</h2>
+          </div>
+
+          <div class="showcase-grid">
+            <article class="showcase-card showcase-wide reveal">
+              <div class="showcase-text">
+                <h3>Welcome into a tactical environment</h3>
+                <p>
+                  The opening screen introduces the product as a football
+                  management tool, not a fan app. The first impression is
+                  darker, stronger, and more focused on leadership.
+                </p>
+              </div>
+              <div class="showcase-media">
+                <img src="photo1.jpeg" alt="Welcome screen" />
+              </div>
+            </article>
+
+            <article class="showcase-card reveal">
+              <div class="showcase-text">
+                <h3>Active team and quick context</h3>
+                <p>
+                  Team identity and upcoming matches are visible on the home
+                  screen so the user never loses track of the active squad.
+                </p>
+              </div>
+              <div class="showcase-media">
+                <img src="photo2.jpeg" alt="Active team screen" />
+              </div>
+            </article>
+
+            <article class="showcase-card reveal">
+              <div class="showcase-text">
+                <h3>Team list management</h3>
+                <p>
+                  Multiple club cards can be reviewed and edited with fast
+                  access to a new team creation flow.
+                </p>
+              </div>
+              <div class="showcase-media">
+                <img src="photo3.jpeg" alt="Teams list screen" />
+              </div>
+            </article>
+
+            <article class="showcase-card reveal">
+              <div class="showcase-text">
+                <h3>Edit identity and club visuals</h3>
+                <p>
+                  The editor screen connects team info, logo selection, and
+                  visual setup to a more branded club experience.
+                </p>
+              </div>
+              <div class="showcase-media">
+                <img src="photo4.jpeg" alt="Team editor screen" />
+              </div>
+            </article>
+
+            <article class="showcase-card reveal">
+              <div class="showcase-text">
+                <h3>Formation screen</h3>
+                <p>
+                  Tactical structure becomes visual with a pitch layout, player
+                  cards, and role positions shown directly on the field.
+                </p>
+              </div>
+              <div class="showcase-media">
+                <img src="photo5.jpeg" alt="Formation screen" />
+              </div>
+            </article>
+
+            <article class="showcase-card reveal">
+              <div class="showcase-text">
+                <h3>Modals for tactical actions</h3>
+                <p>
+                  Formation presets and player swap flows are handled in focused
+                  modal windows instead of jumping into unrelated screens.
+                </p>
+              </div>
+              <div class="showcase-media dual-media">
+                <img src="photo6.jpeg" alt="Formation modal screen" />
+                <img src="photo7.jpeg" alt="Swap player modal screen" />
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section process-section">
+        <div class="container process-layout">
+          <div class="process-copy reveal">
+            <span class="section-label">Workflow</span>
+            <h2>From team setup to training material</h2>
+
+            <div class="process-list">
+              <article
+                class="process-item active-process"
+                data-image="photo3.jpeg"
+                data-title="Select or create a team"
+                data-text="The app starts with multi-team management so users can keep club identities, squads, and projects separated."
+              >
+                <span>01</span>
+                <div>
+                  <h3>Choose a team</h3>
+                  <p>Switch active squads and keep the correct team context.</p>
+                </div>
+              </article>
+
+              <article
+                class="process-item"
+                data-image="photo4.jpeg"
+                data-title="Adjust the club profile"
+                data-text="Team info, logo selection, and colors make the squad feel more complete and personalized."
+              >
+                <span>02</span>
+                <div>
+                  <h3>Edit details</h3>
+                  <p>
+                    Control name, visuals, and basic identity inside the app.
+                  </p>
+                </div>
+              </article>
+
+              <article
+                class="process-item"
+                data-image="photo5.jpeg"
+                data-title="Build the formation"
+                data-text="Users can see the pitch, arrange the system, and give each player a tactical place."
+              >
+                <span>03</span>
+                <div>
+                  <h3>Shape the system</h3>
+                  <p>Move from squad overview into tactical structure.</p>
+                </div>
+              </article>
+
+              <article
+                class="process-item"
+                data-image="photo8.jpeg"
+                data-title="Create the next match"
+                data-text="The match form allows date, time, venue, competition, and opponent to be structured clearly."
+              >
+                <span>04</span>
+                <div>
+                  <h3>Plan fixtures</h3>
+                  <p>Add upcoming matches with all essential details.</p>
+                </div>
+              </article>
+
+              <article
+                class="process-item"
+                data-image="photo10.jpeg"
+                data-title="Read guides and tactical notes"
+                data-text="Guide articles bring development, team building, and football knowledge into the same product environment."
+              >
+                <span>05</span>
+                <div>
+                  <h3>Use guides</h3>
+                  <p>Support decisions with structured football advice.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="process-preview reveal">
+            <div class="preview-shell">
+              <div class="preview-phone tilt-card">
+                <div class="phone-top"></div>
+                <img
+                  id="processPreviewImage"
+                  src="photo3.jpeg"
+                  alt="Workflow preview"
+                />
+              </div>
+              <div class="preview-copy">
+                <small>Current step</small>
+                <h3 id="processPreviewTitle">Select or create a team</h3>
+                <p id="processPreviewText">
+                  The app starts with multi-team management so users can keep
+                  club identities, squads, and projects separated.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section guides-section" id="guides">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-label">Guides</span>
+            <h2>Knowledge stays inside the product</h2>
+          </div>
+
+          <div class="guides-layout">
+            <article class="guide-highlight reveal">
+              <div class="guide-copy">
+                <h3>Training content sits next to the tactical tools</h3>
+                <p>
+                  DryKaiser does not stop at formations and match setup. The
+                  guide system expands the product with written coaching
+                  material about youth development, defense, and team
+                  management.
+                </p>
+              </div>
+              <div class="guide-stack">
+                <img src="photo9.jpeg" alt="Guides list screen" />
+                <img src="photo10.jpeg" alt="Guide article screen" />
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section slider-section">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-label">Preview carousel</span>
+            <h2>Move through the main screens</h2>
+          </div>
+
+          <div class="slider-shell reveal">
+            <div class="slider-top">
+              <div class="slider-copy">
+                <small>Selected screen</small>
+                <h3 id="sliderTitle">Welcome</h3>
+              </div>
+
+              <div class="slider-arrows">
+                <button
+                  class="slider-arrow"
+                  id="prevSlide"
+                  aria-label="Previous slide"
+                >
+                  ←
+                </button>
+                <button
+                  class="slider-arrow"
+                  id="nextSlide"
+                  aria-label="Next slide"
+                >
+                  →
+                </button>
+              </div>
+            </div>
+
+            <div class="slider-window">
+              <div class="slider-track" id="sliderTrack">
+                <article class="slider-slide" data-title="Welcome">
+                  <img src="photo1.jpeg" alt="Welcome screen" />
+                </article>
+                <article
+                  class="slider-slide"
+                  data-title="Active Team Dashboard"
+                >
+                  <img src="photo2.jpeg" alt="Active team dashboard" />
+                </article>
+                <article class="slider-slide" data-title="Teams List">
+                  <img src="photo3.jpeg" alt="Teams list" />
+                </article>
+                <article class="slider-slide" data-title="Team Editor">
+                  <img src="photo4.jpeg" alt="Team editor" />
+                </article>
+                <article class="slider-slide" data-title="Formation Builder">
+                  <img src="photo5.jpeg" alt="Formation builder" />
+                </article>
+                <article class="slider-slide" data-title="Formation Modal">
+                  <img src="photo6.jpeg" alt="Formation modal" />
+                </article>
+                <article class="slider-slide" data-title="Swap Player">
+                  <img src="photo7.jpeg" alt="Swap player modal" />
+                </article>
+                <article class="slider-slide" data-title="Add New Match">
+                  <img src="photo8.jpeg" alt="Add match form" />
+                </article>
+                <article class="slider-slide" data-title="Guides List">
+                  <img src="photo9.jpeg" alt="Guides list" />
+                </article>
+                <article class="slider-slide" data-title="Guide Article">
+                  <img src="photo10.jpeg" alt="Guide article" />
+                </article>
+              </div>
+            </div>
+
+            <div class="slider-dots" id="sliderDots"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reviews-section" id="reviews">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-label">Reviews</span>
+            <h2>The product feeling</h2>
+          </div>
+
+          <div class="reviews-grid">
+            <article class="review-card reveal featured-review">
+              <div class="review-stars">★★★★★</div>
+              <p>
+                “DryKaiser feels more like a staff room tool than a simple
+                football app. Teams, lineups, match prep, and tactical notes all
+                connect naturally.”
+              </p>
+              <div class="review-meta">
+                <strong>Roman K.</strong>
+                <span>Football organizer</span>
+              </div>
+            </article>
+
+            <article class="review-card reveal">
+              <div class="review-stars">★★★★★</div>
+              <p>
+                “The formation screens give the product a real coaching feel
+                because the tactical structure is visible, not hidden behind
+                text-only menus.”
+              </p>
+              <div class="review-meta">
+                <strong>Dmytro A.</strong>
+                <span>Amateur coach</span>
+              </div>
+            </article>
+
+            <article class="review-card reveal">
+              <div class="review-stars">★★★★★</div>
+              <p>
+                “I like that the guides are inside the same app. It makes the
+                experience feel complete instead of split between planning and
+                learning.”
+              </p>
+              <div class="review-meta">
+                <strong>Andrii V.</strong>
+                <span>Team manager</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section download-section" id="download">
+        <div class="container">
+          <div class="download-box reveal">
+            <div class="download-copy">
+              <span class="section-label">Download</span>
+              <h2>Take tactical team management with you</h2>
+              <p>
+                Use DryKaiser to manage teams, shape formations, plan fixtures,
+                and keep useful tactical guides available on mobile whenever you
+                need them.
+              </p>
+            </div>
+
+            <div class="download-actions">
+              <a
+                class="btn btn-primary btn-wide"
+                href="https://play.google.com/store/apps/details?id=com.korvexium.play.app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Download on Google Play
+              </a>
+              <a class="btn btn-secondary btn-wide" href="privacy.html">
+                Open Privacy Policy
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-top">
+        <div class="footer-brand">
+          <span class="brand-mark footer-mark">DK</span>
+          <div>
+            <strong>DryKaiser</strong>
+            <p>Team setup, formations, match planning, guides</p>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <a href="#features">Features</a>
+          <a href="#showcase">Showcase</a>
+          <a href="#guides">Guides</a>
+          <a href="#download">Download</a>
+          <a href="privacy.html">Privacy</a>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>© <span id="year"></span> DryKaiser. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

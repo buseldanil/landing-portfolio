@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Misli Futsal League — Live scores, standings & teams</title>
+    <meta
+      name="description"
+      content="Misli Futsal League is a premium futsal companion with live scores, standings, team profiles, schedules, and fan tracking tools."
+    />
+    <link rel="icon" href="./photo1.jpeg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="page-noise"></div>
+    <div class="page-orb orb-1"></div>
+    <div class="page-orb orb-2"></div>
+    <div class="page-lines"></div>
+
+    <header class="site-header" id="siteHeader">
+      <div class="container header-inner">
+        <a href="#" class="logo">
+          <span class="logo-badge">M</span>
+          <span class="logo-text">Misli Futsal League</span>
+        </a>
+
+        <nav class="nav" id="siteNav">
+          <a href="#features">Features</a>
+          <a href="#standings">Standings</a>
+          <a href="#teams">Teams</a>
+          <a href="#fan-zone">Fan Zone</a>
+          <a href="privacy.html">Privacy</a>
+        </nav>
+
+        <div class="header-actions">
+          <a href="#download" class="btn btn-small btn-ghost">Download app</a>
+          <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <div class="eyebrow">
+              <span class="dot-live"></span>
+              FUTSAL • SUPER LEAGUE • LIVE
+            </div>
+
+            <h1>
+              The premium home of
+              <span>Misli Futsal League</span>
+            </h1>
+
+            <p class="hero-text">
+              Follow the title race, explore teams, track schedules, view live
+              match momentum, and keep your own fan profile in one polished
+              futsal experience built to feel like a real top-tier sports
+              startup product.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#download" class="btn btn-primary">Download</a>
+              <a href="#gallery" class="btn btn-secondary">View screenshots</a>
+            </div>
+
+            <div class="hero-stats">
+              <div class="mini-card tilt-card">
+                <strong class="counter" data-target="8">0</strong>
+                <span>Top clubs tracked</span>
+              </div>
+              <div class="mini-card tilt-card">
+                <strong class="counter" data-target="24">0</strong>
+                <span>Match insights blocks</span>
+              </div>
+              <div class="mini-card tilt-card">
+                <strong class="counter" data-target="90">0</strong>
+                <span>Days data retention for name</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal reveal-delay">
+            <div class="hero-stage">
+              <div class="hero-glow"></div>
+
+              <div class="phone-card phone-card-main floating">
+                <img
+                  src="./photo9.jpeg"
+                  alt="Misli Futsal League home screen"
+                />
+              </div>
+
+              <div class="phone-card phone-card-left floating-slow">
+                <img
+                  src="./photo7.jpeg"
+                  alt="Misli Futsal League schedule screen"
+                />
+              </div>
+
+              <div class="phone-card phone-card-right floating-reverse">
+                <img
+                  src="./photo5.jpeg"
+                  alt="Misli Futsal League standings screen"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-marquee">
+          <div class="hero-marquee-track">
+            <span>Live match center</span>
+            <span>Team profiles</span>
+            <span>Standings breakdown</span>
+            <span>Fan ranking</span>
+            <span>Schedule tracking</span>
+            <span>Live match center</span>
+            <span>Team profiles</span>
+            <span>Standings breakdown</span>
+            <span>Fan ranking</span>
+            <span>Schedule tracking</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-dark" id="features">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div class="eyebrow">Core product</div>
+            <h2>Everything a strong league app should have inside</h2>
+            <p>
+              The site is built around the same filling that worked well before:
+              strong first screen, product explanation, premium cards, animated
+              showcase, league structure, and a proper privacy section.
+            </p>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card tilt-card reveal">
+              <div class="feature-icon">01</div>
+              <h3>Live news feed</h3>
+              <p>
+                Recent headlines, match updates, player stories, transfer notes,
+                and league changes presented in premium dark cards.
+              </p>
+            </article>
+
+            <article class="feature-card tilt-card reveal reveal-delay">
+              <div class="feature-icon">02</div>
+              <h3>Team database</h3>
+              <p>
+                Club pages, points, wins, draws, losses, city details, squad
+                info, and arena references designed like a real sports hub.
+              </p>
+            </article>
+
+            <article class="feature-card tilt-card reveal">
+              <div class="feature-icon">03</div>
+              <h3>Standings and form</h3>
+              <p>
+                Table views, recent form markers, rank states, and clean modal
+                style data presentation for season context.
+              </p>
+            </article>
+
+            <article class="feature-card tilt-card reveal reveal-delay">
+              <div class="feature-icon">04</div>
+              <h3>Fan identity</h3>
+              <p>
+                Personal profile, XP, badge level, prediction stats, favourite
+                club support, and a premium gamified feel.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="standings">
+        <div class="container split-grid">
+          <div class="split-copy reveal">
+            <div class="eyebrow">League intelligence</div>
+            <h2>Live table energy with matchday context</h2>
+            <p>
+              The product doesn’t stop at pretty screens. It communicates the
+              league story clearly: rank, form, playoff pressure, relegation
+              danger, and club momentum.
+            </p>
+
+            <ul class="feature-list">
+              <li>Super League focus with high-contrast ranking layouts</li>
+              <li>Matchday schedule cards with modal detail state</li>
+              <li>Club scoring and conceding summary blocks</li>
+              <li>Bright orange accent system for instant focus points</li>
+            </ul>
+          </div>
+
+          <div class="split-visual reveal reveal-delay">
+            <div class="stack-screen tilt-card stack-a">
+              <img src="./photo5.jpeg" alt="Standings modal screen" />
+            </div>
+            <div class="stack-screen tilt-card stack-b">
+              <img src="./photo8.jpeg" alt="Standings table screen" />
+            </div>
+            <div class="stack-screen tilt-card stack-c">
+              <img src="./photo7.jpeg" alt="Schedule screen" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-dark" id="teams">
+        <div class="container showcase-grid">
+          <div class="showcase-left reveal">
+            <div class="eyebrow">Club focus</div>
+            <h2>Teams, identity, profile depth, and fan connection</h2>
+            <p>
+              A good sports app must make clubs feel alive. Here the UI shows
+              city, points, record, visual identity, and favourite team
+              emotional connection in a clean premium system.
+            </p>
+
+            <div class="info-panels">
+              <div class="info-panel">
+                <strong>Club cards</strong>
+                <span
+                  >Fast scan layouts for ranking, city, wins and points.</span
+                >
+              </div>
+              <div class="info-panel">
+                <strong>Profile depth</strong>
+                <span>Fan rating, XP bar, streaks, badges and favourites.</span>
+              </div>
+              <div class="info-panel">
+                <strong>Match rhythm</strong>
+                <span
+                  >Daily games, live markers, timing, venue, and score
+                  state.</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="showcase-right reveal reveal-delay">
+            <div class="slider-shell">
+              <div class="slider-main" id="sliderMain">
+                <div
+                  class="slide is-active"
+                  data-title="Home match center"
+                  data-text="A hero home screen with live score focus, top scorers and immediate match relevance."
+                >
+                  <img src="./photo9.jpeg" alt="Futsal home screen" />
+                </div>
+                <div
+                  class="slide"
+                  data-title="Teams overview"
+                  data-text="Powerful team cards with rank badges, city labels, wins, draws and points."
+                >
+                  <img src="./photo2.jpeg" alt="Teams screen" />
+                </div>
+                <div
+                  class="slide"
+                  data-title="Team profile"
+                  data-text="Individual club page with stats, squad focus and venue information."
+                >
+                  <img src="./photo4.jpeg" alt="Team profile screen" />
+                </div>
+                <div
+                  class="slide"
+                  data-title="Fan profile"
+                  data-text="Identity layer with XP, rank, streak and favourite club blocks."
+                >
+                  <img src="./photo3.jpeg" alt="Fan profile screen" />
+                </div>
+                <div
+                  class="slide"
+                  data-title="Schedule flow"
+                  data-text="Daily match control with live, upcoming and finished filters."
+                >
+                  <img src="./photo7.jpeg" alt="Schedule screen" />
+                </div>
+              </div>
+
+              <div class="slider-ui">
+                <div class="slider-copy">
+                  <span class="slider-kicker">Screen spotlight</span>
+                  <h3 id="sliderTitle">Home match center</h3>
+                  <p id="sliderText">
+                    A hero home screen with live score focus, top scorers and
+                    immediate match relevance.
+                  </p>
+                </div>
+
+                <div class="slider-controls">
+                  <button
+                    id="prevSlide"
+                    class="slider-btn"
+                    aria-label="Previous slide"
+                  >
+                    ←
+                  </button>
+                  <div class="slider-dots" id="sliderDots"></div>
+                  <button
+                    id="nextSlide"
+                    class="slider-btn"
+                    aria-label="Next slide"
+                  >
+                    →
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="fan-zone">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div class="eyebrow">Fan zone</div>
+            <h2>
+              Built for people who don’t just watch — they follow every detail
+            </h2>
+            <p>
+              From favourite team loyalty to prediction stats and personal rank,
+              the app creates a stronger sense of ownership and daily return.
+            </p>
+          </div>
+
+          <div class="cards-row">
+            <article class="big-card tilt-card reveal">
+              <div class="big-card-top">
+                <span class="badge-orange">Expert fan</span>
+                <span class="muted-text">Global rank #127</span>
+              </div>
+              <h3>Progress system that feels earned</h3>
+              <p>
+                XP progression, level-up pacing, badges, day streak, match
+                participation, and a visible sense of status for engaged fans.
+              </p>
+              <div class="progress-line">
+                <span style="width: 86%"></span>
+              </div>
+            </article>
+
+            <article class="big-card tilt-card reveal reveal-delay">
+              <div class="big-card-top">
+                <span class="badge-orange">Match focus</span>
+                <span class="muted-text">Round 12 live</span>
+              </div>
+              <h3>Real-time fixtures with clear hierarchy</h3>
+              <p>
+                Important matches stay sharp with score contrast, league tags,
+                venue info, and filter-ready presentation.
+              </p>
+              <div class="mini-scoreboard">
+                <div>
+                  <strong>TYU</strong>
+                  <span>Tyumen</span>
+                </div>
+                <b>3 : 2</b>
+                <div>
+                  <strong>KPR</strong>
+                  <span>Moscow</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-cta" id="download">
+        <div class="container">
+          <div class="cta-box reveal">
+            <div class="cta-copy">
+              <div class="eyebrow">Misli Futsal League</div>
+              <h2>Track the league like it actually matters</h2>
+              <p>
+                Live scores, standings, club pages, personal profile tools, and
+                a polished fan-first interface in one strong mobile experience.
+              </p>
+            </div>
+
+            <div class="cta-actions">
+              <a
+                class="btn btn-primary"
+                href="https://play.google.com/store/apps/details?id=com.aursofra.corrae7712.glowsrift5534.alpfaha8821"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Open on Google Play
+              </a>
+              <a class="btn btn-secondary" href="privacy.html"
+                >Privacy Policy</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <a href="#" class="logo footer-logo">
+            <span class="logo-badge">M</span>
+            <span class="logo-text">Misli Futsal League</span>
+          </a>
+          <p>Premium futsal tracking experience with league-focused design.</p>
+        </div>
+
+        <div class="footer-links">
+          <a href="#hero">Home</a>
+          <a href="#features">Features</a>
+          <a href="#gallery">Screens</a>
+          <a href="privacy.html">Privacy</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

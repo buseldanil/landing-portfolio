@@ -1,0 +1,406 @@
+<!-- index.html -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toto Football Trainer</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="page-noise"></div>
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <header class="site-header" id="top">
+      <a href="#top" class="brand">
+        <span class="brand-icon">⚽</span>
+        <span>Toto Football Trainer</span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#about">About</a>
+        <a href="#challenges">Challenges</a>
+        <a href="#timer">Timer</a>
+        <a href="#screens">Screens</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+
+      <a
+        class="download-btn"
+        href="https://play.google.com/store/apps/details?id=com.vyxori5.syfootchallan.velxitcha"
+        target="_blank"
+      >
+        Download
+      </a>
+
+      <button class="menu-btn" id="menuBtn">☰</button>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-field"></div>
+        <div class="floating-ball ball-a">⚽</div>
+        <div class="floating-ball ball-b">🏆</div>
+        <div class="floating-ball ball-c">🔥</div>
+
+        <div class="hero-content reveal">
+          <span class="eyebrow">offline football training app</span>
+          <h1>Train sharper. Level up faster. Play like a pro.</h1>
+          <p>
+            Toto Football Trainer helps players complete football challenges,
+            track progress, build streaks, and improve skills every day offline.
+          </p>
+
+          <div class="hero-actions">
+            <a
+              class="btn btn-primary magnet"
+              href="https://play.google.com/store/apps/details?id=com.vyxori5.syfootchallan.velxitcha"
+              target="_blank"
+            >
+              Download App
+            </a>
+            <a class="btn btn-glass magnet" href="#screens">View Screens</a>
+          </div>
+
+          <div class="hero-metrics">
+            <div>
+              <b>4</b>
+              <span>challenge tabs</span>
+            </div>
+            <div>
+              <b>250</b>
+              <span>points to level</span>
+            </div>
+            <div>
+              <b>100%</b>
+              <span>offline</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="phone-wrap reveal">
+          <div class="phone">
+            <div class="phone-speaker"></div>
+            <div class="phone-screen">
+              <div class="mini-top">
+                <span>Hello, Player</span>
+                <span>Level 1</span>
+              </div>
+              <div class="progress-line">
+                <span></span>
+              </div>
+              <div class="mini-card large">
+                <strong>Weekly Goal</strong>
+                <p>0 / 4 challenges completed</p>
+                <div class="mini-progress"></div>
+              </div>
+              <div class="mini-grid">
+                <div>
+                  <span>🔥</span>
+                  <b>0 days</b>
+                  <small>Streak</small>
+                </div>
+                <div>
+                  <span>🏆</span>
+                  <b>0 days</b>
+                  <small>Best Streak</small>
+                </div>
+              </div>
+              <div class="mini-card">
+                <strong>Shooting Target Grid</strong>
+                <p>15 min · Medium</p>
+              </div>
+              <div class="mini-nav">
+                <span>⌂</span>
+                <span>⚒</span>
+                <span>▥</span>
+                <span>●</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="ticker">
+        <div class="ticker-track">
+          <span>SHOOTING</span>
+          <span>DRIBBLING</span>
+          <span>PASSING</span>
+          <span>JUGGLING</span>
+          <span>SPRINT</span>
+          <span>PRO TIMER</span>
+          <span>LEVEL UP</span>
+          <span>ACHIEVEMENTS</span>
+          <span>SHOOTING</span>
+          <span>DRIBBLING</span>
+          <span>PASSING</span>
+          <span>JUGGLING</span>
+          <span>SPRINT</span>
+          <span>PRO TIMER</span>
+          <span>LEVEL UP</span>
+          <span>ACHIEVEMENTS</span>
+        </div>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="section-title reveal">
+          <span class="eyebrow">why it works</span>
+          <h2>Football practice becomes a game.</h2>
+          <p>
+            The app turns daily training into short challenges with points,
+            timers, streaks, levels, favorites, and an achievement board.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <article class="wow-card reveal">
+            <div class="card-icon">🎯</div>
+            <h3>Target-based drills</h3>
+            <p>
+              Shooting and passing tasks are built around clear goals and
+              measurable results.
+            </p>
+          </article>
+
+          <article class="wow-card reveal">
+            <div class="card-icon">⏱</div>
+            <h3>Pro timer</h3>
+            <p>
+              Every challenge can run with a session timer and visible remaining
+              time.
+            </p>
+          </article>
+
+          <article class="wow-card reveal">
+            <div class="card-icon">📈</div>
+            <h3>Progress stats</h3>
+            <p>
+              Players can follow completed challenges, total points, levels, and
+              completion rate.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section challenge-zone" id="challenges">
+        <div class="challenge-copy reveal">
+          <span class="eyebrow">challenge system</span>
+          <h2>Daily football work without boring routines.</h2>
+          <p>
+            Four training categories give the landing page stronger content:
+            shooting, dribbling, passing, and juggling.
+          </p>
+
+          <div class="skill-pills">
+            <button class="active" data-skill="shooting">Shooting</button>
+            <button data-skill="dribbling">Dribbling</button>
+            <button data-skill="passing">Passing</button>
+            <button data-skill="juggling">Juggling</button>
+          </div>
+        </div>
+
+        <div class="challenge-preview reveal">
+          <div class="preview-head">
+            <span id="skillIcon">🎯</span>
+            <div>
+              <h3 id="skillTitle">Shooting Target Grid</h3>
+              <p id="skillMeta">Medium · 15 min · 80 points</p>
+            </div>
+          </div>
+
+          <p id="skillText">
+            Hit 4 target zones in the goal from 12 meters. Place markers in goal
+            corners, take 20 shots, and count only clean target hits.
+          </p>
+
+          <div class="preview-footer">
+            <span>Difficulty</span>
+            <b id="skillLevel">Medium</b>
+          </div>
+        </div>
+      </section>
+
+      <section class="section timer-section" id="timer">
+        <div class="timer-card reveal">
+          <div class="timer-ring">
+            <svg viewBox="0 0 220 220">
+              <circle cx="110" cy="110" r="94"></circle>
+              <circle id="timerCircle" cx="110" cy="110" r="94"></circle>
+            </svg>
+            <div class="timer-center">
+              <strong id="timerText">00:00</strong>
+              <span>elapsed</span>
+            </div>
+          </div>
+
+          <div class="timer-info">
+            <span class="eyebrow">interactive demo</span>
+            <h2>Pro Timer effect</h2>
+            <p>
+              The website includes a working timer demo to make the landing page
+              feel alive, not like a static template.
+            </p>
+
+            <div class="timer-actions">
+              <button class="btn btn-primary" id="startTimer">Start</button>
+              <button class="btn btn-glass" id="resetTimer">Reset</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section screens-section" id="screens">
+        <div class="section-title reveal">
+          <span class="eyebrow">app screenshots</span>
+          <h2>Swipe through the football experience.</h2>
+          <p>
+            Animated premium carousel with depth, glow, active focus and smooth
+            controls.
+          </p>
+        </div>
+
+        <div class="premium-carousel reveal">
+          <button class="carousel-btn prev" id="prevShot">‹</button>
+
+          <div class="carousel-stage" id="carouselStage">
+            <article class="shot-card active">
+              <img src="photo1.jpeg" alt="Welcome screen" />
+              <div class="shot-caption">
+                <span>01</span>
+                <b>Welcome Flow</b>
+              </div>
+            </article>
+
+            <article class="shot-card">
+              <img src="photo2.jpeg" alt="Progress onboarding screen" />
+              <div class="shot-caption">
+                <span>02</span>
+                <b>Progress Onboarding</b>
+              </div>
+            </article>
+
+            <article class="shot-card">
+              <img src="photo3.jpeg" alt="Home dashboard" />
+              <div class="shot-caption">
+                <span>03</span>
+                <b>Player Dashboard</b>
+              </div>
+            </article>
+
+            <article class="shot-card">
+              <img src="photo4.jpeg" alt="Challenges screen" />
+              <div class="shot-caption">
+                <span>04</span>
+                <b>Challenge Library</b>
+              </div>
+            </article>
+
+            <article class="shot-card">
+              <img src="photo5.jpeg" alt="Challenge details" />
+              <div class="shot-caption">
+                <span>05</span>
+                <b>Training Details</b>
+              </div>
+            </article>
+
+            <article class="shot-card">
+              <img src="photo6.jpeg" alt="Timer active" />
+              <div class="shot-caption">
+                <span>06</span>
+                <b>Pro Timer</b>
+              </div>
+            </article>
+
+            <article class="shot-card">
+              <img src="photo7.jpeg" alt="Progress statistics" />
+              <div class="shot-caption">
+                <span>07</span>
+                <b>Statistics</b>
+              </div>
+            </article>
+
+            <article class="shot-card">
+              <img src="photo8.jpeg" alt="Profile screen" />
+              <div class="shot-caption">
+                <span>08</span>
+                <b>Profile</b>
+              </div>
+            </article>
+          </div>
+
+          <button class="carousel-btn next" id="nextShot">›</button>
+
+          <div class="carousel-dots" id="carouselDots"></div>
+        </div>
+      </section>
+
+      <section class="section feature-belt">
+        <div class="belt-card reveal">
+          <span>01</span>
+          <h3>Offline training</h3>
+          <p>
+            Designed for daily football work without accounts or complex setup.
+          </p>
+        </div>
+        <div class="belt-card reveal">
+          <span>02</span>
+          <h3>Points system</h3>
+          <p>
+            Complete challenges, claim points, and move toward the next level.
+          </p>
+        </div>
+        <div class="belt-card reveal">
+          <span>03</span>
+          <h3>Clear privacy</h3>
+          <p>
+            Privacy page is separated, clean, readable, and linked in the
+            header.
+          </p>
+        </div>
+        <div class="belt-card reveal">
+          <span>04</span>
+          <h3>Premium web feel</h3>
+          <p>
+            Animated cards, neon glow, moving field lines, ticker, and hover
+            effects.
+          </p>
+        </div>
+      </section>
+
+      <section class="final-cta reveal">
+        <div class="cta-orbit"></div>
+        <span class="eyebrow">ready to train?</span>
+        <h2>Start your next football challenge today.</h2>
+        <p>
+          Download Toto Football Trainer and build a stronger daily football
+          habit.
+        </p>
+        <a
+          class="btn btn-primary magnet"
+          href="https://play.google.com/store/apps/details?id=com.vyxori5.syfootchallan.velxitcha"
+          target="_blank"
+        >
+          Download Now
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>
+        <b>Toto Football Trainer</b>
+        <p>Football skills, challenges, timer, progress and achievements.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#top">Top</a>
+        <a href="#screens">Screens</a>
+        <a href="privacy.html">Privacy</a>
+        <a
+          href="https://play.google.com/store/apps/details?id=com.vyxori5.syfootchallan.velxitcha"
+          target="_blank"
+          >Download</a
+        >
+      </div>
+    </footer>
+  </body>
+</html>

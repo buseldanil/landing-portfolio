@@ -1,0 +1,595 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tooth Care — Build a Better Oral Care Routine</title>
+    <meta
+      name="description"
+      content="Tooth Care helps users build a personalized oral care routine, choose products, define their order, set duration, and follow a guided timer."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Syne:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="page-scene">
+      <div class="scene-orb orb-a"></div>
+      <div class="scene-orb orb-b"></div>
+      <div class="scene-orb orb-c"></div>
+      <div class="scene-orb orb-d"></div>
+      <div class="scene-grid"></div>
+      <div class="scene-noise"></div>
+      <div class="scene-ray ray-a"></div>
+      <div class="scene-ray ray-b"></div>
+      <div class="scene-ray ray-c"></div>
+    </div>
+
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a href="#top" class="brand">
+          <span class="brand-mark">TC</span>
+          <span class="brand-copy">
+            <strong>Tooth Care</strong>
+            <small>Personal oral care assistant</small>
+          </span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" id="siteNav">
+          <a href="#overview">Overview</a>
+          <a href="#architecture">Routine</a>
+          <a href="#experience">Experience</a>
+          <a href="#reviews">Reviews</a>
+          <a href="privacy.html">Privacy</a>
+          <a
+            href="https://play.google.com/store/apps/details?id=com.bramtovexi217.lorven"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-primary"
+          >
+            Download App
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero hero-monster">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <div class="hero-kicker-wrap">
+              <span class="hero-kicker">Tooth Care</span>
+              <span class="hero-status">Daily guided routine</span>
+            </div>
+
+            <h1>
+              Make every oral care session structured, guided, and easier to
+              repeat
+            </h1>
+
+            <p class="hero-text">
+              Tooth Care turns oral hygiene into a personalized flow. Choose the
+              products you actually use, arrange them in the correct order, set
+              duration for every step, and follow a guided timer that helps the
+              full routine feel more deliberate and consistent.
+            </p>
+
+            <div class="hero-actions">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.bramtovexi217.lorven"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-primary"
+              >
+                Download App
+              </a>
+              <a href="#experience" class="btn btn-secondary">See Flow</a>
+            </div>
+
+            <div class="hero-metrics">
+              <article class="hero-metric">
+                <strong data-counter="4">0</strong>
+                <span>setup layers</span>
+              </article>
+              <article class="hero-metric">
+                <strong data-counter="8">0</strong>
+                <span>key screens</span>
+              </article>
+              <article class="hero-metric">
+                <strong data-counter="1">0</strong>
+                <span>single routine system</span>
+              </article>
+            </div>
+
+            <div class="hero-strip">
+              <span>Tool choice</span>
+              <span>Order logic</span>
+              <span>Duration control</span>
+              <span>Guided timer</span>
+            </div>
+          </div>
+
+          <div class="hero-stage reveal">
+            <div class="stage-tag stage-tag-a">Routine builder</div>
+            <div class="stage-tag stage-tag-b">Guided timer</div>
+            <div class="stage-tag stage-tag-c">Precision control</div>
+
+            <div class="stage-card stage-card-left">
+              <img src="photo1.jpeg" alt="Tooth Care welcome screen" />
+            </div>
+
+            <div class="stage-phone tilt-card">
+              <div class="device-notch"></div>
+              <img src="photo5.jpeg" alt="Tooth Care guided timer screen" />
+            </div>
+
+            <div class="stage-note note-top">
+              <strong>Personalized logic</strong>
+              <p>
+                The routine starts with what the user actually needs, not a
+                generic template.
+              </p>
+            </div>
+
+            <div class="stage-note note-bottom">
+              <strong>Visual guidance</strong>
+              <p>
+                The timer view helps turn configuration into something usable
+                every single day.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section statement-section" id="overview">
+        <div class="container">
+          <div class="manifesto reveal">
+            <div class="manifesto-line"></div>
+            <h2>
+              Tooth Care is built around a simple idea — oral care works better
+              when the routine is clear, sequenced, and timed correctly
+            </h2>
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro-cards-section">
+        <div class="container intro-cards-grid">
+          <article class="intro-card reveal">
+            <small>What it solves</small>
+            <strong
+              >Turns scattered hygiene habits into one guided sequence</strong
+            >
+          </article>
+
+          <article class="intro-card reveal">
+            <small>How it works</small>
+            <strong
+              >Users choose products, define order, set duration, and run the
+              session</strong
+            >
+          </article>
+
+          <article class="intro-card reveal">
+            <small>Why it matters</small>
+            <strong
+              >Repeating a structured routine is easier than improvising each
+              time</strong
+            >
+          </article>
+        </div>
+      </section>
+
+      <section class="section architecture-section" id="architecture">
+        <div class="container architecture-shell">
+          <div class="section-heading reveal">
+            <h2>Build the routine layer by layer</h2>
+          </div>
+
+          <div class="architecture-grid">
+            <article class="architecture-panel architecture-panel-large reveal">
+              <div class="panel-copy">
+                <span class="panel-index">01</span>
+                <h3>Choose the products you actually use</h3>
+                <p>
+                  The routine begins with item selection. Toothbrush, floss,
+                  water flosser, mouthwash, and other tools become the base of a
+                  more realistic session instead of forcing everyone into the
+                  same generic model.
+                </p>
+              </div>
+              <div class="panel-media">
+                <img src="photo2.jpeg" alt="Select oral care items screen" />
+              </div>
+            </article>
+
+            <article class="architecture-panel reveal">
+              <div class="panel-copy">
+                <span class="panel-index">02</span>
+                <h3>Define the order in which they should be used</h3>
+                <p>
+                  Order matters. The app lets users arrange each tool into the
+                  sequence that matches their own oral care approach.
+                </p>
+              </div>
+              <div class="panel-media">
+                <img src="photo3.jpeg" alt="Choose order screen" />
+              </div>
+            </article>
+
+            <article class="architecture-panel reveal">
+              <div class="panel-copy">
+                <span class="panel-index">03</span>
+                <h3>Set time for every step of the session</h3>
+                <p>
+                  Duration settings make the routine measurable. Each selected
+                  tool can be given the right amount of time before the guided
+                  flow begins.
+                </p>
+              </div>
+              <div class="panel-media">
+                <img src="photo4.jpeg" alt="Duration setup screen" />
+              </div>
+            </article>
+
+            <article class="architecture-panel architecture-panel-wide reveal">
+              <div class="panel-copy">
+                <span class="panel-index">04</span>
+                <h3>Move from setup into execution without losing structure</h3>
+                <p>
+                  Once the products, order, and time are defined, Tooth Care
+                  turns all of that setup into one guided oral care session that
+                  feels consistent from start to finish.
+                </p>
+              </div>
+              <div class="panel-inline-metrics">
+                <div class="inline-metric">
+                  <strong>Choice</strong>
+                  <span>Products can be customized</span>
+                </div>
+                <div class="inline-metric">
+                  <strong>Sequence</strong>
+                  <span>Order can be arranged logically</span>
+                </div>
+                <div class="inline-metric">
+                  <strong>Timing</strong>
+                  <span>Each step gets a duration</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section sticky-section">
+        <div class="container sticky-layout">
+          <div class="sticky-copy reveal">
+            <h2>
+              The routine is not just configured — it is guided on-screen in
+              real time
+            </h2>
+            <p>
+              The strongest part of the product is how it turns preparation into
+              execution. Instead of being a static checklist, Tooth Care becomes
+              a live session companion with timing, step awareness, and focused
+              interaction.
+            </p>
+
+            <div class="sticky-points">
+              <article class="sticky-point">
+                <strong>Live visual timing</strong>
+                <span>See exactly where you are in the session</span>
+              </article>
+              <article class="sticky-point">
+                <strong>Instruction moments</strong>
+                <span>Additional overlays help explain what to do next</span>
+              </article>
+              <article class="sticky-point">
+                <strong>Repeatability</strong>
+                <span>The same structure can be followed day after day</span>
+              </article>
+            </div>
+          </div>
+
+          <div class="sticky-visual reveal">
+            <div class="sticky-frame">
+              <div class="sticky-glow"></div>
+              <div class="sticky-phone tilt-card">
+                <div class="device-notch"></div>
+                <img src="photo5.jpeg" alt="Timer screen in Tooth Care" />
+              </div>
+              <div class="sticky-mini-card card-left">
+                <strong>Step timing</strong>
+                <p>Guidance becomes much easier when every stage is visible.</p>
+              </div>
+              <div class="sticky-mini-card card-right">
+                <strong>Session focus</strong>
+                <p>The design keeps attention on the current action.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section experience-section" id="experience">
+        <div class="container">
+          <div class="section-heading reveal">
+            <h2>One full oral care session shown as a product story</h2>
+          </div>
+
+          <div class="experience-stack">
+            <article class="experience-card reveal">
+              <div class="experience-copy">
+                <h3>Start from a clean welcome point</h3>
+                <p>
+                  The first screen positions the product as a dedicated oral
+                  care assistant with a focused single-purpose entry.
+                </p>
+              </div>
+              <div class="experience-media">
+                <img src="photo1.jpeg" alt="Welcome screen" />
+              </div>
+            </article>
+
+            <article class="experience-card reverse reveal">
+              <div class="experience-copy">
+                <h3>Configure the routine in a controlled setup flow</h3>
+                <p>
+                  Product selection, sequence definition, and duration setup are
+                  separated into their own screens, which makes the process feel
+                  structured rather than rushed.
+                </p>
+              </div>
+              <div class="experience-media experience-media-triple">
+                <img src="photo2.jpeg" alt="Tool selection screen" />
+                <img src="photo3.jpeg" alt="Tool order screen" />
+                <img src="photo4.jpeg" alt="Duration screen" />
+              </div>
+            </article>
+
+            <article class="experience-card reveal">
+              <div class="experience-copy">
+                <h3>Follow the session as it happens</h3>
+                <p>
+                  The timer screen becomes the operational center of the app,
+                  turning a setup into a real guided routine with active time
+                  control.
+                </p>
+              </div>
+              <div class="experience-media experience-media-split">
+                <img src="photo5.jpeg" alt="Guided timer screen" />
+                <img src="photo6.jpeg" alt="Instruction modal screen" />
+              </div>
+            </article>
+
+            <article class="experience-card reverse reveal">
+              <div class="experience-copy">
+                <h3>Adjust the product around the user over time</h3>
+                <p>
+                  Settings and about layers help the app feel complete by giving
+                  users more control over reminders, session behavior, and basic
+                  product information.
+                </p>
+              </div>
+              <div class="experience-media experience-media-split">
+                <img src="photo7.jpeg" alt="Settings screen" />
+                <img src="photo8.jpeg" alt="About pop-up screen" />
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section precision-section">
+        <div class="container precision-grid">
+          <div class="precision-copy reveal">
+            <h2>Timing gives the routine its real value</h2>
+            <p>
+              Many oral care apps stop at reminders. Tooth Care goes further by
+              supporting the actual session through defined durations and guided
+              step timing. That makes the experience more useful when the user
+              wants consistency instead of guesswork.
+            </p>
+
+            <div class="precision-list">
+              <div class="precision-item">
+                <strong>Configured in advance</strong>
+                <span>Every product can get its own time allocation.</span>
+              </div>
+              <div class="precision-item">
+                <strong>Visible during the session</strong>
+                <span
+                  >The timer interface keeps the routine active and
+                  readable.</span
+                >
+              </div>
+              <div class="precision-item">
+                <strong>Easier to repeat correctly</strong>
+                <span>Structure helps reduce random or rushed sessions.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="precision-visual reveal">
+            <div class="precision-card precision-card-main">
+              <img src="photo5.jpeg" alt="Main timer screen" />
+            </div>
+            <div class="precision-card precision-card-float">
+              <img src="photo6.jpeg" alt="Instruction pop-up screen" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section settings-section">
+        <div class="container settings-layout">
+          <div class="settings-visual reveal">
+            <div class="settings-stack">
+              <div class="settings-screen settings-screen-main">
+                <img src="photo7.jpeg" alt="Settings screen" />
+              </div>
+              <div class="settings-screen settings-screen-side">
+                <img src="photo8.jpeg" alt="About screen" />
+              </div>
+            </div>
+          </div>
+
+          <div class="settings-copy reveal">
+            <h2>Control stays accessible even after the routine is built</h2>
+            <p>
+              Tooth Care does not end at the timer. The supporting layers of the
+              product make it easier to adjust how the app behaves over time,
+              keep the experience lightweight, and maintain a stronger sense of
+              user control.
+            </p>
+
+            <div class="settings-grid">
+              <article class="settings-box">
+                <strong>Routine editing</strong>
+                <p>
+                  Users can go back and refine setup instead of being locked in.
+                </p>
+              </article>
+              <article class="settings-box">
+                <strong>Preferences</strong>
+                <p>
+                  Sound and related session behavior can stay aligned with
+                  personal habits.
+                </p>
+              </article>
+              <article class="settings-box">
+                <strong>Product clarity</strong>
+                <p>
+                  About and support layers make the app feel more complete and
+                  intentional.
+                </p>
+              </article>
+              <article class="settings-box">
+                <strong>Daily usability</strong>
+                <p>
+                  The whole system stays compact enough for repeated everyday
+                  use.
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section review-section" id="reviews">
+        <div class="container">
+          <div class="section-heading reveal">
+            <h2>
+              The app feels calm enough for daily use and structured enough to
+              be worth repeating
+            </h2>
+          </div>
+
+          <div class="review-grid">
+            <article class="review-card featured-review reveal">
+              <div class="review-stars">★★★★★</div>
+              <p>
+                “The best part is that I can build the routine around what I
+                actually use instead of adapting myself to a fixed template.”
+              </p>
+              <div class="review-user">
+                <strong>Emma R.</strong>
+                <span>Daily oral care user</span>
+              </div>
+            </article>
+
+            <article class="review-card reveal">
+              <div class="review-stars">★★★★★</div>
+              <p>
+                “The timer screen makes the session feel much more intentional.
+                It is easier to stay consistent when every step is visible.”
+              </p>
+              <div class="review-user">
+                <strong>Daniel T.</strong>
+                <span>Routine-focused user</span>
+              </div>
+            </article>
+
+            <article class="review-card reveal">
+              <div class="review-stars">★★★★★</div>
+              <p>
+                “The app looks clean, and the configuration flow is simple
+                enough that I can actually stick with it instead of dropping
+                it.”
+              </p>
+              <div class="review-user">
+                <strong>Olivia S.</strong>
+                <span>Health app user</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section cta-section">
+        <div class="container">
+          <div class="final-cta reveal">
+            <div class="final-cta-copy">
+              <h2>Start building a better oral care routine with Tooth Care</h2>
+              <p>
+                Choose the products, define the order, set the timing, and let
+                the app guide the full session through a cleaner and more
+                structured mobile experience.
+              </p>
+            </div>
+
+            <div class="final-cta-actions">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.bramtovexi217.lorven"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-primary btn-wide"
+              >
+                Download on Google Play
+              </a>
+              <a href="privacy.html" class="btn btn-secondary btn-wide">
+                Privacy Policy
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-top">
+        <div class="footer-brand">
+          <span class="brand-mark small">TC</span>
+          <div>
+            <strong>Tooth Care</strong>
+            <p>Personal oral care assistant</p>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <a href="#overview">Overview</a>
+          <a href="#architecture">Routine</a>
+          <a href="#experience">Experience</a>
+          <a href="#reviews">Reviews</a>
+          <a href="privacy.html">Privacy</a>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>© <span id="year"></span> Tooth Care. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

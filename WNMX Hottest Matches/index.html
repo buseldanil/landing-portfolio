@@ -1,0 +1,487 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WNMX Hottest Matches — Football Match Predictions App</title>
+    <meta
+      name="description"
+      content="WNMX Hottest Matches is a mobile app for browsing match schedules, checking odds, making predictions, and following football insights."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="site-bg">
+      <div class="bg-orb bg-orb-1"></div>
+      <div class="bg-orb bg-orb-2"></div>
+      <div class="bg-orb bg-orb-3"></div>
+      <div class="bg-grid"></div>
+      <div class="bg-noise"></div>
+    </div>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#top" class="brand">
+          <span class="brand-mark">W</span>
+          <span class="brand-text">
+            <strong>WNMX</strong>
+            <small>Hottest Matches</small>
+          </span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" id="siteNav">
+          <a href="#features">Features</a>
+          <a href="#experience">Experience</a>
+          <a href="#gallery">Screens</a>
+          <a href="#reviews">Reviews</a>
+          <a href="privacy.html">Privacy</a>
+          <a href="#download" class="nav-cta">Download</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="top">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <span class="eyebrow">Football prediction companion</span>
+            <h1>Catch the hottest matches before the crowd does.</h1>
+            <p class="hero-text">
+              WNMX Hottest Matches helps fans explore fixtures, inspect odds,
+              make predictions, save notes, and stay engaged with match-day
+              content in one sharp mobile experience.
+            </p>
+
+            <div class="hero-actions">
+              <a
+                class="btn btn-primary"
+                href="https://play.google.com/store/apps/details?id=com.deltarixmop482.veltra"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Download App
+              </a>
+              <a class="btn btn-secondary" href="#gallery">View Screens</a>
+            </div>
+
+            <ul class="hero-points">
+              <li>Fast match browsing</li>
+              <li>Prediction flow in seconds</li>
+              <li>Tutorial + blog content inside the app</li>
+            </ul>
+
+            <div class="hero-stats">
+              <div class="stat-card">
+                <strong data-counter="37">0</strong>
+                <span>Upcoming matches visible in today’s schedule</span>
+              </div>
+              <div class="stat-card">
+                <strong data-counter="3">0</strong>
+                <span>Prediction outcomes: Home, Draw, Away</span>
+              </div>
+              <div class="stat-card">
+                <strong data-counter="4">0</strong>
+                <span>Core app zones: Schedule, Picks, Tutorial, Blog</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal">
+            <div class="hero-ring"></div>
+
+            <div class="floating-chip chip-1">
+              <span class="dot"></span>
+              Match schedule
+            </div>
+            <div class="floating-chip chip-2">
+              <span class="dot"></span>
+              Prediction notes
+            </div>
+            <div class="floating-chip chip-3">
+              <span class="dot"></span>
+              Betting blog
+            </div>
+
+            <div class="device-frame hero-device tilt-card">
+              <div class="device-notch"></div>
+              <img
+                src="photo9.jpeg"
+                alt="WNMX Hottest Matches welcome screen"
+              />
+            </div>
+
+            <div class="mini-panel mini-panel-a">
+              <p>Modern sports UI</p>
+              <strong>Fast. Focused. High energy.</strong>
+            </div>
+            <div class="mini-panel mini-panel-b">
+              <p>Built for</p>
+              <strong>football match prediction flows</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="metrics-strip reveal">
+        <div class="container metrics-grid">
+          <div class="metric-pill">
+            <span class="metric-label">Use Case</span>
+            <strong>Football Match Discovery</strong>
+          </div>
+          <div class="metric-pill">
+            <span class="metric-label">Experience</span>
+            <strong>Odds + Notes + Predictions</strong>
+          </div>
+          <div class="metric-pill">
+            <span class="metric-label">Style</span>
+            <strong>Premium Stadium Tech</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-showcase" id="features">
+        <div class="container section-head reveal">
+          <span class="eyebrow">Core features</span>
+          <h2>Designed to turn match interest into action</h2>
+          <p>
+            The app moves from schedule discovery to prediction submission with
+            a clean sports-focused flow and strong visual hierarchy.
+          </p>
+        </div>
+
+        <div class="container showcase-grid">
+          <div class="showcase-visual reveal">
+            <div class="device-frame device-frame-large">
+              <div class="device-notch"></div>
+              <img
+                id="featurePreview"
+                src="photo1.jpeg"
+                alt="WNMX app schedule screen"
+              />
+            </div>
+
+            <div class="showcase-caption">
+              <span class="caption-kicker">Active preview</span>
+              <h3 id="featureTitle">Live Match Schedule</h3>
+              <p id="featureText">
+                Browse Yesterday / Today / Tomorrow tabs, scan league cards, and
+                spot odds instantly.
+              </p>
+            </div>
+          </div>
+
+          <div class="feature-stack">
+            <article
+              class="feature-card reveal is-active"
+              tabindex="0"
+              data-image="photo1.jpeg"
+              data-title="Live Match Schedule"
+              data-text="Browse Yesterday / Today / Tomorrow tabs, scan league cards, and spot odds instantly."
+            >
+              <div class="feature-top">
+                <span class="feature-index">01</span>
+                <span class="feature-tag">Schedule</span>
+              </div>
+              <h3>Quick match discovery without clutter</h3>
+              <p>
+                See upcoming fixtures, prediction counts, and league blocks in a
+                fast, highly scannable interface.
+              </p>
+            </article>
+
+            <article
+              class="feature-card reveal"
+              tabindex="0"
+              data-image="photo2.jpeg"
+              data-title="Detailed Match View"
+              data-text="Open a match to review teams, odds, your selected outcome, and custom notes in one place."
+            >
+              <div class="feature-top">
+                <span class="feature-index">02</span>
+                <span class="feature-tag">Details</span>
+              </div>
+              <h3>Match details built for decision-making</h3>
+              <p>
+                Odds, your bet area, and match note space are combined into one
+                focused screen for better context.
+              </p>
+            </article>
+
+            <article
+              class="feature-card reveal"
+              tabindex="0"
+              data-image="photo3.jpeg"
+              data-title="Prediction Modal"
+              data-text="Tap once, choose Home / Draw / Away, and submit your pick through a compact high-contrast modal."
+            >
+              <div class="feature-top">
+                <span class="feature-index">03</span>
+                <span class="feature-tag">Prediction</span>
+              </div>
+              <h3>Make a prediction in seconds</h3>
+              <p>
+                The app keeps the prediction step simple and direct so users can
+                react quickly before kickoff.
+              </p>
+            </article>
+
+            <article
+              class="feature-card reveal"
+              tabindex="0"
+              data-image="photo6.jpeg"
+              data-title="Built-In Tutorial"
+              data-text="Onboarding screens explain the match flow clearly, helping new users understand how to navigate and predict."
+            >
+              <div class="feature-top">
+                <span class="feature-index">04</span>
+                <span class="feature-tag">Learn</span>
+              </div>
+              <h3>Easy onboarding for new users</h3>
+              <p>
+                Tutorial content explains how to browse events, inspect match
+                details, and place predictions confidently.
+              </p>
+            </article>
+
+            <article
+              class="feature-card reveal"
+              tabindex="0"
+              data-image="photo8.jpeg"
+              data-title="Blog & Insight Content"
+              data-text="The app also includes article-style sports content that keeps users engaged beyond the match list."
+            >
+              <div class="feature-top">
+                <span class="feature-index">05</span>
+                <span class="feature-tag">Content</span>
+              </div>
+              <h3>Extra engagement through content</h3>
+              <p>
+                Blog cards and article pages extend the experience with football
+                insights and seasonal storylines.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section experience-section" id="experience">
+        <div class="container section-head reveal">
+          <span class="eyebrow">App journey</span>
+          <h2>How the product experience unfolds</h2>
+          <p>
+            Instead of showing screenshots as a random gallery, the landing page
+            presents them as a feature narrative.
+          </p>
+        </div>
+
+        <div class="container story-grid">
+          <article class="story-card reveal">
+            <div class="story-copy">
+              <span class="story-step">Step 01</span>
+              <h3>Browse the hottest fixtures of the day</h3>
+              <p>
+                The schedule screen makes it easy to scan leagues, compare
+                teams, and quickly identify upcoming matches worth following.
+              </p>
+            </div>
+            <div class="story-shot">
+              <img src="photo1.jpeg" alt="Schedule screen of the app" />
+            </div>
+          </article>
+
+          <article class="story-card reverse reveal">
+            <div class="story-copy">
+              <span class="story-step">Step 02</span>
+              <h3>Open match details and review the context</h3>
+              <p>
+                Users can inspect the matchup, see odds, and keep personal notes
+                right where the decision is being made.
+              </p>
+            </div>
+            <div class="story-shot">
+              <img src="photo2.jpeg" alt="Match details screen of the app" />
+            </div>
+          </article>
+
+          <article class="story-card reveal">
+            <div class="story-copy">
+              <span class="story-step">Step 03</span>
+              <h3>Place a prediction with a simple modal flow</h3>
+              <p>
+                The prediction prompt reduces friction and keeps focus on the
+                three key outcomes: Home, Draw, or Away.
+              </p>
+            </div>
+            <div class="story-shot">
+              <img src="photo3.jpeg" alt="Prediction modal in the app" />
+            </div>
+          </article>
+
+          <article class="story-card reverse reveal">
+            <div class="story-copy">
+              <span class="story-step">Step 04</span>
+              <h3>Track your chosen picks</h3>
+              <p>
+                The My Prediction section keeps saved picks in view, helping
+                users stay connected to their match-day decisions.
+              </p>
+            </div>
+            <div class="story-shot">
+              <img src="photo4.jpeg" alt="My Prediction screen of the app" />
+            </div>
+          </article>
+
+          <article class="story-card reveal">
+            <div class="story-copy">
+              <span class="story-step">Step 05</span>
+              <h3>Learn and stay engaged beyond the fixture list</h3>
+              <p>
+                Tutorial and blog content support onboarding while also adding a
+                richer editorial feel to the product.
+              </p>
+            </div>
+            <div class="story-shot two-up">
+              <img src="photo6.jpeg" alt="Tutorial screen in the app" />
+              <img src="photo7.jpeg" alt="Blog grid screen in the app" />
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reviews-section" id="reviews">
+        <div class="container section-head reveal">
+          <span class="eyebrow">User feedback</span>
+          <h2>Built for fans who like speed, structure, and energy</h2>
+          <p>Sample review blocks for the landing page design section.</p>
+        </div>
+
+        <div class="container reviews-grid">
+          <article class="review-card reveal is-highlighted">
+            <div class="review-stars">★★★★★</div>
+            <p>
+              “I like how fast the schedule view feels. You can jump into a
+              match, check odds, and make a prediction without getting lost.”
+            </p>
+            <div class="review-user">
+              <strong>Daniel R.</strong>
+              <span>Football fan</span>
+            </div>
+          </article>
+
+          <article class="review-card reveal">
+            <div class="review-stars">★★★★★</div>
+            <p>
+              “The UI has strong sports energy. The prediction modal is simple,
+              and the tutorial section makes the app easy to understand.”
+            </p>
+            <div class="review-user">
+              <strong>Marcus T.</strong>
+              <span>Regular match tracker</span>
+            </div>
+          </article>
+
+          <article class="review-card reveal">
+            <div class="review-stars">★★★★★</div>
+            <p>
+              “Nice extra touch with the blog and content pages. It feels more
+              like a real sports product than just a basic match list.”
+            </p>
+            <div class="review-user">
+              <strong>Olivia S.</strong>
+              <span>Sports content reader</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section cta-section" id="download">
+        <div class="container cta-card reveal">
+          <div class="cta-copy">
+            <span class="eyebrow">Ready for kickoff?</span>
+            <h2>
+              Download WNMX Hottest Matches and stay one tap from your next
+              pick.
+            </h2>
+            <p>
+              Explore fixtures, check match details, make your prediction, and
+              keep the football momentum going.
+            </p>
+          </div>
+
+          <div class="cta-actions">
+            <a
+              class="btn btn-primary btn-wide"
+              href="https://play.google.com/store/apps/details?id=com.deltarixmop482.veltra"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Download on Google Play
+            </a>
+            <a class="btn btn-secondary btn-wide" href="privacy.html">
+              Privacy Policy
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <span class="brand-mark small">W</span>
+          <div>
+            <strong>WNMX Hottest Matches</strong>
+            <p>Developed by VINSOLIUSHNZ organization</p>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <a href="#features">Features</a>
+          <a href="#gallery">Screens</a>
+          <a href="privacy.html">Privacy</a>
+          <a
+            href="https://play.google.com/store/apps/details?id=com.deltarixmop482.veltra"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Download
+          </a>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>
+          © <span id="year"></span> VINSOLIUSHNZ organization. All rights
+          reserved.
+        </p>
+      </div>
+    </footer>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <button
+        class="lightbox-close"
+        id="lightboxClose"
+        aria-label="Close image"
+      >
+        ×
+      </button>
+      <div class="lightbox-inner">
+        <img id="lightboxImage" src="" alt="Expanded app screenshot" />
+        <p id="lightboxTitle"></p>
+      </div>
+    </div>
+  </body>
+</html>

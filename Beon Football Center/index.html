@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beon Football Center</title>
+    <meta
+      name="description"
+      content="Beon Football Center — football analytics, players, tactics, quiz and match simulation in one premium app."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="noise"></div>
+    <div class="cursor-glow" id="cursorGlow"></div>
+    <div class="orb orb-green"></div>
+    <div class="orb orb-red"></div>
+
+    <header class="header" id="header">
+      <a href="#home" class="brand">
+        <span class="brand-mark">⚽</span>
+        <span>Beon Football Center</span>
+      </a>
+
+      <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#players">Players</a>
+        <a href="#tactics">Tactics</a>
+        <a href="#quiz">Quiz</a>
+        <a href="#screens">Screens</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+
+      <a
+        class="header-download"
+        href="https://play.google.com/store/apps/details?id=com.vorlix8en.qumza3or.tav5qina"
+        target="_blank"
+      >
+        Download
+      </a>
+
+      <button class="burger" id="burger" aria-label="Open menu">
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#home">Home</a>
+      <a href="#players">Players</a>
+      <a href="#tactics">Tactics</a>
+      <a href="#quiz">Quiz</a>
+      <a href="#screens">Screens</a>
+      <a href="privacy.html">Privacy</a>
+      <a
+        href="https://play.google.com/store/apps/details?id=com.vorlix8en.qumza3or.tav5qina"
+        target="_blank"
+        >Download</a
+      >
+    </div>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-grid"></div>
+
+        <div class="hero-copy reveal">
+          <div class="eyebrow">
+            <span></span>
+            Football IQ companion
+          </div>
+
+          <h1>Read the game like an analyst.</h1>
+
+          <p>
+            Follow players, build tactics, simulate matchups and train your
+            football brain with a sharp quiz system.
+          </p>
+
+          <div class="hero-actions">
+            <a
+              href="https://play.google.com/store/apps/details?id=com.vorlix8en.qumza3or.tav5qina"
+              target="_blank"
+              class="btn btn-main magnetic"
+            >
+              Download App
+            </a>
+            <a href="#screens" class="btn btn-ghost"> View Screens </a>
+          </div>
+
+          <div class="hero-stats">
+            <div>
+              <strong>200 XP</strong>
+              <span>Level target</span>
+            </div>
+            <div>
+              <strong>4-3-3</strong>
+              <span>Tactics board</span>
+            </div>
+            <div>
+              <strong>0/10</strong>
+              <span>Quiz round</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="phone-wrap reveal">
+          <div class="phone">
+            <div class="phone-top">
+              <span>11:47</span>
+              <span>● ● ●</span>
+            </div>
+
+            <div class="app-home-preview">
+              <div class="app-title-row">
+                <div>
+                  <h3>FootballIQ</h3>
+                  <p>Level 1 Analyst</p>
+                </div>
+                <div class="xp-pill">⚡ 0 XP</div>
+              </div>
+
+              <div class="level-card">
+                <div class="level-head">
+                  <strong>Level 1</strong>
+                  <span>0 / 200 XP</span>
+                </div>
+                <div class="progress-line"></div>
+                <div class="mini-stats">
+                  <div>🧠<b>0</b><small>IQ Score</small></div>
+                  <div>🔥<b>0</b><small>Streak</small></div>
+                  <div>⚽<b>0</b><small>Simulated</small></div>
+                </div>
+              </div>
+
+              <div class="fact-card">
+                <div>💡</div>
+                <p>
+                  <b>Did You Know?</b><br />
+                  The first football match was played in 1863 in England.
+                </p>
+                <span>›</span>
+              </div>
+
+              <div class="match-card">
+                <div class="match-label">Premier League</div>
+                <div class="match-teams">
+                  <strong>Liverpool</strong>
+                  <span>VS</span>
+                  <strong>Chelsea</strong>
+                </div>
+                <button>Simulate Match</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="floating-card floating-card-one">
+            <span>⚽</span>
+            <b>Players</b>
+            <small>Ratings, stats, favorites</small>
+          </div>
+
+          <div class="floating-card floating-card-two">
+            <span>🧩</span>
+            <b>Tactics</b>
+            <small>Formation board</small>
+          </div>
+        </div>
+      </section>
+
+      <section class="ticker">
+        <div class="ticker-track">
+          <span>FOOTBALL IQ</span>
+          <span>PLAYERS</span>
+          <span>TACTICS</span>
+          <span>QUIZ</span>
+          <span>MATCH SIMULATION</span>
+          <span>ANALYST MODE</span>
+          <span>FOOTBALL IQ</span>
+          <span>PLAYERS</span>
+          <span>TACTICS</span>
+          <span>QUIZ</span>
+        </div>
+      </section>
+
+      <section class="feature-strip">
+        <article class="feature-card reveal">
+          <div class="feature-icon green">🧠</div>
+          <h3>Level up your football brain</h3>
+          <p>
+            Track XP, answer quiz rounds and build a stronger game sense every
+            time you open the app.
+          </p>
+        </article>
+
+        <article class="feature-card reveal">
+          <div class="feature-icon red">🔥</div>
+          <h3>Follow elite players</h3>
+          <p>
+            Explore player cards with ratings, goals, assists, star scores and
+            quick favorite actions.
+          </p>
+        </article>
+
+        <article class="feature-card reveal">
+          <div class="feature-icon blue">🧩</div>
+          <h3>Build tactics visually</h3>
+          <p>
+            Switch formations, view player zones and understand how a team shape
+            sits on the pitch.
+          </p>
+        </article>
+
+        <article class="feature-card reveal">
+          <div class="feature-icon yellow">✅</div>
+          <h3>Quiz like an analyst</h3>
+          <p>
+            Challenge your knowledge with football questions, score tracking and
+            accuracy feedback.
+          </p>
+        </article>
+      </section>
+
+      <section class="split-section" id="players">
+        <div class="section-copy reveal">
+          <span class="section-label">Players</span>
+          <h2>Cards that feel fast, dark and serious.</h2>
+          <p>
+            The player section is built for quick comparison. Ratings, clubs,
+            nationalities, positions and favorite stars stay clear at a glance.
+          </p>
+        </div>
+
+        <div class="players-panel reveal">
+          <div class="tabs">
+            <span class="active">All Players</span>
+            <span>Favorites</span>
+          </div>
+
+          <div class="search-line">⌕ Search players...</div>
+
+          <div class="position-list">
+            <button class="active">All</button>
+            <button>GK</button>
+            <button>CB</button>
+            <button>LB</button>
+            <button>RB</button>
+            <button>CDM</button>
+          </div>
+
+          <div class="player-row">
+            <div class="rating red-rating">
+              <b>77</b>
+              <span>ST</span>
+            </div>
+            <div>
+              <h4>Erling Haaland</h4>
+              <p>Manchester City · Norwegian</p>
+              <small>⚽ 36 · 🅰️ 8 · ⭐ 8.9</small>
+            </div>
+            <span class="star">☆</span>
+          </div>
+
+          <div class="player-row">
+            <div class="rating red-rating">
+              <b>79</b>
+              <span>ST</span>
+            </div>
+            <div>
+              <h4>Kylian Mbappé</h4>
+              <p>Real Madrid · French</p>
+              <small>⚽ 30 · 🅰️ 12 · ⭐ 8.7</small>
+            </div>
+            <span class="star">☆</span>
+          </div>
+
+          <div class="player-row">
+            <div class="rating green-rating">
+              <b>81</b>
+              <span>CDM</span>
+            </div>
+            <div>
+              <h4>Rodri</h4>
+              <p>Manchester City · Spanish</p>
+              <small>⚽ 6 · 🅰️ 10 · ⭐ 8.6</small>
+            </div>
+            <span class="star">☆</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="split-section reverse" id="tactics">
+        <div class="tactics-board reveal">
+          <div class="board-header">
+            <h3>Tactics Board</h3>
+            <div class="formation-pills">
+              <span>4-4-2</span>
+              <span class="active">4-3-3</span>
+              <span>4-2-3-1</span>
+            </div>
+          </div>
+
+          <div class="pitch">
+            <div class="pitch-line top-box"></div>
+            <div class="pitch-line center-circle"></div>
+            <div class="pitch-line bottom-box"></div>
+
+            <span class="player-dot red-dot fwd-left">FWD</span>
+            <span class="player-dot red-dot fwd-center">FWD</span>
+            <span class="player-dot red-dot fwd-right">FWD</span>
+
+            <span class="player-dot green-dot mid-left">MID</span>
+            <span class="player-dot green-dot mid-center">MID</span>
+            <span class="player-dot green-dot mid-right">MID</span>
+
+            <span class="player-dot blue-dot def-one">DEF</span>
+            <span class="player-dot blue-dot def-two">DEF</span>
+            <span class="player-dot blue-dot def-three">DEF</span>
+            <span class="player-dot blue-dot def-four">DEF</span>
+
+            <span class="player-dot yellow-dot gk-dot">GK</span>
+          </div>
+        </div>
+
+        <div class="section-copy reveal">
+          <span class="section-label">Tactics</span>
+          <h2>See the pitch, not just the numbers.</h2>
+          <p>
+            Formation chips and a glowing pitch board help the user understand
+            shape, lines and balance without making the screen messy.
+          </p>
+        </div>
+      </section>
+
+      <section class="quiz-section" id="quiz">
+        <div class="section-head reveal">
+          <span class="section-label">Football Quiz</span>
+          <h2>Questions that turn casual fans into analysts.</h2>
+          <p>
+            Each round keeps the pressure clear: streak, score, correct answers
+            and one sharp question at a time.
+          </p>
+        </div>
+
+        <div class="quiz-layout">
+          <div class="quiz-card reveal">
+            <div class="quiz-top">
+              <span>⚡ THIS ROUND</span>
+              <b>0/10</b>
+            </div>
+            <div class="progress-line"></div>
+            <div class="quiz-stats">
+              <div>🔥<b>0</b><small>Streak</small></div>
+              <div>⭐<b>+0</b><small>Score</small></div>
+              <div>✅<b>0/0</b><small>Correct</small></div>
+            </div>
+          </div>
+
+          <div class="question-card reveal">
+            <span>Hard · 1 / 12</span>
+            <h3>
+              Who holds the record for most goals in a single World Cup
+              tournament?
+            </h3>
+            <button>A&nbsp;&nbsp; Ronaldo (Brazil)</button>
+            <button>B&nbsp;&nbsp; Just Fontaine</button>
+            <button>C&nbsp;&nbsp; Miroslav Klose</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="screens-section" id="screens">
+        <div class="section-head reveal">
+          <span class="section-label">Screens Preview</span>
+          <h2>App-style screens inside a premium landing page.</h2>
+        </div>
+
+        <div class="screen-carousel reveal">
+          <button class="slide-btn prev" id="prevSlide">‹</button>
+
+          <div class="screen-track" id="screenTrack">
+            <article class="screen-card active">
+              <div class="mock-screen onboarding-screen">
+                <div class="mock-grid"></div>
+                <div class="glow-circle">⚽</div>
+                <h3>Welcome to<br />FootballIQ</h3>
+                <p>
+                  Your ultimate football companion with smart analytics,
+                  tactics, and trivia
+                </p>
+                <div class="mock-dots"><span></span><i></i><i></i><i></i></div>
+                <button>Continue</button>
+              </div>
+              <h4>Onboarding</h4>
+              <p>Dark grid, glowing ball and clean first impression.</p>
+            </article>
+
+            <article class="screen-card">
+              <div class="mock-screen modal-screen">
+                <h3>Add Player</h3>
+                <input placeholder="e.g. Lionel Messi" />
+                <input placeholder="e.g. Inter Miami" />
+                <input placeholder="e.g. Argentine" />
+                <div class="mock-pills">
+                  <span>GK</span>
+                  <span>CB</span>
+                  <span>CM</span>
+                  <span class="active">ST</span>
+                </div>
+                <div class="mock-actions">
+                  <button>Cancel</button>
+                  <button>Add Player</button>
+                </div>
+              </div>
+              <h4>Add Player</h4>
+              <p>Modal flow with dark premium controls.</p>
+            </article>
+
+            <article class="screen-card">
+              <div class="mock-screen profile-screen">
+                <div class="profile-top">
+                  <div>⚽</div>
+                  <section>
+                    <h3>Football Analyst</h3>
+                    <p>Level 1 · 0 XP total</p>
+                  </section>
+                </div>
+
+                <div class="profile-progress">
+                  <b>Level 1</b>
+                  <span></span>
+                  <small>0 XP / 200 XP</small>
+                </div>
+
+                <div class="profile-grid">
+                  <div>🧠<b>0</b><small>Quiz Score</small></div>
+                  <div>✅<b>0</b><small>Correct</small></div>
+                  <div>🔥<b>0</b><small>Streak</small></div>
+                  <div>⚽<b>0</b><small>Simulated</small></div>
+                </div>
+              </div>
+              <h4>Profile</h4>
+              <p>Personal progress and achievements in one place.</p>
+            </article>
+          </div>
+
+          <button class="slide-btn next" id="nextSlide">›</button>
+        </div>
+
+        <div class="carousel-dots" id="carouselDots">
+          <button class="active"></button>
+          <button></button>
+          <button></button>
+        </div>
+      </section>
+
+      <section class="cta">
+        <div class="cta-card reveal">
+          <span class="section-label">Start now</span>
+          <h2>Your football center is ready.</h2>
+          <p>
+            Download Beon Football Center and keep players, tactics, match
+            simulation and quiz training in your pocket.
+          </p>
+          <a
+            href="https://play.google.com/store/apps/details?id=com.vorlix8en.qumza3or.tav5qina"
+            target="_blank"
+            class="btn btn-main magnetic"
+          >
+            Download App
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>
+        <strong>Beon Football Center</strong>
+        <p>Smart football analytics, tactics, players and quiz companion.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#players">Players</a>
+        <a href="#tactics">Tactics</a>
+        <a href="#screens">Screens</a>
+        <a href="privacy.html">Privacy</a>
+        <a
+          href="https://play.google.com/store/apps/details?id=com.vorlix8en.qumza3or.tav5qina"
+          target="_blank"
+          >Download</a
+        >
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

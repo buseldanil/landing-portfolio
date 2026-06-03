@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BVD Quiz Arena</title>
+    <meta
+      name="description"
+      content="BVD Quiz Arena — football IQ quiz app with squad unlocks, pressure challenges and progress stats."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-noise"></div>
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <header class="header" id="header">
+      <a href="#home" class="brand">
+        <span class="brand-icon">B</span>
+        <span class="brand-text">
+          <strong>BVD</strong>
+          <small>Quiz Arena</small>
+        </span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#home">Home</a>
+        <a href="#arena">Arena</a>
+        <a href="#screens">Screens</a>
+        <a href="#features">Features</a>
+        <a href="#download">Download</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+
+      <button class="burger" id="burger" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-bg-orb hero-bg-orb-one"></div>
+        <div class="hero-bg-orb hero-bg-orb-two"></div>
+        <div class="hero-grid"></div>
+
+        <div class="hero-copy">
+          <div class="eyebrow reveal">
+            <span></span>
+            Football brain-training app
+          </div>
+
+          <h1 class="reveal">
+            Football IQ, pressure quiz, and legendary squad unlocks in one
+            arena.
+          </h1>
+
+          <p class="reveal">
+            BVD Quiz Arena turns football knowledge into a fast red challenge:
+            answer under pressure, collect coins, unlock icons, and watch your
+            football IQ grow.
+          </p>
+
+          <div class="hero-actions reveal">
+            <a
+              class="btn btn-primary"
+              href="https://play.google.com/store/apps/details?id=com.pent3alty.afutbal3l"
+              target="_blank"
+              rel="noopener"
+            >
+              Download app
+            </a>
+            <a class="btn btn-ghost" href="#screens"> Watch screens </a>
+          </div>
+
+          <div class="hero-stats reveal">
+            <div>
+              <strong>15</strong>
+              <span>quiz rounds</span>
+            </div>
+            <div>
+              <strong>8</strong>
+              <span>squad legends</span>
+            </div>
+            <div>
+              <strong>∞</strong>
+              <span>attempts</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-phone reveal">
+          <div class="phone-shell">
+            <div class="phone-top"></div>
+            <img src="photo4.jpeg" alt="BVD Quiz Arena home screen" />
+          </div>
+
+          <div class="floating-card floating-card-one">
+            <b>Pressure</b>
+            <span>Timer challenge</span>
+          </div>
+
+          <div class="floating-card floating-card-two">
+            <b>Coins</b>
+            <span>Unlock players</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="arena-section" id="arena">
+        <div class="section-head reveal">
+          <span class="section-kicker">Play smarter</span>
+          <h2>
+            The app feels like a football challenge room, not a boring quiz.
+          </h2>
+          <p>
+            Every screen is built around quick decisions, visible progress, and
+            that small pressure moment before you choose the right answer.
+          </p>
+        </div>
+
+        <div class="arena-layout">
+          <div class="arena-card big reveal">
+            <div class="arena-icon">⚽</div>
+            <h3>Tactical Pressure Challenge</h3>
+            <p>
+              Jump into football questions with a clean pressure mechanic.
+              Correct answers build the streak, wrong answers reset the rhythm.
+            </p>
+            <a href="#screens">See quiz flow</a>
+          </div>
+
+          <div class="arena-card reveal">
+            <div class="arena-icon">🏆</div>
+            <h3>Best score hunt</h3>
+            <p>Track your personal best and keep pushing for a better run.</p>
+          </div>
+
+          <div class="arena-card reveal">
+            <div class="arena-icon">🧠</div>
+            <h3>Football IQ</h3>
+            <p>Stats make the progress feel visible after every session.</p>
+          </div>
+
+          <div class="arena-card reveal">
+            <div class="arena-icon">⭐</div>
+            <h3>Legend squad</h3>
+            <p>Coins unlock iconic players and keep users coming back.</p>
+          </div>
+
+          <div class="arena-card reveal">
+            <div class="arena-icon">📊</div>
+            <h3>Progress saved</h3>
+            <p>
+              Coins, scores, played quizzes and unlocked legends stay organized.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="screens-section" id="screens">
+        <div class="section-head reveal">
+          <span class="section-kicker">Real app screens</span>
+          <h2>A cinematic carousel built from your actual screenshots.</h2>
+          <p>
+            Not random mockups. The carousel uses the exact screenshots you
+            provided and presents them like a premium app showcase.
+          </p>
+        </div>
+
+        <div class="showcase reveal">
+          <button
+            class="carousel-arrow prev"
+            id="prevSlide"
+            aria-label="Previous screen"
+          >
+            ‹
+          </button>
+
+          <div class="carousel-stage">
+            <div class="screen-card side side-left" data-pos="left">
+              <img
+                id="leftImg"
+                src="photo1.jpeg"
+                alt="BVD Quiz Arena screen preview"
+              />
+            </div>
+
+            <div class="screen-card active" data-pos="active">
+              <div class="screen-glare"></div>
+              <img
+                id="activeImg"
+                src="photo4.jpeg"
+                alt="BVD Quiz Arena highlighted screen"
+              />
+            </div>
+
+            <div class="screen-card side side-right" data-pos="right">
+              <img
+                id="rightImg"
+                src="photo5.jpeg"
+                alt="BVD Quiz Arena screen preview"
+              />
+            </div>
+          </div>
+
+          <button
+            class="carousel-arrow next"
+            id="nextSlide"
+            aria-label="Next screen"
+          >
+            ›
+          </button>
+        </div>
+
+        <div class="screen-caption reveal">
+          <div>
+            <span id="screenCount">01 / 08</span>
+            <h3 id="screenTitle">Welcome flow</h3>
+            <p id="screenText">
+              First touch of the app: bold red onboarding, simple promise, clean
+              football energy.
+            </p>
+          </div>
+
+          <div class="screen-dots" id="screenDots"></div>
+        </div>
+      </section>
+
+      <section class="features-section" id="features">
+        <div class="section-head reveal">
+          <span class="section-kicker">Inside the game</span>
+          <h2>Everything is direct, sharp, and made for replay value.</h2>
+        </div>
+
+        <div class="feature-marquee reveal">
+          <div class="marquee-track">
+            <span>Pressure quiz</span>
+            <span>Coins</span>
+            <span>Squad unlocks</span>
+            <span>Best score</span>
+            <span>Football IQ</span>
+            <span>Stats board</span>
+            <span>Pressure quiz</span>
+            <span>Coins</span>
+            <span>Squad unlocks</span>
+            <span>Best score</span>
+            <span>Football IQ</span>
+            <span>Stats board</span>
+          </div>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-tile reveal">
+            <span>01</span>
+            <h3>Quiz loop that feels alive</h3>
+            <p>
+              The start screen, answer states, score, streak and pressure bar
+              all work together to make each question feel like a small match
+              moment.
+            </p>
+          </article>
+
+          <article class="feature-tile reveal">
+            <span>02</span>
+            <h3>Squad collection</h3>
+            <p>
+              Legendary names are locked behind coin goals, giving the quiz a
+              reason to be replayed instead of feeling like a one-time test.
+            </p>
+          </article>
+
+          <article class="feature-tile reveal">
+            <span>03</span>
+            <h3>Clean progress screen</h3>
+            <p>
+              Coins, best score, quizzes played, answered questions, unlocks and
+              rank are all visible without overloading the user.
+            </p>
+          </article>
+
+          <article class="feature-tile reveal">
+            <span>04</span>
+            <h3>Red visual identity</h3>
+            <p>
+              The design keeps one strong color direction: deep red, white
+              cards, football icons, and smooth motion.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="flow-section">
+        <div class="flow-copy reveal">
+          <span class="section-kicker">User journey</span>
+          <h2>From first launch to stats, the path is simple.</h2>
+          <p>
+            Open the app, enter the quiz, build a streak, collect coins, unlock
+            legends, and check your rank. No heavy onboarding, no messy menus —
+            just football IQ progress.
+          </p>
+        </div>
+
+        <div class="flow-steps reveal">
+          <div class="flow-step">
+            <b>01</b>
+            <span>Start</span>
+          </div>
+          <div class="flow-line"></div>
+          <div class="flow-step">
+            <b>02</b>
+            <span>Answer</span>
+          </div>
+          <div class="flow-line"></div>
+          <div class="flow-step">
+            <b>03</b>
+            <span>Earn</span>
+          </div>
+          <div class="flow-line"></div>
+          <div class="flow-step">
+            <b>04</b>
+            <span>Unlock</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="download-section" id="download">
+        <div class="download-panel reveal">
+          <div>
+            <span class="section-kicker">Ready to play</span>
+            <h2>Download BVD Quiz Arena and test your football IQ.</h2>
+            <p>
+              Built for quick sessions, replay value, and a strong football
+              identity.
+            </p>
+          </div>
+
+          <a
+            class="btn btn-primary"
+            href="https://play.google.com/store/apps/details?id=com.pent3alty.afutbal3l"
+            target="_blank"
+            rel="noopener"
+          >
+            Download on Google Play
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>
+        <b>BVD Quiz Arena</b>
+        <span>Football IQ challenge app</span>
+      </div>
+
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#screens">Screens</a>
+        <a href="#download">Download</a>
+        <a href="privacy.html">Privacy</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

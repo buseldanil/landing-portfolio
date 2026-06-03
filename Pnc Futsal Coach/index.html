@@ -1,0 +1,561 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Pnc Futsal Coach — Team, Training & Match Tracker</title>
+    <meta
+      name="description"
+      content="Pnc Futsal Coach is a powerful futsal team manager app for squads, training drills, match events, resources, and challenges."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="cursor-glow"></div>
+    <div class="noise-layer"></div>
+
+    <header class="site-header">
+      <div class="container nav-shell">
+        <a href="#hero" class="brand">
+          <span class="brand-mark">⚽</span>
+          <span class="brand-text">Pnc Futsal Coach</span>
+        </a>
+
+        <nav class="nav-links" id="navLinks">
+          <a href="#features">Features</a>
+          <a href="#screens">Screens</a>
+          <a href="#training">Training</a>
+          <a href="#match">Match</a>
+          <a href="#reviews">Reviews</a>
+          <a href="privacy.html">Privacy</a>
+        </nav>
+
+        <a
+          class="nav-download"
+          href="https://play.google.com/store/apps/details?id=com.qurvax8en.limora5tch.drexu4al"
+          target="_blank"
+          rel="noopener"
+        >
+          Download
+        </a>
+
+        <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero-section" id="hero">
+        <div class="stadium-lights"></div>
+        <div class="hero-grid-overlay"></div>
+
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <div class="hero-badge reveal">
+              <span class="pulse-dot"></span>
+              Built for futsal coaches
+            </div>
+
+            <h1 class="reveal delay-1">
+              Manage your
+              <span>futsal squad</span>
+              like a pro.
+            </h1>
+
+            <p class="hero-lead reveal delay-2">
+              Build your team, explore football resources, generate training
+              drills, track live match events, and complete challenges — all in
+              one clean coaching workspace.
+            </p>
+
+            <div class="hero-actions reveal delay-3">
+              <a
+                class="btn btn-primary"
+                href="https://play.google.com/store/apps/details?id=com.qurvax8en.limora5tch.drexu4al"
+                target="_blank"
+                rel="noopener"
+              >
+                Download App
+                <span>→</span>
+              </a>
+
+              <a class="btn btn-ghost" href="#screens"> View Screens </a>
+            </div>
+
+            <div class="hero-mini-stats reveal delay-4">
+              <div>
+                <strong>5</strong>
+                <span>Main tabs</span>
+              </div>
+              <div>
+                <strong>15</strong>
+                <span>Challenges</span>
+              </div>
+              <div>
+                <strong>100%</strong>
+                <span>Offline ready</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal delay-2">
+            <div class="phone-orbit">
+              <div class="orbit-ring ring-one"></div>
+              <div class="orbit-ring ring-two"></div>
+
+              <div class="floating-chip chip-one">Squad Builder</div>
+              <div class="floating-chip chip-two">Live Match</div>
+              <div class="floating-chip chip-three">Training Drills</div>
+
+              <div class="phone-frame main-phone">
+                <img src="photo1.jpeg" alt="Pnc Futsal Coach app home screen" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-marquee">
+          <div class="marquee-track">
+            <span>Team Manager</span>
+            <span>Training Generator</span>
+            <span>Match Tracker</span>
+            <span>Resources Hub</span>
+            <span>Challenges</span>
+            <span>Squad Growth</span>
+            <span>Team Manager</span>
+            <span>Training Generator</span>
+            <span>Match Tracker</span>
+            <span>Resources Hub</span>
+            <span>Challenges</span>
+            <span>Squad Growth</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro-section">
+        <div class="container intro-grid">
+          <div class="intro-card reveal">
+            <span class="section-kicker">Why it feels different</span>
+            <h2>A coaching dashboard with real match energy.</h2>
+            <p>
+              Pnc Futsal Coach is not just a form-based tracker. It feels like a
+              compact command center for your team: fast actions, sharp cards,
+              useful football resources, and a match screen designed for quick
+              use during real games.
+            </p>
+          </div>
+
+          <div class="intro-stat-board reveal delay-1">
+            <div class="stat-line">
+              <span>Team setup</span>
+              <strong>Instant</strong>
+            </div>
+            <div class="stat-line">
+              <span>Drill generation</span>
+              <strong>Smart</strong>
+            </div>
+            <div class="stat-line">
+              <span>Match actions</span>
+              <strong>Fast</strong>
+            </div>
+            <div class="stat-line">
+              <span>Challenge system</span>
+              <strong>Motivating</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section features-section" id="features">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="section-kicker">Core features</span>
+            <h2>Everything a futsal coach needs in one app.</h2>
+            <p>
+              From first player creation to match-day decisions, every screen is
+              made to reduce chaos and keep your squad organized.
+            </p>
+          </div>
+
+          <div class="features-grid">
+            <article class="feature-card reveal">
+              <div class="feature-icon">👥</div>
+              <h3>Team Builder</h3>
+              <p>
+                Add players, jersey numbers, and roles. Keep your squad ready
+                for matches and training sessions.
+              </p>
+            </article>
+
+            <article class="feature-card reveal delay-1">
+              <div class="feature-icon">📚</div>
+              <h3>Football Resources</h3>
+              <p>
+                Read useful futsal and football concepts directly inside the app
+                with clean resource cards.
+              </p>
+            </article>
+
+            <article class="feature-card reveal delay-2">
+              <div class="feature-icon">🏋️</div>
+              <h3>Training Generator</h3>
+              <p>
+                Generate focused drills by category: passing, speed, finishing,
+                defending, and more.
+              </p>
+            </article>
+
+            <article class="feature-card reveal">
+              <div class="feature-icon">⚽</div>
+              <h3>Live Match Tracker</h3>
+              <p>
+                Track goals, assists, fouls, yellow cards, time-outs, and away
+                goals with quick match buttons.
+              </p>
+            </article>
+
+            <article class="feature-card reveal delay-1">
+              <div class="feature-icon">🏆</div>
+              <h3>Challenges</h3>
+              <p>
+                Motivate players through individual and team challenges with
+                point rewards and progress tracking.
+              </p>
+            </article>
+
+            <article class="feature-card reveal delay-2">
+              <div class="feature-icon">📊</div>
+              <h3>Progress Mindset</h3>
+              <p>
+                Build better habits by turning sessions, drills, and match
+                actions into measurable growth.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="screens-section" id="screens">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="section-kicker">App preview</span>
+            <h2>Premium screen carousel.</h2>
+            <p>
+              A visual tour through the app experience — team, resources,
+              training, match controls, and challenges.
+            </p>
+          </div>
+
+          <div class="carousel-shell reveal">
+            <button
+              class="carousel-btn prev"
+              id="prevSlide"
+              aria-label="Previous screenshot"
+            >
+              ‹
+            </button>
+
+            <div class="carousel-stage">
+              <div class="carousel-track" id="carouselTrack">
+                <div class="screen-card active">
+                  <img src="photo1.jpeg" alt="Team screen" />
+                  <div class="screen-caption">
+                    <span>01</span>
+                    <strong>Team Management</strong>
+                  </div>
+                </div>
+
+                <div class="screen-card">
+                  <img src="photo2.jpeg" alt="Add player screen" />
+                  <div class="screen-caption">
+                    <span>02</span>
+                    <strong>Add Player</strong>
+                  </div>
+                </div>
+
+                <div class="screen-card">
+                  <img src="photo3.jpeg" alt="Resources screen" />
+                  <div class="screen-caption">
+                    <span>03</span>
+                    <strong>Resources Hub</strong>
+                  </div>
+                </div>
+
+                <div class="screen-card">
+                  <img src="photo5.jpeg" alt="Training screen" />
+                  <div class="screen-caption">
+                    <span>04</span>
+                    <strong>Training Generator</strong>
+                  </div>
+                </div>
+
+                <div class="screen-card">
+                  <img src="photo7.jpeg" alt="Match tracker screen" />
+                  <div class="screen-caption">
+                    <span>05</span>
+                    <strong>Match Tracker</strong>
+                  </div>
+                </div>
+
+                <div class="screen-card">
+                  <img src="photo8.jpeg" alt="Challenges screen" />
+                  <div class="screen-caption">
+                    <span>06</span>
+                    <strong>Challenges</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button
+              class="carousel-btn next"
+              id="nextSlide"
+              aria-label="Next screenshot"
+            >
+              ›
+            </button>
+
+            <div class="carousel-dots" id="carouselDots"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section training-section" id="training">
+        <div class="container training-grid">
+          <div class="training-copy reveal">
+            <span class="section-kicker">Training system</span>
+            <h2>Generate sharper drills in seconds.</h2>
+            <p>
+              Select a category, create a drill, read the coaching point, and
+              use the session to improve specific futsal skills. Perfect for
+              coaches who want fast ideas without wasting time before practice.
+            </p>
+
+            <div class="training-tags">
+              <span>Passing</span>
+              <span>Speed</span>
+              <span>Finishing</span>
+              <span>Defense</span>
+              <span>1v1</span>
+              <span>GK Focus</span>
+            </div>
+          </div>
+
+          <div class="training-panel reveal delay-1">
+            <div class="drill-card">
+              <div class="drill-top">
+                <span>Generated drill</span>
+                <strong>10 min</strong>
+              </div>
+
+              <h3>1v1 Penalty Zone</h3>
+              <p>
+                Attacker receives a pass from midfield and goes 1v1 against the
+                goalkeeper inside the penalty area.
+              </p>
+
+              <div class="coach-tip">
+                💡 Commit the GK before placing the shot.
+              </div>
+
+              <div class="drill-actions">
+                <button>Full Steps</button>
+                <button>New Drill</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section match-section" id="match">
+        <div class="container match-grid">
+          <div class="match-board reveal">
+            <div class="score-header">
+              <span>HOME</span>
+              <strong>00:00</strong>
+              <span>AWAY</span>
+            </div>
+
+            <div class="score-line">
+              <strong>0</strong>
+              <button>▶ Start</button>
+              <strong>0</strong>
+            </div>
+
+            <div class="match-actions">
+              <button>⚽ Goal</button>
+              <button>🅰️ Assist</button>
+              <button>✋ Foul</button>
+              <button>⏸ Time-out</button>
+              <button>🟨 Yellow</button>
+              <button>⚽ Away Goal</button>
+            </div>
+          </div>
+
+          <div class="match-copy reveal delay-1">
+            <span class="section-kicker">Match control</span>
+            <h2>Fast buttons for real game moments.</h2>
+            <p>
+              During futsal, every second matters. The match tracker keeps
+              actions clear and touch-friendly so coaches can log important
+              events quickly.
+            </p>
+
+            <ul class="premium-list">
+              <li>Instant goal and assist logging</li>
+              <li>Simple event history structure</li>
+              <li>Clear home and away score view</li>
+              <li>Designed for fast match-day usage</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section resources-section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="section-kicker">Knowledge hub</span>
+            <h2>Resources that make players smarter.</h2>
+            <p>
+              Use short and practical learning material to explain futsal
+              basics, tactics, passing, dribbling, and match understanding.
+            </p>
+          </div>
+
+          <div class="resource-grid">
+            <article class="resource-card reveal">
+              <img src="photo3.jpeg" alt="Futsal resources screen" />
+              <div>
+                <h3>Futsal</h3>
+                <p>
+                  Learn the basics of the game, team size, court structure, and
+                  match rhythm.
+                </p>
+              </div>
+            </article>
+
+            <article class="resource-card reveal delay-1">
+              <img src="photo4.jpeg" alt="Football glossary screen" />
+              <div>
+                <h3>Glossary</h3>
+                <p>
+                  Explore important football terms and understand how positions,
+                  formations, and techniques work.
+                </p>
+              </div>
+            </article>
+
+            <article class="resource-card reveal delay-2">
+              <img src="photo6.jpeg" alt="Generated drill screen" />
+              <div>
+                <h3>Drill Details</h3>
+                <p>
+                  Keep every drill simple, clear, and useful for actual
+                  practice.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reviews-section" id="reviews">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="section-kicker">Coach feedback</span>
+            <h2>Made for teams that want structure.</h2>
+          </div>
+
+          <div class="reviews-grid">
+            <article class="review-card reveal">
+              <div class="stars">★★★★★</div>
+              <p>
+                “The app makes it much easier to prepare a small futsal session
+                and keep the team organized.”
+              </p>
+              <strong>Academy Coach</strong>
+            </article>
+
+            <article class="review-card reveal delay-1">
+              <div class="stars">★★★★★</div>
+              <p>
+                “The training generator is simple, but very useful when you need
+                a quick drill idea.”
+              </p>
+              <strong>Team Captain</strong>
+            </article>
+
+            <article class="review-card reveal delay-2">
+              <div class="stars">★★★★★</div>
+              <p>
+                “Good for tracking match events without making the interface too
+                complicated.”
+              </p>
+              <strong>Futsal Manager</strong>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-section" id="download">
+        <div class="container">
+          <div class="cta-box reveal">
+            <div class="cta-ball">⚽</div>
+            <h2>Build a sharper futsal team today.</h2>
+            <p>
+              Download Pnc Futsal Coach and turn your squad, training sessions,
+              and match events into a clean coaching system.
+            </p>
+
+            <a
+              class="btn btn-primary"
+              href="https://play.google.com/store/apps/details?id=com.qurvax8en.limora5tch.drexu4al"
+              target="_blank"
+              rel="noopener"
+            >
+              Download on Google Play
+              <span>→</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a href="#hero" class="brand footer-brand">
+            <span class="brand-mark">⚽</span>
+            <span class="brand-text">Pnc Futsal Coach</span>
+          </a>
+          <p>
+            A powerful futsal assistant for team management, resources,
+            training, match tracking, and challenges.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <a href="#features">Features</a>
+          <a href="#screens">Screens</a>
+          <a href="#training">Training</a>
+          <a href="#match">Match</a>
+          <a href="privacy.html">Privacy Policy</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

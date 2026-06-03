@@ -1,0 +1,487 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Privacy Policy — y99 Fashion Goals</title>
+    <meta
+      name="description"
+      content="Privacy Policy for y99 Fashion Goals by ANTOIA."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      :root {
+        --bg: #020403;
+        --panel: rgba(18, 25, 21, 0.78);
+        --panel-2: rgba(255, 255, 255, 0.045);
+        --text: #f8fff9;
+        --muted: #a7b1aa;
+        --line: rgba(0, 233, 120, 0.22);
+        --green: #00e978;
+        --green-2: #56f0a6;
+        --radius: 32px;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        min-height: 100vh;
+        font-family:
+          'Inter',
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          sans-serif;
+        color: var(--text);
+        background:
+          radial-gradient(
+            circle at 12% 10%,
+            rgba(0, 233, 120, 0.18),
+            transparent 34%
+          ),
+          radial-gradient(
+            circle at 90% 0%,
+            rgba(0, 233, 120, 0.1),
+            transparent 32%
+          ),
+          linear-gradient(180deg, #020403 0%, #010201 55%, #050806 100%);
+        overflow-x: hidden;
+      }
+
+      body::before {
+        content: '';
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+        opacity: 0.12;
+        background-image:
+          linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+        background-size: 70px 70px;
+        mask-image: radial-gradient(circle at center, black, transparent 78%);
+      }
+
+      .container {
+        width: min(1080px, calc(100% - 40px));
+        margin: 0 auto;
+      }
+
+      .privacy-header {
+        padding: 28px 0;
+      }
+
+      .back-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        min-height: 50px;
+        padding: 0 22px;
+        border: 1px solid rgba(0, 233, 120, 0.24);
+        border-radius: 999px;
+        color: #001b0e;
+        background: linear-gradient(135deg, var(--green), var(--green-2));
+        font-weight: 900;
+        text-decoration: none;
+        box-shadow: 0 0 35px rgba(0, 233, 120, 0.28);
+        transition: 0.25s ease;
+      }
+
+      .back-btn:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 20px 55px rgba(0, 233, 120, 0.36);
+      }
+
+      .hero {
+        position: relative;
+        padding: 54px 0 40px;
+      }
+
+      .hero-card {
+        position: relative;
+        overflow: hidden;
+        padding: clamp(34px, 7vw, 74px);
+        border: 1px solid var(--line);
+        border-radius: 44px;
+        background:
+          radial-gradient(
+            circle at 20% 20%,
+            rgba(0, 233, 120, 0.2),
+            transparent 38%
+          ),
+          linear-gradient(
+            145deg,
+            rgba(0, 233, 120, 0.1),
+            rgba(255, 255, 255, 0.035)
+          ),
+          rgba(9, 13, 11, 0.82);
+        box-shadow:
+          0 35px 120px rgba(0, 0, 0, 0.55),
+          0 0 70px rgba(0, 233, 120, 0.15);
+        backdrop-filter: blur(22px);
+      }
+
+      .hero-card::after {
+        content: '';
+        position: absolute;
+        width: 420px;
+        height: 420px;
+        right: -170px;
+        top: -170px;
+        border-radius: 50%;
+        background: radial-gradient(
+          circle,
+          rgba(0, 233, 120, 0.24),
+          transparent 68%
+        );
+      }
+
+      .label {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        color: var(--green);
+        text-transform: uppercase;
+        letter-spacing: 0.24em;
+        font-size: 12px;
+        font-weight: 900;
+      }
+
+      .label span {
+        width: 34px;
+        height: 3px;
+        border-radius: 99px;
+        background: var(--green);
+        box-shadow: 0 0 16px rgba(0, 233, 120, 0.7);
+      }
+
+      h1 {
+        position: relative;
+        z-index: 2;
+        margin-top: 22px;
+        max-width: 850px;
+        font-size: clamp(54px, 9vw, 120px);
+        line-height: 0.88;
+        letter-spacing: -0.09em;
+      }
+
+      .subtitle {
+        position: relative;
+        z-index: 2;
+        max-width: 720px;
+        margin-top: 26px;
+        color: var(--muted);
+        font-size: 19px;
+        line-height: 1.75;
+      }
+
+      .summary-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+        margin-top: 34px;
+        position: relative;
+        z-index: 2;
+      }
+
+      .summary-card {
+        padding: 22px;
+        border: 1px solid rgba(0, 233, 120, 0.18);
+        border-radius: 22px;
+        background: rgba(255, 255, 255, 0.045);
+      }
+
+      .summary-card b {
+        display: block;
+        color: var(--green);
+        font-size: 15px;
+        text-transform: uppercase;
+        letter-spacing: 0.16em;
+      }
+
+      .summary-card span {
+        display: block;
+        margin-top: 10px;
+        color: var(--muted);
+        line-height: 1.5;
+      }
+
+      .policy {
+        padding: 48px 0 100px;
+      }
+
+      .policy-layout {
+        display: grid;
+        grid-template-columns: 320px 1fr;
+        gap: 24px;
+        align-items: start;
+      }
+
+      .side-card {
+        position: sticky;
+        top: 24px;
+        padding: 28px;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: var(--panel);
+        backdrop-filter: blur(20px);
+      }
+
+      .side-card h2 {
+        font-size: 24px;
+        letter-spacing: -0.04em;
+      }
+
+      .side-card p {
+        margin-top: 12px;
+        color: var(--muted);
+        line-height: 1.6;
+      }
+
+      .side-list {
+        display: grid;
+        gap: 10px;
+        margin-top: 22px;
+      }
+
+      .side-list div {
+        padding: 14px;
+        border-radius: 16px;
+        background: rgba(0, 233, 120, 0.08);
+        color: var(--green);
+        font-weight: 800;
+      }
+
+      .policy-card {
+        padding: clamp(28px, 5vw, 54px);
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background:
+          linear-gradient(
+            145deg,
+            rgba(0, 233, 120, 0.08),
+            rgba(255, 255, 255, 0.035)
+          ),
+          rgba(13, 18, 15, 0.78);
+        backdrop-filter: blur(22px);
+        box-shadow: 0 30px 90px rgba(0, 0, 0, 0.42);
+      }
+
+      .policy-section {
+        padding: 26px 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+      }
+
+      .policy-section:first-child {
+        padding-top: 0;
+      }
+
+      .policy-section:last-child {
+        border-bottom: 0;
+        padding-bottom: 0;
+      }
+
+      .policy-section h3 {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 14px;
+        color: var(--text);
+        font-size: 24px;
+        letter-spacing: -0.04em;
+      }
+
+      .policy-section h3 span {
+        width: 38px;
+        height: 38px;
+        display: grid;
+        place-items: center;
+        border-radius: 14px;
+        color: #001b0e;
+        background: linear-gradient(135deg, var(--green), var(--green-2));
+      }
+
+      .policy-section p {
+        color: var(--muted);
+        font-size: 17px;
+        line-height: 1.85;
+      }
+
+      .policy-section strong {
+        color: var(--text);
+        font-weight: 900;
+      }
+
+      .email-box {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 14px;
+        padding: 14px 18px;
+        border: 1px solid rgba(0, 233, 120, 0.2);
+        border-radius: 16px;
+        color: var(--green);
+        background: rgba(0, 233, 120, 0.08);
+        font-weight: 900;
+        text-decoration: none;
+        word-break: break-word;
+      }
+
+      .effective {
+        margin-top: 24px;
+        padding: 22px;
+        border-radius: 22px;
+        color: #001b0e;
+        background: linear-gradient(135deg, var(--green), var(--green-2));
+        font-weight: 900;
+      }
+
+      @media (max-width: 860px) {
+        .policy-layout,
+        .summary-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .side-card {
+          position: static;
+        }
+      }
+
+      @media (max-width: 520px) {
+        .container {
+          width: min(100% - 28px, 1080px);
+        }
+
+        .hero-card {
+          border-radius: 32px;
+        }
+
+        h1 {
+          font-size: 54px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="privacy-header">
+      <div class="container">
+        <a href="index.html" class="back-btn">← Back</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero-card">
+            <div class="label">
+              <span></span>
+              privacy first
+            </div>
+
+            <h1>Privacy Policy</h1>
+
+            <p class="subtitle">
+              This page explains how <strong>y99 Fashion Goals</strong> handles
+              privacy. The app is provided as a free service by
+              <strong>ANTOIA</strong>.
+            </p>
+
+            <div class="summary-grid">
+              <div class="summary-card">
+                <b>No collection</b>
+                <span>The app does not collect personal user data.</span>
+              </div>
+
+              <div class="summary-card">
+                <b>No storage</b>
+                <span>The app does not store personal user data.</span>
+              </div>
+
+              <div class="summary-card">
+                <b>No sharing</b>
+                <span>The app does not share personal user data.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="policy">
+        <div class="container policy-layout">
+          <aside class="side-card">
+            <h2>y99 Fashion Goals</h2>
+            <p>
+              A clear, simple and privacy-focused policy for users of the app.
+            </p>
+
+            <div class="side-list">
+              <div>Free service</div>
+              <div>No personal data sharing</div>
+              <div>Effective May 15, 2026</div>
+            </div>
+          </aside>
+
+          <article class="policy-card">
+            <section class="policy-section">
+              <h3><span>01</span> Service Provider</h3>
+              <p>
+                <strong>ANTOIA</strong> organization has developed the
+                <strong>y99 Fashion Goals</strong> app as a free service. The
+                app does not collect, store, or share any personal user data.
+              </p>
+            </section>
+
+            <section class="policy-section">
+              <h3><span>02</span> Personal User Data</h3>
+              <p>
+                The app does not collect, store, or share any personal user
+                data.
+              </p>
+            </section>
+
+            <section class="policy-section">
+              <h3><span>03</span> Policy Updates</h3>
+              <p>
+                Please note that this Privacy Policy may be revised occasionally
+                to reflect any necessary updates. When such changes are made,
+                the Service Provider will post the updated Privacy Policy on
+                this page. We encourage users to review this policy regularly,
+                as continued use of the app implies acceptance of any
+                modifications.
+              </p>
+            </section>
+
+            <section class="policy-section">
+              <h3><span>04</span> Contact</h3>
+              <p>
+                If you have any concerns regarding privacy while using the
+                application or if you need further clarification on our
+                practices, feel free to reach out to the Service Provider at
+              </p>
+
+              <a class="email-box" href="mailto:it-support@antoia.click">
+                it-support@antoia.click
+              </a>
+            </section>
+
+            <div class="effective">
+              This Privacy Policy is effective as of May 15, 2026.
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

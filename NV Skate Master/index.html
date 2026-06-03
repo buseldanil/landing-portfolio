@@ -1,0 +1,508 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      NV Skate Master — Learn Tricks, Battle Friends, Track Progress
+    </title>
+    <meta
+      name="description"
+      content="NV Skate Master is a mobile skateboarding app for learning tricks, rolling random challenges, starting S.K.A.T.E battles, and tracking progress."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Orbitron:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="page-bg">
+      <div class="bg-line bg-line-a"></div>
+      <div class="bg-line bg-line-b"></div>
+      <div class="bg-line bg-line-c"></div>
+      <div class="bg-glow bg-glow-a"></div>
+      <div class="bg-glow bg-glow-b"></div>
+      <div class="bg-noise"></div>
+    </div>
+
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#top" class="brand">
+          <span class="brand-logo">NV</span>
+          <span class="brand-copy">
+            <strong>NV Skate Master</strong>
+            <small>Skateboarding training app</small>
+          </span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          aria-label="Open navigation"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" id="siteNav">
+          <a href="#features">Features</a>
+          <a href="#journey">Journey</a>
+          <a href="#screens">Screens</a>
+          <a href="#reviews">Reviews</a>
+          <a href="privacy.html">Privacy</a>
+          <a href="#download" class="nav-btn">Download</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="top">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <span class="pill-label">Arcade skate learning</span>
+            <h1>
+              Level up your skate game with style, structure, and momentum.
+            </h1>
+            <p class="hero-text">
+              NV Skate Master helps riders learn tricks step by step, spin a
+              random challenge, launch S.K.A.T.E battles with friends, and track
+              their progress like a real skate journey.
+            </p>
+
+            <div class="hero-actions">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.basicsnb241r.rivola"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-primary"
+              >
+                Download App
+              </a>
+              <a href="#screens" class="btn btn-ghost">Explore Screens</a>
+            </div>
+
+            <div class="hero-badges">
+              <span>Beginner to Pro</span>
+              <span>Random Challenges</span>
+              <span>S.K.A.T.E Battle Mode</span>
+            </div>
+
+            <div class="hero-stats">
+              <article class="stat-panel">
+                <strong data-counter="4">0</strong>
+                <span>main app zones for learning and play</span>
+              </article>
+              <article class="stat-panel">
+                <strong data-counter="3">0</strong>
+                <span>skill levels: Beginner, Intermediate, Pro</span>
+              </article>
+              <article class="stat-panel">
+                <strong data-counter="13">0</strong>
+                <span>tricks shown in progress example screen</span>
+              </article>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal">
+            <div class="visual-grid-card">
+              <div class="floating-note note-a">
+                <span></span>
+                Trick Catalog
+              </div>
+              <div class="floating-note note-b">
+                <span></span>
+                Battle Mode
+              </div>
+              <div class="floating-note note-c">
+                <span></span>
+                Progress Tracking
+              </div>
+
+              <div class="phone-shell tilt-card">
+                <div class="phone-top"></div>
+                <img src="photo8.jpeg" alt="NV Skate Master splash screen" />
+              </div>
+
+              <div class="mini-card mini-card-left">
+                <p>Neon skate identity</p>
+                <strong>Bold pink + electric blue motion theme</strong>
+              </div>
+
+              <div class="mini-card mini-card-right">
+                <p>Built for riders</p>
+                <strong>Learn, challenge, battle, progress</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section strip-section reveal">
+        <div class="container strip-grid">
+          <div class="strip-box">
+            <small>Product vibe</small>
+            <strong>Arcade + Training</strong>
+          </div>
+          <div class="strip-box">
+            <small>Perfect for</small>
+            <strong>Beginner and casual skaters</strong>
+          </div>
+          <div class="strip-box">
+            <small>Experience</small>
+            <strong>Gamified trick progression</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="features">
+        <div class="container section-heading reveal">
+          <span class="pill-label">Features</span>
+          <h2>Everything riders need in one stylized mobile flow</h2>
+          <p>
+            Instead of dumping screenshots into one gallery, this landing page
+            uses each screen to show a real product advantage.
+          </p>
+        </div>
+
+        <div class="container feature-layout">
+          <div class="feature-preview reveal">
+            <div class="preview-panel">
+              <div class="phone-shell phone-shell-medium">
+                <div class="phone-top"></div>
+                <img
+                  id="featureImage"
+                  src="photo1.jpeg"
+                  alt="App feature preview"
+                />
+              </div>
+
+              <div class="preview-text">
+                <span class="preview-kicker">Live preview</span>
+                <h3 id="featureTitle">Home Hub</h3>
+                <p id="featureDescription">
+                  The home screen immediately gives users a clear path: learn
+                  tricks, roll a random challenge, start a battle, or review
+                  achievements.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="feature-list">
+            <article
+              class="feature-card reveal active-feature"
+              tabindex="0"
+              data-image="photo1.jpeg"
+              data-title="Home Hub"
+              data-description="The home screen immediately gives users a clear path: learn tricks, roll a random challenge, start a battle, or review achievements."
+            >
+              <div class="feature-meta">
+                <span>01</span>
+                <small>Dashboard</small>
+              </div>
+              <h3>Fast access to every key mode</h3>
+              <p>
+                A strong launch screen helps riders jump straight into the
+                experience without confusion.
+              </p>
+            </article>
+
+            <article
+              class="feature-card reveal"
+              tabindex="0"
+              data-image="photo2.jpeg"
+              data-title="Trick Catalog"
+              data-description="Browse tricks by skill level and see cards that explain what each move is before opening a full lesson."
+            >
+              <div class="feature-meta">
+                <span>02</span>
+                <small>Learning</small>
+              </div>
+              <h3>Structured trick catalog by level</h3>
+              <p>
+                Beginner, Intermediate, and Pro tabs create a clean learning
+                ladder for skill progression.
+              </p>
+            </article>
+
+            <article
+              class="feature-card reveal"
+              tabindex="0"
+              data-image="photo3.jpeg"
+              data-title="Step-by-Step Trick Lessons"
+              data-description="Each trick page breaks the move into practical steps so users can practice more confidently."
+            >
+              <div class="feature-meta">
+                <span>03</span>
+                <small>Practice</small>
+              </div>
+              <h3>Clear trick breakdowns</h3>
+              <p>
+                The lesson screen gives riders a focused explanation, visual
+                reference, and a simple completion action.
+              </p>
+            </article>
+
+            <article
+              class="feature-card reveal"
+              tabindex="0"
+              data-image="photo5.jpeg"
+              data-title="Random Trick Generator"
+              data-description="The random mode turns trick training into a challenge, helping users practice with surprise prompts."
+            >
+              <div class="feature-meta">
+                <span>04</span>
+                <small>Challenge</small>
+              </div>
+              <h3>Gamified random trick mode</h3>
+              <p>
+                Great for solo sessions, fun practice loops, and keeping
+                training fresh.
+              </p>
+            </article>
+
+            <article
+              class="feature-card reveal"
+              tabindex="0"
+              data-image="photo6.jpeg"
+              data-title="S.K.A.T.E Battle"
+              data-description="Set the number of players, choose custom tricks, and start a local S.K.A.T.E battle with friends."
+            >
+              <div class="feature-meta">
+                <span>05</span>
+                <small>Multiplayer</small>
+              </div>
+              <h3>Battle mode for real skate sessions</h3>
+              <p>
+                The app goes beyond tutorials and adds a social competitive mode
+                riders can use together.
+              </p>
+            </article>
+
+            <article
+              class="feature-card reveal"
+              tabindex="0"
+              data-image="photo7.jpeg"
+              data-title="Progress & Achievements"
+              data-description="Track mastered tricks, category progress, and unlocked milestones to stay motivated."
+            >
+              <div class="feature-meta">
+                <span>06</span>
+                <small>Tracking</small>
+              </div>
+              <h3>Visible progress keeps users engaged</h3>
+              <p>
+                Achievement and progress screens make the whole skate journey
+                feel more rewarding and game-like.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="journey">
+        <div class="container section-heading reveal">
+          <span class="pill-label">App journey</span>
+          <h2>From first trick to mastered routine</h2>
+          <p>
+            The product experience is easy to understand and visually exciting
+            from the first tap.
+          </p>
+        </div>
+
+        <div class="container story-stack">
+          <article class="story-card reveal">
+            <div class="story-copy">
+              <span class="story-step">Step 01</span>
+              <h3>Start from the main skate hub</h3>
+              <p>
+                The opening home screen acts like a command center, helping
+                riders choose between learning, random play, battle mode, or
+                achievement tracking.
+              </p>
+            </div>
+            <div class="story-media">
+              <img src="photo1.jpeg" alt="NV Skate Master home screen" />
+            </div>
+          </article>
+
+          <article class="story-card reverse reveal">
+            <div class="story-copy">
+              <span class="story-step">Step 02</span>
+              <h3>Pick a trick and follow the lesson</h3>
+              <p>
+                The catalog and detail screens are designed for practical
+                training with levels, visuals, and step-by-step motion guidance.
+              </p>
+            </div>
+            <div class="story-media dual-shot">
+              <img src="photo2.jpeg" alt="Trick catalog screen" />
+              <img src="photo3.jpeg" alt="Kickturn trick detail screen" />
+            </div>
+          </article>
+
+          <article class="story-card reveal">
+            <div class="story-copy">
+              <span class="story-step">Step 03</span>
+              <h3>Mix discipline with fun</h3>
+              <p>
+                Random trick mode introduces playful challenge mechanics so
+                practice never feels repetitive.
+              </p>
+            </div>
+            <div class="story-media">
+              <img src="photo5.jpeg" alt="Random trick screen" />
+            </div>
+          </article>
+
+          <article class="story-card reverse reveal">
+            <div class="story-copy">
+              <span class="story-step">Step 04</span>
+              <h3>Battle friends in S.K.A.T.E mode</h3>
+              <p>
+                Local multiplayer setup makes the app feel more social and
+                interactive, not just instructional.
+              </p>
+            </div>
+            <div class="story-media">
+              <img src="photo6.jpeg" alt="S.K.A.T.E battle screen" />
+            </div>
+          </article>
+
+          <article class="story-card reveal">
+            <div class="story-copy">
+              <span class="story-step">Step 05</span>
+              <h3>Track wins, progress, and milestones</h3>
+              <p>
+                Progress and achievement panels give riders clear motivation to
+                keep practicing and mastering more tricks.
+              </p>
+            </div>
+            <div class="story-media dual-shot">
+              <img src="photo4.jpeg" alt="Nose manual detail screen" />
+              <img src="photo7.jpeg" alt="Progress and achievements screen" />
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="reviews">
+        <div class="container section-heading reveal">
+          <span class="pill-label">Reviews</span>
+          <h2>A skate app that feels playful, useful, and motivating</h2>
+          <p>Sample testimonial cards for the landing page layout.</p>
+        </div>
+
+        <div class="container review-grid">
+          <article class="review-card reveal spotlight-review">
+            <div class="review-stars">★★★★★</div>
+            <p>
+              “The trick pages are easy to follow, and the visual style makes
+              the app feel way more exciting than a basic tutorial list.”
+            </p>
+            <div class="review-person">
+              <strong>Alex M.</strong>
+              <span>Beginner skater</span>
+            </div>
+          </article>
+
+          <article class="review-card reveal">
+            <div class="review-stars">★★★★★</div>
+            <p>
+              “Random Trick mode is actually fun. It makes practice sessions
+              less boring and helps me try moves I would normally skip.”
+            </p>
+            <div class="review-person">
+              <strong>Chris T.</strong>
+              <span>Weekend rider</span>
+            </div>
+          </article>
+
+          <article class="review-card reveal">
+            <div class="review-stars">★★★★★</div>
+            <p>
+              “Progress and achievements give the app a game feel. That makes it
+              easier to stay motivated and keep learning.”
+            </p>
+            <div class="review-person">
+              <strong>Sophie R.</strong>
+              <span>Casual learner</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section cta-section" id="download">
+        <div class="container cta-box reveal">
+          <div class="cta-copy">
+            <span class="pill-label">Download now</span>
+            <h2>Ride smarter. Learn faster. Keep pushing your next trick.</h2>
+            <p>
+              NV Skate Master blends trick education, challenge mechanics, and
+              progress tracking into one energetic skateboarding experience.
+            </p>
+          </div>
+
+          <div class="cta-actions">
+            <a
+              href="https://play.google.com/store/apps/details?id=com.basicsnb241r.rivola"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-primary btn-wide"
+            >
+              Download on Google Play
+            </a>
+            <a href="privacy.html" class="btn btn-ghost btn-wide"
+              >Privacy Policy</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-top">
+        <div class="footer-brand">
+          <span class="brand-logo small-logo">NV</span>
+          <div>
+            <strong>NV Skate Master</strong>
+            <p>Developed by Reussite Universitaire organization</p>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <a href="#features">Features</a>
+          <a href="#journey">Journey</a>
+          <a href="#screens">Screens</a>
+          <a href="privacy.html">Privacy</a>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>
+          © <span id="year"></span> Reussite Universitaire organization. All
+          rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <button
+        class="lightbox-close"
+        id="lightboxClose"
+        aria-label="Close preview"
+      >
+        ×
+      </button>
+      <div class="lightbox-card">
+        <img id="lightboxImage" src="" alt="Expanded screenshot" />
+        <p id="lightboxTitle"></p>
+      </div>
+    </div>
+  </body>
+</html>

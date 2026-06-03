@@ -1,0 +1,558 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>1x Padel Tracker — Live Padel Scores, Favorites & Match Stats</title>
+    <meta
+      name="description"
+      content="1x Padel Tracker is a clean padel match tracker for live scores, tournaments, favorites, profiles and personal statistics."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="page-bg">
+      <div class="mesh mesh-one"></div>
+      <div class="mesh mesh-two"></div>
+      <div class="mesh mesh-three"></div>
+      <div class="grid-noise"></div>
+    </div>
+
+    <div class="cursor-light" id="cursorLight"></div>
+
+    <header class="site-header" id="siteHeader">
+      <div class="container header-inner">
+        <a href="#home" class="brand">
+          <span class="brand-icon">
+            <svg viewBox="0 0 64 64" aria-hidden="true">
+              <path
+                d="M42.8 7.5c6.4 6.4 5.1 18-2.9 26s-19.6 9.3-26 2.9-5.1-18 2.9-26 19.6-9.3 26-2.9Z"
+              ></path>
+              <path d="M39.2 33.8 56 50.6"></path>
+              <circle cx="51.5" cy="52" r="6.5"></circle>
+            </svg>
+          </span>
+          <span>1x Padel Tracker</span>
+        </a>
+
+        <nav class="nav" id="mainNav">
+          <a href="#features">Features</a>
+          <a href="#matches">Matches</a>
+          <a href="#screens">Screens</a>
+          <a href="#profile">Profile</a>
+          <a href="privacy.html">Privacy</a>
+        </nav>
+
+        <a
+          class="download-btn"
+          href="https://play.google.com/store/apps/details?id=com.nexorpadels.fluxarPadel.hypervbal"
+          target="_blank"
+          rel="noopener"
+        >
+          Download
+        </a>
+
+        <button class="burger" id="burger" aria-label="Open menu">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="container hero-layout">
+          <div class="hero-copy reveal">
+            <div class="eyebrow">
+              <span></span>
+              live padel companion
+            </div>
+
+            <h1>
+              Track every padel battle.
+              <em>Save every favorite.</em>
+            </h1>
+
+            <p>
+              1x Padel Tracker gives fans a polished way to follow live padel
+              matches, tournament details, set breakdowns, saved matches and
+              personal profile statistics.
+            </p>
+
+            <div class="hero-actions">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.nexorpadels.fluxarPadel.hypervbal"
+                class="btn btn-primary"
+                target="_blank"
+                rel="noopener"
+              >
+                Download App
+              </a>
+
+              <a href="#screens" class="btn btn-secondary"> Explore Screens </a>
+            </div>
+
+            <div class="hero-stats">
+              <div>
+                <strong>Live</strong>
+                <span>match cards</span>
+              </div>
+              <div>
+                <strong>64%</strong>
+                <span>win rate view</span>
+              </div>
+              <div>
+                <strong>2</strong>
+                <span>saved favorites</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-device reveal delay">
+            <div class="device-orbit"></div>
+            <div class="device-card main-device">
+              <img src="photo1.jpeg" alt="1x Padel Tracker home screen" />
+            </div>
+
+            <div class="mini-panel mini-panel-left">
+              <span>● LIVE</span>
+              <b>1–1</b>
+              <small>Match of the day</small>
+            </div>
+
+            <div class="mini-panel mini-panel-right">
+              <span>Saved</span>
+              <b>2</b>
+              <small>Favorite matches</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-marquee">
+          <div class="marquee-track">
+            <span>Live Scores</span>
+            <span>Padel Stats</span>
+            <span>Favorites</span>
+            <span>Tournaments</span>
+            <span>Player Profile</span>
+            <span>Match Details</span>
+            <span>Live Scores</span>
+            <span>Padel Stats</span>
+            <span>Favorites</span>
+            <span>Tournaments</span>
+            <span>Player Profile</span>
+            <span>Match Details</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section app-overview">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-kicker">premium app landing</span>
+            <h2>
+              A soft, bright, glass-style padel website with animated sports
+              energy.
+            </h2>
+            <p>
+              The design follows the app’s airy blue interface, but upgrades it
+              into a premium landing page with floating cards, glowing
+              gradients, animated screen carousel and clean conversion blocks.
+            </p>
+          </div>
+
+          <div class="overview-grid">
+            <article class="overview-card overview-big reveal">
+              <div class="overview-icon blue">
+                <svg viewBox="0 0 64 64">
+                  <path
+                    d="M42.8 7.5c6.4 6.4 5.1 18-2.9 26s-19.6 9.3-26 2.9-5.1-18 2.9-26 19.6-9.3 26-2.9Z"
+                  ></path>
+                  <path d="M39.2 33.8 56 50.6"></path>
+                  <circle cx="51.5" cy="52" r="6.5"></circle>
+                </svg>
+              </div>
+              <h3>Built for padel fans</h3>
+              <p>
+                Follow live games, upcoming matches and finished tournament
+                results from one clean mobile dashboard.
+              </p>
+            </article>
+
+            <article class="overview-card reveal delay">
+              <div class="overview-icon pink">♥</div>
+              <h3>Favorites</h3>
+              <p>
+                Save matches and return to them later without searching through
+                the full schedule.
+              </p>
+            </article>
+
+            <article class="overview-card reveal delay-two">
+              <div class="overview-icon green">%</div>
+              <h3>Profile stats</h3>
+              <p>
+                Keep track of watched matches, favorites, trainings and skill
+                level from your profile.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section features" id="features">
+        <div class="container">
+          <div class="section-head center reveal">
+            <span class="section-kicker">features</span>
+            <h2>Everything the user needs, without clutter.</h2>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card reveal">
+              <span class="feature-num">01</span>
+              <div class="feature-icon">🎾</div>
+              <h3>Live match cards</h3>
+              <p>
+                Highlight live games with scores, player initials, tournament
+                names, courts and rounds.
+              </p>
+            </article>
+
+            <article class="feature-card reveal delay">
+              <span class="feature-num">02</span>
+              <div class="feature-icon">📅</div>
+              <h3>Upcoming schedule</h3>
+              <p>
+                Show upcoming tournament battles with time, court and final
+                stage labels.
+              </p>
+            </article>
+
+            <article class="feature-card reveal delay-two">
+              <span class="feature-num">03</span>
+              <div class="feature-icon">📊</div>
+              <h3>Match statistics</h3>
+              <p>
+                Display aces, double faults, winners, unforced errors and serve
+                percentage in visual bars.
+              </p>
+            </article>
+
+            <article class="feature-card reveal">
+              <span class="feature-num">04</span>
+              <div class="feature-icon">🏆</div>
+              <h3>Tournament flow</h3>
+              <p>
+                Keep every match connected to events like Qatar Major, Roma
+                Major and Barcelona Master.
+              </p>
+            </article>
+
+            <article class="feature-card reveal delay">
+              <span class="feature-num">05</span>
+              <div class="feature-icon">🔔</div>
+              <h3>Notifications page</h3>
+              <p>
+                Clean empty states help the product feel complete even when
+                there is no new activity.
+              </p>
+            </article>
+
+            <article class="feature-card reveal delay-two">
+              <span class="feature-num">06</span>
+              <div class="feature-icon">🔒</div>
+              <h3>Privacy focused</h3>
+              <p>
+                Personal data is used only for identification and essential app
+                functionality.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="match-section" id="matches">
+        <div class="container match-layout">
+          <div class="match-copy reveal">
+            <span class="section-kicker">match of the day</span>
+            <h2>Make every match feel like a tournament final.</h2>
+            <p>
+              The landing page translates the app’s score cards into a large
+              animated match module: live status, team bubbles, court details,
+              round labels and match momentum.
+            </p>
+
+            <div class="match-points">
+              <div>
+                <b>Qatar Major</b>
+                <span>Live tournament card</span>
+              </div>
+              <div>
+                <b>Roma Major</b>
+                <span>Finished match details</span>
+              </div>
+              <div>
+                <b>Barcelona Master</b>
+                <span>Saved favorites list</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="live-card reveal delay">
+            <div class="live-card-top">
+              <span class="live-badge">● LIVE</span>
+              <span>Qatar Major</span>
+            </div>
+
+            <div class="teams-line">
+              <div class="team">
+                <div class="avatars">
+                  <span>FS</span>
+                  <span>PJ</span>
+                </div>
+                <b>Stupaczuk / Josemaría</b>
+              </div>
+
+              <div class="score-glow">1–1</div>
+
+              <div class="team right">
+                <div class="avatars">
+                  <span>PN</span>
+                  <span>JT</span>
+                </div>
+                <b>Navarro / Tello</b>
+              </div>
+            </div>
+
+            <div class="court-strip">
+              <span>⚑ Round of 32</span>
+              <span>Court 2 →</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="screens" id="screens">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-kicker">screenshots</span>
+            <h2>Animated app showcase with premium carousel depth.</h2>
+            <p>
+              Use screenshots named <strong>photo1.jpeg</strong> to
+              <strong>photo8.jpeg</strong> in the same folder as the website
+              files.
+            </p>
+          </div>
+
+          <div class="carousel-shell reveal">
+            <button
+              class="carousel-arrow left"
+              id="prevSlide"
+              aria-label="Previous screenshot"
+            >
+              ‹
+            </button>
+
+            <div class="carousel" id="carousel">
+              <article class="screen active">
+                <img src="photo1.jpeg" alt="Home dashboard" />
+                <div class="screen-info">
+                  <span>Home</span>
+                  <b>Match of the day</b>
+                </div>
+              </article>
+
+              <article class="screen">
+                <img src="photo2.jpeg" alt="Matches list" />
+                <div class="screen-info">
+                  <span>Matches</span>
+                  <b>Live and upcoming</b>
+                </div>
+              </article>
+
+              <article class="screen">
+                <img src="photo3.jpeg" alt="Match details top" />
+                <div class="screen-info">
+                  <span>Details</span>
+                  <b>Finished match view</b>
+                </div>
+              </article>
+
+              <article class="screen">
+                <img src="photo4.jpeg" alt="Match statistics" />
+                <div class="screen-info">
+                  <span>Statistics</span>
+                  <b>Set breakdown</b>
+                </div>
+              </article>
+
+              <article class="screen">
+                <img src="photo5.jpeg" alt="Favorites screen" />
+                <div class="screen-info">
+                  <span>Favorites</span>
+                  <b>Saved matches</b>
+                </div>
+              </article>
+
+              <article class="screen">
+                <img src="photo6.jpeg" alt="Profile screen" />
+                <div class="screen-info">
+                  <span>Profile</span>
+                  <b>Player identity</b>
+                </div>
+              </article>
+
+              <article class="screen">
+                <img src="photo7.jpeg" alt="Notifications screen" />
+                <div class="screen-info">
+                  <span>Alerts</span>
+                  <b>Notifications</b>
+                </div>
+              </article>
+
+              <article class="screen">
+                <img src="photo8.jpeg" alt="Edit profile modal" />
+                <div class="screen-info">
+                  <span>Edit</span>
+                  <b>Profile modal</b>
+                </div>
+              </article>
+            </div>
+
+            <button
+              class="carousel-arrow right"
+              id="nextSlide"
+              aria-label="Next screenshot"
+            >
+              ›
+            </button>
+
+            <div class="carousel-dots" id="carouselDots"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section profile-section" id="profile">
+        <div class="container profile-layout">
+          <div class="profile-card reveal">
+            <div class="profile-top">
+              <div class="avatar-large">AP</div>
+              <div>
+                <span>Alex Padelista</span>
+                <p>@padelista</p>
+                <small>Madrid, Spain</small>
+              </div>
+            </div>
+
+            <div class="profile-stats">
+              <div>
+                <b>12</b>
+                <span>Watched</span>
+              </div>
+              <div>
+                <b>2</b>
+                <span>Favorites</span>
+              </div>
+              <div>
+                <b>8</b>
+                <span>Trainings</span>
+              </div>
+              <div>
+                <b>64%</b>
+                <span>Win rate</span>
+              </div>
+            </div>
+
+            <div class="skill-bar">
+              <div class="skill-head">
+                <b>Intermediate</b>
+                <span>LVL 10</span>
+              </div>
+              <div class="bar">
+                <span></span>
+              </div>
+              <p>62% to next level</p>
+            </div>
+          </div>
+
+          <div class="profile-copy reveal delay">
+            <span class="section-kicker">personal profile</span>
+            <h2>A profile screen that makes every fan feel connected.</h2>
+            <p>
+              Clean achievements, win-rate widgets, saved matches and editable
+              display names make the app feel personal without becoming
+              complicated.
+            </p>
+
+            <div class="achievement-grid">
+              <div>First serve</div>
+              <div>Loyal fan</div>
+              <div>Skill level</div>
+              <div>Training streak</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta" id="download">
+        <div class="container">
+          <div class="cta-box reveal">
+            <div class="cta-orb"></div>
+            <span class="section-kicker">ready to follow the game?</span>
+            <h2>Download 1x Padel Tracker today.</h2>
+            <p>
+              Follow matches, save favorites, view tournament details and keep
+              your padel profile ready.
+            </p>
+
+            <a
+              href="https://play.google.com/store/apps/details?id=com.nexorpadels.fluxarPadel.hypervbal"
+              class="btn btn-primary"
+              target="_blank"
+              rel="noopener"
+            >
+              Download on Google Play
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <a href="#home" class="brand">
+          <span class="brand-icon">
+            <svg viewBox="0 0 64 64" aria-hidden="true">
+              <path
+                d="M42.8 7.5c6.4 6.4 5.1 18-2.9 26s-19.6 9.3-26 2.9-5.1-18 2.9-26 19.6-9.3 26-2.9Z"
+              ></path>
+              <path d="M39.2 33.8 56 50.6"></path>
+              <circle cx="51.5" cy="52" r="6.5"></circle>
+            </svg>
+          </span>
+          <span>1x Padel Tracker</span>
+        </a>
+
+        <p>© 2026 INTERNET SOCIAL. All rights reserved.</p>
+
+        <div class="footer-links">
+          <a href="#features">Features</a>
+          <a href="#screens">Screens</a>
+          <a href="privacy.html">Privacy</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

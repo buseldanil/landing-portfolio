@@ -1,0 +1,648 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      MLBT Match Live — Live Scores, Match Stats & Football Insights
+    </title>
+    <meta
+      name="description"
+      content="MLBT Match Live helps users follow live football scores, browse fixtures, inspect lineups, compare statistics, view league tables, and study player performance in one premium mobile experience."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Outfit:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="page-scene">
+      <div class="scene-orb orb-a"></div>
+      <div class="scene-orb orb-b"></div>
+      <div class="scene-orb orb-c"></div>
+      <div class="scene-grid"></div>
+      <div class="scene-noise"></div>
+    </div>
+
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a href="#top" class="brand">
+          <span class="brand-mark">ML</span>
+          <span class="brand-copy">
+            <strong>MLBT Match Live</strong>
+            <small>Live football scores, lineups and league insights</small>
+          </span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" id="siteNav">
+          <a href="#features">Features</a>
+          <a href="#journey">Journey</a>
+          <a href="#showcase">Showcase</a>
+          <a href="#download">Download</a>
+          <a href="privacy.html">Privacy</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero hero-stadium">
+        <div class="hero-bg-image">
+          <img src="photo1.jpeg" alt="MLBT Match Live intro stadium screen" />
+        </div>
+
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-layout">
+          <div class="hero-copy reveal">
+            <div class="hero-badges">
+              <span class="hero-badge">Live football tracking</span>
+              <span class="hero-badge ghost"
+                >Matches · Stats · H2H · Table · Players</span
+              >
+            </div>
+
+            <h1>
+              Track every match, lineup, stat, and football storyline in one
+              live app flow
+            </h1>
+
+            <p>
+              MLBT Match Live brings live score tracking, match detail tabs,
+              lineups, stat comparisons, head-to-head history, competition
+              tables, player profiles, and fixture browsing into one modern
+              football interface designed for fans who want more than basic
+              score updates.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#download" class="btn btn-primary">Download</a>
+              <a href="#journey" class="btn btn-secondary">Explore Flow</a>
+            </div>
+
+            <div class="hero-metrics">
+              <article class="metric-card">
+                <strong data-counter="9">0</strong>
+                <span>featured screens</span>
+              </article>
+              <article class="metric-card">
+                <strong data-counter="5">0</strong>
+                <span>main football zones</span>
+              </article>
+              <article class="metric-card">
+                <strong data-counter="1">0</strong>
+                <span>single live ecosystem</span>
+              </article>
+            </div>
+          </div>
+
+          <div class="hero-stage reveal">
+            <div class="hero-phone hero-phone-main tilt-card">
+              <div class="device-notch"></div>
+              <img src="photo2.jpeg" alt="Live matches home screen" />
+            </div>
+
+            <div class="hero-stack left-stack">
+              <article class="mini-phone tilt-card">
+                <img src="photo7.jpeg" alt="League table screen" />
+              </article>
+
+              <article class="info-chip">
+                <strong>Live now, upcoming, standings</strong>
+                <p>
+                  The app moves naturally from current fixtures into deeper
+                  competition context.
+                </p>
+              </article>
+            </div>
+
+            <div class="hero-stack right-stack">
+              <article class="mini-phone tilt-card">
+                <img src="photo8.jpeg" alt="Player profile screen" />
+              </article>
+
+              <article class="info-chip alt-chip">
+                <strong>From team data to player detail</strong>
+                <p>
+                  Users can move from match overview into individual football
+                  performance reading.
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section statement-section">
+        <div class="container">
+          <div class="statement-panel reveal">
+            <h2>
+              MLBT Match Live feels like a broadcast control panel for football
+              fans who want live status, tactical tabs, standings, and player
+              context in one connected product
+            </h2>
+          </div>
+        </div>
+      </section>
+
+      <section class="section features-section" id="features">
+        <div class="container">
+          <div class="section-heading reveal">
+            <h2>Main product capabilities</h2>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card reveal">
+              <span class="feature-index">01</span>
+              <h3>Live and upcoming matches</h3>
+              <p>
+                The home screen supports quick scanning across live score blocks
+                and upcoming fixtures.
+              </p>
+            </article>
+
+            <article class="feature-card reveal">
+              <span class="feature-index">02</span>
+              <h3>Lineup view</h3>
+              <p>
+                Users can inspect squad structure, formation, and player order
+                from dedicated lineup sections.
+              </p>
+            </article>
+
+            <article class="feature-card reveal">
+              <span class="feature-index">03</span>
+              <h3>Stat comparison</h3>
+              <p>
+                The statistics tab compares possession, shots, passing, tackles,
+                and other match indicators.
+              </p>
+            </article>
+
+            <article class="feature-card reveal">
+              <span class="feature-index">04</span>
+              <h3>H2H history</h3>
+              <p>
+                The head-to-head tab gives a faster way to understand historical
+                matchup outcomes.
+              </p>
+            </article>
+
+            <article class="feature-card reveal">
+              <span class="feature-index">05</span>
+              <h3>Match information tab</h3>
+              <p>
+                Status, competition, kick-off, referee, venue, fixture name, and
+                weather conditions stay readable in one place.
+              </p>
+            </article>
+
+            <article class="feature-card reveal">
+              <span class="feature-index">06</span>
+              <h3>League table and player stats</h3>
+              <p>
+                The app goes beyond fixtures by including standings pages and
+                detailed athlete performance profiles.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section journey-section" id="journey">
+        <div class="container journey-layout">
+          <div class="journey-copy reveal">
+            <div class="section-kicker">App journey</div>
+            <h2>
+              Move from live match tracking into deep football analysis screens
+            </h2>
+
+            <div class="journey-steps">
+              <article
+                class="journey-step active-step"
+                data-image="photo1.jpeg"
+                data-title="Start with the stadium intro"
+                data-text="The opening screen presents the app as a live football companion focused on real-time scores, stats, and insights."
+              >
+                <span>01</span>
+                <div>
+                  <h3>Intro entry</h3>
+                  <p>
+                    The first screen sets a premium live-match tone from the
+                    start.
+                  </p>
+                </div>
+              </article>
+
+              <article
+                class="journey-step"
+                data-image="photo2.jpeg"
+                data-title="Browse live and upcoming matches"
+                data-text="Users arrive at a central home screen where they can inspect live score blocks and browse upcoming fixtures."
+              >
+                <span>02</span>
+                <div>
+                  <h3>Match home</h3>
+                  <p>
+                    The main dashboard brings live now and upcoming sections
+                    into one easy scan.
+                  </p>
+                </div>
+              </article>
+
+              <article
+                class="journey-step"
+                data-image="photo3.jpeg"
+                data-title="Open match lineups"
+                data-text="The lineup tab shows formation structure and ordered player roles for each side."
+              >
+                <span>03</span>
+                <div>
+                  <h3>Lineup tab</h3>
+                  <p>
+                    The app gives tactical context instead of stopping at
+                    fixture names.
+                  </p>
+                </div>
+              </article>
+
+              <article
+                class="journey-step"
+                data-image="photo4.jpeg"
+                data-title="Compare match statistics"
+                data-text="The stats tab presents both teams side by side across key match metrics."
+              >
+                <span>04</span>
+                <div>
+                  <h3>Stats tab</h3>
+                  <p>
+                    Users can read momentum and performance through more than
+                    just the scoreline.
+                  </p>
+                </div>
+              </article>
+
+              <article
+                class="journey-step"
+                data-image="photo5.jpeg"
+                data-title="Review head-to-head history"
+                data-text="The H2H tab adds historical matchup context and recent meetings between the two teams."
+              >
+                <span>05</span>
+                <div>
+                  <h3>H2H tab</h3>
+                  <p>
+                    Historical results make upcoming matches easier to evaluate.
+                  </p>
+                </div>
+              </article>
+
+              <article
+                class="journey-step"
+                data-image="photo6.jpeg"
+                data-title="Check match info"
+                data-text="The information tab organizes competition, status, referee, venue, weather, and fixture details into one structured screen."
+              >
+                <span>06</span>
+                <div>
+                  <h3>Info tab</h3>
+                  <p>
+                    The app keeps technical match facts accessible without
+                    clutter.
+                  </p>
+                </div>
+              </article>
+
+              <article
+                class="journey-step"
+                data-image="photo7.jpeg"
+                data-title="Open the league table"
+                data-text="The competition table expands the experience from single matches into broader league positioning and form analysis."
+              >
+                <span>07</span>
+                <div>
+                  <h3>Standings</h3>
+                  <p>
+                    Users can shift from fixture focus to full competition
+                    structure.
+                  </p>
+                </div>
+              </article>
+
+              <article
+                class="journey-step"
+                data-image="photo8.jpeg"
+                data-title="Study player profiles"
+                data-text="Individual player pages show season stats and deeper performance breakdowns."
+              >
+                <span>08</span>
+                <div>
+                  <h3>Player detail</h3>
+                  <p>
+                    The app adds individual athlete context on top of team and
+                    match data.
+                  </p>
+                </div>
+              </article>
+
+              <article
+                class="journey-step"
+                data-image="photo9.jpeg"
+                data-title="Browse full schedule screens"
+                data-text="The schedule area helps users move through match days, competitions, and reminders with a cleaner fixture calendar layout."
+              >
+                <span>09</span>
+                <div>
+                  <h3>Schedule mode</h3>
+                  <p>
+                    The fixture system supports planning, not only live
+                    consumption.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="journey-visual reveal">
+            <div class="journey-frame">
+              <div class="journey-phone tilt-card">
+                <div class="device-notch"></div>
+                <img
+                  id="journeyImage"
+                  src="photo1.jpeg"
+                  alt="MLBT Match Live preview screen"
+                />
+              </div>
+
+              <div class="journey-caption">
+                <small>Current screen</small>
+                <h3 id="journeyTitle">Start with the stadium intro</h3>
+                <p id="journeyText">
+                  The opening screen presents the app as a live football
+                  companion focused on real-time scores, stats, and insights.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section showcase-section" id="showcase">
+        <div class="container">
+          <div class="section-heading reveal">
+            <h2>Interface showcase</h2>
+          </div>
+
+          <div class="showcase-grid">
+            <article class="showcase-card showcase-large reveal">
+              <div class="showcase-copy">
+                <h3>Live dashboard and full schedule</h3>
+                <p>
+                  The app anchors itself around a live match dashboard, then
+                  extends into a fuller competition schedule for upcoming
+                  planning.
+                </p>
+              </div>
+              <div class="showcase-media split-stack">
+                <img src="photo2.jpeg" alt="Matches home screen" />
+                <img src="photo9.jpeg" alt="Schedule screen" />
+              </div>
+            </article>
+
+            <article class="showcase-card reveal">
+              <div class="showcase-copy">
+                <h3>Lineup and tactical setup</h3>
+                <p>
+                  The lineup interface gives a structured look at formation and
+                  player roles for each club.
+                </p>
+              </div>
+              <div class="showcase-media">
+                <img src="photo3.jpeg" alt="Lineup screen" />
+              </div>
+            </article>
+
+            <article class="showcase-card reveal">
+              <div class="showcase-copy">
+                <h3>Statistics and comparisons</h3>
+                <p>
+                  The stats tab turns the fixture into a broader performance
+                  story across possession, shots, accuracy, and more.
+                </p>
+              </div>
+              <div class="showcase-media">
+                <img src="photo4.jpeg" alt="Stats screen" />
+              </div>
+            </article>
+
+            <article class="showcase-card reveal">
+              <div class="showcase-copy">
+                <h3>History and context</h3>
+                <p>
+                  The H2H tab and info tab help users move from raw score
+                  interest into more complete match interpretation.
+                </p>
+              </div>
+              <div class="showcase-media split-media">
+                <img src="photo5.jpeg" alt="Head to head screen" />
+                <img src="photo6.jpeg" alt="Info screen" />
+              </div>
+            </article>
+
+            <article class="showcase-card showcase-wide reveal">
+              <div class="showcase-copy">
+                <h3>Standings and player performance</h3>
+                <p>
+                  League tables and player profiles add scale to the app by
+                  connecting live football interest with competition and athlete
+                  analysis.
+                </p>
+              </div>
+              <div class="showcase-media split-media">
+                <img src="photo7.jpeg" alt="League table screen" />
+                <img src="photo8.jpeg" alt="Player profile screen" />
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section carousel-section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <h2>App preview carousel</h2>
+          </div>
+
+          <div class="app-carousel reveal">
+            <div class="carousel-top">
+              <div class="carousel-meta">
+                <small>Now showing</small>
+                <h3 id="carouselTitle">Intro Screen</h3>
+              </div>
+
+              <div class="carousel-controls">
+                <button
+                  id="prevSlide"
+                  class="carousel-btn"
+                  aria-label="Previous"
+                >
+                  ←
+                </button>
+                <button id="nextSlide" class="carousel-btn" aria-label="Next">
+                  →
+                </button>
+              </div>
+            </div>
+
+            <div class="carousel-stage">
+              <div class="carousel-track" id="sliderTrack">
+                <article class="carousel-slide" data-title="Intro Screen">
+                  <img src="photo1.jpeg" alt="Intro screen" />
+                </article>
+                <article class="carousel-slide" data-title="Matches Home">
+                  <img src="photo2.jpeg" alt="Matches home" />
+                </article>
+                <article class="carousel-slide" data-title="Lineups">
+                  <img src="photo3.jpeg" alt="Lineups" />
+                </article>
+                <article class="carousel-slide" data-title="Stats">
+                  <img src="photo4.jpeg" alt="Stats" />
+                </article>
+                <article class="carousel-slide" data-title="Head To Head">
+                  <img src="photo5.jpeg" alt="Head to head" />
+                </article>
+                <article class="carousel-slide" data-title="Match Info">
+                  <img src="photo6.jpeg" alt="Match info" />
+                </article>
+                <article class="carousel-slide" data-title="League Table">
+                  <img src="photo7.jpeg" alt="League table" />
+                </article>
+                <article class="carousel-slide" data-title="Player Profile">
+                  <img src="photo8.jpeg" alt="Player profile" />
+                </article>
+                <article class="carousel-slide" data-title="Schedule">
+                  <img src="photo9.jpeg" alt="Schedule" />
+                </article>
+              </div>
+            </div>
+
+            <div class="carousel-dots" id="sliderDots"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reviews-section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <h2>Why the app feels stronger than a basic live score screen</h2>
+          </div>
+
+          <div class="review-grid">
+            <article class="review-card featured-review reveal">
+              <div class="review-stars">★★★★★</div>
+              <p>
+                “It feels more complete because it connects live matches with
+                stats, historical comparison, tables, and player-level detail.”
+              </p>
+              <div class="review-user">
+                <strong>Taras K.</strong>
+                <span>Football app user</span>
+              </div>
+            </article>
+
+            <article class="review-card reveal">
+              <div class="review-stars">★★★★★</div>
+              <p>
+                “The tab structure makes match details more useful because you
+                can move through lineup, stats, H2H, and info without friction.”
+              </p>
+              <div class="review-user">
+                <strong>Roman V.</strong>
+                <span>Fixture-focused user</span>
+              </div>
+            </article>
+
+            <article class="review-card reveal">
+              <div class="review-stars">★★★★★</div>
+              <p>
+                “League tables and player profiles make the app feel like a
+                broader football analysis product, not only a live scoreboard.”
+              </p>
+              <div class="review-user">
+                <strong>Den M.</strong>
+                <span>Stats-oriented fan</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section download-section" id="download">
+        <div class="container">
+          <div class="download-panel reveal">
+            <div class="download-copy">
+              <div class="section-kicker">Download app</div>
+              <h2>
+                Use MLBT Match Live to follow fixtures, inspect details, and
+                read football context with more depth
+              </h2>
+              <p>
+                Watch live score progress, open lineup tabs, compare stats,
+                review H2H history, check match info, browse standings, and move
+                into player performance pages inside one football-focused mobile
+                product.
+              </p>
+            </div>
+
+            <div class="download-actions">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.zenvoria.appobile"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-primary btn-wide"
+              >
+                Download on Google Play
+              </a>
+              <a href="privacy.html" class="btn btn-secondary btn-wide">
+                Privacy Policy
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-top">
+        <div class="footer-brand">
+          <span class="brand-mark small">ML</span>
+          <div>
+            <strong>MLBT Match Live</strong>
+            <p>Live football scores, stats and schedule tracking</p>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <a href="#features">Features</a>
+          <a href="#journey">Journey</a>
+          <a href="#showcase">Showcase</a>
+          <a href="#download">Download</a>
+          <a href="privacy.html">Privacy</a>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>© <span id="year"></span> MLBT Match Live. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

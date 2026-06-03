@@ -1,0 +1,565 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Cosmolot Car Manager — Smart Vehicle Records & Service Tracking
+    </title>
+    <meta
+      name="description"
+      content="Cosmolot Car Manager helps drivers organize service records, vehicle details, documents, and reports in one clean mobile dashboard."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Sora:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="page-bg">
+      <div class="aurora aurora-a"></div>
+      <div class="aurora aurora-b"></div>
+      <div class="aurora aurora-c"></div>
+      <div class="grid-overlay"></div>
+      <div class="road-lines"></div>
+      <div class="noise-layer"></div>
+    </div>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#top" class="brand">
+          <span class="brand-icon">CC</span>
+          <span class="brand-copy">
+            <strong>Cosmolot Car Manager</strong>
+            <small>Vehicle service dashboard</small>
+          </span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" id="siteNav">
+          <a href="#features">Features</a>
+          <a href="#workflow">Workflow</a>
+          <a href="#screens">Screens</a>
+          <a href="#reviews">Reviews</a>
+          <a href="privacy.html">Privacy</a>
+          <a href="#download" class="nav-cta">Download</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="top">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <span class="eyebrow">All-in-one auto organizer</span>
+            <h1>Manage your car like a modern digital garage.</h1>
+            <p class="hero-text">
+              Cosmolot Car Manager helps you keep service history, vehicle data,
+              documents, maintenance notes, and spending reports inside one
+              sleek mobile control center.
+            </p>
+
+            <div class="hero-actions">
+              <a
+                class="btn btn-primary"
+                href="https://play.google.com/store/apps/details?id=com.jenkinsmadi325.shvep"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Download App
+              </a>
+              <a class="btn btn-secondary" href="#screens">See App Screens</a>
+            </div>
+
+            <div class="hero-tags">
+              <span>Service Book</span>
+              <span>Documents</span>
+              <span>Expense Reports</span>
+            </div>
+
+            <div class="hero-stats">
+              <article class="stat-box">
+                <strong data-counter="3">0</strong>
+                <span>main management zones</span>
+              </article>
+              <article class="stat-box">
+                <strong data-counter="8">0</strong>
+                <span>key UI screens on the landing page</span>
+              </article>
+              <article class="stat-box">
+                <strong data-counter="1">0</strong>
+                <span>clean command center for your vehicle</span>
+              </article>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal">
+            <div class="cockpit-panel">
+              <div class="floating-badge badge-a">
+                <span class="signal-dot"></span>
+                Service history
+              </div>
+
+              <div class="floating-badge badge-b">
+                <span class="signal-dot"></span>
+                Smart reminders
+              </div>
+
+              <div class="floating-badge badge-c">
+                <span class="signal-dot"></span>
+                Cost overview
+              </div>
+
+              <div class="phone-stage tilt-card">
+                <div class="phone-shell">
+                  <div class="phone-notch"></div>
+                  <img
+                    src="photo1.jpeg"
+                    alt="Cosmolot Car Manager welcome screen"
+                  />
+                </div>
+              </div>
+
+              <div class="dashboard-chip chip-left">
+                <p>Control panel</p>
+                <strong>Garage, documents, reports</strong>
+              </div>
+
+              <div class="dashboard-chip chip-right">
+                <p>Designed for</p>
+                <strong>organized everyday car ownership</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section metrics-strip reveal">
+        <div class="container metrics-grid">
+          <div class="metric-card">
+            <small>Design mode</small>
+            <strong>Premium cockpit UI</strong>
+          </div>
+          <div class="metric-card">
+            <small>Main use</small>
+            <strong>Vehicle record management</strong>
+          </div>
+          <div class="metric-card">
+            <small>Product goal</small>
+            <strong>Less chaos, more control</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="features">
+        <div class="container section-head reveal">
+          <span class="eyebrow">Core features</span>
+          <h2>Built around the things drivers actually need to track</h2>
+          <p>
+            This layout uses a dashboard preview system, so every selected
+            screenshot feels like a product capability instead of a random
+            image.
+          </p>
+        </div>
+
+        <div class="container feature-layout">
+          <div class="feature-preview reveal">
+            <div class="preview-console">
+              <div class="console-top">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+
+              <div class="preview-phone">
+                <div class="phone-shell phone-shell-preview">
+                  <div class="phone-notch"></div>
+                  <img
+                    id="featurePreviewImage"
+                    src="photo2.jpeg"
+                    alt="Feature preview screen"
+                  />
+                </div>
+              </div>
+
+              <div class="preview-copy">
+                <span class="preview-label">Selected module</span>
+                <h3 id="featurePreviewTitle">Service Book Dashboard</h3>
+                <p id="featurePreviewText">
+                  The main service book screen gathers vehicle info, service
+                  records, and monthly expense visibility in one practical view.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="feature-stack">
+            <article
+              class="feature-card active-feature reveal"
+              tabindex="0"
+              data-image="photo2.jpeg"
+              data-title="Service Book Dashboard"
+              data-text="The main service book screen gathers vehicle info, service records, and monthly expense visibility in one practical view."
+            >
+              <div class="feature-top">
+                <span class="feature-index">01</span>
+                <span class="feature-tag">Dashboard</span>
+              </div>
+              <h3>Your garage starts with a clean overview</h3>
+              <p>
+                See current car information, add a vehicle, review service
+                history, and keep monthly cost tracking visible.
+              </p>
+            </article>
+
+            <article
+              class="feature-card reveal"
+              tabindex="0"
+              data-image="photo3.jpeg"
+              data-title="Vehicle Details"
+              data-text="Open a specific vehicle and keep mileage, year, license, and service history together in one screen."
+            >
+              <div class="feature-top">
+                <span class="feature-index">02</span>
+                <span class="feature-tag">Vehicle</span>
+              </div>
+              <h3>Vehicle detail pages keep the essentials together</h3>
+              <p>
+                Make, model, mileage, and service history are grouped in a more
+                structured ownership view.
+              </p>
+            </article>
+
+            <article
+              class="feature-card reveal"
+              tabindex="0"
+              data-image="photo4.jpeg"
+              data-title="Add Service Modal"
+              data-text="Log a service entry with date, odometer, service type, cost, and notes through a focused modal flow."
+            >
+              <div class="feature-top">
+                <span class="feature-index">03</span>
+                <span class="feature-tag">Service</span>
+              </div>
+              <h3>Service logging is fast and focused</h3>
+              <p>
+                The app makes it easy to add real maintenance actions instead of
+                leaving them in scattered notes.
+              </p>
+            </article>
+
+            <article
+              class="feature-card reveal"
+              tabindex="0"
+              data-image="photo5.jpeg"
+              data-title="Add Vehicle Flow"
+              data-text="Create a new car profile with photo, make, model, year, license, and mileage in a single setup screen."
+            >
+              <div class="feature-top">
+                <span class="feature-index">04</span>
+                <span class="feature-tag">Setup</span>
+              </div>
+              <h3>Add vehicles without clutter or confusion</h3>
+              <p>
+                The new vehicle flow turns setup into a clean input process that
+                feels like part of a premium dashboard.
+              </p>
+            </article>
+
+            <article
+              class="feature-card reveal"
+              tabindex="0"
+              data-image="photo6.jpeg"
+              data-title="Documents Module"
+              data-text="Store document entries like insurance and other vehicle-related records in a separate organized area."
+            >
+              <div class="feature-top">
+                <span class="feature-index">05</span>
+                <span class="feature-tag">Docs</span>
+              </div>
+              <h3>Important car documents get their own space</h3>
+              <p>
+                Instead of mixing records together, documents are separated into
+                a clearer category for quick review.
+              </p>
+            </article>
+
+            <article
+              class="feature-card reveal"
+              tabindex="0"
+              data-image="photo8.jpeg"
+              data-title="Reports Screen"
+              data-text="Review expense breakdowns and category totals in a more visual monthly report screen."
+            >
+              <div class="feature-top">
+                <span class="feature-index">06</span>
+                <span class="feature-tag">Reports</span>
+              </div>
+              <h3>Understand where your money goes</h3>
+              <p>
+                The reports screen turns maintenance and document costs into a
+                readable breakdown with better financial visibility.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="workflow">
+        <div class="container section-head reveal">
+          <span class="eyebrow">Workflow</span>
+          <h2>How the product experience unfolds</h2>
+          <p>
+            This site uses a vertical route timeline instead of a simple stacked
+            gallery, so the screenshots feel like a real product journey.
+          </p>
+        </div>
+
+        <div class="container route-timeline">
+          <article class="route-step reveal">
+            <div class="route-marker">01</div>
+            <div class="route-content">
+              <div class="route-copy">
+                <h3>Start from the service dashboard</h3>
+                <p>
+                  The service book screen works like a mobile garage hub with
+                  vehicle identity, records, and cost information in one place.
+                </p>
+              </div>
+              <div class="route-shot">
+                <img src="photo2.jpeg" alt="Service book dashboard screen" />
+              </div>
+            </div>
+          </article>
+
+          <article class="route-step reveal">
+            <div class="route-marker">02</div>
+            <div class="route-content">
+              <div class="route-copy">
+                <h3>Add or update your vehicles and service history</h3>
+                <p>
+                  The app supports detailed car setup and service record input,
+                  making ownership history easier to maintain over time.
+                </p>
+              </div>
+              <div class="route-shot route-dual">
+                <img src="photo5.jpeg" alt="Add new vehicle screen" />
+                <img src="photo4.jpeg" alt="Add service screen" />
+              </div>
+            </div>
+          </article>
+
+          <article class="route-step reveal">
+            <div class="route-marker">03</div>
+            <div class="route-content">
+              <div class="route-copy">
+                <h3>Separate documents from maintenance tasks</h3>
+                <p>
+                  Documents like insurance entries live in their own section so
+                  the app feels more structured and easier to navigate.
+                </p>
+              </div>
+              <div class="route-shot route-dual">
+                <img src="photo6.jpeg" alt="Documents screen" />
+                <img src="photo7.jpeg" alt="Add document screen" />
+              </div>
+            </div>
+          </article>
+
+          <article class="route-step reveal">
+            <div class="route-marker">04</div>
+            <div class="route-content">
+              <div class="route-copy">
+                <h3>Review category totals in the reports module</h3>
+                <p>
+                  Reports convert scattered car spending into a cleaner
+                  financial picture so users can understand recent expenses
+                  faster.
+                </p>
+              </div>
+              <div class="route-shot">
+                <img src="photo8.jpeg" alt="Reports screen" />
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="screens">
+        <div class="container section-head reveal">
+          <span class="eyebrow">App screens</span>
+          <h2>Interactive showcase with slider controls</h2>
+          <p>
+            Here the screenshots are shown inside a centered slider, which makes
+            this third site feel different from the first two.
+          </p>
+        </div>
+
+        <div class="container slider-wrap reveal">
+          <div class="slider-topbar">
+            <div>
+              <span class="slider-kicker">Current screen</span>
+              <h3 id="sliderTitle">Welcome Screen</h3>
+            </div>
+
+            <div class="slider-nav">
+              <button
+                class="slider-btn"
+                id="prevSlide"
+                aria-label="Previous slide"
+              >
+                ←
+              </button>
+              <button class="slider-btn" id="nextSlide" aria-label="Next slide">
+                →
+              </button>
+            </div>
+          </div>
+
+          <div class="slider-stage">
+            <div class="slider-track" id="sliderTrack">
+              <article class="slide-card" data-title="Welcome Screen">
+                <img src="photo1.jpeg" alt="Welcome screen" />
+              </article>
+              <article class="slide-card" data-title="Service Book">
+                <img src="photo2.jpeg" alt="Service book screen" />
+              </article>
+              <article class="slide-card" data-title="Vehicle Details">
+                <img src="photo3.jpeg" alt="Vehicle details screen" />
+              </article>
+              <article class="slide-card" data-title="Add Service">
+                <img src="photo4.jpeg" alt="Add service modal" />
+              </article>
+              <article class="slide-card" data-title="Add Vehicle">
+                <img src="photo5.jpeg" alt="Add vehicle modal" />
+              </article>
+              <article class="slide-card" data-title="Documents">
+                <img src="photo6.jpeg" alt="Documents screen" />
+              </article>
+              <article class="slide-card" data-title="Add Document">
+                <img src="photo7.jpeg" alt="Add document modal" />
+              </article>
+              <article class="slide-card" data-title="Reports Screen">
+                <img src="photo8.jpeg" alt="Reports screen" />
+              </article>
+            </div>
+          </div>
+
+          <div class="slider-dots" id="sliderDots"></div>
+        </div>
+      </section>
+
+      <section class="section" id="reviews">
+        <div class="container section-head reveal">
+          <span class="eyebrow">Reviews</span>
+          <h2>For drivers who want order, reminders, and visibility</h2>
+          <p>Sample review cards for the landing layout.</p>
+        </div>
+
+        <div class="container review-grid">
+          <article class="review-card reveal featured-review">
+            <div class="review-stars">★★★★★</div>
+            <p>
+              “I like that service history, documents, and reports are separated
+              clearly. It feels much more organized than keeping everything in
+              notes.”
+            </p>
+            <div class="review-user">
+              <strong>Mark D.</strong>
+              <span>Daily driver</span>
+            </div>
+          </article>
+
+          <article class="review-card reveal">
+            <div class="review-stars">★★★★★</div>
+            <p>
+              “The reports page is a nice touch. It makes the app feel more like
+              a real management tool and less like a simple logbook.”
+            </p>
+            <div class="review-user">
+              <strong>Emily S.</strong>
+              <span>Car owner</span>
+            </div>
+          </article>
+
+          <article class="review-card reveal">
+            <div class="review-stars">★★★★★</div>
+            <p>
+              “The dark purple design looks premium, and the flows for adding a
+              service or new document are very easy to understand.”
+            </p>
+            <div class="review-user">
+              <strong>Jason R.</strong>
+              <span>Vehicle enthusiast</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section cta-section" id="download">
+        <div class="container cta-panel reveal">
+          <div class="cta-copy">
+            <span class="eyebrow">Ready to organize your vehicle?</span>
+            <h2>
+              Download Cosmolot Car Manager and keep your car life under
+              control.
+            </h2>
+            <p>
+              Service records, vehicle details, documents, and reports all live
+              together in one polished mobile dashboard.
+            </p>
+          </div>
+
+          <div class="cta-actions">
+            <a
+              class="btn btn-primary btn-wide"
+              href="https://play.google.com/store/apps/details?id=com.jenkinsmadi325.shvep"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Download on Google Play
+            </a>
+            <a class="btn btn-secondary btn-wide" href="privacy.html">
+              Privacy Policy
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-top">
+        <div class="footer-brand">
+          <span class="brand-icon small">CC</span>
+          <div>
+            <strong>Cosmolot Car Manager</strong>
+            <p>Developed by Hindva Tech Solution organization</p>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <a href="#features">Features</a>
+          <a href="#workflow">Workflow</a>
+          <a href="#screens">Screens</a>
+          <a href="privacy.html">Privacy</a>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>
+          © <span id="year"></span> Hindva Tech Solution organization. All
+          rights reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

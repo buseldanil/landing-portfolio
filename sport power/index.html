@@ -1,0 +1,463 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sport Power — Event Control, Tasks, Scripts & Team Workflow</title>
+    <meta
+      name="description"
+      content="Sport Power is a premium event workflow app for schedules, tasks, scripts, decorations, inventory, and team coordination."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Syne:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="scene-bg">
+      <div class="gradient-orb orb-a"></div>
+      <div class="gradient-orb orb-b"></div>
+      <div class="gradient-orb orb-c"></div>
+      <div class="gradient-orb orb-d"></div>
+      <div class="mesh-overlay"></div>
+      <div class="grain-overlay"></div>
+      <div class="light-beam beam-a"></div>
+      <div class="light-beam beam-b"></div>
+    </div>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#top" class="brand">
+          <span class="brand-chip">SP</span>
+          <span class="brand-copy">
+            <strong>Sport Power</strong>
+            <small>Premium event management app</small>
+          </span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" id="siteNav">
+          <a href="#features">Features</a>
+          <a href="#experience">Experience</a>
+          <a href="#screens">Screens</a>
+          <a href="#reviews">Reviews</a>
+          <a href="privacy.html">Privacy</a>
+          <a href="#download" class="nav-cta">Download</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="top">
+        <div class="container hero-layout">
+          <div class="hero-copy reveal">
+            <span class="eyebrow">Cinematic event workflow</span>
+            <h1>Run the whole show from one high-impact control system.</h1>
+            <p class="hero-text">
+              Sport Power brings together tasks, appointments, inventory,
+              decorations, scenarios, schedules, and team data inside one bold
+              mobile workspace designed for live event coordination.
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#download"> Download App </a>
+              <a class="btn btn-secondary" href="#screens">See Showcase</a>
+            </div>
+
+            <div class="hero-metrics">
+              <article class="metric-box">
+                <strong data-counter="6">0</strong>
+                <span>core coordination modules</span>
+              </article>
+              <article class="metric-box">
+                <strong data-counter="9">0</strong>
+                <span>curated interface screens</span>
+              </article>
+              <article class="metric-box">
+                <strong data-counter="1">0</strong>
+                <span>single event control layer</span>
+              </article>
+            </div>
+          </div>
+
+          <div class="hero-stage reveal">
+            <div class="glass-ribbon ribbon-a">Live control</div>
+            <div class="glass-ribbon ribbon-b">Team roles</div>
+            <div class="glass-ribbon ribbon-c">Task tracking</div>
+
+            <div class="hero-photo photo-left float-card">
+              <img
+                src="photo3.jpeg"
+                alt="Sport Power main visual with presenter and team member"
+              />
+            </div>
+
+            <div class="hero-phone hero-phone-center tilt-card">
+              <div class="device-cap"></div>
+              <img src="photo1.jpeg" alt="Sport Power main menu screen" />
+            </div>
+
+            <div class="hero-sticker sticker-a">
+              <span></span>
+              Rainbow live-event aesthetic
+            </div>
+
+            <div class="hero-sticker sticker-b">
+              <span></span>
+              Scheduling, scripts, inventory
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section premium-strip reveal">
+        <div class="container premium-grid">
+          <div class="premium-card">
+            <small>Direction</small>
+            <strong>Luxury event-tech presentation</strong>
+          </div>
+          <div class="premium-card">
+            <small>Main use</small>
+            <strong>Live event coordination</strong>
+          </div>
+          <div class="premium-card">
+            <small>Look & feel</small>
+            <strong>Glossy, vibrant, premium</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="features">
+        <div class="container section-head reveal">
+          <span class="section-tag">Core modules</span>
+          <h2>Built around the real systems behind a complex event</h2>
+        </div>
+
+        <div class="container feature-zone">
+          <div class="feature-preview reveal">
+            <div class="preview-shell">
+              <div class="preview-topline"></div>
+              <div class="preview-copy">
+                <span class="preview-kicker">Selected module</span>
+                <h3 id="featureTitle">Task Tracker</h3>
+                <p id="featureText">
+                  Track total tasks, completed work, in-progress items, pending
+                  items, and completion rate inside a cleaner overview screen.
+                </p>
+              </div>
+
+              <div class="feature-device-wrap">
+                <div class="feature-device tilt-card">
+                  <div class="device-cap"></div>
+                  <img
+                    id="featureImage"
+                    src="photo1.jpeg"
+                    alt="Feature preview screen"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="feature-list">
+            <article
+              class="feature-card reveal active-feature"
+              tabindex="0"
+              data-image="photo8.jpeg"
+              data-title="Task Tracker"
+              data-text="Track total tasks, completed work, in-progress items, pending items, and completion rate inside a cleaner overview screen."
+            >
+              <div class="feature-meta">
+                <span>01</span>
+                <small>Tracker</small>
+              </div>
+              <h3>Live progress visibility for the whole production</h3>
+              <p>
+                The overview screen gives organizers a clear status snapshot
+                instead of forcing them to guess where work stands.
+              </p>
+            </article>
+
+            <article
+              class="feature-card reveal"
+              tabindex="0"
+              data-image="photo3.jpeg"
+              data-title="Task Creation"
+              data-text="Create new tasks with assignee, priority, deadline, and description so responsibilities stay clearly distributed."
+            >
+              <div class="feature-meta">
+                <span>02</span>
+                <small>Tasks</small>
+              </div>
+              <h3>Assign work with structure, not chaos</h3>
+              <p>
+                Priorities, deadlines, and ownership make the task flow feel
+                operational rather than improvised.
+              </p>
+            </article>
+
+            <article
+              class="feature-card reveal"
+              tabindex="0"
+              data-image="photo6.jpeg"
+              data-title="Scenario Builder"
+              data-text="Write and save scenario titles, durations, and script descriptions in a dedicated scripting module."
+            >
+              <div class="feature-meta">
+                <span>03</span>
+                <small>Scripts</small>
+              </div>
+              <h3>Production scripts stay inside the same system</h3>
+              <p>
+                Scenario planning gives the app a stronger backstage-production
+                feel, not just a generic task board.
+              </p>
+            </article>
+
+            <article
+              class="feature-card reveal"
+              tabindex="0"
+              data-image="photo5.jpeg"
+              data-title="Inventory Control"
+              data-text="Add items, define quantities, attach notes, and manage event inventory through a simple mobile form."
+            >
+              <div class="feature-meta">
+                <span>04</span>
+                <small>Inventory</small>
+              </div>
+              <h3>Inventory management is part of the workflow</h3>
+              <p>
+                Stock and equipment control are treated like first-class
+                modules, which is critical for complex event setups.
+              </p>
+            </article>
+
+            <article
+              class="feature-card reveal"
+              tabindex="0"
+              data-image="photo7.jpeg"
+              data-title="Decoration Module"
+              data-text="Add decorations with image, name, location, zone, and notes so visual production stays organized."
+            >
+              <div class="feature-meta">
+                <span>05</span>
+                <small>Decor</small>
+              </div>
+              <h3>Decoration planning gets its own dedicated space</h3>
+              <p>
+                Visual setup is often overlooked in apps like this, so this
+                module makes the product feel more complete.
+              </p>
+            </article>
+
+            <article
+              class="feature-card reveal"
+              tabindex="0"
+              data-image="photo9.jpeg"
+              data-title="Schedule System"
+              data-text="Use a date-based schedule screen to review the day, navigate month and year, and add appointments."
+            >
+              <div class="feature-meta">
+                <span>06</span>
+                <small>Schedule</small>
+              </div>
+              <h3>The event calendar becomes operational infrastructure</h3>
+              <p>
+                Scheduling turns the app into a central event timing system, not
+                just a collection of forms.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="container section-head reveal">
+          <span class="section-tag">Experience flow</span>
+          <h2>A control-center experience with layered premium storytelling</h2>
+        </div>
+
+        <div class="container editorial-stack">
+          <article class="editorial-card reveal">
+            <div class="editorial-copy">
+              <span class="editorial-step">Stage 01</span>
+              <h3>Enter through a visual live-event command center</h3>
+              <p>
+                The main menu and entrance screens immediately position the app
+                as a backstage coordination tool for real productions.
+              </p>
+            </div>
+            <div class="editorial-media layout-split">
+              <img src="photo8.jpeg" alt="Sport Power home visual" />
+              <img src="photo7.jpeg" alt="Sport Power main menu" />
+            </div>
+          </article>
+
+          <article class="editorial-card reverse reveal">
+            <div class="editorial-copy">
+              <span class="editorial-step">Stage 02</span>
+              <h3>Build tasks, roles, and operational execution</h3>
+              <p>
+                Task creation, tracking, and role-related screens make the app
+                feel like a genuine coordination platform.
+              </p>
+            </div>
+            <div class="editorial-media layout-layered">
+              <img
+                class="layer-main"
+                src="photo5.jpeg"
+                alt="Task creation screen"
+              />
+              <img
+                class="layer-float"
+                src="photo1.jpeg"
+                alt="Task tracker screen"
+              />
+            </div>
+          </article>
+
+          <article class="editorial-card reveal">
+            <div class="editorial-copy">
+              <span class="editorial-step">Stage 03</span>
+              <h3>Manage all physical and creative production elements</h3>
+              <p>
+                Decorations, inventory, and scripts are separated into their own
+                modules, which makes the system feel broad and production-ready.
+              </p>
+            </div>
+            <div class="editorial-media layout-triple">
+              <img src="photo2.jpeg" alt="Decoration screen" />
+              <img src="photo4.jpeg" alt="Inventory screen" />
+              <img src="photo3.jpeg" alt="Scenario screen" />
+            </div>
+          </article>
+
+          <article class="editorial-card reverse reveal">
+            <div class="editorial-copy">
+              <span class="editorial-step">Stage 04</span>
+              <h3>
+                Keep event timing and team identity inside the same ecosystem
+              </h3>
+              <p>
+                Schedule views and profile-related forms complete the product as
+                a full event operations system.
+              </p>
+            </div>
+            <div class="editorial-media layout-split">
+              <img src="photo6.jpeg" alt="Schedule screen" />
+              <img src="photo9.jpeg" alt="Profile input screen" />
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="reviews">
+        <div class="container section-head reveal">
+          <span class="section-tag">Reviews</span>
+          <h2>
+            Designed to feel bigger, sharper, and more premium than a normal app
+          </h2>
+          <p>Sample testimonial cards for the landing page layout.</p>
+        </div>
+
+        <div class="container review-grid">
+          <article class="review-card reveal featured-review">
+            <div class="review-stars">★★★★★</div>
+            <p>
+              “This feels less like a simple app and more like a full event
+              command system. The visual presentation is a big part of that.”
+            </p>
+            <div class="review-user">
+              <strong>Melissa R.</strong>
+              <span>Event producer</span>
+            </div>
+          </article>
+
+          <article class="review-card reveal">
+            <div class="review-stars">★★★★★</div>
+            <p>
+              “I like that tasks, scripts, schedule, inventory, and decoration
+              planning all live inside one system instead of separate tools.”
+            </p>
+            <div class="review-user">
+              <strong>Daniel K.</strong>
+              <span>Production coordinator</span>
+            </div>
+          </article>
+
+          <article class="review-card reveal">
+            <div class="review-stars">★★★★★</div>
+            <p>
+              “The visual design feels huge and premium. It looks like software
+              built for real, visible events rather than internal admin only.”
+            </p>
+            <div class="review-user">
+              <strong>Olga T.</strong>
+              <span>Creative operations manager</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section cta-section" id="download">
+        <div class="container cta-panel reveal">
+          <div class="cta-copy">
+            <span class="section-tag">Ready to control the whole event?</span>
+            <h2>
+              Download Sport Power and run schedules, people, tasks, and
+              production from one place.
+            </h2>
+            <p>
+              A high-impact mobile system for event coordination, live workflow,
+              scripting, inventory, decoration planning, and team structure.
+            </p>
+          </div>
+
+          <div class="cta-actions">
+            <a class="btn btn-primary btn-wide" href="#">
+              Download on Google Play
+            </a>
+            <a class="btn btn-secondary btn-wide" href="privacy.html">
+              Privacy Policy
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-top">
+        <div class="footer-brand">
+          <span class="brand-chip small">SP</span>
+          <div>
+            <strong>Sport Power</strong>
+            <p>Premium event workflow application</p>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <a href="#features">Features</a>
+          <a href="#experience">Experience</a>
+          <a href="#screens">Screens</a>
+          <a href="privacy.html">Privacy</a>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>
+          © <span id="year"></span> Croc InfoTech organization. All rights
+          reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

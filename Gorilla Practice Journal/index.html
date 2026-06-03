@@ -1,0 +1,641 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gorilla Practice Journal — Drum Training App</title>
+    <meta
+      name="description"
+      content="Gorilla Practice Journal is a mobile app for drum exercises, practice plans, timers, demo playback, and structured training progress."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bg-noise"></div>
+    <div class="bg-glow glow-a"></div>
+    <div class="bg-glow glow-b"></div>
+    <div class="bg-glow glow-c"></div>
+    <div class="cursor-glow"></div>
+
+    <header class="header" id="top">
+      <div class="container header-inner">
+        <a href="#top" class="logo">
+          <span class="logo-mark">GP</span>
+          <span class="logo-copy">
+            <strong>Gorilla Practice Journal</strong>
+            <small>Drum training, plans and timer</small>
+          </span>
+        </a>
+
+        <nav class="nav">
+          <a href="#hero" class="nav-link active">Home</a>
+          <a href="#features" class="nav-link">Features</a>
+          <a href="#system" class="nav-link">System</a>
+          <a href="#reviews" class="nav-link">Reviews</a>
+          <a href="privacy.html" class="nav-link">Privacy</a>
+        </nav>
+
+        <div class="header-actions">
+          <a
+            href="https://play.google.com/store/apps/details?id=com.orionpulse8836.starrift4417"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-primary btn-header magnetic"
+          >
+            Download
+          </a>
+
+          <button class="burger" aria-label="Open menu">
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="mobile-menu">
+        <a href="#hero" class="mobile-link">Home</a>
+        <a href="#features" class="mobile-link">Features</a>
+        <a href="#system" class="mobile-link">System</a>
+        <a href="#reviews" class="mobile-link">Reviews</a>
+        <a href="privacy.html" class="mobile-link">Privacy</a>
+        <a
+          href="https://play.google.com/store/apps/details?id=com.orionpulse8836.starrift4417"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="mobile-download"
+        >
+          Download App
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section" id="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <div class="eyebrow">
+              <span class="eyebrow-dot"></span>
+              Drum practice with structure
+            </div>
+
+            <h1>
+              Build better
+              <span>drumming habits</span>
+              through exercises, plans and timer-based sessions
+            </h1>
+
+            <p class="hero-text">
+              Gorilla Practice Journal combines daily progress, drum exercise
+              cards, guided practice steps, timer sessions, structured plans and
+              demo playback into one focused mobile experience built for players
+              who want more discipline in the way they train.
+            </p>
+
+            <div class="hero-actions">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.orionpulse8836.starrift4417"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-primary magnetic"
+              >
+                <span>Download on Google Play</span>
+              </a>
+
+              <a href="#features" class="btn btn-secondary">
+                Explore Features
+              </a>
+            </div>
+
+            <div class="hero-stats">
+              <div class="stat-card reveal tilt-card">
+                <strong class="counter" data-target="4">0</strong>
+                <span>Main app sections</span>
+              </div>
+              <div class="stat-card reveal tilt-card">
+                <strong class="counter" data-target="10">0</strong>
+                <span>Minute sessions shown in app flow</span>
+              </div>
+              <div class="stat-card reveal tilt-card">
+                <strong class="counter" data-target="100">0</strong>
+                <span>% practice-focused experience</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal">
+            <div class="hero-surface"></div>
+            <div class="hero-ring ring-a"></div>
+            <div class="hero-ring ring-b"></div>
+
+            <div class="float-card float-left">
+              <span>Daily training</span>
+              <strong>Progress, sessions and active drills</strong>
+            </div>
+
+            <div class="float-card float-right">
+              <span>Focused practice</span>
+              <strong>Exercises, plans and timer workflow</strong>
+            </div>
+
+            <div class="phone-cluster">
+              <div class="phone-main tilt-card">
+                <div class="phone-shell">
+                  <div class="phone-notch"></div>
+                  <div class="phone-screen">
+                    <img
+                      src="photo2.jpeg"
+                      alt="Gorilla Practice Journal home screen"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="phone-side side-left reveal">
+                <div class="mini-phone">
+                  <img src="photo5.jpeg" alt="Exercise library screen" />
+                </div>
+              </div>
+
+              <div class="phone-side side-right reveal">
+                <div class="mini-phone">
+                  <img src="photo8.jpeg" alt="Timer screen" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ticker-wrap">
+          <div class="ticker-track">
+            <span>Single stroke roll</span>
+            <span>Double stroke roll</span>
+            <span>Practice plans</span>
+            <span>Drum timer</span>
+            <span>Listen demo</span>
+            <span>Watch tutorial</span>
+            <span>Daily progress</span>
+            <span>Single stroke roll</span>
+            <span>Double stroke roll</span>
+            <span>Practice plans</span>
+            <span>Drum timer</span>
+            <span>Listen demo</span>
+            <span>Watch tutorial</span>
+            <span>Daily progress</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section features" id="features">
+        <div class="container">
+          <div class="section-head reveal">
+            <div class="eyebrow">Core product features</div>
+            <h2>Each screen is used as a training story, not just a gallery</h2>
+            <p>
+              The screenshots are integrated into the landing as product proof:
+              welcoming new users, showing daily practice flow, explaining drum
+              exercises, organizing plans and supporting timer-based sessions.
+            </p>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card feature-card-large reveal tilt-card">
+              <div class="feature-media wide">
+                <button class="shot modal-open" data-image="photo1.jpeg">
+                  <img src="photo1.jpeg" alt="Welcome screen" />
+                </button>
+              </div>
+
+              <div class="feature-copy">
+                <span class="feature-badge">First-run experience</span>
+                <h3>
+                  Start with a strong onboarding message built around
+                  improvement
+                </h3>
+                <p>
+                  The opening screen frames the app around a clear purpose:
+                  improving drumming skills through a guided and repeatable
+                  practice workflow.
+                </p>
+                <ul class="feature-list">
+                  <li>Clear motivation from the first screen</li>
+                  <li>Music-focused visual identity</li>
+                  <li>Immediate direction toward practice</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="feature-card reveal">
+              <div class="feature-media compact">
+                <button class="shot modal-open" data-image="photo2.jpeg">
+                  <img src="photo2.jpeg" alt="Dashboard screen" />
+                </button>
+              </div>
+              <div class="feature-copy">
+                <span class="feature-badge">Home dashboard</span>
+                <h3>Track daily progress and resume active training fast</h3>
+                <p>
+                  The home screen keeps the main training state visible through
+                  progress, active exercise context and session shortcuts.
+                </p>
+              </div>
+            </article>
+
+            <article class="feature-card reveal">
+              <div class="feature-media compact">
+                <button class="shot modal-open" data-image="photo3.jpeg">
+                  <img src="photo3.jpeg" alt="Exercise detail screen" />
+                </button>
+              </div>
+              <div class="feature-copy">
+                <span class="feature-badge">Exercise detail</span>
+                <h3>
+                  Technique pages combine description, practice steps and media
+                </h3>
+                <p>
+                  Exercise screens explain the goal, show how to practice and
+                  connect users to sheet view, demo playback and tutorials.
+                </p>
+              </div>
+            </article>
+
+            <article class="feature-card reveal">
+              <div class="feature-media compact">
+                <button class="shot modal-open" data-image="photo5.jpeg">
+                  <img src="photo5.jpeg" alt="Exercise library screen" />
+                </button>
+              </div>
+              <div class="feature-copy">
+                <span class="feature-badge">Library</span>
+                <h3>Browse exercises through a dedicated training library</h3>
+                <p>
+                  The app separates exercises from plans, which makes it easier
+                  to explore single drills and build practice around them.
+                </p>
+              </div>
+            </article>
+
+            <article class="feature-card reveal">
+              <div class="feature-media compact">
+                <button class="shot modal-open" data-image="photo6.jpeg">
+                  <img src="photo6.jpeg" alt="Plans screen" />
+                </button>
+              </div>
+              <div class="feature-copy">
+                <span class="feature-badge">Plans</span>
+                <h3>Structured plans give players a fuller practice path</h3>
+                <p>
+                  Plan cards make the app feel broader than a single drill list,
+                  helping users move from isolated exercises to real sessions.
+                </p>
+              </div>
+            </article>
+
+            <article class="feature-card reveal">
+              <div class="feature-media compact">
+                <button class="shot modal-open" data-image="photo8.jpeg">
+                  <img src="photo8.jpeg" alt="Timer screen" />
+                </button>
+              </div>
+              <div class="feature-copy">
+                <span class="feature-badge">Timer</span>
+                <h3>
+                  Timer-based practice supports discipline and consistency
+                </h3>
+                <p>
+                  The timer screen gives the product a stronger training
+                  identity by making practice measurable, paced and repeatable.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section system" id="system">
+        <div class="container">
+          <div class="section-head reveal">
+            <div class="eyebrow">Interactive product flow</div>
+            <h2>One app for drills, plans, timing and repeat practice</h2>
+            <p>
+              The landing keeps the visual balance clean while showing how the
+              app moves between exercise discovery, step-based learning,
+              training plans and timer-driven execution.
+            </p>
+          </div>
+
+          <div class="tabs-shell reveal">
+            <div class="tab-nav">
+              <button class="tab-btn active" data-tab="tab-exercises">
+                Exercises
+              </button>
+              <button class="tab-btn" data-tab="tab-plans">Plans</button>
+              <button class="tab-btn" data-tab="tab-timer">Timer</button>
+            </div>
+
+            <div class="tab-panels">
+              <div class="tab-panel active" id="tab-exercises">
+                <div class="tab-layout">
+                  <div class="tab-copy">
+                    <h3>
+                      Learn drills through clear exercise cards and detail pages
+                    </h3>
+                    <p>
+                      Users can browse the exercise library, open an individual
+                      rudiment and move through step-based practice supported by
+                      demo playback and learning materials.
+                    </p>
+
+                    <div class="pill-row">
+                      <span>Rudiments</span>
+                      <span>Hand technique</span>
+                      <span>Coordination</span>
+                      <span>Sheet view</span>
+                    </div>
+                  </div>
+
+                  <div class="tab-visuals">
+                    <div class="tab-shot">
+                      <img src="photo5.jpeg" alt="Exercise library preview" />
+                    </div>
+                    <div class="tab-shot">
+                      <img src="photo3.jpeg" alt="Exercise detail preview" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-panel" id="tab-plans">
+                <div class="tab-layout">
+                  <div class="tab-copy">
+                    <h3>
+                      Training plans turn single drills into full practice
+                      sessions
+                    </h3>
+                    <p>
+                      Plans help beginners and more advanced players follow a
+                      structured order instead of guessing what to play next.
+                    </p>
+
+                    <div class="pill-row">
+                      <span>Beginner</span>
+                      <span>Intermediate</span>
+                      <span>Advanced</span>
+                      <span>Session flow</span>
+                    </div>
+                  </div>
+
+                  <div class="tab-visuals">
+                    <div class="tab-shot">
+                      <img src="photo6.jpeg" alt="Plans preview" />
+                    </div>
+                    <div class="tab-shot">
+                      <img src="photo7.jpeg" alt="Plan detail preview" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-panel" id="tab-timer">
+                <div class="tab-layout">
+                  <div class="tab-copy">
+                    <h3>
+                      Timer mode supports focus, pacing and daily continuity
+                    </h3>
+                    <p>
+                      The timer and progress layer make the app feel like a real
+                      practice tool, not just a collection of music content.
+                    </p>
+
+                    <div class="pill-row">
+                      <span>Countdown</span>
+                      <span>Play / pause</span>
+                      <span>Resume practice</span>
+                      <span>Daily progress</span>
+                    </div>
+                  </div>
+
+                  <div class="tab-visuals">
+                    <div class="tab-shot">
+                      <img src="photo8.jpeg" alt="Timer preview" />
+                    </div>
+                    <div class="tab-shot">
+                      <img src="photo9.jpeg" alt="Timer dashboard preview" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="system-grid">
+            <article class="system-card reveal tilt-card">
+              <div class="system-head">
+                <span>Practice structure</span>
+                <strong>More than a simple exercise list</strong>
+              </div>
+              <p>
+                Gorilla Practice Journal combines drills, plans, timing and
+                session continuity, which makes the product feel like a full
+                practice system.
+              </p>
+
+              <div class="progress-stack">
+                <div class="progress-row">
+                  <span>Exercise clarity</span>
+                  <div class="progress-bar"><i style="width: 86%"></i></div>
+                </div>
+                <div class="progress-row">
+                  <span>Plan usefulness</span>
+                  <div class="progress-bar"><i style="width: 79%"></i></div>
+                </div>
+                <div class="progress-row">
+                  <span>Timer workflow</span>
+                  <div class="progress-bar"><i style="width: 83%"></i></div>
+                </div>
+              </div>
+            </article>
+
+            <article class="system-card reveal tilt-card">
+              <div class="system-head">
+                <span>Visual direction</span>
+                <strong>Dark neon music training identity</strong>
+              </div>
+              <p>
+                The interface mixes black surfaces, deep navy panels and sharp
+                acid-lime accents to create a stronger modern drum-practice
+                mood.
+              </p>
+
+              <div class="tag-row">
+                <span>Acid lime</span>
+                <span>Deep navy</span>
+                <span>Dark music UI</span>
+                <span>Practice glow</span>
+              </div>
+            </article>
+
+            <article class="system-card reveal tilt-card">
+              <div class="system-head">
+                <span>Compact media</span>
+                <strong>Balanced screenshot storytelling</strong>
+              </div>
+              <p>
+                Only the most useful screens are used, so the site stays cleaner
+                while still showing the product depth.
+              </p>
+
+              <div class="mini-previews">
+                <div class="mini-thumb">
+                  <img src="photo3.jpeg" alt="Exercise preview" />
+                </div>
+                <div class="mini-thumb">
+                  <img src="photo6.jpeg" alt="Plans preview" />
+                </div>
+                <div class="mini-thumb">
+                  <img src="photo8.jpeg" alt="Timer preview" />
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reviews" id="reviews">
+        <div class="container">
+          <div class="section-head reveal">
+            <div class="eyebrow">User impression</div>
+            <h2>Built for drummers who want more discipline in practice</h2>
+            <p>
+              The app feels strongest when it turns technique, timing and
+              session structure into one repeatable training routine.
+            </p>
+          </div>
+
+          <div class="review-grid">
+            <article class="review-card reveal tilt-card">
+              <div class="stars">★★★★★</div>
+              <p>
+                “The timer mode is the best part for me because it turns the app
+                into something I actually use during practice.”
+              </p>
+              <div class="review-meta">
+                <strong>Ivan K.</strong>
+                <span>Beginner drummer</span>
+              </div>
+            </article>
+
+            <article class="review-card reveal tilt-card">
+              <div class="stars">★★★★★</div>
+              <p>
+                “I like that drills and plans are separated. It makes practice
+                feel more organized.”
+              </p>
+              <div class="review-meta">
+                <strong>Roman M.</strong>
+                <span>Music learner</span>
+              </div>
+            </article>
+
+            <article class="review-card reveal tilt-card">
+              <div class="stars">★★★★★</div>
+              <p>
+                “The dark design and neon accents look really strong, and the
+                progress flow makes it easier to stay consistent.”
+              </p>
+              <div class="review-meta">
+                <strong>Dmytro P.</strong>
+                <span>Practice-focused user</span>
+              </div>
+            </article>
+          </div>
+
+          <div class="quote-strip reveal">
+            <div class="quote-line"></div>
+            <p>
+              Good practice apps do not only show exercises — they help users
+              repeat, measure and structure training sessions.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section cta" id="download">
+        <div class="container">
+          <div class="cta-card reveal">
+            <div class="cta-copy">
+              <div class="eyebrow">Ready to install?</div>
+              <h2>
+                Keep drum exercises, plans and timer-based practice in one app
+              </h2>
+              <p>
+                Download Gorilla Practice Journal and use a cleaner mobile
+                system for drum training, session planning and repeatable
+                practice flow.
+              </p>
+            </div>
+
+            <div class="cta-actions">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.orionpulse8836.starrift4417"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-primary btn-lg magnetic"
+              >
+                <span>Download</span>
+              </a>
+
+              <a href="privacy.html" class="btn btn-secondary btn-lg">
+                Privacy Policy
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <a href="#top" class="logo">
+          <span class="logo-mark">GP</span>
+          <span class="logo-copy">
+            <strong>Gorilla Practice Journal</strong>
+            <small>Drum training, plans and timer</small>
+          </span>
+        </a>
+
+        <div class="footer-links">
+          <a href="#hero">Home</a>
+          <a href="#features">Features</a>
+          <a href="#system">System</a>
+          <a href="#reviews">Reviews</a>
+          <a href="privacy.html">Privacy</a>
+        </div>
+
+        <a
+          href="https://play.google.com/store/apps/details?id=com.orionpulse8836.starrift4417"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="footer-play"
+        >
+          Google Play
+        </a>
+      </div>
+    </footer>
+
+    <div class="image-modal" id="imageModal">
+      <div class="image-modal-backdrop"></div>
+      <div class="image-modal-dialog">
+        <button class="modal-close" aria-label="Close preview">×</button>
+        <img src="" alt="App screen preview" id="modalImage" />
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

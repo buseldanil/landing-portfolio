@@ -1,0 +1,660 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TowerR Site Forge — Construction Management App</title>
+    <meta
+      name="description"
+      content="TowerR Site Forge is a mobile app for monitoring construction sites, budgets, reports, crews, and progress."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="site-bg">
+      <div class="bg-orb orb-1"></div>
+      <div class="bg-orb orb-2"></div>
+      <div class="bg-grid"></div>
+      <div class="mouse-glow"></div>
+    </div>
+
+    <header class="header" id="top">
+      <div class="container">
+        <div class="header-inner">
+          <a href="#top" class="logo">
+            <span class="logo-mark">TS</span>
+            <span class="logo-copy">
+              <strong>TowerR Site Forge</strong>
+              <small>Construction dashboard app</small>
+            </span>
+          </a>
+
+          <nav class="nav">
+            <a href="#hero" class="nav-link active">Home</a>
+            <a href="#features" class="nav-link">Features</a>
+            <a href="#workflow" class="nav-link">Workflow</a>
+            <a href="#reviews" class="nav-link">Reviews</a>
+            <a href="privacy.html" class="nav-link">Privacy</a>
+          </nav>
+
+          <div class="header-right">
+            <a
+              href="https://play.google.com/store/apps/details?id=com.celestforge7741.stardrift5523"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-primary header-download magnetic"
+            >
+              Download
+            </a>
+
+            <button class="burger" aria-label="Open menu" type="button">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="mobile-menu">
+        <div class="mobile-menu-inner">
+          <a href="#hero" class="mobile-link">Home</a>
+          <a href="#features" class="mobile-link">Features</a>
+          <a href="#workflow" class="mobile-link">Workflow</a>
+          <a href="#reviews" class="mobile-link">Reviews</a>
+          <a href="privacy.html" class="mobile-link">Privacy</a>
+
+          <a
+            href="https://play.google.com/store/apps/details?id=com.celestforge7741.stardrift5523"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="mobile-download"
+          >
+            Download App
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section" id="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <div class="eyebrow">
+              <span class="eyebrow-dot"></span>
+              Construction control in one mobile system
+            </div>
+
+            <h1>
+              Monitor sites,
+              <span>track progress</span>
+              and keep reports close to the field
+            </h1>
+
+            <p class="hero-text">
+              TowerR Site Forge is built for site managers and teams who need a
+              cleaner mobile overview of active projects, construction progress,
+              supply flow, reports and account-level operational stats.
+            </p>
+
+            <div class="hero-actions">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.celestforge7741.stardrift5523"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-primary btn-large magnetic"
+              >
+                Download on Google Play
+              </a>
+
+              <a href="#features" class="btn btn-secondary">See Product Flow</a>
+            </div>
+
+            <div class="hero-stats">
+              <div class="stat-card reveal tilt-card">
+                <strong class="counter" data-target="4">0</strong>
+                <span
+                  >Main app sections for dashboard, sites, reports and
+                  account</span
+                >
+              </div>
+              <div class="stat-card reveal tilt-card">
+                <strong class="counter" data-target="100">0</strong>
+                <span
+                  >% focused on construction visibility and team
+                  coordination</span
+                >
+              </div>
+              <div class="stat-card reveal tilt-card">
+                <strong class="counter" data-target="24">0</strong>
+                <span
+                  >Hour-style mobile access to project status at any
+                  moment</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal">
+            <div class="hero-panel"></div>
+            <div class="hero-ring ring-a"></div>
+            <div class="hero-ring ring-b"></div>
+
+            <div class="float-card float-left">
+              <span>Active sites</span>
+              <strong>See progress, crews and current attention areas</strong>
+            </div>
+
+            <div class="float-card float-right">
+              <span>Reports</span>
+              <strong
+                >Quick access to audits, materials and progress
+                summaries</strong
+              >
+            </div>
+
+            <div class="phone-cluster">
+              <div class="phone-main tilt-card">
+                <div class="phone-shell">
+                  <div class="phone-notch"></div>
+                  <div class="phone-screen">
+                    <img
+                      src="photo1.jpeg"
+                      alt="TowerR Site Forge dashboard screen"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="phone-side side-left reveal">
+                <div class="mini-phone">
+                  <img src="photo4.jpeg" alt="Construction sites list screen" />
+                </div>
+              </div>
+
+              <div class="phone-side side-right reveal">
+                <div class="mini-phone">
+                  <img src="photo6.jpeg" alt="Reports screen" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ticker-wrap">
+          <div class="ticker-track">
+            <span>Dashboard Overview</span>
+            <span>Active Sites</span>
+            <span>Supply Chain</span>
+            <span>Progress Tracking</span>
+            <span>Reports</span>
+            <span>Crew Visibility</span>
+            <span>Account Summary</span>
+            <span>Dashboard Overview</span>
+            <span>Active Sites</span>
+            <span>Supply Chain</span>
+            <span>Progress Tracking</span>
+            <span>Reports</span>
+            <span>Crew Visibility</span>
+            <span>Account Summary</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section features" id="features">
+        <div class="container">
+          <div class="section-head reveal">
+            <div class="eyebrow">Product highlights</div>
+            <h2>Strong screens turned into clear product advantages</h2>
+            <p>
+              The landing uses a limited number of screenshots and gives each of
+              them a specific role, so the page feels designed instead of
+              overloaded.
+            </p>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card feature-card-large reveal tilt-card">
+              <div class="feature-media wide">
+                <button class="shot modal-open" data-image="photo1.jpeg">
+                  <img src="photo1.jpeg" alt="Dashboard preview" />
+                </button>
+              </div>
+
+              <div class="feature-copy">
+                <span class="feature-badge">Dashboard</span>
+                <h3>
+                  Start from an overview that immediately shows priority sites
+                </h3>
+                <p>
+                  The home dashboard gives users an operational entry point with
+                  alerts, site count, crew scale and active project progress
+                  cards.
+                </p>
+                <ul class="feature-list">
+                  <li>Priority message at the top</li>
+                  <li>Quick operational metrics</li>
+                  <li>Live active site cards</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="feature-card reveal">
+              <div class="feature-media compact">
+                <button class="shot modal-open" data-image="photo2.jpeg">
+                  <img src="photo2.jpeg" alt="Activity feed preview" />
+                </button>
+              </div>
+              <div class="feature-copy">
+                <span class="feature-badge">Activity feed</span>
+                <h3>Follow what is happening across sites</h3>
+                <p>
+                  Recent operational events such as deliveries, safety checks
+                  and site updates keep the app useful during daily supervision.
+                </p>
+              </div>
+            </article>
+
+            <article class="feature-card reveal">
+              <div class="feature-media compact">
+                <button class="shot modal-open" data-image="photo3.jpeg">
+                  <img src="photo3.jpeg" alt="Project detail preview" />
+                </button>
+              </div>
+              <div class="feature-copy">
+                <span class="feature-badge">Site detail</span>
+                <h3>Open a project and inspect deeper progress data</h3>
+                <p>
+                  The project detail screen makes the app feel more serious by
+                  showing overall progress, substage completion and supply data.
+                </p>
+              </div>
+            </article>
+
+            <article class="feature-card reveal">
+              <div class="feature-media compact">
+                <button class="shot modal-open" data-image="photo4.jpeg">
+                  <img src="photo4.jpeg" alt="Sites list preview" />
+                </button>
+              </div>
+              <div class="feature-copy">
+                <span class="feature-badge">Site management</span>
+                <h3>
+                  Keep active and planning locations in one structured list
+                </h3>
+                <p>
+                  Site cards show location, levels, crew and current progress,
+                  which helps users compare projects quickly without opening
+                  each one.
+                </p>
+              </div>
+            </article>
+
+            <article class="feature-card reveal">
+              <div class="feature-media compact">
+                <button class="shot modal-open" data-image="photo6.jpeg">
+                  <img src="photo6.jpeg" alt="Reports screen preview" />
+                </button>
+              </div>
+              <div class="feature-copy">
+                <span class="feature-badge">Reports</span>
+                <h3>See budget, inspections and issue load from mobile</h3>
+                <p>
+                  Reports convert project operations into readable numbers,
+                  progress lines and recent reporting entries.
+                </p>
+              </div>
+            </article>
+
+            <article class="feature-card reveal">
+              <div class="feature-media compact">
+                <button class="shot modal-open" data-image="photo8.jpeg">
+                  <img src="photo8.jpeg" alt="Account screen preview" />
+                </button>
+              </div>
+              <div class="feature-copy">
+                <span class="feature-badge">Account</span>
+                <h3>Give managers a compact professional profile area</h3>
+                <p>
+                  The account screen turns the product into a more complete
+                  management tool with role data, experience and completed work
+                  stats.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section workflow" id="workflow">
+        <div class="container">
+          <div class="section-head reveal">
+            <div class="eyebrow">Workflow</div>
+            <h2>Built around the daily construction management loop</h2>
+            <p>
+              The app connects overview, site-by-site control, reporting and
+              personal account context into one consistent mobile workflow.
+            </p>
+          </div>
+
+          <div class="tabs-shell reveal">
+            <div class="tab-nav">
+              <button class="tab-btn active" data-tab="tab-overview">
+                Overview
+              </button>
+              <button class="tab-btn" data-tab="tab-sites">Sites</button>
+              <button class="tab-btn" data-tab="tab-reports">Reports</button>
+            </div>
+
+            <div class="tab-panels">
+              <div class="tab-panel active" id="tab-overview">
+                <div class="tab-layout">
+                  <div class="tab-copy">
+                    <h3>
+                      Check priorities first and understand where attention is
+                      needed
+                    </h3>
+                    <p>
+                      The dashboard is designed to answer the first question of
+                      the day: what site needs action now, and what is the
+                      current state.
+                    </p>
+
+                    <div class="pill-row">
+                      <span>Priority alert</span>
+                      <span>Site count</span>
+                      <span>Crew size</span>
+                      <span>Activity feed</span>
+                    </div>
+                  </div>
+
+                  <div class="tab-visuals">
+                    <div class="tab-shot">
+                      <img src="photo1.jpeg" alt="Overview preview" />
+                    </div>
+                    <div class="tab-shot">
+                      <img src="photo2.jpeg" alt="Activity preview" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-panel" id="tab-sites">
+                <div class="tab-layout">
+                  <div class="tab-copy">
+                    <h3>Move into site cards and project-level breakdowns</h3>
+                    <p>
+                      Users can filter active or planning projects, then open a
+                      specific site to inspect deeper completion and material
+                      flow.
+                    </p>
+
+                    <div class="pill-row">
+                      <span>Active projects</span>
+                      <span>Planning pipeline</span>
+                      <span>Progress %</span>
+                      <span>Supply chain</span>
+                    </div>
+                  </div>
+
+                  <div class="tab-visuals">
+                    <div class="tab-shot">
+                      <img src="photo4.jpeg" alt="Sites list preview" />
+                    </div>
+                    <div class="tab-shot">
+                      <img src="photo3.jpeg" alt="Site detail preview" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-panel" id="tab-reports">
+                <div class="tab-layout">
+                  <div class="tab-copy">
+                    <h3>
+                      Summarize operational performance with cleaner reporting
+                      blocks
+                    </h3>
+                    <p>
+                      Budget totals, logged hours, inspections and recent report
+                      items make the app more useful beyond just viewing site
+                      cards.
+                    </p>
+
+                    <div class="pill-row">
+                      <span>Budget</span>
+                      <span>Hours</span>
+                      <span>Issues</span>
+                      <span>Recent reports</span>
+                    </div>
+                  </div>
+
+                  <div class="tab-visuals">
+                    <div class="tab-shot">
+                      <img src="photo6.jpeg" alt="Reports overview preview" />
+                    </div>
+                    <div class="tab-shot">
+                      <img src="photo7.jpeg" alt="Recent reports preview" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="system-grid">
+            <article class="system-card reveal tilt-card">
+              <div class="system-head">
+                <span>Construction fit</span>
+                <strong>Feels built for real site supervision</strong>
+              </div>
+              <p>
+                The app focuses on project status, materials, crews, reporting
+                and management visibility instead of generic mobile widgets.
+              </p>
+
+              <div class="progress-stack">
+                <div class="progress-row">
+                  <span>Site visibility</span>
+                  <div class="progress-bar"><i style="width: 88%"></i></div>
+                </div>
+                <div class="progress-row">
+                  <span>Operational reporting</span>
+                  <div class="progress-bar"><i style="width: 84%"></i></div>
+                </div>
+                <div class="progress-row">
+                  <span>Project comparison</span>
+                  <div class="progress-bar"><i style="width: 81%"></i></div>
+                </div>
+              </div>
+            </article>
+
+            <article class="system-card reveal tilt-card">
+              <div class="system-head">
+                <span>Visual identity</span>
+                <strong>Blue management base with yellow signal accents</strong>
+              </div>
+              <p>
+                The color system works well for this product because it feels
+                operational, clear and construction-oriented without looking
+                heavy.
+              </p>
+
+              <div class="tag-row">
+                <span>Blue shell</span>
+                <span>Yellow emphasis</span>
+                <span>Clean cards</span>
+                <span>Mobile clarity</span>
+              </div>
+            </article>
+
+            <article class="system-card reveal tilt-card">
+              <div class="system-head">
+                <span>Controlled screenshot usage</span>
+                <strong>Compact screen presentation only where useful</strong>
+              </div>
+              <p>
+                The landing avoids one huge screenshot gallery and instead uses
+                small structured previews that support the page layout.
+              </p>
+
+              <div class="mini-previews">
+                <div class="mini-thumb">
+                  <img src="photo3.jpeg" alt="Detail mini preview" />
+                </div>
+                <div class="mini-thumb">
+                  <img src="photo6.jpeg" alt="Reports mini preview" />
+                </div>
+                <div class="mini-thumb">
+                  <img src="photo8.jpeg" alt="Account mini preview" />
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reviews" id="reviews">
+        <div class="container">
+          <div class="section-head reveal">
+            <div class="eyebrow">Why it works</div>
+            <h2>
+              Useful for managers who need fast mobile construction visibility
+            </h2>
+            <p>
+              The product feels stronger because it is not only about site
+              lists, but also about progress, attention points, reports and
+              management context.
+            </p>
+          </div>
+
+          <div class="review-grid">
+            <article class="review-card reveal tilt-card">
+              <div class="stars">★★★★★</div>
+              <p>
+                “The dashboard is straightforward and actually useful. It gives
+                a fast sense of which projects are moving and which need
+                attention.”
+              </p>
+              <div class="review-meta">
+                <strong>Alex P.</strong>
+                <span>Project supervisor</span>
+              </div>
+            </article>
+
+            <article class="review-card reveal tilt-card">
+              <div class="stars">★★★★★</div>
+              <p>
+                “The site detail and supply chain blocks are the strongest part
+                for me. They make the app feel like a real construction tool.”
+              </p>
+              <div class="review-meta">
+                <strong>Martin K.</strong>
+                <span>Field operations user</span>
+              </div>
+            </article>
+
+            <article class="review-card reveal tilt-card">
+              <div class="stars">★★★★★</div>
+              <p>
+                “Reports and account sections give this product more depth than
+                a simple dashboard app. It feels closer to day-to-day
+                management.”
+              </p>
+              <div class="review-meta">
+                <strong>Daniel R.</strong>
+                <span>Site manager</span>
+              </div>
+            </article>
+          </div>
+
+          <div class="quote-strip reveal">
+            <div class="quote-line"></div>
+            <p>
+              A strong construction app should show what is active, what is
+              late, what is progressing and what was reported — all without
+              overloading the screen.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section cta" id="download">
+        <div class="container">
+          <div class="cta-card reveal">
+            <div class="cta-copy">
+              <div class="eyebrow">Ready to install?</div>
+              <h2>
+                Keep construction sites, reports and site progress in one place
+              </h2>
+              <p>
+                Download TowerR Site Forge and manage active projects, teams,
+                supply flow and reports from a cleaner mobile interface.
+              </p>
+            </div>
+
+            <div class="cta-actions">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.celestforge7741.stardrift5523"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-primary btn-large magnetic"
+              >
+                Download
+              </a>
+
+              <a href="privacy.html" class="btn btn-secondary btn-large">
+                Privacy Policy
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <a href="#top" class="logo">
+          <span class="logo-mark">TS</span>
+          <span class="logo-copy">
+            <strong>TowerR Site Forge</strong>
+            <small>Construction dashboard app</small>
+          </span>
+        </a>
+
+        <div class="footer-links">
+          <a href="#hero">Home</a>
+          <a href="#features">Features</a>
+          <a href="#workflow">Workflow</a>
+          <a href="#reviews">Reviews</a>
+          <a href="privacy.html">Privacy</a>
+        </div>
+
+        <a
+          href="https://play.google.com/store/apps/details?id=com.celestforge7741.stardrift5523"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="footer-play"
+        >
+          Google Play
+        </a>
+      </div>
+    </footer>
+
+    <div class="image-modal" id="imageModal">
+      <div class="image-modal-backdrop"></div>
+      <div class="image-modal-dialog">
+        <button class="modal-close" aria-label="Close preview">×</button>
+        <img src="" alt="App screen preview" id="modalImage" />
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

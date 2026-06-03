@@ -1,0 +1,561 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1x Health Journey — Daily Supplement & Wellness Tracking</title>
+    <meta
+      name="description"
+      content="1x Health Journey helps users track supplements, keep a health diary, explore a knowledge base, and follow wellness progress through a clean mobile experience."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Outfit:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="bg-scene">
+      <div class="bg-orb orb-a"></div>
+      <div class="bg-orb orb-b"></div>
+      <div class="bg-orb orb-c"></div>
+      <div class="bg-grid"></div>
+      <div class="bg-particles"></div>
+    </div>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#top" class="brand">
+          <span class="brand-mark">1X</span>
+          <span class="brand-copy">
+            <strong>1x Health Journey</strong>
+            <small>Smart wellness companion</small>
+          </span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" id="siteNav">
+          <a href="#features">Features</a>
+          <a href="#journey">Journey</a>
+          <a href="#screens">Screens</a>
+          <a href="#reviews">Reviews</a>
+          <a href="privacy.html">Privacy</a>
+          <a href="#download" class="nav-cta">Download</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="top">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <span class="eyebrow">Daily health tracking</span>
+            <h1>Build better supplement habits one day at a time.</h1>
+            <p class="hero-text">
+              1x Health Journey helps users organize supplement routines, keep a
+              personal health diary, explore vitamin knowledge, and follow
+              adherence progress inside one soft, clean mobile experience.
+            </p>
+
+            <div class="hero-actions">
+              <a
+                class="btn btn-primary"
+                href="https://play.google.com/store/apps/details?id=com.zenqoralis88.mevtra"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Download App
+              </a>
+              <a class="btn btn-secondary" href="#screens">View Screens</a>
+            </div>
+
+            <div class="hero-pills">
+              <span>Supplement diary</span>
+              <span>Vitamin knowledge base</span>
+              <span>Adherence statistics</span>
+            </div>
+
+            <div class="hero-stats">
+              <article class="stat-card">
+                <strong data-counter="3">0</strong>
+                <span>main wellness zones in one app</span>
+              </article>
+              <article class="stat-card">
+                <strong data-counter="8">0</strong>
+                <span>featured screens shown on the landing page</span>
+              </article>
+              <article class="stat-card">
+                <strong data-counter="1">0</strong>
+                <span>personal place for healthier routines</span>
+              </article>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal">
+            <div class="hero-panel">
+              <div class="floating-pill pill-a">
+                <span class="mini-dot"></span>
+                Daily diary
+              </div>
+              <div class="floating-pill pill-b">
+                <span class="mini-dot"></span>
+                Health knowledge
+              </div>
+              <div class="floating-pill pill-c">
+                <span class="mini-dot"></span>
+                Progress tracking
+              </div>
+
+              <div class="device-shell tilt-card">
+                <div class="device-notch"></div>
+                <img src="photo1.jpeg" alt="1x Health Journey splash screen" />
+              </div>
+
+              <div class="mini-summary summary-a">
+                <p>Interface mood</p>
+                <strong>Soft wellness glass UI</strong>
+              </div>
+
+              <div class="mini-summary summary-b">
+                <p>Built for</p>
+                <strong>consistent daily supplement habits</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section quick-strip reveal">
+        <div class="container quick-grid">
+          <div class="quick-card">
+            <small>Style</small>
+            <strong>Health startup / glassmorphism</strong>
+          </div>
+          <div class="quick-card">
+            <small>Purpose</small>
+            <strong>Track vitamins and routines</strong>
+          </div>
+          <div class="quick-card">
+            <small>Main benefit</small>
+            <strong>More consistency, less chaos</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="features">
+        <div class="container section-head reveal">
+          <span class="eyebrow">Core features</span>
+          <h2>A wellness app designed around simple repeatable habits</h2>
+          <p>
+            Instead of dropping all screenshots into one gallery, this section
+            turns the strongest screens into clear product advantages.
+          </p>
+        </div>
+
+        <div class="container feature-layout">
+          <div class="feature-preview reveal">
+            <div class="preview-shell">
+              <div class="preview-glow"></div>
+
+              <div class="device-shell preview-device">
+                <div class="device-notch"></div>
+                <img
+                  id="featurePreviewImage"
+                  src="photo2.jpeg"
+                  alt="Feature preview screen"
+                />
+              </div>
+
+              <div class="preview-copy">
+                <span class="preview-label">Selected module</span>
+                <h3 id="featurePreviewTitle">Health Dashboard</h3>
+                <p id="featurePreviewText">
+                  The dashboard combines diary access, knowledge base entry
+                  points, statistics, and today’s vitamin flow in one friendly
+                  landing screen.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="feature-stack">
+            <article
+              class="feature-card active-feature reveal"
+              tabindex="0"
+              data-image="photo2.jpeg"
+              data-title="Health Dashboard"
+              data-text="The dashboard combines diary access, knowledge base entry points, statistics, and today’s vitamin flow in one friendly landing screen."
+            >
+              <div class="feature-meta">
+                <span>01</span>
+                <small>Home</small>
+              </div>
+              <h3>Your daily wellness hub starts here</h3>
+              <p>
+                Users can quickly jump into the diary, explore health
+                information, check statistics, and review the day’s supplements.
+              </p>
+            </article>
+
+            <article
+              class="feature-card reveal"
+              tabindex="0"
+              data-image="photo3.jpeg"
+              data-title="Health Diary Input"
+              data-text="The diary flow allows users to add new wellness notes or health-related content through a focused modal interface."
+            >
+              <div class="feature-meta">
+                <span>02</span>
+                <small>Diary</small>
+              </div>
+              <h3>Track personal wellness notes without friction</h3>
+              <p>
+                The diary interface makes it easy to record custom health
+                entries instead of leaving everything unstructured.
+              </p>
+            </article>
+
+            <article
+              class="feature-card reveal"
+              tabindex="0"
+              data-image="photo4.jpeg"
+              data-title="Knowledge Base"
+              data-text="The knowledge base presents vitamins as searchable cards, helping users browse and learn through a more visual format."
+            >
+              <div class="feature-meta">
+                <span>03</span>
+                <small>Learn</small>
+              </div>
+              <h3>A searchable vitamin knowledge base</h3>
+              <p>
+                Educational content is turned into a more approachable browsing
+                experience with cards and quick access actions.
+              </p>
+            </article>
+
+            <article
+              class="feature-card reveal"
+              tabindex="0"
+              data-image="photo5.jpeg"
+              data-title="Vitamin Detail Pages"
+              data-text="Detailed vitamin pages provide longer educational text for users who want more context around supplement topics."
+            >
+              <div class="feature-meta">
+                <span>04</span>
+                <small>Details</small>
+              </div>
+              <h3>Long-form wellness content inside the app</h3>
+              <p>
+                Vitamin explanation screens turn the product into more than a
+                tracker by adding educational value.
+              </p>
+            </article>
+
+            <article
+              class="feature-card reveal"
+              tabindex="0"
+              data-image="photo7.jpeg"
+              data-title="Adherence Statistics"
+              data-text="Users can review streaks, longest performance, and monthly adherence inside a statistics-focused progress screen."
+            >
+              <div class="feature-meta">
+                <span>05</span>
+                <small>Progress</small>
+              </div>
+              <h3>Visible consistency helps build better habits</h3>
+              <p>
+                Stats give users a simple way to see whether they are sticking
+                to their health goals over time.
+              </p>
+            </article>
+
+            <article
+              class="feature-card reveal"
+              tabindex="0"
+              data-image="photo8.jpeg"
+              data-title="Supplement Setup"
+              data-text="Users can add a supplement with name, dosage, schedule, start date, and notes through a structured intake form."
+            >
+              <div class="feature-meta">
+                <span>06</span>
+                <small>Setup</small>
+              </div>
+              <h3>Supplement planning is structured and clear</h3>
+              <p>
+                The setup screen helps users create routines instead of
+                improvising what to take each day.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="journey">
+        <div class="container section-head reveal">
+          <span class="eyebrow">App journey</span>
+          <h2>From start screen to healthier daily consistency</h2>
+          <p>
+            This site uses a softer wellness flow with alternating story cards
+            so the product feels calmer and more structured than the earlier
+            sites.
+          </p>
+        </div>
+
+        <div class="container story-stack">
+          <article class="story-card reveal">
+            <div class="story-copy">
+              <span class="story-step">Step 01</span>
+              <h3>Start with a clean wellness entry point</h3>
+              <p>
+                The opening screen gives the app a branded first impression and
+                positions it as a simple daily health companion.
+              </p>
+            </div>
+            <div class="story-shot">
+              <img src="photo1.jpeg" alt="Start screen of the app" />
+            </div>
+          </article>
+
+          <article class="story-card reverse reveal">
+            <div class="story-copy">
+              <span class="story-step">Step 02</span>
+              <h3>Review your daily dashboard and vitamin flow</h3>
+              <p>
+                The home screen acts as a central command area with wellness
+                shortcuts, cards, and today’s supplement activity.
+              </p>
+            </div>
+            <div class="story-shot">
+              <img src="photo2.jpeg" alt="Dashboard screen of the app" />
+            </div>
+          </article>
+
+          <article class="story-card reveal">
+            <div class="story-copy">
+              <span class="story-step">Step 03</span>
+              <h3>Log entries and explore supplement knowledge</h3>
+              <p>
+                Diary input and searchable vitamin cards make the app useful for
+                both tracking and learning.
+              </p>
+            </div>
+            <div class="story-shot dual-shot">
+              <img src="photo3.jpeg" alt="Diary input screen" />
+              <img src="photo4.jpeg" alt="Knowledge base screen" />
+            </div>
+          </article>
+
+          <article class="story-card reverse reveal">
+            <div class="story-copy">
+              <span class="story-step">Step 04</span>
+              <h3>Read detailed vitamin information when needed</h3>
+              <p>
+                Rich detail pages support users who want context behind a
+                supplement instead of just a checklist.
+              </p>
+            </div>
+            <div class="story-shot dual-shot">
+              <img src="photo5.jpeg" alt="Vitamin B15 detail page" />
+              <img src="photo6.jpeg" alt="Vitamin B9 detail page" />
+            </div>
+          </article>
+
+          <article class="story-card reveal">
+            <div class="story-copy">
+              <span class="story-step">Step 05</span>
+              <h3>Track progress and build a repeatable routine</h3>
+              <p>
+                Statistics and supplement setup screens help transform
+                motivation into a more consistent health habit.
+              </p>
+            </div>
+            <div class="story-shot dual-shot">
+              <img src="photo7.jpeg" alt="Adherence statistics screen" />
+              <img src="photo8.jpeg" alt="Add supplement screen" />
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="screens">
+        <div class="container section-head reveal">
+          <span class="eyebrow">Screen gallery</span>
+          <h2>Curated screens inside a wellness carousel</h2>
+          <p>
+            This section uses a soft card carousel and card labels instead of a
+            plain grid so the landing page feels more like a real startup site.
+          </p>
+        </div>
+
+        <div class="container carousel-shell reveal">
+          <div class="carousel-top">
+            <div>
+              <span class="carousel-kicker">Current screen</span>
+              <h3 id="carouselTitle">Start Screen</h3>
+            </div>
+
+            <div class="carousel-controls">
+              <button
+                class="carousel-btn"
+                id="prevSlide"
+                aria-label="Previous screen"
+              >
+                ←
+              </button>
+              <button
+                class="carousel-btn"
+                id="nextSlide"
+                aria-label="Next screen"
+              >
+                →
+              </button>
+            </div>
+          </div>
+
+          <div class="carousel-stage">
+            <div class="carousel-track" id="sliderTrack">
+              <article class="slide-card" data-title="Start Screen">
+                <img src="photo1.jpeg" alt="Start screen" />
+              </article>
+              <article class="slide-card" data-title="Health Dashboard">
+                <img src="photo2.jpeg" alt="Health dashboard" />
+              </article>
+              <article class="slide-card" data-title="Diary Input">
+                <img src="photo3.jpeg" alt="Diary input" />
+              </article>
+              <article class="slide-card" data-title="Knowledge Base">
+                <img src="photo4.jpeg" alt="Knowledge base" />
+              </article>
+              <article class="slide-card" data-title="Vitamin B15 Detail">
+                <img src="photo5.jpeg" alt="Vitamin B15 detail" />
+              </article>
+              <article class="slide-card" data-title="Vitamin B9 Detail">
+                <img src="photo6.jpeg" alt="Vitamin B9 detail" />
+              </article>
+              <article class="slide-card" data-title="Adherence Statistics">
+                <img src="photo7.jpeg" alt="Adherence statistics" />
+              </article>
+              <article class="slide-card" data-title="Add Supplement">
+                <img src="photo8.jpeg" alt="Add supplement" />
+              </article>
+            </div>
+          </div>
+
+          <div class="carousel-dots" id="sliderDots"></div>
+        </div>
+      </section>
+
+      <section class="section" id="reviews">
+        <div class="container section-head reveal">
+          <span class="eyebrow">Reviews</span>
+          <h2>
+            Simple enough for daily use, useful enough to keep coming back
+          </h2>
+          <p>Sample review cards for the landing page layout.</p>
+        </div>
+
+        <div class="container review-grid">
+          <article class="review-card reveal featured-review">
+            <div class="review-stars">★★★★★</div>
+            <p>
+              “I like that it combines habit tracking and information in one
+              place. It feels calmer and less chaotic than typical health apps.”
+            </p>
+            <div class="review-user">
+              <strong>Anna M.</strong>
+              <span>Wellness routine user</span>
+            </div>
+          </article>
+
+          <article class="review-card reveal">
+            <div class="review-stars">★★★★★</div>
+            <p>
+              “The supplement setup screen is clear, and the statistics page
+              makes it easier to stay accountable to my routine.”
+            </p>
+            <div class="review-user">
+              <strong>Daniel R.</strong>
+              <span>Daily supplement tracker</span>
+            </div>
+          </article>
+
+          <article class="review-card reveal">
+            <div class="review-stars">★★★★★</div>
+            <p>
+              “The knowledge base is a nice extra. It makes the app feel more
+              complete than a simple reminder tool.”
+            </p>
+            <div class="review-user">
+              <strong>Olivia S.</strong>
+              <span>Health content reader</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section cta-section" id="download">
+        <div class="container cta-panel reveal">
+          <div class="cta-copy">
+            <span class="eyebrow">Ready to start?</span>
+            <h2>
+              Download 1x Health Journey and make your wellness routine easier
+              to follow.
+            </h2>
+            <p>
+              Track supplements, learn about vitamins, build better consistency,
+              and keep your daily health journey in one place.
+            </p>
+          </div>
+
+          <div class="cta-actions">
+            <a
+              class="btn btn-primary btn-wide"
+              href="https://play.google.com/store/apps/details?id=com.zenqoralis88.mevtra"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Download on Google Play
+            </a>
+            <a class="btn btn-secondary btn-wide" href="privacy.html">
+              Privacy Policy
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-top">
+        <div class="footer-brand">
+          <span class="brand-mark small">1X</span>
+          <div>
+            <strong>1x Health Journey</strong>
+            <p>Developed by DIANET GROUP organization</p>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <a href="#features">Features</a>
+          <a href="#journey">Journey</a>
+          <a href="#screens">Screens</a>
+          <a href="privacy.html">Privacy</a>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>
+          © <span id="year"></span> DIANET GROUP organization. All rights
+          reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

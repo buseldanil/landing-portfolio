@@ -1,0 +1,508 @@
+# Champion Hockey Ua landing ## index.html ```html
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Champion Hockey Ua</title>
+    <meta
+      name="description"
+      content="Champion Hockey Ua is a modern hockey companion app for match schedules, player bios, favourites, and settings in one sleek experience."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="site-noise"></div>
+    <div class="site-glow site-glow--one"></div>
+    <div class="site-glow site-glow--two"></div>
+
+    <header class="header" id="header">
+      <div class="container header__inner">
+        <a class="logo" href="#hero">
+          <span class="logo__mark"></span>
+          <span class="logo__text">Champion Hockey Ua</span>
+        </a>
+
+        <nav class="nav" id="nav">
+          <a href="#features">Features</a>
+          <a href="#matches">Matches</a>
+          <a href="#players">Players</a>
+          <a href="#screens">Screens</a>
+          <a href="privacy.html">Privacy</a>
+        </nav>
+
+        <div class="header__actions">
+          <a
+            class="header__btn"
+            href="https://play.google.com/store/apps/details?id=com.hyperpocore8838.pulsesaflux6624.clagm43"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Download
+          </a>
+
+          <button
+            class="burger"
+            id="burger"
+            aria-label="Open menu"
+            type="button"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="hero">
+        <div class="hero__backdrop"></div>
+        <div class="hero__overlay"></div>
+
+        <div class="container hero__grid">
+          <div class="hero__content reveal">
+            <span class="eyebrow">Frozen arena companion</span>
+            <h1>
+              Hockey schedule,
+              <span>favorite players, team stats,</span>
+              and game details in one stylish landing page
+            </h1>
+
+            <p>
+              Champion Hockey Ua brings match schedule tracking, player bios,
+              favorite tabs, team comparisons, and settings into a polished
+              hockey-inspired mobile experience with deep blue visuals and
+              layered motion.
+            </p>
+
+            <div class="hero__actions">
+              <a
+                class="btn btn--primary"
+                href="https://play.google.com/store/apps/details?id=com.hyperpocore8838.pulsesaflux6624.clagm43"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Download App
+              </a>
+              <a class="btn btn--ghost" href="#screens">See Screens</a>
+            </div>
+
+            <div class="hero__stats">
+              <article class="mini-stat tilt-card">
+                <strong class="counter" data-target="4">0</strong>
+                <span>main sections</span>
+              </article>
+              <article class="mini-stat tilt-card">
+                <strong class="counter" data-target="9">0</strong>
+                <span>preview screens</span>
+              </article>
+              <article class="mini-stat tilt-card">
+                <strong class="counter" data-target="100">0</strong>
+                <span>% sports mood</span>
+              </article>
+            </div>
+          </div>
+
+          <div class="hero__visual reveal reveal--delay">
+            <div class="device-stack">
+              <div class="device device--main tilt-card">
+                <img src="photo1.jpeg" alt="Champion Hockey Ua intro screen" />
+              </div>
+              <div class="device device--left tilt-card">
+                <img src="photo2.jpeg" alt="Match schedule screen" />
+              </div>
+              <div class="device device--right tilt-card">
+                <img src="photo4.jpeg" alt="Players screen" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="ticker reveal">
+        <div class="container">
+          <div class="ticker__inner">
+            <span class="ticker__live">LIVE</span>
+            <div class="ticker__track">
+              <span>Pittsburg vs Anaheim · 19:00 · Madison Square Garden</span>
+              <span>Tampa Bay vs Colorado · 20:00 · TD Garden</span>
+              <span>Players, favorites, schedules, stats and settings</span>
+              <span>Pittsburg vs Anaheim · 19:00 · Madison Square Garden</span>
+              <span>Tampa Bay vs Colorado · 20:00 · TD Garden</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section features" id="features">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="eyebrow">Landing structure</span>
+            <h2>Built around the strongest hockey app flows</h2>
+            <p>
+              The page keeps the same product logic from the app: matches,
+              player cards, favorites, and settings, but turns it into a more
+              expensive and animated promo website.
+            </p>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card feature-card--accent reveal tilt-card">
+              <div class="feature-card__icon">🏒</div>
+              <h3>Match schedule</h3>
+              <p>
+                Upcoming games, date slider feeling, arena details, favorite
+                toggles, and glass-style cards for a premium sports look.
+              </p>
+            </article>
+
+            <article class="feature-card reveal tilt-card">
+              <div class="feature-card__icon">📊</div>
+              <h3>Game details</h3>
+              <p>
+                Team comparison blocks, quick stats, match meta, location, and
+                clean information layout for hockey fans.
+              </p>
+            </article>
+
+            <article class="feature-card reveal tilt-card">
+              <div class="feature-card__icon">⭐</div>
+              <h3>Favorites</h3>
+              <p>
+                Split views for favorite matches and players, designed as a neat
+                mobile workflow that feels real and easy to navigate.
+              </p>
+            </article>
+
+            <article class="feature-card reveal tilt-card">
+              <div class="feature-card__icon">⚙️</div>
+              <h3>Settings</h3>
+              <p>
+                Notification toggle, share action, clear data actions, and dark
+                sport utility styling to complete the product feel.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section showcase" id="matches">
+        <div class="container showcase__grid">
+          <div class="showcase__copy reveal">
+            <span class="eyebrow">Main promo block</span>
+            <h2>Hero is more cinematic, deeper, and more dynamic</h2>
+            <p>
+              I kept the hockey mood, but made the site stronger with layered
+              background effects, floating devices, subtle parallax, neon blue
+              accents, stronger CTA separation, and animated stat cards.
+            </p>
+
+            <ul class="points-list">
+              <li>sticky transparent header</li>
+              <li>live ticker strip</li>
+              <li>screen lightbox preview</li>
+              <li>tilt hover and reveal animations</li>
+              <li>smooth section transitions</li>
+            </ul>
+          </div>
+
+          <div class="showcase__cards reveal reveal--delay">
+            <article class="match-highlight tilt-card">
+              <div class="match-highlight__top">
+                <span class="tag tag--live">Upcoming</span>
+                <span>⏰ 20:00</span>
+              </div>
+
+              <div class="match-highlight__middle">
+                <div class="team-box">
+                  <strong>Tampa Bay</strong>
+                  <span>Lightning</span>
+                </div>
+                <div class="team-vs">VS</div>
+                <div class="team-box team-box--right">
+                  <strong>Colorado</strong>
+                  <span>Avalanche</span>
+                </div>
+              </div>
+
+              <div class="match-highlight__arena">
+                <strong>TD Garden</strong>
+                <span>Boston, MA</span>
+              </div>
+            </article>
+
+            <div class="showcase__mini-grid">
+              <button
+                class="shot tilt-card js-lightbox"
+                type="button"
+                data-image="photo3.jpeg"
+              >
+                <img src="photo3.jpeg" alt="Match details screen" />
+              </button>
+              <button
+                class="shot tilt-card js-lightbox"
+                type="button"
+                data-image="photo6.jpeg"
+              >
+                <img src="photo6.jpeg" alt="Favorites matches screen" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section players-section" id="players">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="eyebrow">Players section</span>
+            <h2>
+              Popular hockey players presented in a clean mobile-first way
+            </h2>
+            <p>
+              Player cards and biography pages are strong visual content for a
+              landing page, so they are shown here as feature highlights and
+              preview screens.
+            </p>
+          </div>
+
+          <div class="players-row">
+            <article class="player-preview reveal tilt-card">
+              <div class="player-preview__image">
+                <img src="photo4.jpeg" alt="Players list screen" />
+              </div>
+              <div class="player-preview__body">
+                <span class="eyebrow">Player list</span>
+                <h3>From list to profile in one tap</h3>
+                <p>
+                  The app shows quick player discovery, clear team labels, short
+                  bios, and favorite actions without clutter.
+                </p>
+              </div>
+            </article>
+
+            <article class="player-preview reveal reveal--delay tilt-card">
+              <div class="player-preview__image">
+                <img src="photo5.jpeg" alt="Player bio screen" />
+              </div>
+              <div class="player-preview__body">
+                <span class="eyebrow">Player bio</span>
+                <h3>Stats-first profile card</h3>
+                <p>
+                  Hero photo, team label, career info, biography and stat blocks
+                  make the player profile feel complete and premium.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section tabs-section">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="eyebrow">Interactive preview</span>
+            <h2>Switch through the app highlights</h2>
+          </div>
+
+          <div class="tabs-box reveal">
+            <div class="tabs-nav">
+              <button
+                class="tab-btn is-active"
+                type="button"
+                data-tab="tab-favorites"
+              >
+                Favorites
+              </button>
+              <button class="tab-btn" type="button" data-tab="tab-settings">
+                Settings
+              </button>
+              <button class="tab-btn" type="button" data-tab="tab-matches">
+                Schedule
+              </button>
+            </div>
+
+            <div class="tabs-content">
+              <div class="tab-panel is-active" id="tab-favorites">
+                <div class="tab-layout">
+                  <div class="tab-copy">
+                    <h3>Favorites for matches and players</h3>
+                    <p>
+                      The favorites flow is split into two useful tabs and makes
+                      the product feel personal instead of static.
+                    </p>
+                    <ul class="points-list">
+                      <li>separate match and player favorites</li>
+                      <li>clean tabs with underline animation</li>
+                      <li>glass panels over sports background</li>
+                    </ul>
+                  </div>
+
+                  <div class="tab-media two-col">
+                    <button
+                      class="tab-shot tilt-card js-lightbox"
+                      type="button"
+                      data-image="photo6.jpeg"
+                    >
+                      <img src="photo6.jpeg" alt="Favorite matches" />
+                    </button>
+                    <button
+                      class="tab-shot tilt-card js-lightbox"
+                      type="button"
+                      data-image="photo7.jpeg"
+                    >
+                      <img src="photo7.jpeg" alt="Favorite players" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-panel" id="tab-settings">
+                <div class="tab-layout">
+                  <div class="tab-copy">
+                    <h3>Utility screen with strong dark card style</h3>
+                    <p>
+                      Settings pages often look boring, but here they help sell
+                      the app with notification controls, sharing, and action
+                      buttons in a strong hockey mood.
+                    </p>
+                    <ul class="points-list">
+                      <li>notification toggle</li>
+                      <li>share button</li>
+                      <li>clear data CTA</li>
+                    </ul>
+                  </div>
+
+                  <div class="tab-media">
+                    <button
+                      class="tab-shot tilt-card js-lightbox"
+                      type="button"
+                      data-image="photo9.jpeg"
+                    >
+                      <img src="photo9.jpeg" alt="Settings screen" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-panel" id="tab-matches">
+                <div class="tab-layout">
+                  <div class="tab-copy">
+                    <h3>Schedule and match detail flow</h3>
+                    <p>
+                      The match schedule is one of the strongest visual parts of
+                      the app, so it is highlighted with big arena cards and
+                      hockey-themed overlays.
+                    </p>
+                    <ul class="points-list">
+                      <li>date slider style layout</li>
+                      <li>upcoming match cards</li>
+                      <li>team statistics view</li>
+                    </ul>
+                  </div>
+
+                  <div class="tab-media two-col">
+                    <button
+                      class="tab-shot tilt-card js-lightbox"
+                      type="button"
+                      data-image="photo2.jpeg"
+                    >
+                      <img src="photo2.jpeg" alt="Match schedule screen" />
+                    </button>
+                    <button
+                      class="tab-shot tilt-card js-lightbox"
+                      type="button"
+                      data-image="photo3.jpeg"
+                    >
+                      <img src="photo3.jpeg" alt="Match details screen" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section cta-section">
+        <div class="container">
+          <div class="cta-box reveal">
+            <div class="cta-box__content">
+              <span class="eyebrow">Launch-ready</span>
+              <h2>
+                Fast hockey landing page with stronger animation and
+                optimization
+              </h2>
+              <p>
+                The code is separated into HTML, CSS, JS and privacy page,
+                responsive for mobile and desktop, with motion that looks rich
+                but stays smooth.
+              </p>
+            </div>
+
+            <div class="cta-box__actions">
+              <a
+                class="btn btn--primary"
+                href="https://play.google.com/store/apps/details?id=com.hyperpocore8838.pulsesaflux6624.clagm43"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Open on Google Play
+              </a>
+              <a class="btn btn--ghost" href="privacy.html">Privacy Policy</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div>
+          <a class="footer__logo" href="#hero">Champion Hockey Ua</a>
+          <p>
+            Match schedule, player bios, favorites, and hockey-focused mobile UI
+            in one sharp product presentation.
+          </p>
+        </div>
+
+        <div class="footer__links">
+          <a href="#features">Features</a>
+          <a href="#matches">Matches</a>
+          <a href="#players">Players</a>
+          <a href="#screens">Screens</a>
+          <a href="privacy.html">Privacy</a>
+        </div>
+      </div>
+    </footer>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <div class="mobile-menu__panel">
+        <button class="mobile-menu__close" id="closeMenu" type="button">
+          ×
+        </button>
+        <a href="#hero">Home</a>
+        <a href="#features">Features</a>
+        <a href="#matches">Matches</a>
+        <a href="#players">Players</a>
+        <a href="#screens">Screens</a>
+        <a href="privacy.html">Privacy</a>
+      </div>
+    </div>
+
+    <div class="lightbox" id="lightbox">
+      <button class="lightbox__close" id="lightboxClose" type="button">
+        ×
+      </button>
+      <img id="lightboxImage" src="" alt="Preview" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

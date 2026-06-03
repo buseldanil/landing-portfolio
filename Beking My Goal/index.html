@@ -1,0 +1,595 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beking My Goal — Nutrition, Meals, Water & Progress</title>
+    <meta
+      name="description"
+      content="Beking My Goal helps users organize nutrition goals, track meals, monitor water and activity, explore a food library, and stay focused on progress in one simple mobile flow."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Manrope:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="page-bg">
+      <div class="bg-orb orb-1"></div>
+      <div class="bg-orb orb-2"></div>
+      <div class="bg-orb orb-3"></div>
+      <div class="bg-grid"></div>
+      <div class="bg-noise"></div>
+    </div>
+
+    <header class="site-header" id="top">
+      <div class="container header-row">
+        <a href="#top" class="brand">
+          <span class="brand-mark">BG</span>
+          <span class="brand-copy">
+            <strong>Beking My Goal</strong>
+            <small>Meals, water, activity, food library, progress</small>
+          </span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          aria-label="Open navigation"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" id="siteNav">
+          <a href="#features">Features</a>
+          <a href="#flow">Flow</a>
+          <a href="#screens">Screens</a>
+          <a href="#download">Download</a>
+          <a href="privacy.html">Privacy</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero-section">
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <div class="hero-tags">
+              <span class="hero-tag hero-tag-solid">Nutrition planner</span>
+              <span class="hero-tag">Meals · Water · Activity · Library</span>
+            </div>
+
+            <h1>
+              Build your routine, track your intake, and move closer to your
+              goal every day
+            </h1>
+
+            <p>
+              Beking My Goal is a nutrition-focused mobile experience for users
+              who want one place to manage daily calorie targets, meal input,
+              hydration, activity, food discovery, and progress structure
+              without jumping between separate tools.
+            </p>
+
+            <div class="hero-actions">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.lumetrix.mobilepp"
+                class="btn btn-primary"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Download App
+              </a>
+              <a href="#flow" class="btn btn-secondary">See App Flow</a>
+            </div>
+
+            <div class="hero-stats">
+              <article class="stat-card">
+                <strong data-counter="6">0</strong>
+                <span>core screens</span>
+              </article>
+              <article class="stat-card">
+                <strong data-counter="4">0</strong>
+                <span>daily tracking areas</span>
+              </article>
+              <article class="stat-card">
+                <strong data-counter="1">0</strong>
+                <span>single health routine hub</span>
+              </article>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal">
+            <div class="hero-stage">
+              <article class="hero-phone hero-main tilt-card">
+                <div class="phone-topbar"></div>
+                <img src="photo2.jpeg" alt="Beking My Goal intro screen" />
+              </article>
+
+              <article class="hero-phone hero-side hero-left tilt-card">
+                <div class="phone-topbar"></div>
+                <img src="photo1.jpeg" alt="Food library screen" />
+              </article>
+
+              <article class="hero-phone hero-side hero-right tilt-card">
+                <div class="phone-topbar"></div>
+                <img src="photo3.jpeg" alt="Daily overview screen" />
+              </article>
+
+              <div class="floating-note note-left">
+                <strong>Goal-first onboarding</strong>
+                <p>
+                  The app starts from motivation, then moves directly into
+                  everyday tracking.
+                </p>
+              </div>
+
+              <div class="floating-note note-right">
+                <strong>Daily decision support</strong>
+                <p>
+                  Meals, water, activity, and food search live inside the same
+                  routine system.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section statement-section">
+        <div class="container">
+          <div class="statement-card reveal">
+            <h2>
+              Beking My Goal is designed like a personal nutrition dashboard:
+              clear, structured, and focused on daily momentum instead of
+              clutter
+            </h2>
+          </div>
+        </div>
+      </section>
+
+      <section class="section features-section" id="features">
+        <div class="container">
+          <div class="section-head reveal">
+            <div class="section-label">Feature set</div>
+            <h2>Main parts of the product</h2>
+          </div>
+
+          <div class="features-grid">
+            <article class="feature-card reveal">
+              <span class="feature-number">01</span>
+              <h3>Goal-based start screen</h3>
+              <p>
+                The opening flow introduces the product as a focused assistant
+                for nutritional planning and consistent habit building.
+              </p>
+            </article>
+
+            <article class="feature-card reveal">
+              <span class="feature-number">02</span>
+              <h3>Daily overview</h3>
+              <p>
+                Users can immediately see calories, remaining budget, macro
+                split, and quick access actions for everyday routine tracking.
+              </p>
+            </article>
+
+            <article class="feature-card reveal">
+              <span class="feature-number">03</span>
+              <h3>Meal input</h3>
+              <p>
+                The app includes a dedicated add-meal flow with calories,
+                proteins, fats, carbs, meal type, and health score fields.
+              </p>
+            </article>
+
+            <article class="feature-card reveal">
+              <span class="feature-number">04</span>
+              <h3>Water and activity tracking</h3>
+              <p>
+                Hydration and energy burn are treated as active daily metrics,
+                not afterthoughts.
+              </p>
+            </article>
+
+            <article class="feature-card reveal">
+              <span class="feature-number">05</span>
+              <h3>Food library and filtering</h3>
+              <p>
+                Users can browse meals by category, search entries, and filter
+                by calorie range and health score.
+              </p>
+            </article>
+
+            <article class="feature-card reveal">
+              <span class="feature-number">06</span>
+              <h3>Settings and control</h3>
+              <p>
+                Backup, restore, goal editing, units, rating, and sharing remain
+                grouped inside a dedicated settings zone.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section app-flow-section" id="flow">
+        <div class="container app-flow-grid">
+          <div class="flow-copy reveal">
+            <div class="section-label">App flow</div>
+            <h2>From motivation to everyday nutrition control</h2>
+
+            <div class="flow-list">
+              <article
+                class="flow-step active-step"
+                data-image="photo2.jpeg"
+                data-title="Start with a clear entry point"
+                data-text="The intro screen frames the app as a guided health product that helps users move toward a defined result step by step."
+              >
+                <span>01</span>
+                <div>
+                  <h3>Welcome entry</h3>
+                  <p>The first impression is motivational and brand-driven.</p>
+                </div>
+              </article>
+
+              <article
+                class="flow-step"
+                data-image="photo3.jpeg"
+                data-title="Track the day from one overview"
+                data-text="The overview screen centralizes calories, remaining intake, macro targets, and quick action buttons."
+              >
+                <span>02</span>
+                <div>
+                  <h3>Daily overview</h3>
+                  <p>Users get immediate visibility into the current day.</p>
+                </div>
+              </article>
+
+              <article
+                class="flow-step"
+                data-image="photo4.jpeg"
+                data-title="Add meals with structure"
+                data-text="The add meal screen supports calorie details, macro fields, meal type assignment, and health scoring."
+              >
+                <span>03</span>
+                <div>
+                  <h3>Meal entry</h3>
+                  <p>Input is split into understandable nutrition fields.</p>
+                </div>
+              </article>
+
+              <article
+                class="flow-step"
+                data-image="photo5.jpeg"
+                data-title="Track water and burned activity"
+                data-text="The hydration and activity screen keeps both consumption and expenditure visible inside the same daily routine."
+              >
+                <span>04</span>
+                <div>
+                  <h3>Water & activity</h3>
+                  <p>Health behavior stays broader than food only.</p>
+                </div>
+              </article>
+
+              <article
+                class="flow-step"
+                data-image="photo1.jpeg"
+                data-title="Search the food library"
+                data-text="The library combines search, meal categories, calorie range, and health score filters in one browseable interface."
+              >
+                <span>05</span>
+                <div>
+                  <h3>Food discovery</h3>
+                  <p>
+                    Users can explore options instead of entering everything
+                    manually.
+                  </p>
+                </div>
+              </article>
+
+              <article
+                class="flow-step"
+                data-image="photo6.jpeg"
+                data-title="Manage settings and preferences"
+                data-text="The settings screen supports data control, measurement units, editing goals, and app-level utilities."
+              >
+                <span>06</span>
+                <div>
+                  <h3>Settings layer</h3>
+                  <p>
+                    The app ends with practical controls and system preferences.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="flow-preview reveal">
+            <div class="preview-shell">
+              <div class="preview-phone tilt-card">
+                <div class="phone-topbar"></div>
+                <img
+                  id="flowPreviewImage"
+                  src="photo2.jpeg"
+                  alt="Preview screen"
+                />
+              </div>
+
+              <div class="preview-caption">
+                <small>Current focus</small>
+                <h3 id="flowPreviewTitle">Start with a clear entry point</h3>
+                <p id="flowPreviewText">
+                  The intro screen frames the app as a guided health product
+                  that helps users move toward a defined result step by step.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section showcase-section" id="screens">
+        <div class="container">
+          <div class="section-head reveal">
+            <div class="section-label">Screen structure</div>
+            <h2>Visual showcase</h2>
+          </div>
+
+          <div class="showcase-grid">
+            <article class="showcase-card showcase-large reveal">
+              <div class="showcase-copy">
+                <h3>Brand opening with product promise</h3>
+                <p>
+                  The hero screen presents the health concept first, then pushes
+                  the user into a simple goal-oriented journey.
+                </p>
+              </div>
+              <div class="showcase-media">
+                <img src="photo2.jpeg" alt="Welcome screen" />
+              </div>
+            </article>
+
+            <article class="showcase-card reveal">
+              <div class="showcase-copy">
+                <h3>Daily tracking dashboard</h3>
+                <p>
+                  The overview page concentrates calories, macros, intake
+                  actions, and progress entry points in one place.
+                </p>
+              </div>
+              <div class="showcase-media">
+                <img src="photo3.jpeg" alt="Daily overview screen" />
+              </div>
+            </article>
+
+            <article class="showcase-card reveal">
+              <div class="showcase-copy">
+                <h3>Meal creation workflow</h3>
+                <p>
+                  Nutritional input is structured through meal name, quantity,
+                  macro values, meal type, and score.
+                </p>
+              </div>
+              <div class="showcase-media">
+                <img src="photo4.jpeg" alt="Add meal screen" />
+              </div>
+            </article>
+
+            <article class="showcase-card reveal">
+              <div class="showcase-copy">
+                <h3>Hydration and activity screen</h3>
+                <p>
+                  Water intake and burned activity are grouped together for a
+                  clearer daily behavior view.
+                </p>
+              </div>
+              <div class="showcase-media">
+                <img src="photo5.jpeg" alt="Water and activity screen" />
+              </div>
+            </article>
+
+            <article class="showcase-card reveal">
+              <div class="showcase-copy">
+                <h3>Filtered food library</h3>
+                <p>
+                  Search, meal-type browsing, calorie range, and health score
+                  filters give the app a more organized nutrition reference
+                  layer.
+                </p>
+              </div>
+              <div class="showcase-media">
+                <img src="photo1.jpeg" alt="Food library screen" />
+              </div>
+            </article>
+
+            <article class="showcase-card reveal">
+              <div class="showcase-copy">
+                <h3>Settings and app utilities</h3>
+                <p>
+                  Data controls, units, backup, restore, sharing, and goal
+                  editing remain easy to reach from the final settings section.
+                </p>
+              </div>
+              <div class="showcase-media">
+                <img src="photo6.jpeg" alt="Settings screen" />
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section slider-section">
+        <div class="container">
+          <div class="section-head reveal">
+            <div class="section-label">App preview</div>
+            <h2>Interactive carousel</h2>
+          </div>
+
+          <div class="screen-slider reveal">
+            <div class="slider-top">
+              <div class="slider-text">
+                <small>Selected screen</small>
+                <h3 id="sliderTitle">Welcome Screen</h3>
+              </div>
+
+              <div class="slider-controls">
+                <button
+                  id="prevSlide"
+                  class="slider-btn"
+                  aria-label="Previous slide"
+                >
+                  ←
+                </button>
+                <button
+                  id="nextSlide"
+                  class="slider-btn"
+                  aria-label="Next slide"
+                >
+                  →
+                </button>
+              </div>
+            </div>
+
+            <div class="slider-window">
+              <div class="slider-track" id="sliderTrack">
+                <article class="slider-slide" data-title="Welcome Screen">
+                  <img src="photo2.jpeg" alt="Welcome screen" />
+                </article>
+                <article class="slider-slide" data-title="Daily Overview">
+                  <img src="photo3.jpeg" alt="Daily overview" />
+                </article>
+                <article class="slider-slide" data-title="Add Meal">
+                  <img src="photo4.jpeg" alt="Add meal" />
+                </article>
+                <article class="slider-slide" data-title="Water & Activity">
+                  <img src="photo5.jpeg" alt="Water and activity" />
+                </article>
+                <article class="slider-slide" data-title="Food Library">
+                  <img src="photo1.jpeg" alt="Food library" />
+                </article>
+                <article class="slider-slide" data-title="Settings">
+                  <img src="photo6.jpeg" alt="Settings" />
+                </article>
+              </div>
+            </div>
+
+            <div class="slider-dots" id="sliderDots"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reviews-section">
+        <div class="container">
+          <div class="section-head reveal">
+            <div class="section-label">Experience</div>
+            <h2>What this product structure communicates</h2>
+          </div>
+
+          <div class="reviews-grid">
+            <article class="review-card reveal featured-review">
+              <div class="stars">★★★★★</div>
+              <p>
+                “It feels like a proper nutrition routine app because meals,
+                water, activity, and food discovery all support the same goal.”
+              </p>
+              <div class="review-meta">
+                <strong>Andrii P.</strong>
+                <span>Health app user</span>
+              </div>
+            </article>
+
+            <article class="review-card reveal">
+              <div class="stars">★★★★★</div>
+              <p>
+                “The daily overview screen is the strongest part because it
+                makes calories, macros, and actions immediately readable.”
+              </p>
+              <div class="review-meta">
+                <strong>Vlad M.</strong>
+                <span>Routine-focused user</span>
+              </div>
+            </article>
+
+            <article class="review-card reveal">
+              <div class="stars">★★★★★</div>
+              <p>
+                “The food library and settings screens make the app feel
+                complete, not like a one-page tracker.”
+              </p>
+              <div class="review-meta">
+                <strong>Dmytro S.</strong>
+                <span>Nutrition app reviewer</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section download-section" id="download">
+        <div class="container">
+          <div class="download-box reveal">
+            <div class="download-copy">
+              <div class="section-label">Get the app</div>
+              <h2>
+                Use Beking My Goal to organize meals, hydration, activity, and
+                daily nutrition decisions in one flow
+              </h2>
+              <p>
+                The app combines goal motivation, nutrition entry, macro
+                structure, water tracking, activity logging, food library
+                browsing, and practical settings into one health routine system.
+              </p>
+            </div>
+
+            <div class="download-actions">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.lumetrix.mobilepp"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-primary btn-wide"
+              >
+                Download on Google Play
+              </a>
+              <a href="privacy.html" class="btn btn-secondary btn-wide">
+                Open Privacy Policy
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-row">
+        <div class="footer-brand">
+          <span class="brand-mark small-mark">BG</span>
+          <div>
+            <strong>Beking My Goal</strong>
+            <p>Nutrition planning, meals, water and progress support</p>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <a href="#features">Features</a>
+          <a href="#flow">Flow</a>
+          <a href="#screens">Screens</a>
+          <a href="#download">Download</a>
+          <a href="privacy.html">Privacy</a>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>© <span id="year"></span> Beking My Goal. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

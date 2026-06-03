@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daily Weather Forecast</title>
+    <meta
+      name="description"
+      content="Daily Weather Forecast — clean weather app landing page with forecast, search, details and city weather experience."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="noise"></div>
+    <div class="aurora aurora-1"></div>
+    <div class="aurora aurora-2"></div>
+    <div class="cloud cloud-1"></div>
+    <div class="cloud cloud-2"></div>
+    <div class="cloud cloud-3"></div>
+
+    <header class="header" id="header">
+      <a href="#home" class="logo">
+        <span class="logo-icon">☀</span>
+        <span>Daily Weather</span>
+      </a>
+
+      <nav class="nav">
+        <a href="#forecast">Forecast</a>
+        <a href="#details">Details</a>
+        <a href="#cities">Cities</a>
+        <a href="#screens">Screens</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+
+      <a
+        class="download-btn"
+        href="https://play.google.com/store/apps/details?id=com.norvix6en.qulra8im.tor3mexa"
+        target="_blank"
+        >Download</a
+      >
+
+      <button class="burger" id="burger" aria-label="Open menu">
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#forecast">Forecast</a>
+      <a href="#details">Details</a>
+      <a href="#cities">Cities</a>
+      <a href="#screens">Screens</a>
+      <a href="privacy.html">Privacy</a>
+      <a
+        href="https://play.google.com/store/apps/details?id=com.norvix6en.qulra8im.tor3mexa"
+        target="_blank"
+        >Download</a
+      >
+    </div>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-content reveal">
+          <p class="eyebrow">Live sky dashboard</p>
+          <h1>Weather that feels calm, clear and ready.</h1>
+          <p class="hero-text">
+            Check current conditions, hourly changes, weekly forecast and deeper
+            weather details in one elegant blue glass interface.
+          </p>
+
+          <div class="hero-actions">
+            <a
+              class="primary magnetic"
+              href="https://play.google.com/store/apps/details?id=com.norvix6en.qulra8im.tor3mexa"
+              target="_blank"
+              >Download App</a
+            >
+            <a class="secondary" href="#screens">View Screens</a>
+          </div>
+
+          <div class="hero-pills">
+            <span>24-hour forecast</span>
+            <span>7-day outlook</span>
+            <span>City search</span>
+          </div>
+        </div>
+
+        <div class="phone-zone reveal">
+          <div class="phone-glow"></div>
+
+          <div class="phone">
+            <div class="phone-top">
+              <span>14:38</span>
+              <span>◔ 31</span>
+            </div>
+
+            <div class="city-bar">
+              <div>
+                <strong>📍 Paris</strong>
+                <small>Tuesday, 12 May</small>
+              </div>
+              <div class="bar-icons">
+                <span>◎</span>
+                <span>⌕</span>
+              </div>
+            </div>
+
+            <div class="weather-card">
+              <div class="sun-icon">
+                <i></i>
+              </div>
+              <div class="temp">14°C</div>
+              <p>Mainly Clear</p>
+              <small>H: 16° · L: 6°</small>
+
+              <div class="weather-line"></div>
+
+              <div class="mini-weather">
+                <div>
+                  <b>💧</b>
+                  <strong>39%</strong>
+                  <span>Humidity</span>
+                </div>
+                <div>
+                  <b>💨</b>
+                  <strong>5 km/h</strong>
+                  <span>Wind</span>
+                </div>
+                <div>
+                  <b>🌡</b>
+                  <strong>13°</strong>
+                  <span>Feels Like</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="forecast-title">◷ 24-HOUR FORECAST</div>
+
+            <div class="hour-row">
+              <div><span>Now</span><b>☁</b><strong>15°</strong></div>
+              <div><span>16:00</span><b>☁</b><strong>15°</strong></div>
+              <div><span>17:00</span><b>☁</b><strong>16°</strong></div>
+            </div>
+          </div>
+
+          <div class="floating-card float-one">
+            <strong>UV 6.8</strong>
+            <span>High index</span>
+          </div>
+
+          <div class="floating-card float-two">
+            <strong>43.2 km</strong>
+            <span>Visibility</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="ticker">
+        <div class="ticker-track">
+          <span>HUMIDITY</span>
+          <span>WIND</span>
+          <span>UV INDEX</span>
+          <span>PRESSURE</span>
+          <span>SUNRISE</span>
+          <span>FORECAST</span>
+          <span>HUMIDITY</span>
+          <span>WIND</span>
+          <span>UV INDEX</span>
+        </div>
+      </section>
+
+      <section class="forecast-section" id="forecast">
+        <div class="section-head reveal">
+          <p class="eyebrow">Forecast</p>
+          <h2>From the next hour to the next week.</h2>
+          <p>
+            Follow the day with compact cards, then open the full 7-day forecast
+            when you want the full picture.
+          </p>
+        </div>
+
+        <div class="forecast-grid">
+          <article class="glass-card reveal">
+            <div class="card-head">
+              <span>◷</span>
+              <b>24-hour flow</b>
+            </div>
+
+            <div class="hourly-showcase">
+              <div class="hour active">
+                <span>Now</span>
+                <strong>☁</strong>
+                <b>15°</b>
+              </div>
+              <div class="hour">
+                <span>16:00</span>
+                <strong>🌧</strong>
+                <b>15°</b>
+              </div>
+              <div class="hour">
+                <span>17:00</span>
+                <strong>☁</strong>
+                <b>16°</b>
+              </div>
+              <div class="hour">
+                <span>18:00</span>
+                <strong>☁</strong>
+                <b>16°</b>
+              </div>
+            </div>
+          </article>
+
+          <article class="glass-card forecast-list reveal">
+            <div class="card-head">
+              <span>▣</span>
+              <b>7-day forecast</b>
+            </div>
+
+            <div class="day-row">
+              <strong>Today</strong>
+              <span>☁ Overcast</span>
+              <b>16° / 6°</b>
+            </div>
+
+            <div class="day-row">
+              <strong>Wed, 13 May</strong>
+              <span>🌧 Slight Showers</span>
+              <b>15° / 10°</b>
+            </div>
+
+            <div class="day-row">
+              <strong>Thu, 14 May</strong>
+              <span>🌧 Slight Showers</span>
+              <b>12° / 8°</b>
+            </div>
+
+            <div class="day-row">
+              <strong>Fri, 15 May</strong>
+              <span>🌧 Slight Showers</span>
+              <b>13° / 6°</b>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="details-section" id="details">
+        <div class="section-head reveal">
+          <p class="eyebrow">Weather details</p>
+          <h2>The numbers behind the sky.</h2>
+        </div>
+
+        <div class="details-grid">
+          <article class="detail-card reveal">
+            <span>💧 HUMIDITY</span>
+            <strong>39%</strong>
+            <p>Comfortable</p>
+          </article>
+
+          <article class="detail-card reveal">
+            <span>🌡 FEELS LIKE</span>
+            <strong>13°C</strong>
+            <p>About right</p>
+          </article>
+
+          <article class="detail-card reveal">
+            <span>💨 WIND</span>
+            <strong>5 km/h</strong>
+            <p>W direction</p>
+          </article>
+
+          <article class="detail-card reveal">
+            <span>↕ PRESSURE</span>
+            <strong>1012 hPa</strong>
+            <p>Normal</p>
+          </article>
+
+          <article class="detail-card reveal">
+            <span>👁 VISIBILITY</span>
+            <strong>43.2 km</strong>
+            <p>Excellent</p>
+          </article>
+
+          <article class="detail-card reveal">
+            <span>☀ UV INDEX</span>
+            <strong>6.8</strong>
+            <div class="uv-bar"><i></i></div>
+            <p>High</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="sun-section">
+        <div class="sun-card reveal">
+          <div class="card-head">
+            <span>🌅</span>
+            <b>Sun & Moon</b>
+          </div>
+
+          <div class="arc">
+            <div class="arc-line"></div>
+            <div class="arc-dot"></div>
+          </div>
+
+          <div class="sun-times">
+            <div>
+              <span>🌞 Sunrise</span>
+              <strong>06:12</strong>
+            </div>
+            <div>
+              <span>🌙 Sunset</span>
+              <strong>21:21</strong>
+            </div>
+          </div>
+
+          <p>Daylight: 15h 9m</p>
+        </div>
+      </section>
+
+      <section class="cities-section" id="cities">
+        <div class="section-head reveal">
+          <p class="eyebrow">Search</p>
+          <h2>Find any city worldwide.</h2>
+          <p>
+            Move from Paris to Helsinki in seconds. The search flow feels
+            smooth, clean and made for quick weather checks.
+          </p>
+        </div>
+
+        <div class="search-demo reveal">
+          <div class="search-top">
+            <span>‹</span>
+            <div class="search-box">⌕ Hels</div>
+          </div>
+
+          <div class="city-result">
+            <span>📍</span>
+            <div>
+              <strong>Helsinki</strong>
+              <p>Uusimaa, Finland</p>
+            </div>
+            <b>›</b>
+          </div>
+
+          <div class="city-result">
+            <span>📍</span>
+            <div>
+              <strong>Helsa</strong>
+              <p>Hesse, Germany</p>
+            </div>
+            <b>›</b>
+          </div>
+
+          <div class="city-result">
+            <span>📍</span>
+            <div>
+              <strong>Helsingborg</strong>
+              <p>Skåne County, Sweden</p>
+            </div>
+            <b>›</b>
+          </div>
+        </div>
+      </section>
+
+      <section class="screens-section" id="screens">
+        <div class="section-head reveal">
+          <p class="eyebrow">Screens</p>
+          <h2>Glass weather interface, rebuilt for the web.</h2>
+        </div>
+
+        <div class="screen-carousel reveal">
+          <button class="slide-btn prev" id="prevSlide">‹</button>
+
+          <div class="screen-track" id="screenTrack">
+            <article class="screen-card active">
+              <div class="screen preview-one">
+                <div class="mini-location">📍 Paris</div>
+                <div class="mini-sun"></div>
+                <h3>14°C</h3>
+                <p>Mainly Clear</p>
+              </div>
+              <h4>Current weather</h4>
+              <p>Large temperature card with calm glass effect.</p>
+            </article>
+
+            <article class="screen-card">
+              <div class="screen preview-two">
+                <h3>7-Day Forecast</h3>
+                <div class="mini-day">
+                  <b>Today</b><span>☁ Overcast</span><strong>16° 6°</strong>
+                </div>
+                <div class="mini-day">
+                  <b>Wed</b><span>🌧 Showers</span><strong>15° 10°</strong>
+                </div>
+                <div class="mini-day">
+                  <b>Thu</b><span>🌧 Showers</span><strong>12° 8°</strong>
+                </div>
+              </div>
+              <h4>Weekly outlook</h4>
+              <p>Compact list with precipitation, icons and highs/lows.</p>
+            </article>
+
+            <article class="screen-card">
+              <div class="screen preview-three">
+                <h3>Weather Details</h3>
+                <div class="mini-detail">💧 <b>79%</b> Humidity</div>
+                <div class="mini-detail">💨 <b>22 km/h</b> Wind</div>
+                <div class="mini-detail">☀ <b>4.3</b> UV Index</div>
+              </div>
+              <h4>Deep details</h4>
+              <p>Humidity, wind, pressure, visibility, cloud cover and more.</p>
+            </article>
+          </div>
+
+          <button class="slide-btn next" id="nextSlide">›</button>
+        </div>
+
+        <div class="dots" id="dots">
+          <button class="active"></button>
+          <button></button>
+          <button></button>
+        </div>
+      </section>
+
+      <section class="download-section">
+        <div class="download-card reveal">
+          <p class="eyebrow">Ready for the sky</p>
+          <h2>Open the forecast before the weather changes.</h2>
+          <p>
+            Download Daily Weather Forecast and keep a beautiful weather
+            dashboard ready whenever you need it.
+          </p>
+          <a
+            class="primary magnetic"
+            href="https://play.google.com/store/apps/details?id=com.norvix6en.qulra8im.tor3mexa"
+            target="_blank"
+            >Download App</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>
+        <strong>Daily Weather Forecast</strong>
+        <p>
+          Clean city weather, hourly forecast, weekly outlook and smart weather
+          details.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#forecast">Forecast</a>
+        <a href="#details">Details</a>
+        <a href="#cities">Cities</a>
+        <a href="#screens">Screens</a>
+        <a href="privacy.html">Privacy</a>
+        <a
+          href="https://play.google.com/store/apps/details?id=com.norvix6en.qulra8im.tor3mexa"
+          target="_blank"
+          >Download</a
+        >
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

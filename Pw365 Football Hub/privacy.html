@@ -1,0 +1,261 @@
+<!-- privacy.html -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy — Pw365 Football Hub</title>
+    <style>
+      :root {
+        --black: #030303;
+        --panel: rgba(255, 255, 255, 0.075);
+        --gold: #ffd60a;
+        --white: #fff;
+        --muted: rgba(255, 255, 255, 0.68);
+        --line: rgba(255, 214, 10, 0.24);
+        --font:
+          Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+          'Segoe UI', sans-serif;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        min-height: 100vh;
+        font-family: var(--font);
+        color: var(--white);
+        background:
+          radial-gradient(
+            circle at 15% 10%,
+            rgba(255, 214, 10, 0.12),
+            transparent 28%
+          ),
+          radial-gradient(
+            circle at 85% 20%,
+            rgba(255, 214, 10, 0.08),
+            transparent 32%
+          ),
+          linear-gradient(180deg, #050505, #000);
+        overflow-x: hidden;
+      }
+
+      body::before {
+        content: '';
+        position: fixed;
+        inset: 0;
+        background:
+          linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+          linear-gradient(
+            90deg,
+            rgba(255, 255, 255, 0.025) 1px,
+            transparent 1px
+          );
+        background-size: 44px 44px;
+        pointer-events: none;
+        opacity: 0.14;
+      }
+
+      .privacy-wrap {
+        width: min(1100px, calc(100% - 40px));
+        margin: 0 auto;
+        padding: 34px 0 80px;
+        position: relative;
+        z-index: 2;
+      }
+
+      .topbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 18px;
+        margin-bottom: 70px;
+      }
+
+      .back {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 52px;
+        padding: 0 24px;
+        border-radius: 999px;
+        background: var(--gold);
+        color: #060606;
+        text-decoration: none;
+        font-weight: 950;
+        box-shadow: 0 18px 48px rgba(255, 214, 10, 0.26);
+        transition: 0.28s ease;
+      }
+
+      .back:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 22px 58px rgba(255, 214, 10, 0.38);
+      }
+
+      .brand-mini {
+        color: var(--muted);
+        font-weight: 800;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        font-size: 12px;
+      }
+
+      .hero {
+        margin-bottom: 34px;
+      }
+
+      .label {
+        color: var(--gold);
+        letter-spacing: 0.24em;
+        font-weight: 950;
+        font-size: 13px;
+        text-transform: uppercase;
+        margin-bottom: 18px;
+      }
+
+      h1 {
+        font-size: clamp(58px, 10vw, 132px);
+        line-height: 0.88;
+        letter-spacing: -0.08em;
+        max-width: 900px;
+      }
+
+      .policy-card {
+        margin-top: 42px;
+        padding: clamp(26px, 5vw, 58px);
+        border-radius: 38px;
+        background:
+          linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0.11),
+            rgba(255, 255, 255, 0.04)
+          ),
+          rgba(255, 255, 255, 0.04);
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        box-shadow: 0 34px 100px rgba(0, 0, 0, 0.45);
+        position: relative;
+        overflow: hidden;
+      }
+
+      .policy-card::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: radial-gradient(
+          circle at top right,
+          rgba(255, 214, 10, 0.14),
+          transparent 38%
+        );
+        pointer-events: none;
+      }
+
+      .policy-text {
+        position: relative;
+        z-index: 1;
+        color: var(--muted);
+        font-size: clamp(18px, 2vw, 23px);
+        line-height: 1.8;
+      }
+
+      .policy-text p {
+        margin-bottom: 28px;
+      }
+
+      .policy-text strong {
+        color: var(--white);
+        font-weight: 950;
+      }
+
+      .email {
+        display: inline-flex;
+        margin-top: 8px;
+        padding: 10px 14px;
+        border-radius: 14px;
+        color: var(--gold);
+        background: rgba(255, 214, 10, 0.1);
+        border: 1px solid var(--line);
+        word-break: break-word;
+      }
+
+      .effective {
+        margin-top: 34px;
+        padding: 18px 20px;
+        border-radius: 18px;
+        background: rgba(255, 214, 10, 0.1);
+        border: 1px solid var(--line);
+        color: var(--gold);
+        font-weight: 900;
+      }
+
+      .footer-note {
+        margin-top: 28px;
+        color: rgba(255, 255, 255, 0.42);
+        font-size: 14px;
+      }
+
+      @media (max-width: 640px) {
+        .topbar {
+          margin-bottom: 46px;
+        }
+
+        h1 {
+          font-size: 62px;
+        }
+
+        .policy-card {
+          border-radius: 28px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="privacy-wrap">
+      <div class="topbar">
+        <a href="index.html" class="back">← Back</a>
+        <div class="brand-mini">Pw365 Football Hub</div>
+      </div>
+
+      <section class="hero">
+        <p class="label">USER PRIVACY</p>
+        <h1>Privacy Policy</h1>
+      </section>
+
+      <section class="policy-card">
+        <div class="policy-text">
+          <p>
+            <strong>CLAYWELL DIGITAL Apps</strong> organization has developed
+            the <strong>Pw365 Football Hub</strong> app as a free service. The
+            app does not collect, store, or share any personal user data.
+          </p>
+
+          <p>
+            Please note that this Privacy Policy may be revised occasionally to
+            reflect any necessary updates. When such changes are made, the
+            Service Provider will post the updated Privacy Policy on this page.
+            We encourage users to review this policy regularly, as continued use
+            of the app implies acceptance of any modifications.
+          </p>
+
+          <p>
+            If you have any concerns regarding privacy while using the
+            application or if you need further clarification on our practices,
+            feel free to reach out to the Service Provider at
+            <span class="email">admin@claywelldigital.sbs</span>.
+          </p>
+
+          <div class="effective">
+            This Privacy Policy is effective as of May 19, 2026.
+          </div>
+        </div>
+      </section>
+
+      <p class="footer-note">
+        The wording above is presented as the official privacy text for the
+        application.
+      </p>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,548 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tooth World — Personalized Oral Care Routine</title>
+    <meta
+      name="description"
+      content="Tooth World helps users build a personalized oral care routine, choose tools, set order and duration, follow a guided timer, and stay consistent with reminders."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Manrope:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="page-scene">
+      <div class="scene-glow glow-a"></div>
+      <div class="scene-glow glow-b"></div>
+      <div class="scene-glow glow-c"></div>
+      <div class="scene-grid"></div>
+    </div>
+
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a href="#top" class="brand">
+          <span class="brand-mark">TW</span>
+          <span class="brand-copy">
+            <strong>Tooth World</strong>
+            <small>Personalized oral care routine</small>
+          </span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" id="siteNav">
+          <a href="#features">Features</a>
+          <a href="#routine">Routine</a>
+          <a href="#preview">Preview</a>
+          <a href="#download">Download</a>
+          <a href="privacy.html">Privacy</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-layout">
+          <div class="hero-copy reveal">
+            <div class="hero-badges">
+              <span class="hero-badge">Dental routine app</span>
+              <span class="hero-badge ghost">Clean · Guided · Consistent</span>
+            </div>
+
+            <h1>
+              Build a better oral care routine with one guided mobile flow
+            </h1>
+
+            <p>
+              Tooth World helps users choose their tools, define the order of
+              use, configure duration, follow a guided brushing timer, and stay
+              consistent through reminders, settings, and progress-friendly
+              routine structure.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#download" class="btn btn-primary">Download</a>
+              <a href="#routine" class="btn btn-secondary">See Routine Flow</a>
+            </div>
+
+            <div class="hero-stats">
+              <article class="stat-card">
+                <strong data-counter="5">0</strong>
+                <span>routine actions</span>
+              </article>
+              <article class="stat-card">
+                <strong data-counter="8">0</strong>
+                <span>featured screens</span>
+              </article>
+              <article class="stat-card">
+                <strong data-counter="1">0</strong>
+                <span>guided care system</span>
+              </article>
+            </div>
+          </div>
+
+          <div class="hero-stage reveal">
+            <div class="stage-side stage-left">
+              <article class="mini-panel tilt-card">
+                <img
+                  src="photo2.jpeg"
+                  alt="Tooth World tools selection screen"
+                />
+              </article>
+
+              <article class="info-panel">
+                <strong>Choose your tools</strong>
+                <p>
+                  Start by selecting the products and devices you actually use.
+                </p>
+              </article>
+
+              <article class="mini-panel tilt-card">
+                <img
+                  src="photo3.jpeg"
+                  alt="Tooth World order selection screen"
+                />
+              </article>
+            </div>
+
+            <div class="stage-center">
+              <div class="device-halo"></div>
+
+              <div class="hero-phone tilt-card">
+                <div class="device-notch"></div>
+                <img src="photo1.jpeg" alt="Tooth World intro screen" />
+              </div>
+
+              <div class="hero-note">
+                <strong>Oral care, structured</strong>
+                <span
+                  >From setup to timer to reminders in one connected
+                  routine.</span
+                >
+              </div>
+            </div>
+
+            <div class="stage-side stage-right">
+              <article class="wide-panel tilt-card">
+                <img src="photo5.jpeg" alt="Tooth World timer screen" />
+              </article>
+
+              <article class="info-panel">
+                <strong>Follow a guided timer</strong>
+                <p>
+                  Use a visual timer with progress guidance for different areas.
+                </p>
+              </article>
+
+              <article class="mini-panel tilt-card">
+                <img src="photo7.jpeg" alt="Tooth World settings screen" />
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section statement-section">
+        <div class="container">
+          <div class="statement-panel reveal">
+            <h2>
+              Tooth World turns oral care from a vague habit into a guided
+              sequence you can actually follow every day
+            </h2>
+          </div>
+        </div>
+      </section>
+
+      <section class="section features-section" id="features">
+        <div class="container">
+          <div class="section-heading reveal">
+            <h2>What the app helps users do</h2>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card reveal">
+              <span class="feature-index">01</span>
+              <h3>Select tools</h3>
+              <p>
+                Build a routine using toothbrush, water flosser, tongue scraper,
+                mouthwash, floss, and other tools.
+              </p>
+            </article>
+
+            <article class="feature-card reveal">
+              <span class="feature-index">02</span>
+              <h3>Choose order of use</h3>
+              <p>
+                Arrange tools in the sequence that matches your preferred oral
+                care process.
+              </p>
+            </article>
+
+            <article class="feature-card reveal">
+              <span class="feature-index">03</span>
+              <h3>Set duration</h3>
+              <p>
+                Assign time blocks to each item so the routine becomes practical
+                and repeatable.
+              </p>
+            </article>
+
+            <article class="feature-card reveal">
+              <span class="feature-index">04</span>
+              <h3>Follow the timer</h3>
+              <p>
+                Use a guided brushing experience with progress around each jaw
+                area and tool step.
+              </p>
+            </article>
+
+            <article class="feature-card reveal">
+              <span class="feature-index">05</span>
+              <h3>Open contextual guidance</h3>
+              <p>
+                Get short instructions for tools like the water flosser without
+                leaving the routine flow.
+              </p>
+            </article>
+
+            <article class="feature-card reveal">
+              <span class="feature-index">06</span>
+              <h3>Adjust settings and reminders</h3>
+              <p>
+                Manage sound, reminders, feedback, and routine editing from one
+                control area.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section routine-section" id="routine">
+        <div class="container routine-layout">
+          <div class="routine-copy reveal">
+            <div class="section-kicker">Routine flow</div>
+            <h2>From setup to guided care</h2>
+
+            <div class="routine-steps">
+              <article
+                class="routine-step active-step"
+                data-image="photo1.jpeg"
+                data-title="Start with a clean onboarding screen"
+                data-text="The app opens with a simple branded entry that frames Tooth World as a personalized oral care assistant."
+              >
+                <span>01</span>
+                <div>
+                  <h3>Onboarding</h3>
+                  <p>
+                    Users enter through a clear start screen with a direct
+                    routine-focused message.
+                  </p>
+                </div>
+              </article>
+
+              <article
+                class="routine-step"
+                data-image="photo2.jpeg"
+                data-title="Select the tools you are going to use"
+                data-text="Users begin by choosing which oral care tools belong in their personal routine."
+              >
+                <span>02</span>
+                <div>
+                  <h3>Tool selection</h3>
+                  <p>
+                    The routine becomes personalized from the first interaction.
+                  </p>
+                </div>
+              </article>
+
+              <article
+                class="routine-step"
+                data-image="photo3.jpeg"
+                data-title="Choose the order of use"
+                data-text="The app supports structured sequencing so users can define how the routine should actually run."
+              >
+                <span>03</span>
+                <div>
+                  <h3>Order setup</h3>
+                  <p>
+                    The care flow becomes more intentional and easier to repeat.
+                  </p>
+                </div>
+              </article>
+
+              <article
+                class="routine-step"
+                data-image="photo4.jpeg"
+                data-title="Configure duration for each step"
+                data-text="Each tool can have its own time slot so the routine feels guided rather than improvised."
+              >
+                <span>04</span>
+                <div>
+                  <h3>Time planning</h3>
+                  <p>
+                    Duration control turns a tool list into a real sequence.
+                  </p>
+                </div>
+              </article>
+
+              <article
+                class="routine-step"
+                data-image="photo5.jpeg"
+                data-title="Follow a guided brushing timer"
+                data-text="The main timer screen visualizes movement and progression through the care process."
+              >
+                <span>05</span>
+                <div>
+                  <h3>Active guidance</h3>
+                  <p>
+                    The app supports the user while the routine is actually
+                    happening.
+                  </p>
+                </div>
+              </article>
+
+              <article
+                class="routine-step"
+                data-image="photo6.jpeg"
+                data-title="Read contextual tool instructions"
+                data-text="Short informational overlays help users understand how to use a selected tool more effectively."
+              >
+                <span>06</span>
+                <div>
+                  <h3>Tool help</h3>
+                  <p>
+                    Instruction popups keep the experience practical and
+                    educational.
+                  </p>
+                </div>
+              </article>
+
+              <article
+                class="routine-step"
+                data-image="photo7.jpeg"
+                data-title="Manage sound, reminders, and settings"
+                data-text="Settings keep the routine flexible with controls for sound, editing, reminders, feedback, and reset options."
+              >
+                <span>07</span>
+                <div>
+                  <h3>Settings control</h3>
+                  <p>Users can refine the app around their own preferences.</p>
+                </div>
+              </article>
+
+              <article
+                class="routine-step"
+                data-image="photo8.jpeg"
+                data-title="Review app information and version details"
+                data-text="The about modal explains the broader product purpose and what users can expect from the routine system."
+              >
+                <span>08</span>
+                <div>
+                  <h3>About the product</h3>
+                  <p>
+                    The app clearly communicates what it does and how it
+                    supports daily consistency.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="routine-visual reveal">
+            <div class="routine-frame">
+              <div class="routine-phone tilt-card">
+                <div class="device-notch"></div>
+                <img
+                  id="routineImage"
+                  src="photo1.jpeg"
+                  alt="Tooth World preview screen"
+                />
+              </div>
+
+              <div class="routine-caption">
+                <small>Current screen</small>
+                <h3 id="routineTitle">Start with a clean onboarding screen</h3>
+                <p id="routineText">
+                  The app opens with a simple branded entry that frames Tooth
+                  World as a personalized oral care assistant.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section carousel-section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <h2>App showcase</h2>
+          </div>
+
+          <div class="app-carousel reveal">
+            <div class="carousel-top">
+              <div class="carousel-meta">
+                <small>Now showing</small>
+                <h3 id="carouselTitle">Onboarding</h3>
+              </div>
+
+              <div class="carousel-controls">
+                <button
+                  id="prevSlide"
+                  class="carousel-btn"
+                  aria-label="Previous"
+                >
+                  ←
+                </button>
+                <button id="nextSlide" class="carousel-btn" aria-label="Next">
+                  →
+                </button>
+              </div>
+            </div>
+
+            <div class="carousel-stage">
+              <div class="carousel-track" id="sliderTrack">
+                <article class="carousel-slide" data-title="Onboarding">
+                  <img src="photo1.jpeg" alt="Onboarding" />
+                </article>
+                <article class="carousel-slide" data-title="Tool Selection">
+                  <img src="photo2.jpeg" alt="Tool selection" />
+                </article>
+                <article class="carousel-slide" data-title="Order Setup">
+                  <img src="photo3.jpeg" alt="Order setup" />
+                </article>
+                <article class="carousel-slide" data-title="Duration Setup">
+                  <img src="photo4.jpeg" alt="Duration setup" />
+                </article>
+                <article class="carousel-slide" data-title="Timer">
+                  <img src="photo5.jpeg" alt="Timer" />
+                </article>
+                <article class="carousel-slide" data-title="Tool Guidance">
+                  <img src="photo6.jpeg" alt="Tool guidance" />
+                </article>
+                <article class="carousel-slide" data-title="Settings">
+                  <img src="photo7.jpeg" alt="Settings" />
+                </article>
+                <article class="carousel-slide" data-title="About">
+                  <img src="photo8.jpeg" alt="About" />
+                </article>
+              </div>
+            </div>
+
+            <div class="carousel-dots" id="sliderDots"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reviews-section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <h2>Why the app feels useful</h2>
+          </div>
+
+          <div class="review-grid">
+            <article class="review-card featured-review reveal">
+              <div class="review-stars">★★★★★</div>
+              <p>
+                “It takes oral care from random actions into a structured
+                routine that actually feels easier to follow.”
+              </p>
+              <div class="review-user">
+                <strong>Emma R.</strong>
+                <span>Daily care user</span>
+              </div>
+            </article>
+
+            <article class="review-card reveal">
+              <div class="review-stars">★★★★★</div>
+              <p>
+                “The order and duration screens make a huge difference because
+                they turn setup into a clear process.”
+              </p>
+              <div class="review-user">
+                <strong>Chris T.</strong>
+                <span>Routine builder</span>
+              </div>
+            </article>
+
+            <article class="review-card reveal">
+              <div class="review-stars">★★★★★</div>
+              <p>
+                “The timer and tool tips make the app feel more practical than
+                just a reminder list.”
+              </p>
+              <div class="review-user">
+                <strong>Olivia M.</strong>
+                <span>Health app user</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section download-section" id="download">
+        <div class="container">
+          <div class="download-panel reveal">
+            <div class="download-copy">
+              <div class="section-kicker">Download app</div>
+              <h2>Use Tooth World to build a stronger oral care routine</h2>
+              <p>
+                Personalize your tools, set the right order, configure timing,
+                follow a guided timer, and manage reminders through one clean
+                dental routine app.
+              </p>
+            </div>
+
+            <div class="download-actions">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.bramtovexi217.lor1ven"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-primary btn-wide"
+              >
+                Download on Google Play
+              </a>
+              <a href="privacy.html" class="btn btn-secondary btn-wide">
+                Privacy Policy
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-top">
+        <div class="footer-brand">
+          <span class="brand-mark small">TW</span>
+          <div>
+            <strong>Tooth World</strong>
+            <p>Guided dental care and routine planning</p>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <a href="#features">Features</a>
+          <a href="#routine">Routine</a>
+          <a href="#preview">Preview</a>
+          <a href="#download">Download</a>
+          <a href="privacy.html">Privacy</a>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>© <span id="year"></span> Tooth World. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

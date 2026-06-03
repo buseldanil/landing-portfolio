@@ -1,0 +1,694 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>888 Total Tennis</title>
+    <meta
+      name="description"
+      content="888 Total Tennis is a modern tennis app for live matches, players, tournaments, favorites, schedules, and match insights."
+    />
+    <link rel="icon" href="photo1.jpeg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-blur page-blur--one"></div>
+    <div class="page-blur page-blur--two"></div>
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <header class="header" id="header">
+      <div class="container header__inner">
+        <a href="#hero" class="logo">
+          <span class="logo__mark">
+            <span></span>
+          </span>
+          <span class="logo__text">888 Total Tennis</span>
+        </a>
+
+        <nav class="nav" id="nav">
+          <a href="#features">Features</a>
+          <a href="#matches">Matches</a>
+          <a href="#players">Players</a>
+          <a href="#screens">Screens</a>
+          <a href="privacy.html">Privacy</a>
+        </nav>
+
+        <div class="header__actions">
+          <a
+            class="header__download"
+            href="https://play.google.com/store/apps/details?id=com.embercompapath8835.flarescvcore6612"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Download
+          </a>
+
+          <button
+            class="burger"
+            id="burger"
+            type="button"
+            aria-label="Open menu"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="hero">
+        <div class="hero__bg"></div>
+        <div class="hero__mesh"></div>
+
+        <div class="container hero__grid">
+          <div class="hero__content reveal">
+            <span class="eyebrow">Live tennis experience</span>
+            <h1>
+              Follow
+              <span>matches, players, tournaments,</span>
+              and tennis momentum in one clean app
+            </h1>
+
+            <p>
+              888 Total Tennis brings live match tracking, player overviews,
+              tournaments, schedules, favorites, and simple profile tools into
+              one fast mobile product with a clean sports-focused interface.
+            </p>
+
+            <div class="hero__actions">
+              <a
+                class="btn btn--primary"
+                href="https://play.google.com/store/apps/details?id=com.embercompapath8835.flarescvcore6612"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Get the App
+              </a>
+              <a class="btn btn--secondary" href="#screens">See Screens</a>
+            </div>
+
+            <div class="hero__stats">
+              <article class="stat-card tilt-card">
+                <strong class="counter" data-target="12">0</strong>
+                <span>player cards</span>
+              </article>
+              <article class="stat-card tilt-card">
+                <strong class="counter" data-target="4">0</strong>
+                <span>main tennis flows</span>
+              </article>
+              <article class="stat-card tilt-card">
+                <strong class="counter" data-target="10">0</strong>
+                <span>preview screens</span>
+              </article>
+            </div>
+          </div>
+
+          <div class="hero__visual reveal reveal--delay">
+            <div class="hero-device-stack">
+              <div class="hero-device hero-device--main tilt-card">
+                <img src="photo1.jpeg" alt="888 Total Tennis home screen" />
+              </div>
+              <div class="hero-device hero-device--top tilt-card">
+                <img src="photo2.jpeg" alt="Match details screen" />
+              </div>
+              <div class="hero-device hero-device--bottom tilt-card">
+                <img src="photo3.jpeg" alt="Player details screen" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="live-strip reveal">
+        <div class="container">
+          <div class="live-strip__wrap">
+            <div class="live-strip__badge">LIVE</div>
+            <div class="live-strip__track">
+              <span>Australian Open • Semifinal • Djokovic vs Alcaraz</span>
+              <span
+                >Dubai Championships • Quarterfinal • Rublev vs Tsitsipas</span
+              >
+              <span
+                >Player rankings, favorites, schedule and tournament cards</span
+              >
+              <span>Australian Open • Semifinal • Djokovic vs Alcaraz</span>
+              <span
+                >Dubai Championships • Quarterfinal • Rublev vs Tsitsipas</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section features" id="features">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="eyebrow">What the app covers</span>
+            <h2>A focused tennis product, not just random sports cards</h2>
+            <p>
+              The structure is built around what users actually want to check:
+              who is playing live, what the score is, who the top players are,
+              what tournaments are active, and what matches are scheduled next.
+            </p>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card feature-card--green reveal tilt-card">
+              <div class="feature-card__icon">🎾</div>
+              <h3>Live match tracking</h3>
+              <p>
+                Match cards, live badges, scoreboard blocks, set-by-set view,
+                and compact sports UI that feels familiar and clear.
+              </p>
+            </article>
+
+            <article class="feature-card reveal tilt-card">
+              <div class="feature-card__icon">👤</div>
+              <h3>Player pages</h3>
+              <p>
+                Clean player stats, season info, surface preference, bio, and
+                recent match context in a readable layout.
+              </p>
+            </article>
+
+            <article class="feature-card reveal tilt-card">
+              <div class="feature-card__icon">🏆</div>
+              <h3>Tournaments</h3>
+              <p>
+                Easy browsing for ongoing, upcoming, and completed events with
+                surface tags, location, date range, and prize pool.
+              </p>
+            </article>
+
+            <article class="feature-card feature-card--soft reveal tilt-card">
+              <div class="feature-card__icon">📅</div>
+              <h3>Schedule & favorites</h3>
+              <p>
+                Users can jump into date-based schedules and store favorite
+                players, matches, and tournaments without heavy clutter.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section score-section" id="matches">
+        <div class="container">
+          <div class="score-layout">
+            <div class="score-copy reveal">
+              <span class="eyebrow">Highlighted live block</span>
+              <h2>Hero section designed like a premium tennis dashboard</h2>
+              <p>
+                Instead of a basic centered mockup, this layout sells the app
+                through a big live-score card, motion layers, clean hierarchy,
+                and stronger CTA rhythm.
+              </p>
+
+              <ul class="bullet-list">
+                <li>live badge and match ticker</li>
+                <li>semi-transparent scoreboard card</li>
+                <li>sports green glow details</li>
+                <li>motion without layout breaking</li>
+              </ul>
+            </div>
+
+            <div class="score-showcase reveal reveal--delay">
+              <article class="live-card tilt-card">
+                <div class="live-card__top">
+                  <span class="live-pill">● LIVE</span>
+                  <span>Australian Open · Semifinal</span>
+                </div>
+
+                <div class="live-card__middle">
+                  <div class="player-block">
+                    <span class="player-block__name">N. Djokovic</span>
+                    <span class="player-block__meta">SRB · #1</span>
+                  </div>
+
+                  <div class="score-box">6-4, 3-6, 4-3</div>
+
+                  <div class="player-block player-block--right">
+                    <span class="player-block__name">C. Alcaraz</span>
+                    <span class="player-block__meta">ESP · #3</span>
+                  </div>
+                </div>
+
+                <div class="live-card__bottom">
+                  <span>Watch now</span>
+                  <span class="pulse-dot"></span>
+                </div>
+              </article>
+
+              <div class="mini-shots">
+                <button
+                  class="mini-shot tilt-card js-lightbox"
+                  type="button"
+                  data-image="photo4.jpeg"
+                >
+                  <img src="photo4.jpeg" alt="Matches list screen" />
+                </button>
+                <button
+                  class="mini-shot tilt-card js-lightbox"
+                  type="button"
+                  data-image="photo10.jpeg"
+                >
+                  <img src="photo10.jpeg" alt="Schedule screen" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section players-section" id="players">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="eyebrow">Players and stats</span>
+            <h2>Top-player browsing with clear ranking hierarchy</h2>
+            <p>
+              This part of the landing focuses on player discovery and player
+              detail screens because they visually sell the app very well.
+            </p>
+          </div>
+
+          <div class="players-grid">
+            <article class="player-card reveal tilt-card">
+              <div class="player-card__avatar">ND</div>
+              <div class="player-card__body">
+                <h3>Novak Djokovic</h3>
+                <p>Serbia · Right-handed</p>
+              </div>
+              <div class="player-card__rank">#1</div>
+            </article>
+
+            <article class="player-card reveal tilt-card">
+              <div class="player-card__avatar">JS</div>
+              <div class="player-card__body">
+                <h3>Jannik Sinner</h3>
+                <p>Italy · Right-handed</p>
+              </div>
+              <div class="player-card__rank">#2</div>
+            </article>
+
+            <article class="player-card reveal tilt-card">
+              <div class="player-card__avatar">CA</div>
+              <div class="player-card__body">
+                <h3>Carlos Alcaraz</h3>
+                <p>Spain · Right-handed</p>
+              </div>
+              <div class="player-card__rank">#3</div>
+            </article>
+          </div>
+
+          <div class="split-showcase">
+            <div class="split-showcase__left reveal">
+              <div class="feature-panel">
+                <span class="eyebrow">Player profile</span>
+                <h3>Compact, stats-first design</h3>
+                <p>
+                  The player view combines rank, win percentage, titles, and
+                  physical profile into a simple sports layout that stays easy
+                  to scan on mobile.
+                </p>
+                <ul class="bullet-list">
+                  <li>rank and season emphasis</li>
+                  <li>surface and hand information</li>
+                  <li>overview tabs</li>
+                  <li>favorite support</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="split-showcase__right reveal reveal--delay">
+              <div class="two-stack">
+                <button
+                  class="preview-device tilt-card js-lightbox"
+                  type="button"
+                  data-image="photo3.jpeg"
+                >
+                  <img src="photo3.jpeg" alt="Player profile screen" />
+                </button>
+                <button
+                  class="preview-device tilt-card js-lightbox"
+                  type="button"
+                  data-image="photo5.jpeg"
+                >
+                  <img src="photo5.jpeg" alt="Players list screen" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section tabs-section">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="eyebrow">Interactive section</span>
+            <h2>Switch between the strongest app areas</h2>
+          </div>
+
+          <div class="tabs-box reveal">
+            <div class="tabs-nav">
+              <button
+                class="tab-btn is-active"
+                type="button"
+                data-tab="tab-tournaments"
+              >
+                Tournaments
+              </button>
+              <button class="tab-btn" type="button" data-tab="tab-more">
+                More
+              </button>
+              <button class="tab-btn" type="button" data-tab="tab-profile">
+                Profile
+              </button>
+            </div>
+
+            <div class="tabs-content">
+              <div class="tab-panel is-active" id="tab-tournaments">
+                <div class="tab-layout">
+                  <div class="tab-copy">
+                    <h3>Organized tournament browsing</h3>
+                    <p>
+                      Tournament cards have enough data to feel informative
+                      without being overloaded: location, status, surface, date
+                      range, and prize pool.
+                    </p>
+                    <ul class="bullet-list">
+                      <li>all / ongoing / upcoming / completed filters</li>
+                      <li>surface tags</li>
+                      <li>money emphasis</li>
+                      <li>clean stacked card layout</li>
+                    </ul>
+                  </div>
+
+                  <div class="tab-media">
+                    <div class="tab-device tilt-card">
+                      <img src="photo6.jpeg" alt="Tournaments screen" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-panel" id="tab-more">
+                <div class="tab-layout">
+                  <div class="tab-copy">
+                    <h3>Useful extra section instead of dead-end menu</h3>
+                    <p>
+                      Favorites, schedule, and account entry points make the app
+                      feel complete and help users navigate quickly from one
+                      sports flow to another.
+                    </p>
+                    <ul class="bullet-list">
+                      <li>favorites access</li>
+                      <li>schedule by date</li>
+                      <li>profile and settings path</li>
+                      <li>simple polished card design</li>
+                    </ul>
+                  </div>
+
+                  <div class="tab-media">
+                    <div class="tab-device tilt-card">
+                      <img src="photo7.jpeg" alt="More section screen" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-panel" id="tab-profile">
+                <div class="tab-layout">
+                  <div class="tab-copy">
+                    <h3>User profile with favorites and switches</h3>
+                    <p>
+                      Profile area helps make the product look more real because
+                      it includes account identity, summary stats, favorite
+                      entities, and settings toggles.
+                    </p>
+                    <ul class="bullet-list">
+                      <li>member card hero</li>
+                      <li>stats counters</li>
+                      <li>favorites summary</li>
+                      <li>settings block</li>
+                    </ul>
+                  </div>
+
+                  <div class="tab-media">
+                    <div class="tab-device tilt-card">
+                      <img src="photo9.jpeg" alt="Profile screen" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section screens" id="screens">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="eyebrow">Screen gallery</span>
+            <h2>Main app screens for the landing page</h2>
+            <p>
+              Здесь уже основные скрины, чтобы лендинг выглядел плотно и дорого,
+              без лишнего мусора.
+            </p>
+          </div>
+
+          <div class="screens-grid">
+            <button
+              class="screen-card reveal tilt-card js-lightbox"
+              type="button"
+              data-image="photo1.jpeg"
+            >
+              <img src="photo1.jpeg" alt="Home screen" />
+              <span>Home</span>
+            </button>
+
+            <button
+              class="screen-card reveal tilt-card js-lightbox"
+              type="button"
+              data-image="photo2.jpeg"
+            >
+              <img src="photo2.jpeg" alt="Match details screen" />
+              <span>Match Details</span>
+            </button>
+
+            <button
+              class="screen-card reveal tilt-card js-lightbox"
+              type="button"
+              data-image="photo3.jpeg"
+            >
+              <img src="photo3.jpeg" alt="Player details screen" />
+              <span>Player</span>
+            </button>
+
+            <button
+              class="screen-card reveal tilt-card js-lightbox"
+              type="button"
+              data-image="photo4.jpeg"
+            >
+              <img src="photo4.jpeg" alt="Matches screen" />
+              <span>Matches</span>
+            </button>
+
+            <button
+              class="screen-card reveal tilt-card js-lightbox"
+              type="button"
+              data-image="photo5.jpeg"
+            >
+              <img src="photo5.jpeg" alt="Players screen" />
+              <span>Players</span>
+            </button>
+
+            <button
+              class="screen-card reveal tilt-card js-lightbox"
+              type="button"
+              data-image="photo6.jpeg"
+            >
+              <img src="photo6.jpeg" alt="Tournaments screen" />
+              <span>Tournaments</span>
+            </button>
+
+            <button
+              class="screen-card reveal tilt-card js-lightbox"
+              type="button"
+              data-image="photo7.jpeg"
+            >
+              <img src="photo7.jpeg" alt="More screen" />
+              <span>More</span>
+            </button>
+
+            <button
+              class="screen-card reveal tilt-card js-lightbox"
+              type="button"
+              data-image="photo8.jpeg"
+            >
+              <img src="photo8.jpeg" alt="Favorites screen" />
+              <span>Favorites</span>
+            </button>
+
+            <button
+              class="screen-card reveal tilt-card js-lightbox"
+              type="button"
+              data-image="photo9.jpeg"
+            >
+              <img src="photo9.jpeg" alt="Profile screen" />
+              <span>Profile</span>
+            </button>
+
+            <button
+              class="screen-card reveal tilt-card js-lightbox"
+              type="button"
+              data-image="photo10.jpeg"
+            >
+              <img src="photo10.jpeg" alt="Schedule screen" />
+              <span>Schedule</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section benefits-section">
+        <div class="container">
+          <div class="benefits-box reveal">
+            <div class="benefits-box__intro">
+              <span class="eyebrow">Strong parts of the build</span>
+              <h2>More motion, but still clean and optimized</h2>
+              <p>
+                The page uses reveal animations, marquee motion, card tilt,
+                mouse glow, sticky header behavior, tab transitions, and simple
+                lightbox previews without making the layout feel broken.
+              </p>
+            </div>
+
+            <div class="benefits-grid">
+              <article class="benefit-card tilt-card">
+                <strong>Reveal system</strong>
+                <span>Sections animate only when entering viewport</span>
+              </article>
+
+              <article class="benefit-card tilt-card">
+                <strong>Live feeling</strong>
+                <span>Ticker strip and sports scoring rhythm</span>
+              </article>
+
+              <article class="benefit-card tilt-card">
+                <strong>Interactive cards</strong>
+                <span>Hover tilt and lightbox preview for screens</span>
+              </article>
+
+              <article class="benefit-card tilt-card">
+                <strong>Stable header</strong>
+                <span>Responsive and ровный without floating issues</span>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section cta">
+        <div class="container">
+          <div class="cta-box reveal">
+            <div class="cta-box__copy">
+              <span class="eyebrow">Ready to launch</span>
+              <h2>
+                Sports landing page with cleaner rhythm and stronger motion
+              </h2>
+              <p>
+                Good for app promo, portfolio showcase, or direct upload to your
+                hosting with separate privacy page included.
+              </p>
+            </div>
+
+            <div class="cta-box__actions">
+              <a
+                class="btn btn--primary"
+                href="https://play.google.com/store/apps/details?id=com.embercompapath8835.flarescvcore6612"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Download on Google Play
+              </a>
+              <a class="btn btn--secondary" href="privacy.html"
+                >Privacy Policy</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div>
+          <a href="#hero" class="footer__logo">888 Total Tennis</a>
+          <p>
+            Tennis scores, players, tournaments, favorites, schedules and clean
+            sports UI in one mobile app.
+          </p>
+        </div>
+
+        <div class="footer__links">
+          <a href="#features">Features</a>
+          <a href="#matches">Matches</a>
+          <a href="#players">Players</a>
+          <a href="#screens">Screens</a>
+          <a href="privacy.html">Privacy</a>
+        </div>
+      </div>
+    </footer>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <div class="mobile-menu__panel">
+        <button
+          class="mobile-menu__close"
+          id="closeMenu"
+          type="button"
+          aria-label="Close menu"
+        >
+          ×
+        </button>
+
+        <a href="#hero">Home</a>
+        <a href="#features">Features</a>
+        <a href="#matches">Matches</a>
+        <a href="#players">Players</a>
+        <a href="#screens">Screens</a>
+        <a href="privacy.html">Privacy</a>
+
+        <a
+          class="btn btn--primary mobile-menu__download"
+          href="https://play.google.com/store/apps/details?id=com.embercompapath8835.flarescvcore6612"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Download App
+        </a>
+      </div>
+    </div>
+
+    <div class="lightbox" id="lightbox">
+      <button
+        class="lightbox__close"
+        id="lightboxClose"
+        type="button"
+        aria-label="Close preview"
+      >
+        ×
+      </button>
+      <img id="lightboxImage" src="" alt="Preview" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

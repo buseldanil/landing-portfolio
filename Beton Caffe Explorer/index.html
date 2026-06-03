@@ -1,0 +1,625 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beton Caffe Explorer — Discover Premium Places</title>
+    <meta
+      name="description"
+      content="Beton Caffe Explorer helps users discover cafés, steakhouses and premium food spots with maps, rankings, reviews and curated recommendations."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="site-bg">
+      <div class="noise"></div>
+      <div class="ambient ambient-1"></div>
+      <div class="ambient ambient-2"></div>
+      <div class="ambient ambient-3"></div>
+      <div class="gold-lines gold-lines-1"></div>
+      <div class="gold-lines gold-lines-2"></div>
+      <div class="grid-mask"></div>
+    </div>
+
+    <header class="header" id="top">
+      <div class="container nav">
+        <a href="#top" class="brand">
+          <span class="brand-icon">BC</span>
+          <span class="brand-copy">
+            <strong>Beton Caffe Explorer</strong>
+            <small>Luxury Food Discovery App</small>
+          </span>
+        </a>
+
+        <nav class="desktop-nav">
+          <a href="#features">Features</a>
+          <a href="#showcase">Showcase</a>
+          <a href="#screens">Screens</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#download">Download</a>
+          <a href="privacy.html">Privacy</a>
+        </nav>
+
+        <div class="nav-actions">
+          <a href="#" class="btn btn-primary btn-sm">Download App</a>
+          <button class="burger" id="burger" aria-label="Open menu">
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="#features">Features</a>
+        <a href="#showcase">Showcase</a>
+        <a href="#screens">Screens</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#download">Download</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="#" class="btn btn-primary mobile-btn">Download App</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <div class="eyebrow">
+              <span class="eyebrow-dot"></span>
+              Premium city food discovery
+            </div>
+
+            <h1>
+              Find cafés,<br />
+              steaks &<br />
+              standout places.
+            </h1>
+
+            <p class="hero-text">
+              Beton Caffe Explorer helps users discover stylish cafés, premium
+              steak places and memorable food spots with a fast map flow, visual
+              rankings and restaurant detail pages.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#" class="btn btn-primary btn-lg">Download App</a>
+              <a href="#features" class="btn btn-secondary btn-lg"
+                >Explore Features</a
+              >
+            </div>
+
+            <div class="hero-badges">
+              <span>Map Search</span>
+              <span>Top Rankings</span>
+              <span>Restaurant Details</span>
+              <span>Reviews & Notes</span>
+            </div>
+
+            <div class="hero-stats-grid">
+              <div class="mini-card">
+                <span>Discovery</span>
+                <strong>Fast local search</strong>
+              </div>
+              <div class="mini-card">
+                <span>Experience</span>
+                <strong>Luxury dark UI</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal delay-1">
+            <div class="visual-pill pill-left">
+              <span>Nearby places</span>
+              <strong>Kyiv Search</strong>
+            </div>
+
+            <div class="visual-pill pill-right">
+              <span>Top picks</span>
+              <strong>Curated Ranking</strong>
+            </div>
+
+            <div class="phones-cluster">
+              <div class="halo"></div>
+
+              <div class="phone-frame phone-back">
+                <div class="phone-notch"></div>
+                <img src="photo2.jpeg" alt="Beton Caffe Explorer map screen" />
+              </div>
+
+              <div class="phone-frame phone-front">
+                <div class="phone-notch"></div>
+                <img
+                  src="photo1.jpeg"
+                  alt="Beton Caffe Explorer splash screen"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container stats-row reveal delay-2">
+          <div class="stat-card">
+            <span class="stat-number" data-count="120">0</span>
+            <span class="stat-label">Places discovered</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number" data-count="6">0</span>
+            <span class="stat-label">Core app screens</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number" data-count="95">0</span>
+            <span class="stat-label">Premium visual focus</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number" data-count="24">0</span>
+            <span class="stat-label">Key food insights</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro-strip">
+        <div class="container">
+          <div class="intro-card reveal">
+            <div class="intro-head">
+              <span class="section-label">Concept</span>
+              <h2>Food discovery presented like a premium product</h2>
+            </div>
+            <p>
+              This landing page uses your screens as product storytelling: map
+              means discovery, rankings mean status, restaurant pages mean
+              trust, and review flow means personal experience.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section features-section" id="features">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-label">Features</span>
+            <h2>Everything needed for elevated place discovery</h2>
+            <p>
+              Beton Caffe Explorer combines map browsing, ranking views,
+              restaurant detail pages and user-driven steak notes in one
+              polished mobile app flow.
+            </p>
+          </div>
+
+          <div class="features-grid">
+            <article class="feature-card reveal">
+              <div class="feature-line"></div>
+              <div class="feature-icon">01</div>
+              <h3>Map-based exploration</h3>
+              <p>
+                Search the city visually and find great cafés or restaurants
+                around you in a familiar location-first flow.
+              </p>
+            </article>
+
+            <article class="feature-card reveal delay-1">
+              <div class="feature-line"></div>
+              <div class="feature-icon">02</div>
+              <h3>Restaurant detail pages</h3>
+              <p>
+                View photos, rating breakdowns, open hours and key context
+                before deciding where to go.
+              </p>
+            </article>
+
+            <article class="feature-card reveal delay-2">
+              <div class="feature-line"></div>
+              <div class="feature-icon">03</div>
+              <h3>Curated popularity views</h3>
+              <p>
+                Showcase top places in a more aspirational way with rich cards
+                and luxury ranking presentation.
+              </p>
+            </article>
+
+            <article class="feature-card reveal">
+              <div class="feature-line"></div>
+              <div class="feature-icon">04</div>
+              <h3>Ratings that feel useful</h3>
+              <p>
+                Star summaries and score visualizations help users quickly
+                understand whether a place is worth it.
+              </p>
+            </article>
+
+            <article class="feature-card reveal delay-1">
+              <div class="feature-line"></div>
+              <div class="feature-icon">05</div>
+              <h3>Personal steak reviews</h3>
+              <p>
+                Add meat type, doneness, cooking method and notes to keep food
+                experiences more personal and memorable.
+              </p>
+            </article>
+
+            <article class="feature-card reveal delay-2">
+              <div class="feature-line"></div>
+              <div class="feature-icon">06</div>
+              <h3>Strong visual identity</h3>
+              <p>
+                Dark concrete textures, gold cracks and purple interface accents
+                create a distinct premium brand style.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section showcase-section" id="showcase">
+        <div class="container">
+          <div class="showcase-row reveal">
+            <div class="showcase-copy">
+              <span class="section-label">Map Discovery</span>
+              <h2>Start with the city map and let users explore visually</h2>
+              <p>
+                The map screen gives the product an immediate practical value.
+                It tells users what is around them and turns search into a
+                simple visual action.
+              </p>
+
+              <ul class="showcase-list">
+                <li>Fast local search flow</li>
+                <li>Map-first interaction</li>
+                <li>Premium place discovery feel</li>
+              </ul>
+            </div>
+
+            <div class="showcase-phone-wrap">
+              <div class="showcase-phone">
+                <div class="phone-notch"></div>
+                <img src="photo2.jpeg" alt="Map view screen" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section spotlight-section">
+        <div class="container spotlight-grid">
+          <div class="spotlight-copy reveal">
+            <span class="section-label">Restaurant Details</span>
+            <h2>Give every place a stronger premium profile</h2>
+            <p>
+              The restaurant detail page is one of the strongest screens in the
+              app. It combines photo, score, timing and action in a way that
+              feels much more polished than a simple listing card.
+            </p>
+
+            <div class="spotlight-pills">
+              <div class="spotlight-pill">
+                <small>Ratings</small>
+                <strong>Visible trust layer</strong>
+              </div>
+              <div class="spotlight-pill">
+                <small>Action</small>
+                <strong>Get directions fast</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="spotlight-visual reveal delay-1">
+            <div class="showcase-phone alt-phone">
+              <div class="phone-notch"></div>
+              <img src="photo3.jpeg" alt="Restaurant detail screen" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section ranking-section">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-label">Rankings</span>
+            <h2>Top lists make the app feel curated and valuable</h2>
+            <p>
+              Popularity and ranking screens help position the app as a
+              discovery guide, not just a directory.
+            </p>
+          </div>
+
+          <div class="ranking-grid">
+            <article class="ranking-card reveal">
+              <div class="ranking-card-copy">
+                <span class="card-tag">Popularity</span>
+                <h3>Highlight what people love right now</h3>
+                <p>
+                  Show trending cafés and food places with rich preview cards
+                  and a clear visual hierarchy.
+                </p>
+              </div>
+              <div class="ranking-card-phone">
+                <div class="small-phone">
+                  <div class="phone-notch"></div>
+                  <img src="photo4.jpeg" alt="Popularity screen" />
+                </div>
+              </div>
+            </article>
+
+            <article class="ranking-card reveal delay-1">
+              <div class="ranking-card-copy">
+                <span class="card-tag">Top Rated</span>
+                <h3>Create a premium ranking experience</h3>
+                <p>
+                  Rankings become a luxury food guide with strong positioning,
+                  visual status and memorable brand feel.
+                </p>
+              </div>
+              <div class="ranking-card-phone">
+                <div class="small-phone">
+                  <div class="phone-notch"></div>
+                  <img src="photo5.jpeg" alt="Ranking screen" />
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section community-section">
+        <div class="container community-block reveal">
+          <div class="community-copy">
+            <span class="section-label">Community Input</span>
+            <h2>Let users save richer food experiences</h2>
+            <p>
+              The add-steak flow gives the app a more personal side. Instead of
+              only consuming information, users can keep their own notes about
+              meat cuts, doneness and cooking methods.
+            </p>
+
+            <div class="community-points">
+              <span>Meat type</span>
+              <span>Doneness level</span>
+              <span>Cooking method</span>
+              <span>Personal notes</span>
+            </div>
+          </div>
+
+          <div class="community-phone">
+            <div class="showcase-phone">
+              <div class="phone-notch"></div>
+              <img src="photo6.jpeg" alt="Add steak screen" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section screens-section" id="screens">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-label">Selected Screens</span>
+            <h2>Focused showcase instead of dumping all screenshots</h2>
+            <p>
+              Only the strongest screens are used here, so the product looks
+              curated and premium.
+            </p>
+          </div>
+
+          <div class="carousel-shell reveal">
+            <button
+              class="carousel-arrow prev"
+              id="prevBtn"
+              aria-label="Previous"
+            >
+              ‹
+            </button>
+
+            <div class="carousel-stage">
+              <article class="carousel-slide active">
+                <div class="carousel-card">
+                  <div class="carousel-image">
+                    <img src="photo1.jpeg" alt="Splash screen" />
+                  </div>
+                  <div class="carousel-copy">
+                    <span class="card-tag">Brand Intro</span>
+                    <h3>A bold first impression</h3>
+                    <p>
+                      The splash screen instantly communicates the dark luxury
+                      style and makes the brand feel recognizable.
+                    </p>
+                  </div>
+                </div>
+              </article>
+
+              <article class="carousel-slide">
+                <div class="carousel-card">
+                  <div class="carousel-image">
+                    <img src="photo2.jpeg" alt="Map screen" />
+                  </div>
+                  <div class="carousel-copy">
+                    <span class="card-tag">Map</span>
+                    <h3>Explore places around you</h3>
+                    <p>
+                      A direct map-first discovery flow helps the app feel
+                      useful from the first interaction.
+                    </p>
+                  </div>
+                </div>
+              </article>
+
+              <article class="carousel-slide">
+                <div class="carousel-card">
+                  <div class="carousel-image">
+                    <img src="photo3.jpeg" alt="Details screen" />
+                  </div>
+                  <div class="carousel-copy">
+                    <span class="card-tag">Details</span>
+                    <h3>Trust through restaurant profiles</h3>
+                    <p>
+                      Ratings, photos and timing give users practical confidence
+                      before visiting a place.
+                    </p>
+                  </div>
+                </div>
+              </article>
+
+              <article class="carousel-slide">
+                <div class="carousel-card">
+                  <div class="carousel-image">
+                    <img src="photo5.jpeg" alt="Ranking screen" />
+                  </div>
+                  <div class="carousel-copy">
+                    <span class="card-tag">Ranking</span>
+                    <h3>Top-rated places feel more valuable</h3>
+                    <p>
+                      Rich ranking presentation turns the app into more than a
+                      list — it becomes a guide.
+                    </p>
+                  </div>
+                </div>
+              </article>
+
+              <article class="carousel-slide">
+                <div class="carousel-card">
+                  <div class="carousel-image">
+                    <img src="photo6.jpeg" alt="Add steak screen" />
+                  </div>
+                  <div class="carousel-copy">
+                    <span class="card-tag">Review Flow</span>
+                    <h3>Save your own food experience</h3>
+                    <p>
+                      Personal review inputs add depth and make the product feel
+                      more interactive and memorable.
+                    </p>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <button class="carousel-arrow next" id="nextBtn" aria-label="Next">
+              ›
+            </button>
+          </div>
+
+          <div class="carousel-dots" id="carouselDots"></div>
+        </div>
+      </section>
+
+      <section class="section reviews-section" id="reviews">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-label">Reviews</span>
+            <h2>Made for users who care about atmosphere and quality</h2>
+            <p>
+              These are styled starter testimonials. Потом сможешь заменить их
+              на реальные.
+            </p>
+          </div>
+
+          <div class="reviews-grid">
+            <article class="review-card reveal">
+              <div class="review-stars">★★★★★</div>
+              <p>
+                “What I like most is the visual mood. It feels like a premium
+                city guide, not just another food app.”
+              </p>
+              <div class="review-author">
+                <strong>Anna K.</strong>
+                <span>Café Explorer</span>
+              </div>
+            </article>
+
+            <article class="review-card reveal delay-1">
+              <div class="review-stars">★★★★★</div>
+              <p>
+                “The place detail page is really helpful. Photos, stars and
+                timing all sit together in a very clean way.”
+              </p>
+              <div class="review-author">
+                <strong>Mark D.</strong>
+                <span>Food Discovery User</span>
+              </div>
+            </article>
+
+            <article class="review-card reveal delay-2">
+              <div class="review-stars">★★★★★</div>
+              <p>
+                “The ranking screens make the product feel curated and premium.
+                Much stronger than a basic restaurant list.”
+              </p>
+              <div class="review-author">
+                <strong>Sofia L.</strong>
+                <span>Steak Enthusiast</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section cta-section" id="download">
+        <div class="container">
+          <div class="cta-panel reveal">
+            <div class="cta-copy">
+              <span class="section-label">Download</span>
+              <h2>Ready to discover better places?</h2>
+              <p>
+                Download Beton Caffe Explorer and turn local food discovery into
+                a more refined, visual and memorable experience.
+              </p>
+            </div>
+
+            <div class="cta-actions">
+              <a href="#" class="btn btn-primary btn-lg">Download App</a>
+              <a href="privacy.html" class="btn btn-secondary btn-lg"
+                >Privacy Policy</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a href="#top" class="brand">
+            <span class="brand-icon">BC</span>
+            <span class="brand-copy">
+              <strong>Beton Caffe Explorer</strong>
+              <small>Luxury Food Discovery App</small>
+            </span>
+          </a>
+
+          <p>
+            A modern landing page concept for a premium city food discovery
+            mobile application.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Navigation</h4>
+          <a href="#features">Features</a>
+          <a href="#showcase">Showcase</a>
+          <a href="#screens">Screens</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#download">Download</a>
+        </div>
+
+        <div class="footer-links">
+          <h4>Legal</h4>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="#">Store Link</a>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>© 2026 Beton Caffe Explorer. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+      ↑
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>

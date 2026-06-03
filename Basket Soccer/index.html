@@ -1,0 +1,593 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basket Soccer — Live Games, Teams, Stats & Match Tracking</title>
+    <meta
+      name="description"
+      content="Basket Soccer helps users follow live games, view schedules, explore teams and players, inspect formations, and track detailed sports analytics in one premium mobile experience."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Barlow+Condensed:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="page-scene">
+      <div class="scene-glow glow-red"></div>
+      <div class="scene-glow glow-blue"></div>
+      <div class="scene-glow glow-green"></div>
+      <div class="scene-grid"></div>
+      <div class="scene-lines"></div>
+    </div>
+
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a href="#top" class="brand">
+          <span class="brand-mark">BS</span>
+          <span class="brand-copy">
+            <strong>Basket Soccer</strong>
+            <small>Live games, teams, stats and schedules</small>
+          </span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" id="siteNav">
+          <a href="#features">Features</a>
+          <a href="#command">Command Center</a>
+          <a href="#panels">Panels</a>
+          <a href="#download">Download</a>
+          <a href="privacy.html">Privacy</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero hero-arena">
+        <div class="container hero-shell">
+          <div class="hero-top reveal">
+            <div class="hero-labels">
+              <span class="hero-chip live">Live sports companion</span>
+              <span class="hero-chip ghost"
+                >Schedule · Stats · Teams · Players</span
+              >
+            </div>
+
+            <div class="hero-heading-row">
+              <div class="hero-heading">
+                <h1>
+                  One mobile control room for live scores, schedules, teams and
+                  player analytics
+                </h1>
+              </div>
+
+              <div class="hero-summary">
+                <p>
+                  Basket Soccer turns sports tracking into a sleek mobile
+                  dashboard where users can follow live games, review upcoming
+                  schedules, compare teams, inspect player profiles, view
+                  formations, and move through statistics panels with a premium
+                  match-day feel.
+                </p>
+
+                <div class="hero-actions">
+                  <a href="#download" class="btn btn-primary">Download</a>
+                  <a href="#command" class="btn btn-secondary">Explore App</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-broadcast reveal">
+            <div class="broadcast-side left-column">
+              <article class="fragment-card tilt-card">
+                <img src="photo1.jpeg" alt="Teams screen" />
+              </article>
+
+              <article class="fragment-note">
+                <strong>Teams hub</strong>
+                <p>
+                  Compare featured teams, records, top clubs, and roster
+                  previews.
+                </p>
+              </article>
+
+              <article class="fragment-card tilt-card">
+                <img src="photo2.jpeg" alt="Player profile screen" />
+              </article>
+            </div>
+
+            <div class="broadcast-center">
+              <div class="scoreboard-frame">
+                <div class="scoreboard-top">
+                  <span class="live-badge">LIVE</span>
+                  <span class="league-badge">NBA</span>
+                </div>
+
+                <div class="scoreboard-main">
+                  <div class="score-team">
+                    <span class="team-mark orange-ball"></span>
+                    <strong>Lakers</strong>
+                    <b>98</b>
+                  </div>
+
+                  <div class="score-middle">
+                    <span class="match-time">2:45</span>
+                    <small>Q4</small>
+                    <em>VS</em>
+                  </div>
+
+                  <div class="score-team">
+                    <span class="team-mark green-clover"></span>
+                    <strong>Celtics</strong>
+                    <b class="green-score">102</b>
+                  </div>
+                </div>
+
+                <div class="scoreboard-footer">
+                  <div class="progress-track">
+                    <span class="progress-fill"></span>
+                  </div>
+                  <p>
+                    Live game focus with timeline, stats and matchup context
+                  </p>
+                </div>
+              </div>
+
+              <div class="hero-phone tilt-card">
+                <div class="device-notch"></div>
+                <img src="photo8.jpeg" alt="Live home dashboard screen" />
+              </div>
+
+              <div class="metric-row">
+                <article class="metric-card">
+                  <strong data-counter="8">0</strong>
+                  <span>featured screens</span>
+                </article>
+                <article class="metric-card">
+                  <strong data-counter="5">0</strong>
+                  <span>major navigation zones</span>
+                </article>
+                <article class="metric-card">
+                  <strong data-counter="1">0</strong>
+                  <span>live game ecosystem</span>
+                </article>
+              </div>
+            </div>
+
+            <div class="broadcast-side right-column">
+              <article class="fragment-card wide tilt-card">
+                <img src="photo7.jpeg" alt="Live match timeline screen" />
+              </article>
+
+              <article class="fragment-note">
+                <strong>Live context</strong>
+                <p>
+                  See score changes, timelines, events, and current quarter
+                  status in one focused view.
+                </p>
+              </article>
+
+              <article class="fragment-card tilt-card">
+                <img src="photo4.jpeg" alt="Statistics screen" />
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section signal-section">
+        <div class="container">
+          <div class="signal-panel reveal">
+            <h2>
+              Basket Soccer feels less like a basic score app and more like a
+              live sports command center built for game-day focus
+            </h2>
+          </div>
+        </div>
+      </section>
+
+      <section class="section features-section" id="features">
+        <div class="container">
+          <div class="section-heading reveal">
+            <h2>Main product capabilities</h2>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card reveal">
+              <span class="feature-index">01</span>
+              <h3>Live match tracking</h3>
+              <p>
+                Follow active games with score, quarter, timeline updates, and
+                recent events in real time.
+              </p>
+            </article>
+
+            <article class="feature-card reveal">
+              <span class="feature-index">02</span>
+              <h3>Upcoming schedules</h3>
+              <p>
+                Browse today and tomorrow games, leagues, arenas, and match
+                times through a clean schedule feed.
+              </p>
+            </article>
+
+            <article class="feature-card reveal">
+              <span class="feature-index">03</span>
+              <h3>Team overview</h3>
+              <p>
+                Inspect featured clubs, records, top teams, and roster previews
+                from one team hub screen.
+              </p>
+            </article>
+
+            <article class="feature-card reveal">
+              <span class="feature-index">04</span>
+              <h3>Player profiles</h3>
+              <p>
+                Explore athlete highlights, season averages, form, and short
+                performance stories.
+              </p>
+            </article>
+
+            <article class="feature-card reveal">
+              <span class="feature-index">05</span>
+              <h3>Formations and lineups</h3>
+              <p>
+                Review starting lineups and team formation layouts to understand
+                match structure better.
+              </p>
+            </article>
+
+            <article class="feature-card reveal">
+              <span class="feature-index">06</span>
+              <h3>Analytics panels</h3>
+              <p>
+                Use charts and performance cards to compare points, rebounds,
+                assists, and top performers.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section command-section" id="command">
+        <div class="container command-layout">
+          <div class="command-copy reveal">
+            <div class="section-kicker">Command center</div>
+            <h2>Move through the app like a live sports control desk</h2>
+
+            <div class="command-steps">
+              <article
+                class="command-step active-step"
+                data-image="photo8.jpeg"
+                data-title="Open with a live-focused home dashboard"
+                data-text="The home screen immediately surfaces a live game, watch prompt, and upcoming match cards so the app feels match-first from the start."
+              >
+                <span>01</span>
+                <div>
+                  <h3>Live-first home</h3>
+                  <p>
+                    The main dashboard prioritizes current action before
+                    anything else.
+                  </p>
+                </div>
+              </article>
+
+              <article
+                class="command-step"
+                data-image="photo5.jpeg"
+                data-title="Browse the full schedule"
+                data-text="Users can scan today and tomorrow games with league filters, status badges, locations, and start times."
+              >
+                <span>02</span>
+                <div>
+                  <h3>Schedule grid</h3>
+                  <p>
+                    Upcoming matches are organized into a clean and scannable
+                    flow.
+                  </p>
+                </div>
+              </article>
+
+              <article
+                class="command-step"
+                data-image="photo6.jpeg"
+                data-title="Open match details"
+                data-text="A matchup screen highlights records, top players, recent form, and a clear transition into lineup and team analysis."
+              >
+                <span>03</span>
+                <div>
+                  <h3>Match detail panel</h3>
+                  <p>
+                    Each matchup becomes a full briefing rather than just a
+                    score line.
+                  </p>
+                </div>
+              </article>
+
+              <article
+                class="command-step"
+                data-image="photo7.jpeg"
+                data-title="Track live match moments"
+                data-text="Timeline cards and quarter markers create a more dynamic live-game experience with context for every point event."
+              >
+                <span>04</span>
+                <div>
+                  <h3>Live timeline</h3>
+                  <p>
+                    The app makes score changes feel immediate and readable.
+                  </p>
+                </div>
+              </article>
+
+              <article
+                class="command-step"
+                data-image="photo1.jpeg"
+                data-title="Review teams and roster previews"
+                data-text="The teams screen gives users club records, win rate, location, and player snippets in one compact sports dashboard."
+              >
+                <span>05</span>
+                <div>
+                  <h3>Team view</h3>
+                  <p>
+                    Users can compare clubs and identify standout roster pieces
+                    quickly.
+                  </p>
+                </div>
+              </article>
+
+              <article
+                class="command-step"
+                data-image="photo2.jpeg"
+                data-title="Inspect player profile depth"
+                data-text="A featured athlete screen shows season averages, current form, recent games, and quick story-based stats."
+              >
+                <span>06</span>
+                <div>
+                  <h3>Player profile</h3>
+                  <p>
+                    The athlete layer adds personality and context to the game
+                    data.
+                  </p>
+                </div>
+              </article>
+
+              <article
+                class="command-step"
+                data-image="photo3.jpeg"
+                data-title="Study formation and lineup structure"
+                data-text="Formation screens visualize where players sit in the setup while lineup cards keep the starting group accessible."
+              >
+                <span>07</span>
+                <div>
+                  <h3>Formation mode</h3>
+                  <p>
+                    Spatial team organization adds tactical understanding to the
+                    app.
+                  </p>
+                </div>
+              </article>
+
+              <article
+                class="command-step"
+                data-image="photo4.jpeg"
+                data-title="Use statistics and comparison panels"
+                data-text="Chart cards and performer lists support deeper sports analysis beyond just schedule browsing."
+              >
+                <span>08</span>
+                <div>
+                  <h3>Statistics view</h3>
+                  <p>
+                    Users can move from pure viewing into comparison and
+                    performance reading.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="command-visual reveal">
+            <div class="command-frame">
+              <div class="command-phone tilt-card">
+                <div class="device-notch"></div>
+                <img
+                  id="commandImage"
+                  src="photo8.jpeg"
+                  alt="Basket Soccer preview screen"
+                />
+              </div>
+
+              <div class="command-caption">
+                <small>Current panel</small>
+                <h3 id="commandTitle">
+                  Open with a live-focused home dashboard
+                </h3>
+                <p id="commandText">
+                  The home screen immediately surfaces a live game, watch
+                  prompt, and upcoming match cards so the app feels match-first
+                  from the start.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section radar-section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <h2>Live screen carousel</h2>
+          </div>
+
+          <div class="app-carousel reveal">
+            <div class="carousel-top">
+              <div class="carousel-meta">
+                <small>Now showing</small>
+                <h3 id="carouselTitle">Live Home</h3>
+              </div>
+
+              <div class="carousel-controls">
+                <button
+                  id="prevSlide"
+                  class="carousel-btn"
+                  aria-label="Previous"
+                >
+                  ←
+                </button>
+                <button id="nextSlide" class="carousel-btn" aria-label="Next">
+                  →
+                </button>
+              </div>
+            </div>
+
+            <div class="carousel-stage">
+              <div class="carousel-track" id="sliderTrack">
+                <article class="carousel-slide" data-title="Live Home">
+                  <img src="photo8.jpeg" alt="Live home" />
+                </article>
+                <article class="carousel-slide" data-title="Schedule">
+                  <img src="photo5.jpeg" alt="Schedule" />
+                </article>
+                <article class="carousel-slide" data-title="Match Details">
+                  <img src="photo6.jpeg" alt="Match details" />
+                </article>
+                <article class="carousel-slide" data-title="Live Timeline">
+                  <img src="photo7.jpeg" alt="Live timeline" />
+                </article>
+                <article class="carousel-slide" data-title="Teams">
+                  <img src="photo1.jpeg" alt="Teams" />
+                </article>
+                <article class="carousel-slide" data-title="Player Profile">
+                  <img src="photo2.jpeg" alt="Player profile" />
+                </article>
+                <article class="carousel-slide" data-title="Formation">
+                  <img src="photo3.jpeg" alt="Formation" />
+                </article>
+                <article class="carousel-slide" data-title="Statistics">
+                  <img src="photo4.jpeg" alt="Statistics" />
+                </article>
+              </div>
+            </div>
+
+            <div class="carousel-dots" id="sliderDots"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reviews-section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <h2>Why the app feels sharper than a basic score tracker</h2>
+          </div>
+
+          <div class="review-grid">
+            <article class="review-card featured-review reveal">
+              <div class="review-stars">★★★★★</div>
+              <p>
+                “It feels like a real sports dashboard because live score,
+                upcoming schedule, players, formations and stats all connect
+                instead of sitting in random tabs.”
+              </p>
+              <div class="review-user">
+                <strong>Marcus D.</strong>
+                <span>Sports app user</span>
+              </div>
+            </article>
+
+            <article class="review-card reveal">
+              <div class="review-stars">★★★★★</div>
+              <p>
+                “The live screen and timeline make active games feel much more
+                intense than in a plain text results app.”
+              </p>
+              <div class="review-user">
+                <strong>Jordan K.</strong>
+                <span>Game-day follower</span>
+              </div>
+            </article>
+
+            <article class="review-card reveal">
+              <div class="review-stars">★★★★★</div>
+              <p>
+                “The player profile and formation views add depth, so it’s not
+                only about scores but also context and analysis.”
+              </p>
+              <div class="review-user">
+                <strong>Leo P.</strong>
+                <span>Stats-driven viewer</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section download-section" id="download">
+        <div class="container">
+          <div class="download-panel reveal">
+            <div class="download-copy">
+              <div class="section-kicker">Download app</div>
+              <h2>
+                Use Basket Soccer to follow games like a live sports control
+                room
+              </h2>
+              <p>
+                Track live matches, inspect teams, study player profiles, browse
+                schedules, review formations, and read sports analytics from one
+                premium mobile product.
+              </p>
+            </div>
+
+            <div class="download-actions">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.qorvexium.streamplay"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-primary btn-wide"
+              >
+                Download on Google Play
+              </a>
+              <a href="privacy.html" class="btn btn-secondary btn-wide">
+                Privacy Policy
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-top">
+        <div class="footer-brand">
+          <span class="brand-mark small">BS</span>
+          <div>
+            <strong>Basket Soccer</strong>
+            <p>Live games, schedule tracking and sports analytics</p>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <a href="#features">Features</a>
+          <a href="#command">Command Center</a>
+          <a href="#panels">Panels</a>
+          <a href="#download">Download</a>
+          <a href="privacy.html">Privacy</a>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>© <span id="year"></span> Basket Soccer. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

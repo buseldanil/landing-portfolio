@@ -1,0 +1,643 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parimech — Football Prediction & Match Tracking App</title>
+    <meta
+      name="description"
+      content="Parimech is a mobile app for football match schedules, predictions, notes, betting-style insights, tutorials, and match tracking in one dark premium interface."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bg-noise"></div>
+    <div class="bg-glow glow-a"></div>
+    <div class="bg-glow glow-b"></div>
+    <div class="cursor-glow"></div>
+
+    <header class="header" id="top">
+      <div class="container header-inner">
+        <a href="#top" class="logo">
+          <span class="logo-mark">PM</span>
+          <span class="logo-copy">
+            <strong>Parimech</strong>
+            <small>Football prediction workflow</small>
+          </span>
+        </a>
+
+        <nav class="nav">
+          <a href="#hero" class="nav-link active">Home</a>
+          <a href="#features" class="nav-link">Features</a>
+          <a href="#system" class="nav-link">System</a>
+          <a href="#reviews" class="nav-link">Reviews</a>
+          <a href="privacy.html" class="nav-link">Privacy</a>
+        </nav>
+
+        <div class="header-actions">
+          <a
+            href="https://play.google.com/store/apps/details?id=com.nightforge5581.shadowflux9924"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-primary btn-header magnetic"
+          >
+            Download
+          </a>
+
+          <button class="burger" aria-label="Open menu">
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="mobile-menu">
+        <a href="#hero" class="mobile-link">Home</a>
+        <a href="#features" class="mobile-link">Features</a>
+        <a href="#system" class="mobile-link">System</a>
+        <a href="#reviews" class="mobile-link">Reviews</a>
+        <a href="privacy.html" class="mobile-link">Privacy</a>
+        <a
+          href="https://play.google.com/store/apps/details?id=com.nightforge5581.shadowflux9924"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="mobile-download"
+        >
+          Download App
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section" id="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <div class="eyebrow">
+              <span class="eyebrow-dot"></span>
+              Match schedule, notes and predictions
+            </div>
+
+            <h1>
+              Follow matches,
+              <span>build your picks</span>
+              and organize football predictions in one app
+            </h1>
+
+            <p class="hero-text">
+              Parimech combines match schedules, prediction entry, notes, match
+              details, tutorial guidance and editorial football content into one
+              dark mobile product built for users who want a more structured
+              football prediction flow.
+            </p>
+
+            <div class="hero-actions">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.nightforge5581.shadowflux9924"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-primary magnetic"
+              >
+                <span>Download on Google Play</span>
+              </a>
+
+              <a href="#features" class="btn btn-secondary">
+                Explore Features
+              </a>
+            </div>
+
+            <div class="hero-stats">
+              <div class="stat-card reveal tilt-card">
+                <strong class="counter" data-target="4">0</strong>
+                <span>Main navigation zones</span>
+              </div>
+              <div class="stat-card reveal tilt-card">
+                <strong class="counter" data-target="3">0</strong>
+                <span>Core prediction actions</span>
+              </div>
+              <div class="stat-card reveal tilt-card">
+                <strong class="counter" data-target="100">0</strong>
+                <span>% dark mobile-first interface</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal">
+            <div class="hero-surface"></div>
+            <div class="hero-ring ring-a"></div>
+            <div class="hero-ring ring-b"></div>
+
+            <div class="float-card float-left">
+              <span>Schedule</span>
+              <strong>Upcoming matches and day tabs</strong>
+            </div>
+
+            <div class="float-card float-right">
+              <span>Prediction</span>
+              <strong>Notes, outcomes and match details</strong>
+            </div>
+
+            <div class="phone-cluster">
+              <div class="phone-main tilt-card">
+                <div class="phone-shell">
+                  <div class="phone-notch"></div>
+                  <div class="phone-screen">
+                    <img
+                      src="photo9.jpeg"
+                      alt="Parimech match schedule screen"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="phone-side side-left reveal">
+                <div class="mini-phone">
+                  <img src="photo6.jpeg" alt="Parimech match details screen" />
+                </div>
+              </div>
+
+              <div class="phone-side side-right reveal">
+                <div class="mini-phone">
+                  <img src="photo4.jpeg" alt="Parimech blog screen" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ticker-wrap">
+          <div class="ticker-track">
+            <span>Match schedule</span>
+            <span>Prediction entry</span>
+            <span>Match notes</span>
+            <span>Tutorial flow</span>
+            <span>Football content</span>
+            <span>Daily navigation</span>
+            <span>Match schedule</span>
+            <span>Prediction entry</span>
+            <span>Match notes</span>
+            <span>Tutorial flow</span>
+            <span>Football content</span>
+            <span>Daily navigation</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section features" id="features">
+        <div class="container">
+          <div class="section-head reveal">
+            <div class="eyebrow">Core product features</div>
+            <h2>Each screen is used as a real product story</h2>
+            <p>
+              Instead of building a giant screenshot dump, the landing turns
+              selected screens into product proof: match discovery, deeper match
+              detail, prediction action, learning flow and editorial content.
+            </p>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card feature-card-large reveal tilt-card">
+              <div class="feature-media wide">
+                <button class="shot modal-open" data-image="photo9.jpeg">
+                  <img src="photo9.jpeg" alt="Match schedule screen" />
+                </button>
+              </div>
+
+              <div class="feature-copy">
+                <span class="feature-badge">Schedule</span>
+                <h3>
+                  Start from a match schedule built around fast daily scanning
+                </h3>
+                <p>
+                  The schedule screen gives users a clean way to move through
+                  yesterday, today and tomorrow while keeping match cards, stats
+                  counters and country labels visible at a glance.
+                </p>
+                <ul class="feature-list">
+                  <li>Fast daily browsing flow</li>
+                  <li>Structured match cards</li>
+                  <li>Clear visual hierarchy for events</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="feature-card reveal">
+              <div class="feature-media compact">
+                <button class="shot modal-open" data-image="photo6.jpeg">
+                  <img src="photo6.jpeg" alt="Match details screen" />
+                </button>
+              </div>
+              <div class="feature-copy">
+                <span class="feature-badge">Details</span>
+                <h3>Open matches into a more focused decision screen</h3>
+                <p>
+                  Match detail pages combine teams, timing, bet blocks and extra
+                  information in one place so the app feels practical, not
+                  shallow.
+                </p>
+              </div>
+            </article>
+
+            <article class="feature-card reveal">
+              <div class="feature-media compact">
+                <button class="shot modal-open" data-image="photo7.jpeg">
+                  <img src="photo7.jpeg" alt="Prediction modal screen" />
+                </button>
+              </div>
+              <div class="feature-copy">
+                <span class="feature-badge">Prediction action</span>
+                <h3>
+                  Prediction modal keeps the core action direct and simple
+                </h3>
+                <p>
+                  The prediction step is surfaced clearly through a focused
+                  interaction where users can choose outcomes and submit
+                  quickly.
+                </p>
+              </div>
+            </article>
+
+            <article class="feature-card reveal">
+              <div class="feature-media compact">
+                <button class="shot modal-open" data-image="photo3.jpeg">
+                  <img src="photo3.jpeg" alt="Tutorial screen" />
+                </button>
+              </div>
+              <div class="feature-copy">
+                <span class="feature-badge">Tutorial</span>
+                <h3>
+                  Teach the product with a guided onboarding-style tutorial
+                </h3>
+                <p>
+                  The tutorial section explains how the app works step by step,
+                  which lowers friction for first-time users.
+                </p>
+              </div>
+            </article>
+
+            <article class="feature-card reveal">
+              <div class="feature-media compact">
+                <button class="shot modal-open" data-image="photo4.jpeg">
+                  <img src="photo4.jpeg" alt="Blog screen" />
+                </button>
+              </div>
+              <div class="feature-copy">
+                <span class="feature-badge">Content</span>
+                <h3>
+                  Editorial football content adds context beyond raw picks
+                </h3>
+                <p>
+                  Blog-style cards and prediction articles make the app feel
+                  broader, mixing utility with football reading and betting
+                  themes.
+                </p>
+              </div>
+            </article>
+
+            <article class="feature-card reveal">
+              <div class="feature-media compact">
+                <button class="shot modal-open" data-image="photo5.jpeg">
+                  <img src="photo5.jpeg" alt="Predictions list screen" />
+                </button>
+              </div>
+              <div class="feature-copy">
+                <span class="feature-badge">Prediction history</span>
+                <h3>
+                  Keep your picks visible through a dedicated prediction zone
+                </h3>
+                <p>
+                  The predictions area makes the workflow feel more complete by
+                  giving users a separate view for their active match entries.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section system" id="system">
+        <div class="container">
+          <div class="section-head reveal">
+            <div class="eyebrow">Interactive product flow</div>
+            <h2>
+              One football app with several connected betting-style layers
+            </h2>
+            <p>
+              The site keeps the media compact while still showing how the app
+              moves between schedules, match details, prediction input and
+              supporting content.
+            </p>
+          </div>
+
+          <div class="tabs-shell reveal">
+            <div class="tab-nav">
+              <button class="tab-btn active" data-tab="tab-track">Track</button>
+              <button class="tab-btn" data-tab="tab-predict">Predict</button>
+              <button class="tab-btn" data-tab="tab-learn">Learn</button>
+            </div>
+
+            <div class="tab-panels">
+              <div class="tab-panel active" id="tab-track">
+                <div class="tab-layout">
+                  <div class="tab-copy">
+                    <h3>
+                      Track match timing and event flow with less friction
+                    </h3>
+                    <p>
+                      Schedule tabs, counters and match cards give users a fast
+                      daily overview, making the app useful even before they
+                      create a prediction.
+                    </p>
+
+                    <div class="pill-row">
+                      <span>Today</span>
+                      <span>Tomorrow</span>
+                      <span>Match cards</span>
+                      <span>Country labels</span>
+                    </div>
+                  </div>
+
+                  <div class="tab-visuals">
+                    <div class="tab-shot">
+                      <img src="photo9.jpeg" alt="Schedule preview" />
+                    </div>
+                    <div class="tab-shot">
+                      <img src="photo5.jpeg" alt="Predictions preview" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-panel" id="tab-predict">
+                <div class="tab-layout">
+                  <div class="tab-copy">
+                    <h3>
+                      Prediction entry is built around simple focused actions
+                    </h3>
+                    <p>
+                      Users can open a match, review the bet block, switch tabs,
+                      add notes and submit a prediction inside a dark,
+                      controlled UI.
+                    </p>
+
+                    <div class="pill-row">
+                      <span>Home</span>
+                      <span>Draw</span>
+                      <span>Away</span>
+                      <span>Match notes</span>
+                    </div>
+                  </div>
+
+                  <div class="tab-visuals">
+                    <div class="tab-shot">
+                      <img src="photo6.jpeg" alt="Match details preview" />
+                    </div>
+                    <div class="tab-shot">
+                      <img src="photo7.jpeg" alt="Prediction modal preview" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-panel" id="tab-learn">
+                <div class="tab-layout">
+                  <div class="tab-copy">
+                    <h3>Tutorial and blog content make the app feel broader</h3>
+                    <p>
+                      The app supports both task-based usage and editorial
+                      reading, helping users understand the product flow and
+                      engage with football prediction content.
+                    </p>
+
+                    <div class="pill-row">
+                      <span>Tutorial</span>
+                      <span>Blog</span>
+                      <span>Prediction mindset</span>
+                      <span>Football context</span>
+                    </div>
+                  </div>
+
+                  <div class="tab-visuals">
+                    <div class="tab-shot">
+                      <img src="photo3.jpeg" alt="Tutorial preview" />
+                    </div>
+                    <div class="tab-shot">
+                      <img src="photo4.jpeg" alt="Blog preview" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="system-grid">
+            <article class="system-card reveal tilt-card">
+              <div class="system-head">
+                <span>Workflow clarity</span>
+                <strong>More than a list of matches</strong>
+              </div>
+              <p>
+                The app combines schedules, prediction input, notes and content
+                into one connected football workflow instead of stopping at
+                simple event cards.
+              </p>
+
+              <div class="progress-stack">
+                <div class="progress-row">
+                  <span>Schedule flow</span>
+                  <div class="progress-bar"><i style="width: 88%"></i></div>
+                </div>
+                <div class="progress-row">
+                  <span>Prediction usability</span>
+                  <div class="progress-bar"><i style="width: 80%"></i></div>
+                </div>
+                <div class="progress-row">
+                  <span>Content support</span>
+                  <div class="progress-bar"><i style="width: 74%"></i></div>
+                </div>
+              </div>
+            </article>
+
+            <article class="system-card reveal tilt-card">
+              <div class="system-head">
+                <span>Visual direction</span>
+                <strong>Dark neon football identity</strong>
+              </div>
+              <p>
+                Black surfaces, bright yellow action zones and subtle colored
+                glows give the product a strong betting-style visual signature.
+              </p>
+
+              <div class="tag-row">
+                <span>Neon yellow</span>
+                <span>Deep black</span>
+                <span>Sport glow</span>
+                <span>Betting mood</span>
+              </div>
+            </article>
+
+            <article class="system-card reveal tilt-card">
+              <div class="system-head">
+                <span>Compact media</span>
+                <strong>Stronger balance with fewer screens</strong>
+              </div>
+              <p>
+                The page uses the screens that best explain the flow, so the
+                result feels cleaner and more premium.
+              </p>
+
+              <div class="mini-previews">
+                <div class="mini-thumb">
+                  <img src="photo9.jpeg" alt="Schedule preview" />
+                </div>
+                <div class="mini-thumb">
+                  <img src="photo6.jpeg" alt="Details preview" />
+                </div>
+                <div class="mini-thumb">
+                  <img src="photo4.jpeg" alt="Blog preview" />
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reviews" id="reviews">
+        <div class="container">
+          <div class="section-head reveal">
+            <div class="eyebrow">User impression</div>
+            <h2>Built for users who want a cleaner football prediction flow</h2>
+            <p>
+              The strongest part of the app is how it combines match browsing,
+              quick prediction entry and readable football content in one place.
+            </p>
+          </div>
+
+          <div class="review-grid">
+            <article class="review-card reveal tilt-card">
+              <div class="stars">★★★★★</div>
+              <p>
+                “The match detail screen is the best part for me because it
+                keeps prediction, notes and timing together.”
+              </p>
+              <div class="review-meta">
+                <strong>Roman K.</strong>
+                <span>Football app user</span>
+              </div>
+            </article>
+
+            <article class="review-card reveal tilt-card">
+              <div class="stars">★★★★★</div>
+              <p>
+                “I like the dark style and the fact that the schedule is easy to
+                scan without feeling chaotic.”
+              </p>
+              <div class="review-meta">
+                <strong>Andrii M.</strong>
+                <span>Daily tracker</span>
+              </div>
+            </article>
+
+            <article class="review-card reveal tilt-card">
+              <div class="stars">★★★★★</div>
+              <p>
+                “The blog and tutorial sections make it feel more complete than
+                a basic prediction screen app.”
+              </p>
+              <div class="review-meta">
+                <strong>Denys P.</strong>
+                <span>Football reader</span>
+              </div>
+            </article>
+          </div>
+
+          <div class="quote-strip reveal">
+            <div class="quote-line"></div>
+            <p>
+              Good prediction apps reduce friction around matches, decisions and
+              follow-up notes instead of only showing events.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section cta" id="download">
+        <div class="container">
+          <div class="cta-card reveal">
+            <div class="cta-copy">
+              <div class="eyebrow">Ready to install?</div>
+              <h2>
+                Keep schedules, picks, notes and football content in one dark
+                system
+              </h2>
+              <p>
+                Download Parimech and use a cleaner mobile experience for match
+                tracking, football prediction workflow and betting-style
+                reading.
+              </p>
+            </div>
+
+            <div class="cta-actions">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.nightforge5581.shadowflux9924"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-primary btn-lg magnetic"
+              >
+                <span>Download</span>
+              </a>
+
+              <a href="privacy.html" class="btn btn-secondary btn-lg">
+                Privacy Policy
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <a href="#top" class="logo">
+          <span class="logo-mark">PM</span>
+          <span class="logo-copy">
+            <strong>Parimech</strong>
+            <small>Football prediction workflow</small>
+          </span>
+        </a>
+
+        <div class="footer-links">
+          <a href="#hero">Home</a>
+          <a href="#features">Features</a>
+          <a href="#system">System</a>
+          <a href="#reviews">Reviews</a>
+          <a href="privacy.html">Privacy</a>
+        </div>
+
+        <a
+          href="https://play.google.com/store/apps/details?id=com.nightforge5581.shadowflux9924"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="footer-play"
+        >
+          Google Play
+        </a>
+      </div>
+    </footer>
+
+    <div class="image-modal" id="imageModal">
+      <div class="image-modal-backdrop"></div>
+      <div class="image-modal-dialog">
+        <button class="modal-close" aria-label="Close preview">×</button>
+        <img src="" alt="App screen preview" id="modalImage" />
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

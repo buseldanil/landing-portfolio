@@ -1,0 +1,670 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bton Match Analytics</title>
+    <meta
+      name="description"
+      content="Bton Match Analytics — football analytics dashboard with tactical insights, comparisons, radar charts and knowledge tools."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-noise"></div>
+    <div class="page-grid"></div>
+    <div class="bg-glow bg-glow-a"></div>
+    <div class="bg-glow bg-glow-b"></div>
+
+    <header class="header" id="header">
+      <a href="#home" class="logo">
+        <span class="logo-icon">▦</span>
+        <span>
+          <b>Bton</b>
+          <small>Match Analytics</small>
+        </span>
+      </a>
+
+      <nav class="nav">
+        <a href="#dashboard">Dashboard</a>
+        <a href="#analytics">Analytics</a>
+        <a href="#comparison">Comparison</a>
+        <a href="#knowledge">Knowledge</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+
+      <a
+        class="download-btn"
+        href="https://play.google.com/store/apps/details?id=com.norqex6ul.vemta8in.zal3qori"
+        target="_blank"
+      >
+        Download
+      </a>
+
+      <button class="burger" id="burger" aria-label="Open menu">
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#dashboard">Dashboard</a>
+      <a href="#analytics">Analytics</a>
+      <a href="#comparison">Comparison</a>
+      <a href="#knowledge">Knowledge</a>
+      <a href="privacy.html">Privacy</a>
+      <a
+        href="https://play.google.com/store/apps/details?id=com.norqex6ul.vemta8in.zal3qori"
+        target="_blank"
+        >Download</a
+      >
+    </div>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-copy reveal">
+          <div class="tag">Football intelligence system</div>
+          <h1>Read the game before the game changes.</h1>
+          <p>
+            Bton Match Analytics gives you the feeling of a live tactical
+            control room: trends, pressing data, radar profiles, comparisons,
+            league filters and quick football knowledge in one sharp dashboard.
+          </p>
+
+          <div class="hero-actions">
+            <a
+              class="btn btn-main"
+              href="https://play.google.com/store/apps/details?id=com.norqex6ul.vemta8in.zal3qori"
+              target="_blank"
+              >Download App</a
+            >
+            <a class="btn btn-ghost" href="#dashboard">Explore</a>
+          </div>
+
+          <div class="hero-stats">
+            <div>
+              <strong>10k+</strong>
+              <span>Simulations</span>
+            </div>
+            <div>
+              <strong>73%</strong>
+              <span>BTTS Signal</span>
+            </div>
+            <div>
+              <strong>1.84</strong>
+              <span>Avg xG</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="phone-wrap reveal">
+          <div class="phone phone-dashboard">
+            <div class="status">
+              <span>17:10</span>
+              <span>61%</span>
+            </div>
+
+            <div class="screen-title">Analytical Dashboard</div>
+
+            <div class="ticker-title">Live performance ticker</div>
+            <div class="ticker">
+              <div class="ticker-track">
+                <span>● Haaland +8% Box</span>
+                <span>● Vinicius +15% Drb</span>
+                <span>● Rodri +11% Control</span>
+                <span>● Bellingham +9% Runs</span>
+              </div>
+            </div>
+
+            <div class="trend-card">
+              <div class="trend-head">
+                <div>
+                  <h3>Trend of the week</h3>
+                  <p>Global Pressing Intensity Index</p>
+                </div>
+                <span>↗</span>
+              </div>
+
+              <div class="chart">
+                <svg viewBox="0 0 420 190" preserveAspectRatio="none">
+                  <defs>
+                    <linearGradient id="areaGreen" x1="0" x2="0" y1="0" y2="1">
+                      <stop
+                        offset="0%"
+                        stop-color="#c6ff00"
+                        stop-opacity="0.55"
+                      />
+                      <stop
+                        offset="100%"
+                        stop-color="#c6ff00"
+                        stop-opacity="0"
+                      />
+                    </linearGradient>
+                  </defs>
+                  <path
+                    d="M10 160 C70 90 130 95 170 110 C230 50 300 35 410 58 L410 190 L10 190 Z"
+                    fill="url(#areaGreen)"
+                  />
+                  <path
+                    d="M10 160 C70 90 130 95 170 110 C230 50 300 35 410 58"
+                    fill="none"
+                    stroke="#c6ff00"
+                    stroke-width="6"
+                    stroke-linecap="round"
+                  />
+                  <line
+                    x1="0"
+                    y1="40"
+                    x2="420"
+                    y2="40"
+                    stroke="rgba(255,255,255,.16)"
+                  />
+                  <line
+                    x1="0"
+                    y1="80"
+                    x2="420"
+                    y2="80"
+                    stroke="rgba(255,255,255,.16)"
+                  />
+                  <line
+                    x1="0"
+                    y1="120"
+                    x2="420"
+                    y2="120"
+                    stroke="rgba(255,255,255,.16)"
+                  />
+                  <line
+                    x1="0"
+                    y1="160"
+                    x2="420"
+                    y2="160"
+                    stroke="rgba(255,255,255,.16)"
+                  />
+                </svg>
+                <div class="chart-days">
+                  <span>Mon</span>
+                  <span>Tue</span>
+                  <span>Wed</span>
+                  <span>Thu</span>
+                  <span>Fri</span>
+                  <span>Sat</span>
+                  <span>Sun</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="phone-grid">
+              <div class="metric-list">
+                <small>Metric categories</small>
+                <button class="active">◐ Possession</button>
+                <button>↔ Pass Eff.</button>
+                <button>⬟ Defense</button>
+              </div>
+
+              <div class="radar-mini">
+                <h4>Radar Analysis</h4>
+                <div class="radar-circle">
+                  <svg viewBox="0 0 180 180">
+                    <polygon
+                      points="90,20 145,62 124,145 48,142 36,64"
+                      fill="rgba(198,255,0,.22)"
+                      stroke="#c6ff00"
+                      stroke-width="3"
+                    />
+                    <circle
+                      cx="90"
+                      cy="90"
+                      r="64"
+                      fill="none"
+                      stroke="rgba(255,255,255,.28)"
+                    />
+                    <circle
+                      cx="90"
+                      cy="90"
+                      r="38"
+                      fill="none"
+                      stroke="rgba(255,255,255,.16)"
+                    />
+                  </svg>
+                </div>
+                <p>Top Performer</p>
+                <b>Kvaratskhelia</b>
+              </div>
+            </div>
+
+            <div class="bottom-bar">
+              <span class="active">▦<small>Dashboard</small></span>
+              <span>▥<small>Analytics</small></span>
+              <span>↔<small>Comparison</small></span>
+              <span>●<small>Knowledge</small></span>
+              <span>⚙<small>Settings</small></span>
+            </div>
+          </div>
+
+          <div class="float-card float-a">
+            <span>Prediction</span>
+            <b>73%</b>
+          </div>
+
+          <div class="float-card float-b">
+            <span>Peak Index</span>
+            <b>94</b>
+          </div>
+        </div>
+      </section>
+
+      <section class="strip">
+        <div class="strip-track">
+          <span>PRESSING INDEX</span>
+          <span>RADAR ANALYSIS</span>
+          <span>TACTICAL BUILDER</span>
+          <span>COMPARISON</span>
+          <span>KNOWLEDGE HUB</span>
+          <span>LIVE TICKER</span>
+          <span>PRESSING INDEX</span>
+          <span>RADAR ANALYSIS</span>
+        </div>
+      </section>
+
+      <section class="section" id="dashboard">
+        <div class="section-head reveal">
+          <span class="tag">Dashboard</span>
+          <h2>Everything important hits fast.</h2>
+          <p>
+            The first screen feels like a match control panel — live signals,
+            weekly trends, metric categories and quick prediction bars without
+            making the user dig.
+          </p>
+        </div>
+
+        <div class="dashboard-showcase">
+          <article class="glass-card wide reveal">
+            <div class="card-kicker">Top analytical insights</div>
+            <h3>Daily tactical observations</h3>
+
+            <div class="insights">
+              <div>
+                <span>i</span> Juventus's average pass length shortened.
+              </div>
+              <div>
+                <span>i</span> Atletico's clean sheet probability is rising.
+              </div>
+              <div>
+                <span>i</span> Arsenal's set-piece conversion is at an all-time
+                high.
+              </div>
+            </div>
+          </article>
+
+          <article class="glass-card prediction reveal">
+            <div class="card-kicker">AI Prediction Probability</div>
+            <p>Based on 10,000+ simulation matches</p>
+
+            <div class="probability">
+              <div class="prob-head">
+                <b>Both Teams to Score</b>
+                <strong>73%</strong>
+              </div>
+              <div class="bar"><span style="width: 73%"></span></div>
+            </div>
+
+            <div class="probability">
+              <div class="prob-head">
+                <b>Home Wins + 2.5 Goals</b>
+                <strong>66%</strong>
+              </div>
+              <div class="bar"><span style="width: 66%"></span></div>
+            </div>
+
+            <div class="probability">
+              <div class="prob-head">
+                <b>Red Card Probability</b>
+                <strong>19%</strong>
+              </div>
+              <div class="bar"><span style="width: 19%"></span></div>
+            </div>
+          </article>
+
+          <article class="glass-card league-row reveal">
+            <button>PL</button>
+            <button>LL</button>
+            <button>SA</button>
+            <button>BL</button>
+            <button>L1</button>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="analytics">
+        <div class="section-head reveal">
+          <span class="tag">Analytics</span>
+          <h2>See the shape behind the result.</h2>
+          <p>
+            Radar profiles, scatter patterns and performer cards make the
+            numbers feel visual, direct and easy to compare.
+          </p>
+        </div>
+
+        <div class="analytics-layout">
+          <div class="analytics-main reveal">
+            <div class="tabs">
+              <button class="active">Teams</button>
+              <button>Players</button>
+              <button>National</button>
+            </div>
+
+            <div class="radar-panel">
+              <h3>Tactical Style Profile</h3>
+              <p>
+                Visualizing dominant tactical traits across technical skill,
+                physical output and tactical awareness.
+              </p>
+
+              <div class="radar-big">
+                <svg viewBox="0 0 420 420">
+                  <circle
+                    cx="210"
+                    cy="210"
+                    r="150"
+                    fill="none"
+                    stroke="rgba(255,255,255,.28)"
+                  />
+                  <circle
+                    cx="210"
+                    cy="210"
+                    r="105"
+                    fill="none"
+                    stroke="rgba(255,255,255,.18)"
+                  />
+                  <circle
+                    cx="210"
+                    cy="210"
+                    r="60"
+                    fill="none"
+                    stroke="rgba(255,255,255,.12)"
+                  />
+                  <line
+                    x1="210"
+                    y1="40"
+                    x2="210"
+                    y2="380"
+                    stroke="rgba(255,255,255,.14)"
+                  />
+                  <line
+                    x1="50"
+                    y1="150"
+                    x2="370"
+                    y2="270"
+                    stroke="rgba(255,255,255,.14)"
+                  />
+                  <line
+                    x1="50"
+                    y1="270"
+                    x2="370"
+                    y2="150"
+                    stroke="rgba(255,255,255,.14)"
+                  />
+                  <polygon
+                    points="210,84 292,158 336,292 212,315 108,275 130,160"
+                    fill="rgba(198,255,0,.26)"
+                    stroke="#c6ff00"
+                    stroke-width="5"
+                  />
+                  <circle cx="210" cy="210" r="22" fill="rgba(198,255,0,.24)" />
+                </svg>
+              </div>
+
+              <div class="radar-labels">
+                <span>TEC</span>
+                <span>VIS</span>
+                <span>DEF</span>
+                <span>PHY</span>
+                <span>SPD</span>
+                <span>ATK</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="scatter-card reveal">
+            <h3>Efficiency Correlation</h3>
+            <p>Solidity vs Pressing</p>
+
+            <div class="scatter">
+              <span class="dot d1"></span>
+              <span class="dot d2"></span>
+              <span class="dot d3"></span>
+              <span class="dot d4"></span>
+              <span class="dot d5"></span>
+              <span class="dot d6"></span>
+              <span class="dot d7"></span>
+              <span class="dot d8"></span>
+              <span class="dot white d9"></span>
+              <span class="dot white d10"></span>
+              <span class="scanner"></span>
+            </div>
+
+            <div class="scatter-bottom">
+              <span>Low Pressing</span>
+              <span>High Pressing</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="performers reveal">
+          <article>
+            <span>88</span>
+            <small>Control Index</small>
+            <b>Man City</b>
+          </article>
+          <article>
+            <span>94</span>
+            <small>Clutch Factor</small>
+            <b>Real Madrid</b>
+          </article>
+          <article>
+            <span>121</span>
+            <small>Vertical Threat</small>
+            <b>Bayern</b>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="comparison">
+        <div class="section-head reveal">
+          <span class="tag">Comparison</span>
+          <h2>Put two systems face to face.</h2>
+          <p>
+            Side Alpha against Side Beta. The difference is not hidden in a
+            table — it sits directly on the bar.
+          </p>
+        </div>
+
+        <div class="comparison-box reveal">
+          <div class="teams-vs">
+            <div>
+              <small>Side Alpha</small>
+              <div class="team-badge">M</div>
+              <b>Man City</b>
+            </div>
+
+            <span class="vs-symbol">↔</span>
+
+            <div>
+              <small>Side Beta</small>
+              <div class="team-badge">R</div>
+              <b>Real Madrid</b>
+            </div>
+          </div>
+
+          <div class="compare-list">
+            <div class="compare-item">
+              <div class="compare-title">
+                <b>Attacking Output</b>
+                <span>+4% advantage Man City</span>
+              </div>
+              <div class="compare-row">
+                <strong>92</strong>
+                <div class="dual-bar"><i style="width: 54%"></i><em></em></div>
+                <strong>88</strong>
+              </div>
+            </div>
+
+            <div class="compare-item">
+              <div class="compare-title">
+                <b>Defensive Solidity</b>
+                <span>+4% advantage Real Madrid</span>
+              </div>
+              <div class="compare-row">
+                <strong>78</strong>
+                <div class="dual-bar"><i style="width: 48%"></i><em></em></div>
+                <strong>82</strong>
+              </div>
+            </div>
+
+            <div class="compare-item">
+              <div class="compare-title">
+                <b>Transition Speed</b>
+                <span>+9% advantage Real Madrid</span>
+              </div>
+              <div class="compare-row">
+                <strong>85</strong>
+                <div class="dual-bar"><i style="width: 45%"></i><em></em></div>
+                <strong>95</strong>
+              </div>
+            </div>
+
+            <div class="compare-item">
+              <div class="compare-title">
+                <b>Pressing Intensity</b>
+                <span>+18% advantage Man City</span>
+              </div>
+              <div class="compare-row">
+                <strong>94</strong>
+                <div class="dual-bar"><i style="width: 62%"></i><em></em></div>
+                <strong>76</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="knowledge">
+        <div class="section-head reveal">
+          <span class="tag">Knowledge Hub</span>
+          <h2>Build tactics without opening a textbook.</h2>
+          <p>
+            The knowledge area keeps roles, formations and tactical ideas close
+            to the analytics layer, so learning feels connected to the data.
+          </p>
+        </div>
+
+        <div class="knowledge-layout">
+          <div class="builder-card reveal">
+            <div class="search-fake">⌕ Search tactics, roles, metrics...</div>
+
+            <div class="formation-tabs">
+              <button class="active">4-3-3</button>
+              <button>3-5-2</button>
+              <button>4-4-2 Diamond</button>
+              <button>4-2-3-1</button>
+            </div>
+
+            <div class="mini-pitch">
+              <span class="ball b1"></span>
+              <span class="ball b2"></span>
+              <span class="ball b3"></span>
+              <span class="ball b4"></span>
+              <span class="ball b5"></span>
+              <span class="ball b6"></span>
+              <span class="ball b7"></span>
+              <span class="ball b8"></span>
+              <span class="ball b9"></span>
+              <span class="ball b10"></span>
+            </div>
+          </div>
+
+          <div class="roles reveal">
+            <h3>Player Roles & Specializations</h3>
+            <div>
+              <span>● Inverted Wingback</span>
+              <span>● Mezzala</span>
+              <span>● Regista</span>
+              <span>● False Nine</span>
+              <span>● Sweeper Keeper</span>
+              <span>● Box Crasher</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section settings-preview">
+        <div class="section-head reveal">
+          <span class="tag">Settings</span>
+          <h2>Clean controls, no clutter.</h2>
+          <p>
+            League display, units and maintenance actions are direct, bold and
+            easy to understand.
+          </p>
+        </div>
+
+        <div class="settings-grid reveal">
+          <div class="settings-panel">
+            <h3>Display leagues</h3>
+            <div class="league-option"><span>Premier League</span><b>✓</b></div>
+            <div class="league-option"><span>La Liga</span><b>✓</b></div>
+            <div class="league-option"><span>Serie A</span><b>✓</b></div>
+            <div class="league-option"><span>Bundesliga</span><b>✓</b></div>
+            <div class="league-option"><span>Ligue 1</span><b>✓</b></div>
+          </div>
+
+          <div class="settings-panel accent">
+            <h3>Units of measurement</h3>
+            <button>Metric</button>
+            <button class="ghost">Imperial</button>
+
+            <h3>System maintenance</h3>
+            <button>Purge System Cache</button>
+            <button class="danger">Reset Training Data</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="final">
+        <div class="final-card reveal">
+          <span class="tag">Match day ready</span>
+          <h2>Turn football data into something you can actually feel.</h2>
+          <p>
+            Download Bton Match Analytics and keep tactical signals, comparisons
+            and football knowledge in your pocket.
+          </p>
+          <a
+            class="btn btn-main"
+            href="https://play.google.com/store/apps/details?id=com.norqex6ul.vemta8in.zal3qori"
+            target="_blank"
+            >Download Now</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>
+        <b>Bton Match Analytics</b>
+        <p>
+          Football dashboards, tactical comparisons, radar profiles and
+          knowledge tools.
+        </p>
+      </div>
+
+      <div>
+        <a href="#dashboard">Dashboard</a>
+        <a href="#analytics">Analytics</a>
+        <a href="#comparison">Comparison</a>
+        <a href="#knowledge">Knowledge</a>
+        <a href="privacy.html">Privacy</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

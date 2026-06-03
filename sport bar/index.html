@@ -1,0 +1,671 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sport Bar — Book Gaming Spaces, Join Events, Order Snacks</title>
+    <meta
+      name="description"
+      content="Sport Bar helps users book gaming spaces, discover live venue events, join tournaments, order snacks, and pay with QR in one premium mobile experience."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=DM+Serif+Display:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="page-backdrop">
+      <div class="blob blob-a"></div>
+      <div class="blob blob-b"></div>
+      <div class="blob blob-c"></div>
+      <div class="blob blob-d"></div>
+      <div class="backdrop-mesh"></div>
+      <div class="backdrop-noise"></div>
+      <div class="backdrop-lines"></div>
+    </div>
+
+    <div class="reading-progress">
+      <span id="pageProgress"></span>
+    </div>
+
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a href="#top" class="brand magnetic">
+          <span class="brand-mark">SB</span>
+          <span class="brand-copy">
+            <strong>Sport Bar</strong>
+            <small>Venue booking & community app</small>
+          </span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" id="siteNav">
+          <a href="#overview">Overview</a>
+          <a href="#story">Story</a>
+          <a href="#experience">Experience</a>
+          <a href="#reviews">Reviews</a>
+          <a href="privacy.html">Privacy</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero hero-ultra" id="overview">
+        <div class="hero-spotlight" id="heroSpotlight"></div>
+
+        <div class="container hero-shell">
+          <div class="hero-copy reveal">
+            <div class="eyebrow-row">
+              <span class="eyebrow">Sport Bar</span>
+              <span class="eyebrow outline">Editorial Product Story</span>
+            </div>
+
+            <h1>
+              One app for booking setups, following events, joining tournaments,
+              and ordering snacks inside the venue flow
+            </h1>
+
+            <p class="hero-text">
+              Sport Bar transforms a gaming venue into a connected digital
+              service. Users can reserve PCs, check live listings, browse event
+              activity, join tournaments, buy food and drinks, and finish the
+              journey with QR-based payment without breaking the experience into
+              separate disconnected tools.
+            </p>
+
+            <div class="hero-actions">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.zentravia.mobile.client"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-primary magnetic"
+              >
+                Download App
+              </a>
+              <a href="#story" class="btn btn-secondary magnetic"
+                >See Product Story</a
+              >
+            </div>
+
+            <div class="hero-meta-grid">
+              <article class="hero-meta-card">
+                <small>Core action</small>
+                <strong>Book venue spaces fast</strong>
+              </article>
+
+              <article class="hero-meta-card">
+                <small>Community layer</small>
+                <strong>Follow events and tournaments</strong>
+              </article>
+
+              <article class="hero-meta-card">
+                <small>Service layer</small>
+                <strong>Order snacks and pay by QR</strong>
+              </article>
+            </div>
+
+            <div class="hero-number-strip">
+              <article class="number-chip">
+                <strong data-counter="5">0</strong>
+                <span>main venue modules</span>
+              </article>
+              <article class="number-chip">
+                <strong data-counter="8">0</strong>
+                <span>curated interface moments</span>
+              </article>
+              <article class="number-chip">
+                <strong data-counter="1">0</strong>
+                <span>connected venue system</span>
+              </article>
+            </div>
+          </div>
+
+          <div class="hero-stage reveal">
+            <div class="hero-card hero-card-main tilt-card">
+              <img src="photo1.jpeg" alt="Sport Bar intro screen" />
+            </div>
+
+            <div class="hero-card hero-card-side hero-card-side-top tilt-card">
+              <img src="photo2.jpeg" alt="Sport Bar news feed screen" />
+            </div>
+
+            <div
+              class="hero-card hero-card-side hero-card-side-bottom tilt-card"
+            >
+              <img src="photo5.jpeg" alt="Sport Bar tournaments screen" />
+            </div>
+
+            <div class="hero-card hero-card-float tilt-card">
+              <img src="photo4.jpeg" alt="Sport Bar snack bar screen" />
+            </div>
+
+            <div class="hero-label hero-label-a">
+              <strong>One-click booking</strong>
+              <span>Reserve gaming spaces directly from the app</span>
+            </div>
+
+            <div class="hero-label hero-label-b">
+              <strong>Venue activity</strong>
+              <span>Live community events and tournament listings</span>
+            </div>
+
+            <div class="hero-label hero-label-c">
+              <strong>Food ordering</strong>
+              <span>Snacks stay inside the same user flow</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-manifesto">
+        <div class="container">
+          <div class="manifesto reveal">
+            <div class="manifesto-rule"></div>
+            <div class="manifesto-grid">
+              <div class="manifesto-copy">
+                <h2>
+                  Sport Bar feels premium because it treats the whole venue
+                  journey as one continuous product
+                </h2>
+              </div>
+
+              <div class="manifesto-side">
+                <p>
+                  Booking, event discovery, tournaments, snacks, venue maps, and
+                  payment are part of the same operational system. The result is
+                  a product that behaves more like a venue companion than a
+                  single-purpose utility.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-editorial-intro">
+        <div class="container editorial-intro-grid">
+          <article class="editorial-intro-card reveal">
+            <small>01</small>
+            <strong
+              >Arrival starts digitally before the user even reaches the
+              venue</strong
+            >
+          </article>
+
+          <article class="editorial-intro-card reveal">
+            <small>02</small>
+            <strong
+              >The interface keeps booking, activity, and service tightly
+              connected</strong
+            >
+          </article>
+
+          <article class="editorial-intro-card reveal">
+            <small>03</small>
+            <strong
+              >The product feels broader because community and service are built
+              into the same system</strong
+            >
+          </article>
+        </div>
+      </section>
+
+      <section class="section pinned-story-section" id="story">
+        <div class="container pinned-story-shell">
+          <div class="pinned-story-copy reveal">
+            <div class="section-kicker">Product story</div>
+            <h2>
+              Move through the app exactly the way a real venue customer would
+            </h2>
+
+            <div class="story-progress-wrap">
+              <div class="story-progress-line">
+                <span id="storyProgressFill"></span>
+              </div>
+            </div>
+
+            <div class="story-step-list">
+              <article
+                class="story-step active-step"
+                data-image="photo1.jpeg"
+                data-title="Start with a strong branded entry"
+                data-text="The intro screen frames the app as a direct gateway into reservations, venue activity, and service convenience."
+              >
+                <span>01</span>
+                <div>
+                  <h3>Enter through a branded first screen</h3>
+                  <p>
+                    The first impression is not a generic menu. It immediately
+                    positions the app as a companion for live gaming spaces.
+                  </p>
+                </div>
+              </article>
+
+              <article
+                class="story-step"
+                data-image="photo2.jpeg"
+                data-title="Move into live venue context"
+                data-text="The home feed combines quick actions with event visibility so the product feels active the moment the user enters."
+              >
+                <span>02</span>
+                <div>
+                  <h3>See the venue as a living, current place</h3>
+                  <p>
+                    Quick actions and a news-oriented feed create a sense of
+                    activity rather than static utility.
+                  </p>
+                </div>
+              </article>
+
+              <article
+                class="story-step"
+                data-image="photo3.jpeg"
+                data-title="Browse available venues and pricing"
+                data-text="Booking list screens organize locations, times, pricing, and reputation so selection becomes part of a clear flow."
+              >
+                <span>03</span>
+                <div>
+                  <h3>Choose where to play</h3>
+                  <p>
+                    Venue booking becomes practical through list-based scanning,
+                    time visibility, and a direct action path.
+                  </p>
+                </div>
+              </article>
+
+              <article
+                class="story-step"
+                data-image="photo7.jpeg"
+                data-title="Understand the space through a map"
+                data-text="The map layer gives users more confidence by showing where places are located inside the venue before final booking."
+              >
+                <span>04</span>
+                <div>
+                  <h3>See the room before confirming the spot</h3>
+                  <p>
+                    Spatial awareness makes the booking flow feel more grounded
+                    and premium than a plain list alone.
+                  </p>
+                </div>
+              </article>
+
+              <article
+                class="story-step"
+                data-image="photo8.jpeg"
+                data-title="Confirm the booking through a focused decision layer"
+                data-text="Duration, promo code, price, and payment entry are collected inside a cleaner modal-based decision point."
+              >
+                <span>05</span>
+                <div>
+                  <h3>Convert interest into a real booking</h3>
+                  <p>
+                    The payment modal narrows the experience into one clear
+                    action instead of forcing scattered inputs across screens.
+                  </p>
+                </div>
+              </article>
+
+              <article
+                class="story-step"
+                data-image="photo4.jpeg"
+                data-title="Add food and drinks without leaving the same product"
+                data-text="Snack ordering extends the venue flow so the app becomes useful during the visit, not only before it."
+              >
+                <span>06</span>
+                <div>
+                  <h3>Keep service inside the same app</h3>
+                  <p>
+                    Snacks, drinks, and add-to-order interactions make the
+                    product feel like a complete venue companion.
+                  </p>
+                </div>
+              </article>
+
+              <article
+                class="story-step"
+                data-image="photo6.jpeg"
+                data-title="Finish with QR payment and confirmation"
+                data-text="QR output gives the flow a tangible finish and makes the whole app feel operationally ready inside a real venue."
+              >
+                <span>07</span>
+                <div>
+                  <h3>Close the flow with a usable final output</h3>
+                  <p>
+                    The app does not stop at browsing. It ends with something
+                    that can actually be used in the space.
+                  </p>
+                </div>
+              </article>
+
+              <article
+                class="story-step"
+                data-image="photo5.jpeg"
+                data-title="Stay connected to tournaments and community events"
+                data-text="Tournament listings extend the value of the app beyond utility into an active gaming-community layer."
+              >
+                <span>08</span>
+                <div>
+                  <h3>Return for activity, not only for reservations</h3>
+                  <p>
+                    Event and tournament discovery gives users a reason to come
+                    back even outside a specific booking moment.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="pinned-story-visual reveal">
+            <div class="story-device-frame">
+              <div class="story-device tilt-card">
+                <div class="device-notch"></div>
+                <img
+                  id="storyImage"
+                  src="photo1.jpeg"
+                  alt="Sport Bar story screen"
+                />
+              </div>
+
+              <div class="story-floating-caption">
+                <small>Current frame</small>
+                <h3 id="storyTitle">Start with a strong branded entry</h3>
+                <p id="storyText">
+                  The intro screen frames the app as a direct gateway into
+                  reservations, venue activity, and service convenience.
+                </p>
+              </div>
+
+              <div class="story-floating-quote story-floating-quote-left">
+                <strong>Venue-first product</strong>
+                <span>Designed around real in-place actions</span>
+              </div>
+
+              <div class="story-floating-quote story-floating-quote-right">
+                <strong>Community layer</strong>
+                <span>Events make the app useful beyond booking</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-feature-wall" id="experience">
+        <div class="container">
+          <div class="section-heading reveal">
+            <h2>
+              The app feels complete because its modules support the full venue
+              loop
+            </h2>
+          </div>
+
+          <div class="feature-wall">
+            <article class="feature-panel feature-panel-xl reveal">
+              <div class="feature-panel-copy">
+                <small>Main booking system</small>
+                <h3>
+                  Venue list, ratings, prices, map view, and reservation entry
+                  all work together
+                </h3>
+                <p>
+                  The booking layer is not just a list of places. It combines
+                  price, rating, time, space understanding, and action entry in
+                  a way that makes reservation feel intentional and quick.
+                </p>
+              </div>
+
+              <div class="feature-panel-media split-dual">
+                <img src="photo3.jpeg" alt="Venue list screen" />
+                <img src="photo7.jpeg" alt="Venue map screen" />
+              </div>
+            </article>
+
+            <article class="feature-panel reveal">
+              <div class="feature-panel-copy">
+                <small>Event visibility</small>
+                <h3>Live news and venue activity create momentum</h3>
+                <p>
+                  A static booking tool would feel narrow. The feed makes the
+                  venue feel alive and current.
+                </p>
+              </div>
+              <div class="feature-panel-media">
+                <img src="photo2.jpeg" alt="News feed screen" />
+              </div>
+            </article>
+
+            <article class="feature-panel reveal">
+              <div class="feature-panel-copy">
+                <small>Community competition</small>
+                <h3>Tournaments turn the app into a recurring destination</h3>
+                <p>
+                  The competitive layer connects the product to the venue’s
+                  social energy and repeat engagement.
+                </p>
+              </div>
+              <div class="feature-panel-media">
+                <img src="photo5.jpeg" alt="Tournament screen" />
+              </div>
+            </article>
+
+            <article class="feature-panel reveal">
+              <div class="feature-panel-copy">
+                <small>Venue service</small>
+                <h3>Ordering snacks becomes part of the session</h3>
+                <p>
+                  Food ordering extends the product into the actual on-site stay
+                  instead of ending at reservation.
+                </p>
+              </div>
+              <div class="feature-panel-media">
+                <img src="photo4.jpeg" alt="Snack ordering screen" />
+              </div>
+            </article>
+
+            <article class="feature-panel reveal">
+              <div class="feature-panel-copy">
+                <small>Final transaction layer</small>
+                <h3>
+                  QR-based completion makes the app operationally tangible
+                </h3>
+                <p>
+                  The QR screen gives the flow a real-world finish point and
+                  makes the payment moment feel concrete.
+                </p>
+              </div>
+              <div class="feature-panel-media">
+                <img src="photo6.jpeg" alt="QR popup screen" />
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-operational-grid">
+        <div class="container operational-grid">
+          <div class="operational-copy reveal">
+            <div class="section-kicker">Operational value</div>
+            <h2>
+              The product becomes more valuable because each action improves the
+              next one
+            </h2>
+            <p>
+              Users enter through a strong brand touchpoint, understand what is
+              happening in the venue, choose a place, verify layout, book,
+              order, and pay. Each step pushes naturally into the next without
+              starting from zero.
+            </p>
+
+            <div class="operational-list">
+              <article class="operational-item">
+                <strong>Entry</strong>
+                <span
+                  >Brand and context create an immediate sense of place</span
+                >
+              </article>
+              <article class="operational-item">
+                <strong>Decision</strong>
+                <span>Booking tools reduce friction around venue choice</span>
+              </article>
+              <article class="operational-item">
+                <strong>Extension</strong>
+                <span
+                  >Snacks, tournaments, and QR elevate the utility ceiling</span
+                >
+              </article>
+            </div>
+          </div>
+
+          <div class="operational-visual reveal">
+            <div class="operational-main">
+              <img src="photo8.jpeg" alt="Booking modal screen" />
+            </div>
+            <div class="operational-float">
+              <img src="photo6.jpeg" alt="QR screen" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-numbers">
+        <div class="container numbers-band reveal">
+          <article class="numbers-band-card">
+            <small>Booking</small>
+            <strong>Fast list-to-map decision flow</strong>
+          </article>
+          <article class="numbers-band-card">
+            <small>Community</small>
+            <strong>Live tournaments and event discovery</strong>
+          </article>
+          <article class="numbers-band-card">
+            <small>Service</small>
+            <strong>Food ordering inside the same product loop</strong>
+          </article>
+          <article class="numbers-band-card">
+            <small>Finish</small>
+            <strong>QR-based completion with clear output</strong>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-reviews" id="reviews">
+        <div class="container">
+          <div class="section-heading reveal">
+            <h2>
+              The app feels less like a utility and more like a fully designed
+              venue platform
+            </h2>
+          </div>
+
+          <div class="review-grid">
+            <article class="review-card featured-review reveal">
+              <div class="review-stars">★★★★★</div>
+              <p>
+                “What stands out is that booking, events, food, and payment do
+                not feel separate. The whole experience is connected.”
+              </p>
+              <div class="review-user">
+                <strong>Mark D.</strong>
+                <span>Gaming venue visitor</span>
+              </div>
+            </article>
+
+            <article class="review-card reveal">
+              <div class="review-stars">★★★★★</div>
+              <p>
+                “The venue list and map pairing make the booking flow much more
+                usable than a simple reservation screen.”
+              </p>
+              <div class="review-user">
+                <strong>Olena T.</strong>
+                <span>Community event guest</span>
+              </div>
+            </article>
+
+            <article class="review-card reveal">
+              <div class="review-stars">★★★★★</div>
+              <p>
+                “The tournaments and snack ordering make the product feel like a
+                companion for the whole stay, not only for checking in.”
+              </p>
+              <div class="review-user">
+                <strong>Chris R.</strong>
+                <span>Esports fan</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-final-cta">
+        <div class="container">
+          <div class="final-cta reveal">
+            <div class="final-cta-copy">
+              <div class="section-kicker">Get the app</div>
+              <h2>
+                Download Sport Bar and move through the venue experience in one
+                connected mobile flow
+              </h2>
+              <p>
+                Book your place, track events, join tournaments, order snacks,
+                and finish with QR through one cleaner product.
+              </p>
+            </div>
+
+            <div class="final-cta-actions">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.zentravia.mobile.client"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-primary btn-wide magnetic"
+              >
+                Download on Google Play
+              </a>
+              <a
+                href="privacy.html"
+                class="btn btn-secondary btn-wide magnetic"
+              >
+                Privacy Policy
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-top">
+        <div class="footer-brand">
+          <span class="brand-mark small">SB</span>
+          <div>
+            <strong>Sport Bar</strong>
+            <p>Venue booking, tournaments, snacks, and QR flow</p>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <a href="#overview">Overview</a>
+          <a href="#story">Story</a>
+          <a href="#experience">Experience</a>
+          <a href="#reviews">Reviews</a>
+          <a href="privacy.html">Privacy</a>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>
+          © <span id="year"></span> Polli TV LTD organization. All rights
+          reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

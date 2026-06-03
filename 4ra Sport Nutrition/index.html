@@ -1,0 +1,465 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>4ra Sport Nutrition — Recipes, Timers, and Grill Diary</title>
+    <meta
+      name="description"
+      content="4ra Sport Nutrition helps users explore grilling recipes, manage cooking timers, save notes in a grill diary, and stay organized while cooking."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="page-bg">
+      <div class="bg-blob blob-1"></div>
+      <div class="bg-blob blob-2"></div>
+      <div class="bg-blob blob-3"></div>
+      <div class="bg-wave"></div>
+      <div class="bg-dots"></div>
+    </div>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#top" class="brand">
+          <span class="brand-mark">4RA</span>
+          <span class="brand-copy">
+            <strong>4ra Sport Nutrition</strong>
+            <small>Smart grilling companion</small>
+          </span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" id="siteNav">
+          <a href="#features">Features</a>
+          <a href="#flow">Flow</a>
+          <a href="#reviews">Reviews</a>
+          <a href="privacy.html">Privacy</a>
+          <a href="#download" class="nav-cta">Download</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="top">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <span class="eyebrow">Recipes • timers • grill diary</span>
+            <h1>Take your grilling routine from guesswork to control.</h1>
+            <p class="hero-text">
+              4ra Sport Nutrition combines recipe discovery, cooking timers,
+              grill diary tools, and practical kitchen-style workflows into one
+              smooth mobile experience built for food lovers and home grillers.
+            </p>
+
+            <div class="hero-actions">
+              <a
+                class="btn btn-primary"
+                href="https://play.google.com/store/apps/details?id=com.torvexium604.laspre"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Download App
+              </a>
+              <a class="btn btn-secondary" href="#screens">View Screens</a>
+            </div>
+
+            <div class="hero-pills">
+              <span>Recipe ideas</span>
+              <span>Cooking timers</span>
+              <span>Grill diary</span>
+            </div>
+
+            <div class="hero-stats">
+              <article class="stat-card">
+                <strong data-counter="4">0</strong>
+                <span>main utility zones inside the app</span>
+              </article>
+              <article class="stat-card">
+                <strong data-counter="6">0</strong>
+                <span>main screens featured on this page</span>
+              </article>
+              <article class="stat-card">
+                <strong data-counter="1">0</strong>
+                <span>single place for smarter grilling</span>
+              </article>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal">
+            <div class="hero-panel">
+              <div class="hero-label-card card-a">
+                <small>Cooking mode</small>
+                <strong>Recipes + timer + notes</strong>
+              </div>
+
+              <div class="hero-label-card card-b">
+                <small>Best for</small>
+                <strong>home grillers and meal planners</strong>
+              </div>
+
+              <div class="hero-chip chip-a">Recipe browser</div>
+              <div class="hero-chip chip-b">Preset timers</div>
+              <div class="hero-chip chip-c">Grill diary</div>
+
+              <div class="device-frame tilt-card">
+                <div class="device-notch"></div>
+                <img
+                  src="photo1.jpeg"
+                  alt="4ra Sport Nutrition welcome screen"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section strip-section reveal">
+        <div class="container strip-grid">
+          <div class="strip-card">
+            <small>Style</small>
+            <strong>Fresh recipe-tech landing</strong>
+          </div>
+          <div class="strip-card">
+            <small>Main use</small>
+            <strong>Grilling workflow and timing</strong>
+          </div>
+          <div class="strip-card">
+            <small>Feeling</small>
+            <strong>Practical, clean, modern</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="features">
+        <div class="container section-head reveal">
+          <span class="section-kicker">Core features</span>
+          <h2>A cooking utility app that feels organized and visual</h2>
+          <p>
+            This landing page keeps only the strongest product moments and uses
+            a cleaner utility layout instead of repeating too many screenshot
+            blocks.
+          </p>
+        </div>
+
+        <div class="container feature-layout">
+          <div class="feature-preview reveal">
+            <div class="preview-shell">
+              <div class="preview-copy">
+                <span class="preview-kicker">Live preview</span>
+                <h3 id="featureTitle">Recipe Home</h3>
+                <p id="featureText">
+                  The home screen combines featured recipes, diary access, and a
+                  shopping-list area into one easy entry point.
+                </p>
+              </div>
+
+              <div class="device-frame preview-device">
+                <div class="device-notch"></div>
+                <img
+                  id="featureImage"
+                  src="photo2.jpeg"
+                  alt="Feature preview screen"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="feature-list">
+            <article
+              class="feature-card reveal active-feature"
+              tabindex="0"
+              data-image="photo2.jpeg"
+              data-title="Recipe Home"
+              data-text="The home screen combines featured recipes, diary access, and a shopping-list area into one easy entry point."
+            >
+              <div class="feature-top">
+                <span class="feature-num">01</span>
+                <span class="feature-tag">Home</span>
+              </div>
+              <h3>A single dashboard for grilling essentials</h3>
+              <p>
+                Recipes, diary, and shopping flow are grouped into a practical
+                home screen instead of feeling scattered.
+              </p>
+            </article>
+
+            <article
+              class="feature-card reveal"
+              tabindex="0"
+              data-image="photo5.jpeg"
+              data-title="Recipe Search & Browse"
+              data-text="Users can search recipes, filter categories, and quickly scan time and difficulty inside a stronger browsing flow."
+            >
+              <div class="feature-top">
+                <span class="feature-num">02</span>
+                <span class="feature-tag">Search</span>
+              </div>
+              <h3>Recipe discovery is fast and visual</h3>
+              <p>
+                Search, categories, cooking time, and dish cards make it easier
+                to choose what to grill next.
+              </p>
+            </article>
+
+            <article
+              class="feature-card reveal"
+              tabindex="0"
+              data-image="photo3.jpeg"
+              data-title="Detailed Recipe View"
+              data-text="Open a recipe page with visual cooking steps and ingredient guidance that feels more focused than a basic text list."
+            >
+              <div class="feature-top">
+                <span class="feature-num">03</span>
+                <span class="feature-tag">Recipe</span>
+              </div>
+              <h3>Recipe pages are built for real cooking use</h3>
+              <p>
+                Large food imagery and step-by-step structure make the cooking
+                process easier to follow.
+              </p>
+            </article>
+
+            <article
+              class="feature-card reveal"
+              tabindex="0"
+              data-image="photo6.jpeg"
+              data-title="Preset Timer System"
+              data-text="Preset timers help users control grilling sessions more accurately without leaving the app flow."
+            >
+              <div class="feature-top">
+                <span class="feature-num">04</span>
+                <span class="feature-tag">Timer</span>
+              </div>
+              <h3>Timer tools turn recipes into action</h3>
+              <p>
+                Instead of only showing recipes, the app supports actual cooking
+                execution with timing tools.
+              </p>
+            </article>
+
+            <article
+              class="feature-card reveal"
+              tabindex="0"
+              data-image="photo7.jpeg"
+              data-title="Timer Modal"
+              data-text="The timer modal provides a focused way to create and save preset timing setups for your cooking session."
+            >
+              <div class="feature-top">
+                <span class="feature-num">05</span>
+                <span class="feature-tag">Preset</span>
+              </div>
+              <h3>Save custom timer presets quickly</h3>
+              <p>
+                Preset creation helps repeat successful cooking results more
+                easily next time.
+              </p>
+            </article>
+
+            <article
+              class="feature-card reveal"
+              tabindex="0"
+              data-image="photo8.jpeg"
+              data-title="Grill Diary"
+              data-text="The diary section gives users a space to add entries, save sessions, and keep a personal grilling history."
+            >
+              <div class="feature-top">
+                <span class="feature-num">06</span>
+                <span class="feature-tag">Diary</span>
+              </div>
+              <h3>Keep your grilling sessions documented</h3>
+              <p>
+                Diary tools help transform the app from a recipe viewer into a
+                more personal cooking companion.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="flow">
+        <div class="container section-head reveal">
+          <span class="section-kicker">Product flow</span>
+          <h2>From recipe inspiration to real cooking execution</h2>
+          <p>
+            This site uses a recipe-journey flow: discover, inspect, time, and
+            save your session.
+          </p>
+        </div>
+
+        <div class="container journey-grid">
+          <article class="journey-card reveal">
+            <div class="journey-copy">
+              <span class="journey-step">Step 01</span>
+              <h3>Start from a clean grilling entry point</h3>
+              <p>
+                The welcome screen sets the tone and positions the app as a
+                focused companion for BBQ and grilling sessions.
+              </p>
+            </div>
+            <div class="journey-media">
+              <img src="photo1.jpeg" alt="Welcome screen" />
+            </div>
+          </article>
+
+          <article class="journey-card reverse reveal">
+            <div class="journey-copy">
+              <span class="journey-step">Step 02</span>
+              <h3>Discover dishes and inspect recipe details</h3>
+              <p>
+                Recipe browsing and detail screens help users choose something
+                to cook and immediately understand the cooking process.
+              </p>
+            </div>
+            <div class="journey-media duo">
+              <img src="photo5.jpeg" alt="Recipe list screen" />
+              <img src="photo3.jpeg" alt="Recipe detail screen" />
+            </div>
+          </article>
+
+          <article class="journey-card reveal">
+            <div class="journey-copy">
+              <span class="journey-step">Step 03</span>
+              <h3>Use timers to stay in control while cooking</h3>
+              <p>
+                Timer and preset flows add a real practical layer beyond simple
+                recipe browsing.
+              </p>
+            </div>
+            <div class="journey-media duo">
+              <img src="photo6.jpeg" alt="Timer screen" />
+              <img src="photo7.jpeg" alt="Timer modal screen" />
+            </div>
+          </article>
+
+          <article class="journey-card reverse reveal">
+            <div class="journey-copy">
+              <span class="journey-step">Step 04</span>
+              <h3>Save the session in your grill diary</h3>
+              <p>
+                Diary tools give the product a more personal feel by letting
+                users record what they cooked and how it went.
+              </p>
+            </div>
+            <div class="journey-media">
+              <img src="photo8.jpeg" alt="Grill diary screen" />
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="reviews">
+        <div class="container section-head reveal">
+          <span class="section-kicker">Reviews</span>
+          <h2>Made for people who actually want to cook, not just browse</h2>
+          <p>Sample review cards for the landing page layout.</p>
+        </div>
+
+        <div class="container review-grid">
+          <article class="review-card reveal featured-review">
+            <div class="review-stars">★★★★★</div>
+            <p>
+              “I like that it mixes recipes with timers. It feels more useful
+              than a basic food inspiration app.”
+            </p>
+            <div class="review-user">
+              <strong>Alex K.</strong>
+              <span>Home griller</span>
+            </div>
+          </article>
+
+          <article class="review-card reveal">
+            <div class="review-stars">★★★★★</div>
+            <p>
+              “The timer preset flow is a smart addition. It helps bring real
+              structure into longer cooking sessions.”
+            </p>
+            <div class="review-user">
+              <strong>Ryan M.</strong>
+              <span>Weekend BBQ fan</span>
+            </div>
+          </article>
+
+          <article class="review-card reveal">
+            <div class="review-stars">★★★★★</div>
+            <p>
+              “The blue design feels clean and modern, and the recipe cards are
+              very easy to scan.”
+            </p>
+            <div class="review-user">
+              <strong>Chris P.</strong>
+              <span>Casual cook</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section cta-section" id="download">
+        <div class="container cta-panel reveal">
+          <div class="cta-copy">
+            <span class="section-kicker">Start grilling smarter</span>
+            <h2>
+              Download 4ra Sport Nutrition and keep recipes, timers, and notes
+              in one place.
+            </h2>
+            <p>
+              Discover dishes, manage timing, and build your own grill diary
+              with a cleaner, more useful mobile cooking workflow.
+            </p>
+          </div>
+
+          <div class="cta-actions">
+            <a
+              class="btn btn-primary btn-wide"
+              href="https://play.google.com/store/apps/details?id=com.torvexium604.laspre"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Download on Google Play
+            </a>
+            <a class="btn btn-secondary btn-wide" href="privacy.html">
+              Privacy Policy
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-top">
+        <div class="footer-brand">
+          <span class="brand-mark small">4RA</span>
+          <div>
+            <strong>4ra Sport Nutrition</strong>
+            <p>Recipe, timer, and grilling utility app</p>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <a href="#features">Features</a>
+          <a href="#flow">Flow</a>
+          <a href="#screens">Screens</a>
+          <a href="privacy.html">Privacy</a>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>
+          © <span id="year"></span> 4ra Sport Nutrition. All rights reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

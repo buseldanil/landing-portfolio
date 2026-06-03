@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MLB Gain Mass — Goal-Based Supplement & Progress App</title>
+    <meta
+      name="description"
+      content="MLB Gain Mass helps users choose fitness goals, discover supplements, follow routines, and track progress in one powerful mobile app."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Archivo:wght@600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="bg-wrap">
+      <div class="bg-glow glow-1"></div>
+      <div class="bg-glow glow-2"></div>
+      <div class="bg-glow glow-3"></div>
+      <div class="bg-lines"></div>
+      <div class="bg-grain"></div>
+    </div>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#top" class="brand">
+          <span class="brand-mark">MLB</span>
+          <span class="brand-copy">
+            <strong>MLB Gain Mass</strong>
+            <small>Strength nutrition planner</small>
+          </span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" id="siteNav">
+          <a href="#features">Features</a>
+          <a href="#flow">Flow</a>
+          <a href="#screens">Screens</a>
+          <a href="#reviews">Reviews</a>
+          <a href="privacy.html">Privacy</a>
+          <a href="#download" class="nav-cta">Download</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="top">
+        <div class="container hero-layout">
+          <div class="hero-copy reveal">
+            <span class="hero-label">Goal-based fitness system</span>
+            <h1>Choose your goal. Build your stack. Track the result.</h1>
+            <p class="hero-text">
+              MLB Gain Mass helps users define a fitness direction, explore
+              supplement options, follow a routine schedule, and monitor
+              progress through a stronger, more focused mobile experience.
+            </p>
+
+            <div class="hero-actions">
+              <a
+                class="btn btn-primary"
+                href="https://play.google.com/store/apps/details?id=com.nexoritalab59.krevia"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Download App
+              </a>
+              <a class="btn btn-secondary" href="#screens">Explore Screens</a>
+            </div>
+
+            <div class="hero-tags">
+              <span>Gain Mass</span>
+              <span>Lose Weight</span>
+              <span>Endurance</span>
+            </div>
+
+            <div class="hero-stats">
+              <article class="stat-card">
+                <strong data-counter="3">0</strong>
+                <span>main fitness goals built into the app</span>
+              </article>
+              <article class="stat-card">
+                <strong data-counter="6">0</strong>
+                <span>core product moments highlighted on the site</span>
+              </article>
+              <article class="stat-card">
+                <strong data-counter="1">0</strong>
+                <span>focused place for supplements and tracking</span>
+              </article>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal">
+            <div class="hero-stage">
+              <div class="accent-card accent-a">
+                <small>Goal setup</small>
+                <strong>Mass • Cut • Endurance</strong>
+              </div>
+
+              <div class="accent-card accent-b">
+                <small>Smart planning</small>
+                <strong>Routine + progress + products</strong>
+              </div>
+
+              <div class="phone-mockup tilt-card">
+                <div class="phone-bar"></div>
+                <img
+                  src="photo1.jpeg"
+                  alt="MLB Gain Mass goal selection screen"
+                />
+              </div>
+
+              <div class="hero-badge badge-a">Supplement catalog</div>
+              <div class="hero-badge badge-b">Progress tracking</div>
+              <div class="hero-badge badge-c">Routine planning</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro-strip reveal">
+        <div class="container intro-grid">
+          <div class="intro-card">
+            <small>Design</small>
+            <strong>Bold performance landing</strong>
+          </div>
+          <div class="intro-card">
+            <small>Use case</small>
+            <strong>Supplements + routine + progress</strong>
+          </div>
+          <div class="intro-card">
+            <small>Main feeling</small>
+            <strong>Sharp, athletic, premium</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="features">
+        <div class="container section-head reveal">
+          <span class="section-kicker">Core features</span>
+          <h2>A supplement app built around real gym goals</h2>
+          <p>
+            Instead of filling the site with too many screenshots, this landing
+            focuses on the strongest product moments and turns them into clear
+            feature blocks.
+          </p>
+        </div>
+
+        <div class="container feature-grid">
+          <div class="feature-preview reveal">
+            <div class="feature-preview-shell">
+              <div class="feature-preview-copy">
+                <span class="preview-kicker">Live preview</span>
+                <h3 id="featureTitle">Goal Selection</h3>
+                <p id="featureText">
+                  Start with the right fitness direction by choosing whether
+                  your focus is gaining mass, losing weight, or improving
+                  endurance.
+                </p>
+              </div>
+
+              <div class="phone-mockup preview-phone">
+                <div class="phone-bar"></div>
+                <img
+                  id="featureImage"
+                  src="photo1.jpeg"
+                  alt="Selected app feature preview"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="feature-list">
+            <article
+              class="feature-card reveal active-feature"
+              tabindex="0"
+              data-image="photo1.jpeg"
+              data-title="Goal Selection"
+              data-text="Start with the right fitness direction by choosing whether your focus is gaining mass, losing weight, or improving endurance."
+            >
+              <div class="feature-head">
+                <span class="feature-num">01</span>
+                <span class="feature-tag">Goals</span>
+              </div>
+              <h3>The app begins with intent, not clutter</h3>
+              <p>
+                Users choose a clear training objective first, which makes the
+                rest of the experience feel more personalized.
+              </p>
+            </article>
+
+            <article
+              class="feature-card reveal"
+              tabindex="0"
+              data-image="photo2.jpeg"
+              data-title="Supplement Discovery"
+              data-text="Browse product cards by category and goal, compare options visually, and move through the app like a focused fitness catalog."
+            >
+              <div class="feature-head">
+                <span class="feature-num">02</span>
+                <span class="feature-tag">Catalog</span>
+              </div>
+              <h3>Supplement discovery with a strong visual catalog</h3>
+              <p>
+                Product cards keep the app energetic and make different
+                nutrition options easy to scan.
+              </p>
+            </article>
+
+            <article
+              class="feature-card reveal"
+              tabindex="0"
+              data-image="photo3.jpeg"
+              data-title="Product Detail View"
+              data-text="Open a product page to understand why it fits your goal, how it helps, and how it should be used."
+            >
+              <div class="feature-head">
+                <span class="feature-num">03</span>
+                <span class="feature-tag">Details</span>
+              </div>
+              <h3>Each product gets a focused explanation screen</h3>
+              <p>
+                Detail pages transform the app from a simple list into a more
+                guided supplement experience.
+              </p>
+            </article>
+
+            <article
+              class="feature-card reveal"
+              tabindex="0"
+              data-image="photo4.jpeg"
+              data-title="Routine Calendar"
+              data-text="Follow your supplement timing through a calendar-based routine page with clear daily planning blocks."
+            >
+              <div class="feature-head">
+                <span class="feature-num">04</span>
+                <span class="feature-tag">Routine</span>
+              </div>
+              <h3>Routine planning keeps supplements actionable</h3>
+              <p>
+                The app goes beyond product browsing and helps users fit intake
+                into a daily schedule.
+              </p>
+            </article>
+
+            <article
+              class="feature-card reveal"
+              tabindex="0"
+              data-image="photo6.jpeg"
+              data-title="Progress Analytics"
+              data-text="See progress through charts and tracked metrics so you can understand whether your plan is actually working."
+            >
+              <div class="feature-head">
+                <span class="feature-num">05</span>
+                <span class="feature-tag">Progress</span>
+              </div>
+              <h3>Track performance, not just purchases</h3>
+              <p>
+                Progress views turn the experience into something measurable and
+                more motivating over time.
+              </p>
+            </article>
+
+            <article
+              class="feature-card reveal"
+              tabindex="0"
+              data-image="photo7.jpeg"
+              data-title="Settings & Preferences"
+              data-text="Profile settings, reminder preferences, and user data controls keep the whole experience more manageable."
+            >
+              <div class="feature-head">
+                <span class="feature-num">06</span>
+                <span class="feature-tag">Settings</span>
+              </div>
+              <h3>Profile and reminders stay under control</h3>
+              <p>
+                A separate settings area helps users shape the app around their
+                own habits and schedule.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="flow">
+        <div class="container section-head reveal">
+          <span class="section-kicker">Product flow</span>
+          <h2>One focused journey from goal to measurable result</h2>
+          <p>
+            This site uses a zig-zag product story with only a few selected
+            screens, so it feels tighter and more premium than a giant gallery.
+          </p>
+        </div>
+
+        <div class="container flow-stack">
+          <article class="flow-card reveal">
+            <div class="flow-copy">
+              <span class="flow-step">Step 01</span>
+              <h3>Pick a fitness direction first</h3>
+              <p>
+                The user starts by choosing a goal. That gives the experience a
+                stronger identity from the very first screen.
+              </p>
+            </div>
+            <div class="flow-media">
+              <img src="photo1.jpeg" alt="Goal selection screen" />
+            </div>
+          </article>
+
+          <article class="flow-card reverse reveal">
+            <div class="flow-copy">
+              <span class="flow-step">Step 02</span>
+              <h3>Explore products that match the goal</h3>
+              <p>
+                Supplement cards and product pages make the app feel like a
+                clean performance marketplace with educational context.
+              </p>
+            </div>
+            <div class="flow-media duo">
+              <img src="photo2.jpeg" alt="Product list screen" />
+              <img src="photo3.jpeg" alt="Product detail screen" />
+            </div>
+          </article>
+
+          <article class="flow-card reveal">
+            <div class="flow-copy">
+              <span class="flow-step">Step 03</span>
+              <h3>Turn products into a real routine</h3>
+              <p>
+                The calendar routine screen moves the app from discovery into
+                actual daily supplement behavior.
+              </p>
+            </div>
+            <div class="flow-media">
+              <img src="photo4.jpeg" alt="Routine calendar screen" />
+            </div>
+          </article>
+
+          <article class="flow-card reverse reveal">
+            <div class="flow-copy">
+              <span class="flow-step">Step 04</span>
+              <h3>Measure progress and adjust over time</h3>
+              <p>
+                Progress and analytics screens make it easier to connect
+                routines with physical results.
+              </p>
+            </div>
+            <div class="flow-media duo">
+              <img src="photo5.jpeg" alt="Add progress modal" />
+              <img src="photo6.jpeg" alt="Progress analytics screen" />
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="reviews">
+        <div class="container section-head reveal">
+          <span class="section-kicker">Reviews</span>
+          <h2>Built for people who want a sharper fitness app experience</h2>
+          <p>Sample review cards for the landing page layout.</p>
+        </div>
+
+        <div class="container review-grid">
+          <article class="review-card reveal featured-review">
+            <div class="review-stars">★★★★★</div>
+            <p>
+              “I like that the app starts with a real goal instead of throwing a
+              random list of supplements at you right away.”
+            </p>
+            <div class="review-user">
+              <strong>Mark T.</strong>
+              <span>Gym user</span>
+            </div>
+          </article>
+
+          <article class="review-card reveal">
+            <div class="review-stars">★★★★★</div>
+            <p>
+              “The product pages and progress screens make it feel more
+              structured than a basic supplement tracker.”
+            </p>
+            <div class="review-user">
+              <strong>Chris D.</strong>
+              <span>Strength athlete</span>
+            </div>
+          </article>
+
+          <article class="review-card reveal">
+            <div class="review-stars">★★★★★</div>
+            <p>
+              “The black and orange design looks strong, and the routine screen
+              makes it easier to actually follow a plan.”
+            </p>
+            <div class="review-user">
+              <strong>Ryan P.</strong>
+              <span>Mass gain focus</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section cta-section" id="download">
+        <div class="container cta-panel reveal">
+          <div class="cta-copy">
+            <span class="section-kicker">Start your plan</span>
+            <h2>
+              Download MLB Gain Mass and build a clearer path to your goal.
+            </h2>
+            <p>
+              Choose your direction, explore supplements, set routines, and
+              track your progress in one stronger mobile experience.
+            </p>
+          </div>
+
+          <div class="cta-actions">
+            <a
+              class="btn btn-primary btn-wide"
+              href="https://play.google.com/store/apps/details?id=com.nexoritalab59.krevia"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Download on Google Play
+            </a>
+            <a class="btn btn-secondary btn-wide" href="privacy.html">
+              Privacy Policy
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-top">
+        <div class="footer-brand">
+          <span class="brand-mark small">MLB</span>
+          <div>
+            <strong>MLB Gain Mass</strong>
+            <p>Performance supplement mobile app</p>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <a href="#features">Features</a>
+          <a href="#flow">Flow</a>
+          <a href="#screens">Screens</a>
+          <a href="privacy.html">Privacy</a>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>© <span id="year"></span> MLB Gain Mass. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

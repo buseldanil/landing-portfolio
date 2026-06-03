@@ -1,0 +1,529 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Champion Match Manager</title>
+    <meta
+      name="description"
+      content="Champion Match Manager — build your squad, open packs, play quick matches and run tournaments."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="noise"></div>
+    <div class="stadium-grid"></div>
+    <div class="bg-orb orb-blue"></div>
+    <div class="bg-orb orb-gold"></div>
+    <div class="bg-orb orb-purple"></div>
+
+    <header class="site-header" id="siteHeader">
+      <a href="#home" class="brand">
+        <span class="brand-mark">⚽</span>
+        <span>
+          <strong>Champion</strong>
+          <small>Match Manager</small>
+        </span>
+      </a>
+
+      <nav class="desktop-nav">
+        <a href="#squad">Squad</a>
+        <a href="#packs">Packs</a>
+        <a href="#modes">Modes</a>
+        <a href="#match">Quick Match</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+
+      <a
+        class="store-btn"
+        href="https://play.google.com/store/apps/details?id=com.quzrix8or.tavme3en.lor7qina"
+        target="_blank"
+      >
+        Download
+      </a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#squad">Squad</a>
+      <a href="#packs">Packs</a>
+      <a href="#modes">Modes</a>
+      <a href="#match">Quick Match</a>
+      <a href="privacy.html">Privacy</a>
+      <a
+        href="https://play.google.com/store/apps/details?id=com.quzrix8or.tavme3en.lor7qina"
+        target="_blank"
+        >Download</a
+      >
+    </div>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-copy reveal">
+          <div class="eyebrow">Football manager energy</div>
+          <h1>Build the squad. Open the pack. Own the pitch.</h1>
+          <p>
+            Champion Match Manager turns your football lineup into a slick
+            card-powered experience — squad rating, player collection, quick
+            matches, packs and tournament runs in one place.
+          </p>
+
+          <div class="hero-actions">
+            <a
+              href="https://play.google.com/store/apps/details?id=com.quzrix8or.tavme3en.lor7qina"
+              target="_blank"
+              class="btn primary"
+              >Download App</a
+            >
+            <a href="#squad" class="btn secondary">See Squad</a>
+          </div>
+
+          <div class="hero-metrics">
+            <div>
+              <strong>86</strong>
+              <span>Squad OVR</span>
+            </div>
+            <div>
+              <strong>11</strong>
+              <span>Players</span>
+            </div>
+            <div>
+              <strong>3</strong>
+              <span>Modes</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-device reveal">
+          <div class="phone phone-home">
+            <div class="phone-status">
+              <span>16:38</span>
+              <span>64%</span>
+            </div>
+
+            <div class="manager-top">
+              <div>
+                <small>Welcome back</small>
+                <h3>Manager</h3>
+              </div>
+              <b>OVR 86</b>
+            </div>
+
+            <div class="overview-cards">
+              <div>
+                <span>⭐</span>
+                <strong>86</strong>
+                <small>Squad OVR</small>
+              </div>
+              <div>
+                <span>👥</span>
+                <strong>11</strong>
+                <small>Players</small>
+              </div>
+              <div>
+                <span>⚽</span>
+                <strong>0</strong>
+                <small>Matches</small>
+              </div>
+            </div>
+
+            <div class="daily-bonus">
+              <span>🎁</span>
+              <div>
+                <h4>Daily Bonus Ready!</h4>
+                <p>Claim your daily reward</p>
+              </div>
+              <button>Claim</button>
+            </div>
+
+            <div class="quick-label">Quick Play</div>
+
+            <div class="quick-play">
+              <button class="blue-card">
+                <span>⚽</span>
+                Quick Match
+              </button>
+              <button class="purple-card">
+                <span>🏆</span>
+                Tournament
+              </button>
+              <button class="green-card">
+                <span>↗</span>
+                Career Mode
+              </button>
+            </div>
+
+            <div class="bottom-nav">
+              <span class="active">⌂<small>Home</small></span>
+              <span>👥<small>Squad</small></span>
+              <span>⚽<small>Match</small></span>
+              <span>▣<small>Shop</small></span>
+              <span>🏆<small>Modes</small></span>
+            </div>
+          </div>
+
+          <div class="floating-pack">
+            <span>Legend Pack</span>
+            <b>+91 FWD</b>
+          </div>
+
+          <div class="floating-ovr">
+            <span>Squad Power</span>
+            <b>86 OVR</b>
+          </div>
+        </div>
+      </section>
+
+      <section class="marquee">
+        <div class="marquee-track">
+          <span>LEGEND CARDS</span>
+          <span>QUICK MATCH</span>
+          <span>TOURNAMENT</span>
+          <span>PACK OPENING</span>
+          <span>SQUAD OVR</span>
+          <span>CAREER MODE</span>
+          <span>LEGEND CARDS</span>
+          <span>QUICK MATCH</span>
+        </div>
+      </section>
+
+      <section class="section squad" id="squad">
+        <div class="section-head reveal">
+          <span class="eyebrow">My Squad</span>
+          <h2>Your lineup should look as strong as it feels.</h2>
+          <p>
+            Drag the feeling of a full football card game into a clean mobile
+            manager — formation, rating, player cards and pitch layout all feel
+            connected.
+          </p>
+        </div>
+
+        <div class="squad-layout">
+          <div class="pitch-card reveal">
+            <div class="pitch-top">
+              <div>
+                <h3>4-3-3 Formation</h3>
+                <p>Balanced control with attacking width</p>
+              </div>
+              <b>86 OVR</b>
+            </div>
+
+            <div class="pitch">
+              <div class="line box-top"></div>
+              <div class="line center-line"></div>
+              <div class="line center-circle"></div>
+              <div class="line box-bottom"></div>
+
+              <div class="player-card mini legend p1">
+                <strong>90</strong>
+                <small>FWD</small>
+                <span>Kane</span>
+              </div>
+
+              <div class="player-card mini epic p2">
+                <strong>84</strong>
+                <small>FWD</small>
+                <span>Rashford</span>
+              </div>
+
+              <div class="player-card mini legend p3">
+                <strong>89</strong>
+                <small>MID</small>
+                <span>Rodri</span>
+              </div>
+
+              <div class="player-card mini epic p4">
+                <strong>87</strong>
+                <small>MID</small>
+                <span>Silva</span>
+              </div>
+
+              <div class="player-card mini epic p5">
+                <strong>86</strong>
+                <small>MID</small>
+                <span>Casemiro</span>
+              </div>
+
+              <div class="player-card mini epic p6">
+                <strong>85</strong>
+                <small>DEF</small>
+                <span>Hakimi</span>
+              </div>
+
+              <div class="player-card mini epic p7">
+                <strong>86</strong>
+                <small>DEF</small>
+                <span>Militao</span>
+              </div>
+
+              <div class="player-card mini epic p8">
+                <strong>86</strong>
+                <small>DEF</small>
+                <span>Robertson</span>
+              </div>
+
+              <div class="player-card mini legend p9">
+                <strong>88</strong>
+                <small>DEF</small>
+                <span>Dias</span>
+              </div>
+
+              <div class="player-card mini legend p10">
+                <strong>88</strong>
+                <small>GK</small>
+                <span>Ederson</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="collection-preview reveal">
+            <div class="collection-tabs">
+              <button class="active">All</button>
+              <button>GK</button>
+              <button>DEF</button>
+              <button>MID</button>
+              <button>FWD</button>
+            </div>
+
+            <div class="cards-grid">
+              <article class="player-big legend">
+                <div class="card-rating">90</div>
+                <div class="card-position">FWD</div>
+                <div class="initials">HK</div>
+                <h4>Harry Kane</h4>
+                <p>England</p>
+                <div class="stats-row">
+                  <span>71</span><span>94</span><span>83</span><span>79</span
+                  ><span>48</span><span>83</span>
+                </div>
+              </article>
+
+              <article class="player-big legend">
+                <div class="card-rating">89</div>
+                <div class="card-position">MID</div>
+                <div class="initials">R</div>
+                <h4>Rodri</h4>
+                <p>Spain</p>
+                <div class="stats-row">
+                  <span>68</span><span>72</span><span>88</span><span>80</span
+                  ><span>86</span><span>84</span>
+                </div>
+              </article>
+
+              <article class="player-big epic">
+                <div class="card-rating">87</div>
+                <div class="card-position">MID</div>
+                <div class="initials">BS</div>
+                <h4>Bernardo Silva</h4>
+                <p>Portugal</p>
+                <div class="stats-row">
+                  <span>80</span><span>80</span><span>87</span><span>88</span
+                  ><span>66</span><span>72</span>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section packs" id="packs">
+        <div class="section-head reveal">
+          <span class="eyebrow">Player Packs</span>
+          <h2>That pack-opening moment deserves a stage.</h2>
+          <p>
+            Bronze, silver and gold packs bring the fun part forward: open,
+            reveal, compare, and start thinking where the new card fits.
+          </p>
+        </div>
+
+        <div class="pack-row">
+          <article class="pack-card bronze reveal">
+            <div class="pack-icon">▤</div>
+            <div>
+              <h3>Bronze Pack</h3>
+              <p>3 players · Mostly Common</p>
+            </div>
+            <button>Open</button>
+          </article>
+
+          <article class="pack-card silver reveal">
+            <div class="pack-icon">▤</div>
+            <div>
+              <h3>Silver Pack</h3>
+              <p>3 players · Rare & Epic</p>
+            </div>
+            <button>Open</button>
+          </article>
+
+          <article class="pack-card gold reveal">
+            <div class="pack-icon">▤</div>
+            <div>
+              <h3>Gold Pack</h3>
+              <p>3 players · Epic & Legendary</p>
+            </div>
+            <button>Open</button>
+          </article>
+        </div>
+
+        <div class="reveal-stage reveal">
+          <div class="stage-title">
+            <h3>Pack Opened!</h3>
+            <span>Tap to reveal</span>
+          </div>
+
+          <div class="opened-cards">
+            <article class="player-big legend">
+              <div class="card-rating">91</div>
+              <div class="card-position">FWD</div>
+              <div class="initials">KB</div>
+              <h4>Karim Benzema</h4>
+              <p>France</p>
+              <div class="stats-row">
+                <span>76</span><span>90</span><span>82</span><span>87</span
+                ><span>42</span><span>78</span>
+              </div>
+            </article>
+
+            <article class="player-big epic">
+              <div class="card-rating">86</div>
+              <div class="card-position">GK</div>
+              <div class="initials">MN</div>
+              <h4>Manuel Neuer</h4>
+              <p>Germany</p>
+              <div class="stats-row">
+                <span>61</span><span>20</span><span>70</span><span>55</span
+                ><span>87</span><span>79</span>
+              </div>
+            </article>
+
+            <article class="player-big epic">
+              <div class="card-rating">87</div>
+              <div class="card-position">MID</div>
+              <div class="initials">P</div>
+              <h4>Pedri</h4>
+              <p>Spain</p>
+              <div class="stats-row">
+                <span>78</span><span>78</span><span>88</span><span>89</span
+                ><span>68</span><span>65</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section match" id="match">
+        <div class="section-head reveal">
+          <span class="eyebrow">Quick Match</span>
+          <h2>Jump into the pitch without overthinking it.</h2>
+          <p>
+            Your squad rating, key cards and formation are ready. Hit kick off
+            and let the match energy start instantly.
+          </p>
+        </div>
+
+        <div class="match-arena reveal">
+          <div class="arena-pitch">
+            <div class="arena-content">
+              <h3>Kick Off</h3>
+              <p>Squad OVR 86</p>
+
+              <div class="chip-cloud">
+                <span class="gk">GK Ederson 88</span>
+                <span class="def">DEF Dias 88</span>
+                <span class="def">DEF Robertson 86</span>
+                <span class="def">DEF Militao 86</span>
+                <span class="mid">MID Casemiro 86</span>
+                <span class="mid">MID Silva 87</span>
+                <span class="mid">MID Rodri 89</span>
+                <span class="fwd">FWD Rashford 84</span>
+                <span class="fwd">FWD Kane 90</span>
+              </div>
+
+              <button>Kick Off</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section modes" id="modes">
+        <div class="section-head reveal">
+          <span class="eyebrow">Game Modes</span>
+          <h2>Choose the way you want to win.</h2>
+          <p>
+            Tournament, career mode or quick match — the app keeps the routes
+            clear and makes every mode feel like a separate challenge.
+          </p>
+        </div>
+
+        <div class="mode-stack">
+          <article class="mode-card purple reveal">
+            <div class="mode-icon">🏆</div>
+            <div>
+              <h3>Tournament</h3>
+              <p>Compete in an 8-team knockout cup and chase the title.</p>
+            </div>
+            <span>→</span>
+          </article>
+
+          <article class="mode-card green reveal">
+            <div class="mode-icon">↗</div>
+            <div>
+              <h3>Career Mode</h3>
+              <p>Lead your team through a 10-game season and grow the squad.</p>
+            </div>
+            <span>→</span>
+          </article>
+
+          <article class="mode-card blue reveal">
+            <div class="mode-icon">⚽</div>
+            <div>
+              <h3>Quick Match</h3>
+              <p>Play an instant match versus an AI opponent.</p>
+            </div>
+            <span>→</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="final-cta">
+        <div class="final-card reveal">
+          <span class="eyebrow">Ready for kickoff?</span>
+          <h2>Take your squad into the next match.</h2>
+          <p>
+            Download Champion Match Manager and start building your own football
+            card lineup.
+          </p>
+          <a
+            href="https://play.google.com/store/apps/details?id=com.quzrix8or.tavme3en.lor7qina"
+            target="_blank"
+            class="btn primary"
+            >Download Now</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>
+        <strong>Champion Match Manager</strong>
+        <p>
+          Squad building, player packs, quick matches and tournament energy.
+        </p>
+      </div>
+
+      <div>
+        <a href="#squad">Squad</a>
+        <a href="#packs">Packs</a>
+        <a href="#modes">Modes</a>
+        <a href="#match">Quick Match</a>
+        <a href="privacy.html">Privacy</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
